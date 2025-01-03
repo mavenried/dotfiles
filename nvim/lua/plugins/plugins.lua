@@ -3,6 +3,11 @@ return {
   { "loctvl842/monokai-pro.nvim" },
   { "folke/tokyonight.nvim" },
   { "nyoom-engineering/oxocarbon.nvim" },
+  {
+    "mrcjkb/rustaceanvim",
+    version = "^5", -- Recommended
+    lazy = false, -- This plugin is already lazy
+  },
   { "rebelot/kanagawa.nvim" },
   {
     "andweeb/presence.nvim",

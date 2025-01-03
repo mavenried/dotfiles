@@ -5,10 +5,16 @@
     font-family: "JetBrainsMonoNL Nerd Font";
  }
 
-
 window#waybar {
   background: rgba(0, 0, 0, 0);
   color: @text;
+}
+
+#workspaces {
+  padding: 0;
+  margin: 5px 0 0 0;
+  background: transparent;
+  border: none;
 }
 
 #workspaces button {
@@ -16,9 +22,9 @@ window#waybar {
   transition: all 0.3s ease-in-out;
   min-width: 20px;
   border-radius: 15px;
-  border: solid @overlay0 1px;
-  background: @base;
-  color: @text;
+  border: solid @hl 1px;
+  background: @bgnd;
+  color: @clck;
   margin: 0 2px;
 }
 
@@ -32,60 +38,77 @@ window#waybar {
   transition: all 0.3s ease-in-out;
   min-width: 40px;
   border-color: @hl;
+  border-width: 2px;
 }
-
 
 #pulseaudio {
-  color: @sapphire;
+  color: @adio;
 }
 
+#custom-lock,
+#custom-reboot,
+#custom-power,
+#custom-quit {
+  color: @clck;
+}
 #memory {
-  color: @teal;
+  color: @mmry;
 }
 
 #cpu {
-  color: @mauve;
+  color: @cpuc;
 }
 
 #idle_inhibitor {
-  color: @yellow;
+  color: @idle;
 }
 
 #custom-uptime {
-  color: @sky
-}
-
-#custom-wallpaper {
-  color: @peach;
+  color: @uptm
 }
 
 #custom-distro {
-  color: @blue;
+  color: @dstr;
 }
+
 #disk {
-  color: @red;
+  color: @disk;
 }
-
-
 
 #battery.great {
-  color: @green
+  color: @bat1;
 }
 
 #battery.good {
-  color: @teal;
+  color: @bat2;
 }
 
 #battery.ok {
-  color: @peach;
+  color: @bat3;
 }
 
 #battery.bad {
-  color: @maroon;
+  color: @bat4;
 }
 
 #battery.terrible {
-  color: @red;
+  color: @bat5;
+}
+
+#bluetooth {
+  color: @blth;
+}
+
+#network {
+  color: @wifi;
+}
+
+#backlight {
+  color: @bglt;
+}
+
+#clock {
+  color: @clck;
 }
 
 #clock,
@@ -99,9 +122,9 @@ window#waybar {
   padding: 5px 10px;
   margin: 5px 5px 0 5px;
   transition: all 0.3s ease-in-out;
-  background: @base;
+  background: @bgnd;
   border-radius: 15px;
-  border: solid @overlay0 1px;
+  border: solid @hl 1px;
   font-size: 16px;
 }
 #clock:hover,
@@ -116,26 +139,3 @@ window#waybar {
   transition: all 0.3s ease-in-out;
 }
 
-
-#custom-current_music {
-  min-width: 150px;
-  
-}
-
-#bluetooth {
-  color: @teal
-}
-
-#network {
-  color: @sky;
-}
-
-#backlight {
-  color: @yellow
-}
-#workspaces {
-  padding: 0;
-  margin: 5px 0 0 0;
-  background: transparent;
-  border: none;
-}

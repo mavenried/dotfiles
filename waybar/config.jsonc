@@ -103,7 +103,8 @@
       "scroll-step": 1,
     },
     "network": {
-      "tooltip-format": "{icon}{essid}",
+      "interval": 1,
+      "tooltip-format": "{icon} {essid}",
       "format": "{icon} {essid}",
       "format-icons": [
         "󰤯",
