@@ -1,5 +1,20 @@
 return {
   { "ellisonleao/gruvbox.nvim" },
+  {
+    "jesseleite/nvim-noirbuddy",
+    dependencies = {
+      { "tjdevries/colorbuddy.nvim" },
+    },
+    lazy = false,
+    setup = function()
+      colors = {
+        primary = "#ffffff",
+        secondary = "#999999",
+        background = "#000000",
+      }
+    end,
+    priority = 1000,
+  },
   { "loctvl842/monokai-pro.nvim" },
   { "folke/tokyonight.nvim" },
   { "nyoom-engineering/oxocarbon.nvim" },

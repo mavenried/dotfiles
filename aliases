@@ -49,15 +49,15 @@ clean() {
 }
 
 open() {
-  for file in $@; do
-    xdg-open $file
+  for file in "$@"; do
+    xdg-open "$file"
   done
 
 }
 
 mkcd() {
-  mkdir -p $1
-  cd $1
+  mkdir -p "$1"
+  cd "$1" || return 1
 }
 
 # Plugin init
@@ -66,10 +66,11 @@ source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Aliases
 alias zel="zellij -l welcome"
-alias clear="printf '\x1B[H\x1B[2J\x1B[3J'; mav"
+alias clear="printf '\x1B[H\x1B[2J\x1B[3J';"
 alias pip="python3 -m pip"
 alias ls="eza -l"
 alias indexer="python3 $PROJECT_PATH_PYTHON/Indexer/main.py"
+alias lyrics="playerctl --format=\"{{artist}};{{title}}\" metadata | lyrics.py"
 
 alias gc="git commit"
 alias gp="git push -u origin main"
@@ -77,3 +78,8 @@ alias gac="git add . && git commit"
 alias gacp="git add . && git commit && git push -u origin main"
 alias install="sudo dnf install -y"
 alias uninstall="sudo dnf remove -y"
+alias update="sudo dnf update -y"
+alias lsa="eza -la"
+alias q=exit
+alias icat="kitten icat"
+alias pls=sudo

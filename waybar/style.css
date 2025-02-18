@@ -2,7 +2,7 @@
 @import 'accent.css';
 
 * {
-    font-family: "JetBrainsMonoNL Nerd Font";
+    font-family: "JetbrainsMono Nerd Font";
  }
 
 window#waybar {
@@ -12,20 +12,19 @@ window#waybar {
 
 #workspaces {
   padding: 0;
-  margin: 5px 0 0 0;
-  background: transparent;
-  border: none;
+  margin: 5px 5px 0 5px;
+  border: solid @hl 2px;
+  border-radius: 10px;
+  background: @bgnd
 }
 
 #workspaces button {
   padding: 0 5px;
   transition: all 0.3s ease-in-out;
-  min-width: 20px;
-  border-radius: 15px;
-  border: solid @hl 1px;
-  background: @bgnd;
+  min-width: 25px;
+  border-radius: 8px;
   color: @clck;
-  margin: 0 2px;
+  margin: 0 0px;
 }
 
 #workspaces button:hover {
@@ -36,9 +35,11 @@ window#waybar {
 #workspaces button.active,
 #workspaces button.active:hover {
   transition: all 0.3s ease-in-out;
-  min-width: 40px;
+  min-width: 25px;
   border-color: @hl;
-  border-width: 2px;
+  border-radius: 8px;
+  background: @hl;
+  color: @bgnd;
 }
 
 #pulseaudio {
@@ -110,6 +111,9 @@ window#waybar {
 #clock {
   color: @clck;
 }
+#custom-separator {
+  color: @sptr;
+}
 
 #clock,
 #system,
@@ -123,19 +127,8 @@ window#waybar {
   margin: 5px 5px 0 5px;
   transition: all 0.3s ease-in-out;
   background: @bgnd;
-  border-radius: 15px;
-  border: solid @hl 1px;
+  border-radius: 10px;
+  border: solid @hl 2px;
   font-size: 16px;
-}
-#clock:hover,
-#system:hover,
-#utils:hover,
-#power:hover,
-#idle_inhibitor:hover,
-#custom-wallpaper:hover,
-#custom-distro:hover,
-#custom-uptime:hover{
-  border: solid @hl 1px;
-  transition: all 0.3s ease-in-out;
 }
 

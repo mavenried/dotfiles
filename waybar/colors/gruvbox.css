@@ -10,8 +10,9 @@
 @define-color wifi @orange;
 @define-color dstr @green;
 @define-color blth @green;
-@define-color uptm @green;
+@define-color uptm @blue;
 @define-color clck @fg;
+@define-color sptr @bg;
 @define-color hl @purple;
 
 @define-color bat1 @green;
