@@ -6,8 +6,8 @@
  }
 
 window#waybar {
-  background: rgba(0, 0, 0, 0);
   color: @text;
+  background: transparent;
 }
 
 #workspaces {
@@ -15,7 +15,7 @@ window#waybar {
   margin: 5px 5px 0 5px;
   border: solid @hl 2px;
   border-radius: 10px;
-  background: @bgnd
+  background: @bgnd 
 }
 
 #workspaces button {

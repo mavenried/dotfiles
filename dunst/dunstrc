@@ -2,8 +2,8 @@
     monitor = 0
     follow = mouse
 		width = 350
-    origin = top-right
-    offset = 16x16
+    origin = bottom-right
+    offset = (15, 15)
 
     progress_bar = true
     progress_bar_height = 10
@@ -19,8 +19,8 @@
     separator_color = frame
     padding = 15
     horizontal_padding = 15
-    frame_width = 3
-    corner_radius = 10
+    frame_width = 1
+    corner_radius = 15
     sort = yes
     idle_threshold = 120
 
@@ -57,23 +57,24 @@
     per_monitor_dpi = false
 
 [urgency_low]
-    background = "#1e1e2e"
-    foreground = "#94e2d5"
-    highlight = "#94e2d5"
-    frame_color = "#94e2d5"
+    background = "#282828"
+    foreground = "#689d6a"
+    highlight = "#689d6a"
+    frame_color = "#689d6a"
     timeout = 5
 
 [urgency_normal]
-    background = "#1e1e2e"
-    foreground = "#f9e2af"
-    highlight = "#f9e2af"
-    frame_color = "#f9e2af"
+    background = "#282828"
+    foreground = "#d79921"
+    highlight = "#d79921"
+    frame_color = "#d79921"
     timeout = 5
 
 [urgency_critical]
-    background = "#1e1e2e"
-    foreground = "#f38ba8"
-    frame_color = "#f38ba8"
+    background = "#282828"
+    foreground = "#cc241d"
+    frame_color = "#cc241d"
+    frame_color = "#cc241d"
     timeout = 1000
 
 [volume]
