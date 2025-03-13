@@ -25,8 +25,8 @@
       "tooltip": false
     },
     "custom/distro": {
-      "format": "  {}",
-      "exec": "dnf check-update --quiet | wc -l",
+      "format": " {}",
+      "exec": "checkupdates | wc -l",
       "tooltip": false,
       "interval": 10,
     },
