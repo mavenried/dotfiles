@@ -106,8 +106,8 @@
     },
     "network": {
       "interval": 1,
-      "tooltip-format": "{icon} {essid}",
-      "format": "{icon} {essid}",
+      "tooltip-format": "{icon} {essid} ",
+      "format": "{icon} {essid:.5} ",
       "format-icons": [
         "󰤯",
         "󰤟",

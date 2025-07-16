@@ -1,6 +1,5 @@
 @import 'colors.css';
 @import 'accent.css';
-
 * {
     font-family: "JetbrainsMono Nerd Font";
  }
@@ -15,7 +14,7 @@ window#waybar {
   margin: 5px 5px 0 5px;
   border: solid @hl 2px;
   border-radius: 10px;
-  background: @bgnd 
+  background: @bgnd;
 }
 
 #workspaces button {
@@ -39,7 +38,7 @@ window#waybar {
   border-color: @hl;
   border-radius: 8px;
   background: @hl;
-  color: @bgnd;
+  color: @bg;
 }
 
 #pulseaudio {
@@ -105,7 +104,7 @@ window#waybar {
 }
 
 #backlight {
-  color: @bglt;
+  color: @bklt;
 }
 
 #clock {
