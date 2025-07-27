@@ -21,4 +21,4 @@ configuration{
 
 //@theme "/usr/share/rofi/themes/docu.rasi"
 
-@theme "/home/maverikio/.config/rofi/gruvbox.rasi"
+@theme "~/.config/rofi/gruvbox.rasi"

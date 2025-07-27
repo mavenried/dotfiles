@@ -7,7 +7,7 @@
 
     progress_bar = true
     progress_bar_height = 10
-    progress_bar_frame_width = 1
+    progress_bar_frame_width = 2
     progress_bar_min_width = 150
     progress_bar_max_width = 400
     progress_bar_corner_radius = 5
@@ -19,8 +19,8 @@
     separator_color = frame
     padding = 15
     horizontal_padding = 15
-    frame_width = 1
-    corner_radius = 15
+    frame_width = 2
+    corner_radius = 10
     sort = yes
     idle_threshold = 120
 
