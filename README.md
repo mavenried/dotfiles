@@ -1,3 +1,3 @@
-# maverikio's dotfiles
+# mavenried's dotfiles
 
 yup, just what the title says...
