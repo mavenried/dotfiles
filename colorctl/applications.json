@@ -2,5 +2,9 @@
   "niri": {
     "target": "~/.config/niri/config.kdl",
     "template": "~/projects/scripts/templates/niri.kdl.template"
+  },
+  "hyprland": {
+    "target": "~/.config/hypr/accent.conf",
+    "template": "~/projects/scripts/templates/accent.conf.template"
   }
 }
