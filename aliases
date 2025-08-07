@@ -61,8 +61,8 @@ mkcd() {
 }
 
 anid() {
-  echo "Initiating download for $1."
-  ani -d "$1" -r 1-100
+  echo "Initiating download for \"$@\"."
+  ani -d "$@" -r 1-100
 }
 
 # Plugin init

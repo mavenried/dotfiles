@@ -15,4 +15,4 @@
 !starship.toml
 !ascii.txt
 !.gitignore
-
+!.colorctl
