@@ -30,7 +30,7 @@ index() {
 }
 
 config() {
-  nvim /home/mavenried//.config/$1
+  nvim /mnt/DATA/dots/$1
 }
 
 clean() {

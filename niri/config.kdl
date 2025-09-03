@@ -4,7 +4,7 @@ binds {
     Mod+Shift+Slash { show-hotkey-overlay; }
 
     Mod+Q hotkey-overlay-title="Open a Terminal: ghostty" { spawn "ghostty"; }
-    Mod+R hotkey-overlay-title="Run an Application: rofi" { spawn "rofi"; }
+    Mod+R hotkey-overlay-title="Run an Application: rofi" { spawn "rofi" "-show" "drun"; }
     Super+L hotkey-overlay-title="Lock the Screen: hyprlock" { spawn "hyprlock"; }
 
     XF86AudioRaiseVolume allow-when-locked=true { spawn-sh "wpctl set-volume @DEFAULT_AUDIO_SINK@ 0.1+"; }
@@ -130,6 +130,7 @@ binds {
 input {
     keyboard {
         xkb {
+          options "caps:escape"
         }
         numlock
     }
@@ -144,6 +145,12 @@ input {
 
     trackpoint {
     }
+
+    focus-follows-mouse
+}
+layer-rule {
+    match namespace="^swww-daemon$"
+    place-within-backdrop true
 }
 layout {
     background-color "transparent"
@@ -187,6 +194,13 @@ layout {
 
     }
 }
+overview {
+  zoom 0.75
+  backdrop-color "transparent"
+  workspace-shadow {
+    off
+  }
+}
 window-rule {
     match app-id=r#"^org\.wezfurlong\.wezterm$"#
     default-column-width {}
@@ -198,7 +212,16 @@ window-rule {
 }
 screenshot-path "~/Pictures/Screenshots/Screenshot from %Y-%m-%d %H-%M-%S.png" 
 spawn-at-startup "waybar"
+spawn-at-startup "~/Projects/scripts/wallpaper-init"
+spawn-at-startup "ghostty"
 
 hotkey-overlay {
 }
 
+prefer-no-csd
+window-rule {
+    tiled-state true
+    draw-border-with-background false
+    geometry-corner-radius 10
+    clip-to-geometry true
+}

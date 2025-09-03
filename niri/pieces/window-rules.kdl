@@ -1,0 +1,7 @@
+prefer-no-csd
+window-rule {
+    tiled-state true
+    draw-border-with-background false
+    geometry-corner-radius 10
+    clip-to-geometry true
+}

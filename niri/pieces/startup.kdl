@@ -1,4 +1,6 @@
 spawn-at-startup "waybar"
+spawn-at-startup "~/Projects/scripts/wallpaper-init"
+spawn-at-startup "ghostty"
 
 hotkey-overlay {
 }

@@ -1,6 +1,7 @@
 input {
     keyboard {
         xkb {
+          options "caps:escape"
         }
         numlock
     }
@@ -15,4 +16,6 @@ input {
 
     trackpoint {
     }
+
+    focus-follows-mouse
 }
