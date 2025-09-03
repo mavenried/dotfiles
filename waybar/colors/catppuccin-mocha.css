@@ -1,0 +1,25 @@
+@import url("themes/catppuccin-mocha.css");
+
+@define-color bgnd @mantle;
+@define-color cpuc @mauve;
+@define-color mmry @blue;
+@define-color disk @teal;
+@define-color adio @mauve;
+@define-color idle @blue;
+@define-color bglt @yellow;
+@define-color wifi @peach;
+@define-color dstr @green;
+@define-color blth @green;
+@define-color uptm @green;
+@define-color clck @text;
+@define-color sptr @surface2;
+@define-color hl @mauve;
+
+
+@define-color bat1 @green;
+@define-color bat2 @teal;
+@define-color bat3 @yellow;
+@define-color bat4 @peach;
+@define-color bat5 @red;
+
+

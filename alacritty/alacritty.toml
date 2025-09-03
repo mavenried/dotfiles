@@ -1,0 +1,25 @@
+
+[window]
+opacity = 0.9
+blur = false
+decorations = "Buttonless"
+dynamic_padding = true
+startup_mode = "Maximized"
+resize_increments = true
+option_as_alt = "Both"
+
+[selection]
+save_to_clipboard = true
+
+[font]
+size = 15 
+
+[window.padding]
+x = 1
+y = 1
+
+[font.normal]
+family = "JetBrainsMono Nerd Font"
+
+[general]
+import = [ "~/.config/alacritty/themes/gruvbox.toml",]

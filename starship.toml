@@ -1,0 +1,40 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+palette = "catppuccin"
+format = '$directory$character'
+right_format = "$git_status"
+
+
+[shell]
+disabled = false
+
+
+[character]
+success_symbol = "[❯](red)[❯](purple)[❯](green)" 
+error_symbol   = "[❯](purple)[❯](green)[❯](red)"
+vimcmd_symbol  = "[❯](green)[❯](red)[❯](purple)"   
+
+[directory]
+truncation_length = 2
+truncate_to_repo = true
+truncation_symbol = '-+/'
+style = 'bold blue'
+read_only = "⦿ "
+format = '[$read_only]($read_only_style) [$path]($style) '
+
+[palettes.gruvbox]
+
+bg     = '#282828'
+red    = '#cc241d'
+green  = '#b8bb26'
+yellow = '#d79921'
+blue   = '#458588'
+purple = '#d3869b'
+aqua   = '#689d6a'
+gray   = '#a89984'
+orange = '#fe8019'
+fg     = '#ebdbb2'
+[palettes.catppuccin]
+red    = '#f38ba8'
+purple = '#cba6f7'
+green  = '#a6e3a1'
+blue   = '#89b4fa'

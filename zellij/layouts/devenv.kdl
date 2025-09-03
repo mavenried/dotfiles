@@ -1,0 +1,88 @@
+layout {
+  default_tab_template {
+    children
+      pane size=1 borderless=true {
+          plugin location="https://github.com/dj95/zjstatus/releases/latest/download/zjstatus.wasm" {
+            // -- Gruvbox --
+            color_bg     "#282828"
+            color_red    "#cc241d"
+            color_green  "#b8bb26"
+            color_yellow "#d79921"
+            color_blue   "#458588"
+            color_purple "#d3869b"
+            color_aqua   "#689d6a"
+            color_gray   "#a89984"
+            color_orange "#fe8019"
+            color_greyd  "#3c3836"
+            color_fg     "#ebdbb2"
+
+            format_left "#[bg=$bg,fg=$aqua]❮#[bg=$aqua,fg=$greyd,bold]{session} #[bg=$bg]{mode}#[bg=$bg]{tabs}#[bg=$bg]"
+            format_center "{notifications}"
+            format_right "#[bg=$bg,fg=$greyd]❮#[bg=$greyd,fg=$aqua,bold] {datetime}#[bg=$bg,fg=$greyd]❯"
+            format_space "#[bg=$bg]"
+            format_hide_on_overlength "true"
+            format_precedence "lrc"
+
+            border_enabled "false"
+            border_char "─"
+            border_format "#[bg=$bg]{char}"
+            border_position "top"
+
+            hide_frame_for_single_pane "false"
+
+            mode_normal "#[bg=$green,fg=$greyd,bold] NORMAL#[bg=$bg,fg=$green]❯"
+            mode_tmux "#[bg=$purple,fg=$greyd,bold] TMUX#[bg=$bg,fg=$purple]❯"
+            mode_locked "#[bg=$red,fg=$greyd,bold] LOCKED#[bg=$bg,fg=$red]❯"
+            mode_pane "#[bg=$aqua,fg=$greyd,bold] PANE#[bg=$bg,fg=aqua]❯"
+            mode_tab "#[bg=$aqua,fg=$greyd,bold] TAB#[bg=$bg,fg=$aqua]❯"
+            mode_scroll "#[bg=$orange,fg=$greyd,bold] SCROLL#[bg=$bg,fg=$orange]❯"
+            mode_enter_search "#[bg=$orange,fg=$greyd,bold] ENT-SEARCH#[bg=$greyd,fg=$orange]❯"
+            mode_search "#[bg=$orange,fg=$greyd,bold] SEARCHARCH#[bg=$greyd,fg=$orange]❯"
+            mode_resize "#[bg=$yellow,fg=$greyd,bold] RESIZE#[bg=$greyd,fg=$yellow]❯"
+            mode_rename_tab "#[bg=$yellow,fg=$greyd,bold] RENAME-TAB#[bg=$bg,fg=$yellow]❯"
+            mode_rename_pane "#[bg=$yellow,fg=$greyd,bold] RENAME-PANE#[bg=$bg,fg=$yellow]❯"
+            mode_move "#[bg=$yellow,fg=$greyd,bold] MOVE#[bg=$bg,fg=$yellow]❯"
+            mode_session "#[bg=$purple,fg=$greyd,bold] SESSION#[bg=$bg,fg=$purple]❯"
+            mode_prompt "#[bg=$purple,fg=$greyd,bold] PROMPT#[bg=$bg,fg=$purple]❯"
+
+            tab_normal "#[bg=$bg,fg=$blue]❮#[bg=$blue,fg=$greyd,bold]{index} #[bg=$greyd,fg=$blue,bold] {name}{floating_indicator}#[bg=$bg,fg=$greyd]█❯"
+            tab_normal_fullscreen "#[bg=$bg,fg=$blue]❮#[bg=$blue,fg=$greyd,bold]{index} #[bg=$greyd,fg=$blue,bold] {name}{fullscreen_indicator}#[bg=$bg,fg=$greyd]█❯"
+            tab_normal_sync "#[bg=$bg,fg=$blue]❮#[bg=$blue,fg=$greyd,bold]{index} #[bg=$greyd,fg=$blue,bold] {name}{sync_indicator}#[bg=$bg,fg=$greyd]█❯"
+            tab_active "#[bg=$bg,fg=$orange]❮#[bg=$orange,fg=$greyd,bold]{index} #[bg=$greyd,fg=$orange,bold] {name}{floating_indicator}#[bg=$bg,fg=$greyd]█❯"
+            tab_active_fullscreen "#[bg=$bg,fg=$orange]❮#[bg=$orange,fg=$greyd,bold]{index} #[bg=$greyd,fg=$orange,bold] {name}{fullscreen_indicator}#[bg=$bg,fg=$greyd]█❯"
+            tab_active_sync "#[bg=$bg,fg=$orange]❮#[bg=$orange,fg=$greyd,bold]{index} #[bg=$greyd,fg=$orange,bold] {name}{sync_indicator}#[bg=$bg,fg=$greyd]█❯"
+            tab_separator "#[bg=$bg]"
+
+            tab_sync_indicator " "
+            tab_fullscreen_indicator " 󰊓"
+            tab_floating_indicator " 󰹙"
+
+            notification_format_unread "#[bg=bg,fg=$yellow]❮#[bg=$yellow,fg=$greyd] #[bg=$greyd,fg=$yellow] {message}#[bg=$bg,fg=$yellow]█❯"
+            notification_format_no_notifications ""
+            notification_show_interval "10"
+
+            command_host_command "uname -n"
+            command_host_format "{stdout}"
+            command_host_interval "0"
+            command_host_rendermode "static"
+
+            command_user_command "whoami"
+            command_user_format "{stdout}"
+            command_user_interval "10"
+            command_user_rendermode "static"
+
+            datetime "{format}"
+            datetime_format "%A, (%x) 󰅐 %X"
+            datetime_timezone "Asia/Kolkata"
+          }
+        }
+  }
+
+    tab name="Editors" {
+      pane 
+    }
+
+    tab name="Terminals" {
+        pane
+    }
+}

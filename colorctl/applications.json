@@ -1,0 +1,14 @@
+{
+  "rofi": {
+    "template": "/home/mavenried/Projects/scripts/templates/rofi.rasi",
+    "target": "/home/mavenried/.config/rofi/accent.rofi"
+  },
+  "hyprland": {
+    "template": "~/projects/scripts/templates/accent.conf.template",
+    "target": "~/.config/hypr/accent.conf"
+  },
+  "niri": {
+    "template": "/home/mavenried/projects/scripts/templates/niri.kdl",
+    "target": "/home/mavenried/.config/niri/pieces/layout.kdl"
+  }
+}

@@ -1,0 +1,7 @@
+# BEGIN_KITTY_THEME
+# Gruvbox Dark
+include current-theme.conf
+# END_KITTY_THEME
+font_size 12
+font_family JetbrainsmonoNL Nerd Font
+background_opacity 1

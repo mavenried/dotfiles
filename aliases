@@ -1,0 +1,92 @@
+#! /bin/bash
+
+export EDITOR=nvim
+
+source <(fzf --zsh)
+source <(zoxide init zsh --cmd cd)
+source <(starship init zsh)
+# Variables
+PROJECT_PATH_PYTHON="/home/mavenried/Projects/python/"
+PROJECT_PATH_LUA="/home/mavenried/Projects/lua"
+PROJECT_PATH_RUST="/home/mavenried/Projects/rust"
+PROJECT_PATH_SCRIPTS="/home/mavenried/Projects/scripts"
+
+eval "$(proj-cmd init zsh)"
+
+PATH=$PATH:"./bin:/home/mavenried/.local/bin:$PROJECT_PATH_SCRIPTS"
+
+mav() {
+  macchina --theme mavenried -o host -o machine -o processor -o distribution -o processor-load -o battery
+}
+mav
+index() {
+  if [[ "$1" == "" ]]; then
+    dir=$(pwd)
+  else
+    dir=$1
+  fi
+  echo "Opening $dir/indexer.json in nvim..."
+  nvim $dir/indexer.json
+}
+
+config() {
+  nvim /home/mavenried//.config/$1
+}
+
+clean() {
+  files="$(find /home/mavenried/projects/rust -type d -name '*target*')"
+  if [[ "$files" == "" ]]; then
+    echo "nothing to clean"
+  else
+    echo $files
+    read "REPLY?Delete shown directories? (y/N): "
+    if [[ "$REPLY" == "y" ]]; then
+      echo "deleting..."
+      find /home/mavenried/projects/rust/ -type d -name target\* -exec rm -fr {} ';' 1>/dev/null
+    fi
+  fi
+
+}
+
+open() {
+  for file in "$@"; do
+    xdg-open "$file"
+  done
+
+}
+
+mkcd() {
+  mkdir -p "$1"
+  cd "$1" || return 1
+}
+
+anid() {
+  echo "Initiating download for \"$@\"."
+  ani -d "$@" -r 1-100
+}
+
+# Plugin init
+source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# Aliases
+alias zel="zellij -l welcome"
+alias clear="printf '\x1B[H\x1B[2J\x1B[3J';"
+alias pip="python3 -m pip"
+alias ls="eza -l"
+alias indexer="python3 $PROJECT_PATH_PYTHON/Indexer/main.py"
+alias lyrics="playerctl --format=\"{{artist}};{{title}}\" metadata | lyrics.py"
+
+alias gc="git commit"
+alias gp="git push -u origin main"
+alias gac="git add . && git commit"
+alias gacp="git add . && git commit && git push -u origin main"
+alias install="yes|yay -S"
+alias uninstall="yay -R"
+alias update="yes | yay -Syu"
+alias lsa="eza -la"
+alias q=exit
+alias icat="kitten icat"
+alias pls=sudo
+alias btop="btop --force-utf"
+alias ppc=powerprofilesctl
