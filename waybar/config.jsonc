@@ -6,12 +6,11 @@
     "modules-left": [
       "custom/distro",
       "clock",
-      "hyprland/workspaces",
       "idle_inhibitor",
       "custom/music"
     ],
     "modules-center": [
-      "group/system",
+      "group/system"
     ],
     "modules-right": [
       "group/utils",
@@ -34,7 +33,7 @@
     "custom/music": {
       "format": "󰎇",
       "tooltip-format": "{}",
-      "exec": "$HOME/projects/scripts/current_music",
+      "exec": "/mnt/DATA/scripts/current_music",
       "interval": 1,
     },
     "custom/distro": {
@@ -46,7 +45,7 @@
     "custom/quit": {
       "format": " 󰗼 ",
       "tooltip": false,
-      "on-click": "hyprctl dispatch exit"
+      "on-click": "hyprctl dispatch exit || niri msg action quit"
     },
     "custom/lock": {
       "format": " 󰍁 ",
@@ -64,7 +63,7 @@
       "on-click": "shutdown now"
     },
     "custom/uptime": {
-      "exec": "$HOME/projects/scripts/uptime",
+      "exec": "/mnt/DATA/scripts/uptime",
       "interval": 1,
       "tooltip": false
     },
@@ -147,7 +146,7 @@
       "format-connected": "(󰂱) ",
       "tooltip": true,
       "tooltip-format": "{device_alias} ({device_battery_percentage}%)",
-      "on-click": "hyprctl dispatch exec blueman-manager"
+      "on-click": "hyprctl dispatch exec blueman-manager || niri msg action spawn blueman-manager"
     },
     "clock": {
       "format": "<b>{:%I:%M %p</b><i> %d/%m/%y}</i>",
@@ -178,7 +177,7 @@
       },
       "scroll-step": 1,
       "on-click": "pamixer -t",
-      "on-click-right": "hyprctl dispatch exec pavucontrol"
+      "on-click-right": "hyprctl dispatch exec pavucontrol || niri msg action spawn pavucontrol"
     },
     "memory": {
       "interval": 1,

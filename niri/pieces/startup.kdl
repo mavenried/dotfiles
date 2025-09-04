@@ -1,6 +1,10 @@
 spawn-at-startup "waybar"
-spawn-at-startup "~/Projects/scripts/wallpaper-init"
-spawn-at-startup "ghostty"
+spawn-at-startup "swayosd-server"
+spawn-at-startup "/mnt/DATA/scripts/wallpaper-init"
+spawn-at-startup "xdg-desktop-portal-wlr"
+spawn-at-startup "xdg-desktop-portal"
+
+
 
 hotkey-overlay {
 }

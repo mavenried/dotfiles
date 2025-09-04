@@ -9,7 +9,7 @@ source <(starship init zsh)
 PROJECT_PATH_PYTHON="/home/mavenried/Projects/python/"
 PROJECT_PATH_LUA="/home/mavenried/Projects/lua"
 PROJECT_PATH_RUST="/home/mavenried/Projects/rust"
-PROJECT_PATH_SCRIPTS="/home/mavenried/Projects/scripts"
+PROJECT_PATH_SCRIPTS="/mnt/DATA/scripts"
 
 eval "$(proj-cmd init zsh)"
 
