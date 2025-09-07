@@ -1,7 +1,7 @@
 font-family = JetrainsMono Nerd Font
 theme = GruvboxDark
 window-decoration = none
-background-opacity = 1
+background-opacity = 0.8
 font-size = 15 
 background-blur = false
 

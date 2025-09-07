@@ -1,5 +1,21 @@
 return {
   { "ellisonleao/gruvbox.nvim" },
+
+  {
+    "github/copilot.vim",
+    config = function()
+      -- disable Tab (so cmp/snippets can still use it)
+      vim.g.copilot_no_tab_map = true
+
+      -- set custom accept key (Ctrl+l here)
+      vim.api.nvim_set_keymap("i", "<C-l>", 'copilot#Accept("<CR>")', { expr = true, silent = true })
+
+      -- optional: next/prev suggestion
+      vim.api.nvim_set_keymap("i", "<C-]>", "<Plug>(copilot-next)", {})
+      vim.api.nvim_set_keymap("i", "<C-[>", "<Plug>(copilot-previous)", {})
+    end,
+  },
+
   {
     "jesseleite/nvim-noirbuddy",
     dependencies = {

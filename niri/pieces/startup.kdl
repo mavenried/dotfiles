@@ -1,11 +1,7 @@
 spawn-at-startup "waybar"
 spawn-at-startup "swayosd-server"
 spawn-at-startup "/mnt/DATA/scripts/wallpaper-init"
-spawn-at-startup "xdg-desktop-portal-wlr"
-spawn-at-startup "xdg-desktop-portal"
-
-
-
+spawn-at-startup "hypridle"
 hotkey-overlay {
+    skip-at-startup
 }
-

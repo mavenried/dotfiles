@@ -1,14 +1,18 @@
 {
-  "hyprland": {
-    "template": "/home/mavenried/projects/scripts/templates/accent.conf",
-    "target": "/home/mavenried/.config/hypr/accent.conf"
-  },
   "niri": {
-    "template": "/home/mavenried/projects/scripts/templates/niri.kdl",
-    "target": "/home/mavenried/.config/niri/pieces/layout.kdl"
+    "template": "/mnt/DATA/scripts/templates/niri.kdl",
+    "target": "/mnt/DATA/dots/niri/pieces/layout.kdl"
+  },
+  "hyprland": {
+    "template": "/mnt/DATA/scripts/templates/hyprland.conf",
+    "target": "/mnt/DATA/dots/hypr/accent.conf"
+  },
+  "mako": {
+    "template": "/mnt/DATA/scripts/templates/mako",
+    "target": "/mnt/DATA/dots/mako/config"
   },
   "rofi": {
-    "template": "/home/mavenried/Projects/scripts/templates/rofi.rasi",
-    "target": "/home/mavenried/.config/rofi/accent.rofi"
+    "template": "/mnt/DATA/scripts/templates/rofi.rasi",
+    "target": "/mnt/DATA/dots/rofi/accent.rofi"
   }
 }
