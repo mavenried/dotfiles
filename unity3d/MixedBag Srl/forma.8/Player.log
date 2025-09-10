@@ -1,0 +1,1495 @@
+
+Selecting FBConfig
+GLX_FBCONFIG_ID=278
+GLX_BUFFER_SIZE=32
+GLX_DOUBLEBUFFER=1
+GLX_RED_SIZE=8
+GLX_GREEN_SIZE=8
+GLX_BLUE_SIZE=8
+GLX_ALPHA_SIZE=8
+GLX_DEPTH_SIZE=24
+GLX_STENCIL_SIZE=8
+GLX_SAMPLES_ARB=0
+GLX_SAMPLE_BUFFERS_ARB=0
+GLX_STEREO=0
+GLX_CONFIG_CAVEAT=NONE
+
+Desktop is 1920 x 1080 @ 60 Hz
+Initialize engine version: 5.4.3p3 (3592d3a1f914)
+GfxDevice: creating device client; threaded=1
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_video_sync 
+Setting maxVSyncInterval to 0
+Renderer: AMD Radeon Graphics (radeonsi, renoir, LLVM 19.1.7, DRM 3.59, 6.12.11-200.fc41.x86_64)
+Vendor:   AMD
+Version:  4.6 (Core Profile) Mesa 24.3.4
+GLES:     0
+ GL_AMD_conservative_depth GL_AMD_depth_clamp_separate GL_AMD_draw_buffers_blend GL_AMD_framebuffer_multisample_advanced GL_AMD_gpu_shader_int64 GL_AMD_multi_draw_indirect GL_AMD_performance_monitor GL_AMD_pinned_memory GL_AMD_query_buffer_object GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_stencil_export GL_AMD_shader_trinary_minmax GL_AMD_texture_texture4 GL_AMD_vertex_shader_layer GL_AMD_vertex_shader_viewport_index GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ARB_ES2_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_bindless_texture GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_dist
+ance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_shader GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel
+_buffer_object GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_stencil_export GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_sparse_buffer GL_ARB_sparse_texture GL_ARB_sparse_texture2 GL_ARB_sparse_texture_clamp GL_ARB_spirv_extensio
+ns GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_barrier GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_filter_minmax GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex
+_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_meminfo GL_ATI_texture_float GL_ATI_texture_mirror_once GL_EXT_EGL_image_storage GL_EXT_EGL_image_storage_compression GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_debug_label GL_EXT_demote_to_helper_invocation GL_EXT_depth_bounds_test GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_texture_compression_d
+xt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_filter_minmax GL_EXT_texture_integer GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_KHR_blend_equation_advanced GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_shader_subgroup GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_const_bandwidth GL_MESA_texture_signed_rgba GL_NVX_gpu_memory_info GL_NV_alpha_to_coverage_dither_
+control GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_packed_depth_stencil GL_NV_shader_atomic_int64 GL_NV_texture_barrier GL_NV_vdpau_interop GL_OES_EGL_image GL_S3_s3tc
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle 798842464
+AudioManager: Using PulseAudio: Default Output Device
+Begin MonoManager ReloadAssembly
+Platform assembly: /mnt/DATA/Games/forma.8/forma8_Data/Managed/UnityEngine.dll (this message is harmless)
+Loading /mnt/DATA/Games/forma.8/forma8_Data/Managed/UnityEngine.dll into Unity Child Domain
+Platform assembly: /mnt/DATA/Games/forma.8/forma8_Data/Managed/Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading /mnt/DATA/Games/forma.8/forma8_Data/Managed/Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: /mnt/DATA/Games/forma.8/forma8_Data/Managed/Assembly-CSharp.dll (this message is harmless)
+Loading /mnt/DATA/Games/forma.8/forma8_Data/Managed/Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: /mnt/DATA/Games/forma.8/forma8_Data/Managed/Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading /mnt/DATA/Games/forma.8/forma8_Data/Managed/Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: /mnt/DATA/Games/forma.8/forma8_Data/Managed/Assembly-UnityScript.dll (this message is harmless)
+Loading /mnt/DATA/Games/forma.8/forma8_Data/Managed/Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: /mnt/DATA/Games/forma.8/forma8_Data/Managed/UnityEngine.UI.dll (this message is harmless)
+Loading /mnt/DATA/Games/forma.8/forma8_Data/Managed/UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: /mnt/DATA/Games/forma.8/forma8_Data/Managed/UnityEngine.Networking.dll (this message is harmless)
+Loading /mnt/DATA/Games/forma.8/forma8_Data/Managed/UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: /mnt/DATA/Games/forma.8/forma8_Data/Managed/Rewired_Core.dll (this message is harmless)
+Loading /mnt/DATA/Games/forma.8/forma8_Data/Managed/Rewired_Core.dll into Unity Child Domain
+Platform assembly: /mnt/DATA/Games/forma.8/forma8_Data/Managed/Rewired_Linux.dll (this message is harmless)
+Loading /mnt/DATA/Games/forma.8/forma8_Data/Managed/Rewired_Linux.dll into Unity Child Domain
+- Completed reload, in  0.030 seconds
+Platform assembly: /mnt/DATA/Games/forma.8/forma8_Data/Managed/System.Core.dll (this message is harmless)
+Platform assembly: /mnt/DATA/Games/forma.8/forma8_Data/Managed/System.dll (this message is harmless)
+OnLevelWasLoaded was found on CameraScript
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+ 
+(Filename:  Line: 375)
+
+OnLevelWasLoaded was found on MusicScript
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+ 
+(Filename:  Line: 375)
+
+Platform assembly: /mnt/DATA/Games/forma.8/forma8_Data/Managed/System.Xml.dll (this message is harmless)
+Default vsync count 0
+requesting resize 1920 x 1080
+Using native desktop resolution 1920 x 1080
+requesting fullscreen 1920 x 1080 at 0 Hz
+Desktop is 1920 x 1080 @ 60 Hz
+Using libudev for joystick management
+
+
+Importing game controller configs
+UnloadTime: 0.878000 ms
+Changing real window size to 1920 x 1045
+Changing real window size to 1920 x 1045
+Changing real window size to 1920 x 1008
+Changing real window size to 1920 x 1043
+Changing real window size to 1920 x 1043
+Changing real window size to 1920 x 1080
+Platform assembly: /mnt/DATA/Games/forma.8/forma8_Data/Managed/UnityScript.Lang.dll (this message is harmless)
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.790000 ms
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1273.
+Total: 11.929000 ms (FindLiveObjects: 0.118000 ms CreateObjectMapping: 0.024000 ms MarkObjects: 11.773000 ms  DeleteObjects: 0.014000 ms)
+
+Platform assembly: /mnt/DATA/Games/forma.8/forma8_Data/Managed/Boo.Lang.dll (this message is harmless)
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1510)
+
+The referenced script on this Behaviour (Game Object 'ButtonAchievement') is missing!
+ 
+(Filename:  Line: 1656)
+
+A script behaviour (probably MainMenuManager?) has a different serialization layout when loading. (Read 1024 bytes but expected 1036 bytes)
+Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.502000 ms
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2005.
+Total: 13.150000 ms (FindLiveObjects: 0.183000 ms CreateObjectMapping: 0.043000 ms MarkObjects: 10.052000 ms  DeleteObjects: 2.871000 ms)
+
+Font size and style overrides are only supported for dynamic fonts. Font 'NotoSans-Regular' is not dynamic.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Font size and style overrides are only supported for dynamic fonts. Font 'NotoSans-Regular' is not dynamic.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Font size and style overrides are only supported for dynamic fonts. Font 'NotoSans-Regular' is not dynamic.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Font size and style overrides are only supported for dynamic fonts. Font 'NotoSans-Regular' is not dynamic.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+requesting resize 1920 x 1080
+Using native desktop resolution 1920 x 1080
+requesting fullscreen 1920 x 1080 at 60 Hz
+Desktop is 1920 x 1080 @ 60 Hz
+Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 7.018000 ms
+CameraTrigger Entered
+CameraTrigger Scene Start
+Font size and style overrides are only supported for dynamic fonts. Font 'NotoSans-Regular' is not dynamic.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Font size and style overrides are only supported for dynamic fonts. Font 'NotoSans-Regular' is not dynamic.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+requesting resize 1920 x 1080
+Using native desktop resolution 1920 x 1080
+requesting fullscreen 1920 x 1080 at 60 Hz
+Desktop is 1920 x 1080 @ 60 Hz
+
+Unloading 342 unused Assets to reduce memory usage. Loaded Objects now: 24642.
+Total: 30.295000 ms (FindLiveObjects: 2.419000 ms CreateObjectMapping: 0.704000 ms MarkObjects: 22.019999 ms  DeleteObjects: 5.152000 ms)
+
+HIT
+HIT
+HIT
+HIT
+HIT
+CameraTrigger Entered
+CameraTrigger Scene already started
+HIT
+CameraTrigger Entered
+CameraTrigger Scene already started
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+HIT
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+HIT
+HIT
+HIT
+HIT
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+The AnimationClip 'MisteryObjPickUp' used by the Animation component 'MisteryObjPickUp' must be marked as Legacy.
+ 
+(Filename:  Line: 1983)
+
+Default clip could not be found in attached animations list.
+CameraTrigger Entered
+CameraTrigger Scene already started
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 25.784000 ms
+
+Unloading 987 unused Assets to reduce memory usage. Loaded Objects now: 9911.
+Total: 17.821999 ms (FindLiveObjects: 0.927000 ms CreateObjectMapping: 0.268000 ms MarkObjects: 13.907001 ms  DeleteObjects: 2.720000 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 9912.
+Total: 15.189000 ms (FindLiveObjects: 0.666000 ms CreateObjectMapping: 0.141000 ms MarkObjects: 14.368000 ms  DeleteObjects: 0.014000 ms)
+
+Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.854000 ms
+CameraTrigger Entered
+CameraTrigger Scene Start
+
+Unloading 323 unused Assets to reduce memory usage. Loaded Objects now: 24626.
+Total: 26.811001 ms (FindLiveObjects: 2.146000 ms CreateObjectMapping: 0.371000 ms MarkObjects: 23.184000 ms  DeleteObjects: 1.110000 ms)
+
+CameraTrigger Entered
+CameraTrigger Scene already started
+HIT
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+HIT
+HIT
+HIT
+HIT
+HIT
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+HIT
+HIT
+CameraTrigger Entered
+CameraTrigger Scene already started
+HIT
+HIT
+HIT
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+HIT
+HIT
+CameraTrigger Entered
+CameraTrigger Scene already started
+HIT
+HIT
+HIT
+CameraTrigger Entered
+CameraTrigger Scene already started
+HIT
+HIT
+CameraTrigger Entered
+CameraTrigger Scene already started
+HIT
+HIT
+CameraTrigger Entered
+CameraTrigger Scene already started
+HIT
+HIT
+HIT
+HIT
+HIT
+CameraTrigger Entered
+CameraTrigger Scene already started
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 24.217001 ms
+
+Unloading 977 unused Assets to reduce memory usage. Loaded Objects now: 9943.
+Total: 20.314001 ms (FindLiveObjects: 1.230000 ms CreateObjectMapping: 0.299000 ms MarkObjects: 15.982000 ms  DeleteObjects: 2.802000 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 9944.
+Total: 14.818000 ms (FindLiveObjects: 0.744000 ms CreateObjectMapping: 0.159000 ms MarkObjects: 13.903999 ms  DeleteObjects: 0.010000 ms)
+
+Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.905000 ms
+CameraTrigger Entered
+CameraTrigger Scene Start
+
+Unloading 327 unused Assets to reduce memory usage. Loaded Objects now: 24622.
+Total: 25.455999 ms (FindLiveObjects: 1.834000 ms CreateObjectMapping: 0.426000 ms MarkObjects: 22.023001 ms  DeleteObjects: 1.172000 ms)
+
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+CameraTrigger Entered
+CameraTrigger Scene already started
+HIT
+CameraTrigger Entered
+CameraTrigger Scene already started
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+CameraTrigger Entered
+CameraTrigger Scene already started
+HIT
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+HIT
+CameraTrigger Entered
+CameraTrigger Scene already started
+HIT
+HIT
+HIT
+HIT
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 27.145000 ms
+
+Unloading 972 unused Assets to reduce memory usage. Loaded Objects now: 9947.
+Total: 19.893000 ms (FindLiveObjects: 0.576000 ms CreateObjectMapping: 0.309000 ms MarkObjects: 16.047998 ms  DeleteObjects: 2.960000 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 9947.
+Total: 15.025000 ms (FindLiveObjects: 0.641000 ms CreateObjectMapping: 0.181000 ms MarkObjects: 14.193000 ms  DeleteObjects: 0.010000 ms)
+
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.877000 ms
+CameraTrigger Entered
+CameraTrigger Scene Start
+
+Unloading 550 unused Assets to reduce memory usage. Loaded Objects now: 23126.
+Total: 25.520000 ms (FindLiveObjects: 1.854000 ms CreateObjectMapping: 0.355000 ms MarkObjects: 21.585001 ms  DeleteObjects: 1.725000 ms)
+
+HIT
+HIT
+HIT
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+HIT
+HIT
+HIT
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+HIT
+HIT
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+HIT
+CameraTrigger Entered
+CameraTrigger Scene already started
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 23.175999 ms
+
+Unloading 1084 unused Assets to reduce memory usage. Loaded Objects now: 9950.
+Total: 21.914999 ms (FindLiveObjects: 3.026000 ms CreateObjectMapping: 0.179000 ms MarkObjects: 16.018999 ms  DeleteObjects: 2.691000 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 9951.
+Total: 15.349000 ms (FindLiveObjects: 0.708000 ms CreateObjectMapping: 0.147000 ms MarkObjects: 14.466000 ms  DeleteObjects: 0.027000 ms)
+
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.845000 ms
+CameraTrigger Entered
+CameraTrigger Scene Start
+
+Unloading 552 unused Assets to reduce memory usage. Loaded Objects now: 23099.
+Total: 25.757000 ms (FindLiveObjects: 1.576000 ms CreateObjectMapping: 0.396000 ms MarkObjects: 22.028000 ms  DeleteObjects: 1.757000 ms)
+
+HIT
+HIT
+HIT
+HIT
+HIT
+The AnimationClip 'MisteryObjPickUp' used by the Animation component 'MisteryObjPickUp' must be marked as Legacy.
+ 
+(Filename:  Line: 1983)
+
+Default clip could not be found in attached animations list.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 23.076000 ms
+
+Unloading 1082 unused Assets to reduce memory usage. Loaded Objects now: 9950.
+Total: 20.881001 ms (FindLiveObjects: 2.213000 ms CreateObjectMapping: 0.185000 ms MarkObjects: 15.714999 ms  DeleteObjects: 2.768000 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 9951.
+Total: 15.343000 ms (FindLiveObjects: 0.698000 ms CreateObjectMapping: 0.247000 ms MarkObjects: 14.387000 ms  DeleteObjects: 0.011000 ms)
+
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.842000 ms
+CameraTrigger Entered
+CameraTrigger Scene Start
+
+Unloading 552 unused Assets to reduce memory usage. Loaded Objects now: 23081.
+Total: 25.119999 ms (FindLiveObjects: 1.840000 ms CreateObjectMapping: 0.367000 ms MarkObjects: 21.273001 ms  DeleteObjects: 1.639000 ms)
+
+HIT
+CameraTrigger Entered
+CameraTrigger Scene already started
+HIT
+HIT
+HIT
+CameraTrigger Entered
+CameraTrigger Scene already started
+HIT
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+HIT
+HIT
+CameraTrigger Entered
+CameraTrigger Scene already started
+HIT
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 25.105000 ms
+
+Unloading 1082 unused Assets to reduce memory usage. Loaded Objects now: 9954.
+Total: 21.518999 ms (FindLiveObjects: 0.842000 ms CreateObjectMapping: 0.227000 ms MarkObjects: 15.937000 ms  DeleteObjects: 4.513000 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 9954.
+Total: 15.133000 ms (FindLiveObjects: 0.827000 ms CreateObjectMapping: 0.158000 ms MarkObjects: 14.137000 ms  DeleteObjects: 0.011000 ms)
+
+Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.899000 ms
+CameraTrigger Entered
+CameraTrigger Scene Start
+
+Unloading 327 unused Assets to reduce memory usage. Loaded Objects now: 24633.
+Total: 28.798000 ms (FindLiveObjects: 2.023000 ms CreateObjectMapping: 0.361000 ms MarkObjects: 25.273001 ms  DeleteObjects: 1.140000 ms)
+
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+HIT
+CameraTrigger Entered
+CameraTrigger Scene already started
+HIT
+CameraTrigger Entered
+CameraTrigger Scene already started
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 28.191000 ms
+
+Unloading 976 unused Assets to reduce memory usage. Loaded Objects now: 9954.
+Total: 20.228001 ms (FindLiveObjects: 0.731000 ms CreateObjectMapping: 0.298000 ms MarkObjects: 15.804000 ms  DeleteObjects: 3.394000 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 9954.
+Total: 14.783000 ms (FindLiveObjects: 0.665000 ms CreateObjectMapping: 0.176000 ms MarkObjects: 13.932000 ms  DeleteObjects: 0.010000 ms)
+
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.085000 ms
+CameraTrigger Entered
+CameraTrigger Scene Start
+
+Unloading 612 unused Assets to reduce memory usage. Loaded Objects now: 24234.
+Total: 27.540001 ms (FindLiveObjects: 2.104000 ms CreateObjectMapping: 0.317000 ms MarkObjects: 23.278000 ms  DeleteObjects: 1.841000 ms)
+
+HIT
+CheckPoint
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 23.429001 ms
+
+Unloading 1234 unused Assets to reduce memory usage. Loaded Objects now: 9954.
+Total: 28.444000 ms (FindLiveObjects: 0.798000 ms CreateObjectMapping: 0.287000 ms MarkObjects: 16.705000 ms  DeleteObjects: 10.653999 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 9954.
+Total: 15.403000 ms (FindLiveObjects: 0.804000 ms CreateObjectMapping: 0.188000 ms MarkObjects: 14.400000 ms  DeleteObjects: 0.011000 ms)
+
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.845000 ms
+CameraTrigger Entered
+CameraTrigger Scene Start
+
+Unloading 151 unused Assets to reduce memory usage. Loaded Objects now: 19787.
+Total: 25.157999 ms (FindLiveObjects: 1.766000 ms CreateObjectMapping: 0.336000 ms MarkObjects: 22.490000 ms  DeleteObjects: 0.564000 ms)
+
+CameraTrigger Entered
+CameraTrigger Scene already started
+HIT
+HIT
+HIT
+HIT
+HIT
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 18.975000 ms
+
+Unloading 549 unused Assets to reduce memory usage. Loaded Objects now: 9992.
+Total: 24.945000 ms (FindLiveObjects: 1.752000 ms CreateObjectMapping: 0.249000 ms MarkObjects: 15.502000 ms  DeleteObjects: 7.441000 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 9993.
+Total: 15.776999 ms (FindLiveObjects: 0.838000 ms CreateObjectMapping: 0.191000 ms MarkObjects: 14.736000 ms  DeleteObjects: 0.012000 ms)
+
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.837000 ms
+CameraTrigger Entered
+CameraTrigger Scene Start
+
+Unloading 151 unused Assets to reduce memory usage. Loaded Objects now: 19813.
+Total: 25.174000 ms (FindLiveObjects: 1.744000 ms CreateObjectMapping: 0.288000 ms MarkObjects: 22.616999 ms  DeleteObjects: 0.524000 ms)
+
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 18.962000 ms
+
+Unloading 548 unused Assets to reduce memory usage. Loaded Objects now: 9992.
+Total: 21.431999 ms (FindLiveObjects: 1.527000 ms CreateObjectMapping: 0.153000 ms MarkObjects: 14.757000 ms  DeleteObjects: 4.994000 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 9993.
+Total: 15.214000 ms (FindLiveObjects: 0.637000 ms CreateObjectMapping: 0.167000 ms MarkObjects: 14.400000 ms  DeleteObjects: 0.010000 ms)
+
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.827000 ms
+CameraTrigger Entered
+CameraTrigger Scene Start
+
+Unloading 151 unused Assets to reduce memory usage. Loaded Objects now: 19813.
+Total: 23.722000 ms (FindLiveObjects: 1.628000 ms CreateObjectMapping: 0.279000 ms MarkObjects: 21.278000 ms  DeleteObjects: 0.537000 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 19.324999 ms
+
+Unloading 548 unused Assets to reduce memory usage. Loaded Objects now: 9992.
+Total: 17.152000 ms (FindLiveObjects: 0.562000 ms CreateObjectMapping: 0.219000 ms MarkObjects: 14.396000 ms  DeleteObjects: 1.974000 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 9992.
+Total: 14.635000 ms (FindLiveObjects: 0.588000 ms CreateObjectMapping: 0.196000 ms MarkObjects: 13.839000 ms  DeleteObjects: 0.010000 ms)
+
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.042000 ms
+CameraTrigger Entered
+CameraTrigger Scene Start
+
+Unloading 639 unused Assets to reduce memory usage. Loaded Objects now: 24032.
+Total: 28.542002 ms (FindLiveObjects: 1.785000 ms CreateObjectMapping: 0.345000 ms MarkObjects: 24.118000 ms  DeleteObjects: 2.294000 ms)
+
+The AnimationClip 'MisteryObjPickUp' used by the Animation component 'MisteryObjPickUp' must be marked as Legacy.
+ 
+(Filename:  Line: 1983)
+
+Default clip could not be found in attached animations list.
+HIT
+HIT
+HIT
+HIT
+HIT
+CheckPoint
+HIT
+HIT
+HIT
+The AnimationClip 'MisteryObjPickUp' used by the Animation component 'MisteryObjPickUp' must be marked as Legacy.
+ 
+(Filename:  Line: 1983)
+
+Default clip could not be found in attached animations list.
+HIT
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 24.040001 ms
+
+Unloading 1208 unused Assets to reduce memory usage. Loaded Objects now: 10000.
+Total: 20.145000 ms (FindLiveObjects: 0.607000 ms CreateObjectMapping: 0.284000 ms MarkObjects: 15.776001 ms  DeleteObjects: 3.477000 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 10000.
+Total: 14.915000 ms (FindLiveObjects: 0.707000 ms CreateObjectMapping: 0.171000 ms MarkObjects: 14.025000 ms  DeleteObjects: 0.010000 ms)
+
+Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.886000 ms
+CameraTrigger Entered
+CameraTrigger Scene Start
+
+Unloading 328 unused Assets to reduce memory usage. Loaded Objects now: 24683.
+Total: 25.952000 ms (FindLiveObjects: 1.885000 ms CreateObjectMapping: 0.298000 ms MarkObjects: 22.719999 ms  DeleteObjects: 1.049000 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 30.283001 ms
+
+Unloading 976 unused Assets to reduce memory usage. Loaded Objects now: 10000.
+Total: 23.995001 ms (FindLiveObjects: 0.630000 ms CreateObjectMapping: 0.238000 ms MarkObjects: 14.952001 ms  DeleteObjects: 8.173000 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 10000.
+Total: 15.380000 ms (FindLiveObjects: 0.773000 ms CreateObjectMapping: 0.157000 ms MarkObjects: 14.439000 ms  DeleteObjects: 0.011000 ms)
+
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.104000 ms
+CameraTrigger Entered
+CameraTrigger Scene Start
+
+Unloading 643 unused Assets to reduce memory usage. Loaded Objects now: 23980.
+Total: 28.157000 ms (FindLiveObjects: 1.989000 ms CreateObjectMapping: 0.390000 ms MarkObjects: 23.230999 ms  DeleteObjects: 2.546000 ms)
+
+HIT
+CheckPoint
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 23.204000 ms
+
+Unloading 1202 unused Assets to reduce memory usage. Loaded Objects now: 10000.
+Total: 29.169001 ms (FindLiveObjects: 0.834000 ms CreateObjectMapping: 0.253000 ms MarkObjects: 15.427000 ms  DeleteObjects: 12.655000 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 10000.
+Total: 16.195999 ms (FindLiveObjects: 0.837000 ms CreateObjectMapping: 0.161000 ms MarkObjects: 15.051000 ms  DeleteObjects: 0.147000 ms)
+
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.858000 ms
+CameraTrigger Entered
+CameraTrigger Scene Start
+
+Unloading 151 unused Assets to reduce memory usage. Loaded Objects now: 19822.
+Total: 24.250999 ms (FindLiveObjects: 1.557000 ms CreateObjectMapping: 0.274000 ms MarkObjects: 21.903000 ms  DeleteObjects: 0.517000 ms)
+
+CameraTrigger Entered
+CameraTrigger Scene already started
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 20.087999 ms
+
+Unloading 549 unused Assets to reduce memory usage. Loaded Objects now: 10009.
+Total: 24.114000 ms (FindLiveObjects: 2.054000 ms CreateObjectMapping: 0.153000 ms MarkObjects: 14.716001 ms  DeleteObjects: 7.191000 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 10010.
+Total: 15.221000 ms (FindLiveObjects: 0.761000 ms CreateObjectMapping: 0.194000 ms MarkObjects: 14.254000 ms  DeleteObjects: 0.012000 ms)
+
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.066000 ms
+CameraTrigger Entered
+CameraTrigger Scene Start
+
+Unloading 151 unused Assets to reduce memory usage. Loaded Objects now: 19830.
+Total: 24.495001 ms (FindLiveObjects: 1.423000 ms CreateObjectMapping: 0.305000 ms MarkObjects: 22.227001 ms  DeleteObjects: 0.539000 ms)
+
+CameraTrigger Entered
+CameraTrigger Scene already started
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 19.326000 ms
+
+Unloading 548 unused Assets to reduce memory usage. Loaded Objects now: 10009.
+Total: 19.409000 ms (FindLiveObjects: 1.878000 ms CreateObjectMapping: 0.185000 ms MarkObjects: 15.288000 ms  DeleteObjects: 2.055000 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 10010.
+Total: 15.915999 ms (FindLiveObjects: 0.661000 ms CreateObjectMapping: 0.202000 ms MarkObjects: 15.040000 ms  DeleteObjects: 0.012000 ms)
+
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.842000 ms
+CameraTrigger Entered
+CameraTrigger Scene Start
+
+Unloading 151 unused Assets to reduce memory usage. Loaded Objects now: 19830.
+Total: 24.488001 ms (FindLiveObjects: 1.520000 ms CreateObjectMapping: 0.293000 ms MarkObjects: 22.065001 ms  DeleteObjects: 0.610000 ms)
+
+CameraTrigger Entered
+CameraTrigger Scene already started
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 20.097000 ms
+
+Unloading 548 unused Assets to reduce memory usage. Loaded Objects now: 10043.
+Total: 20.090000 ms (FindLiveObjects: 2.043000 ms CreateObjectMapping: 0.162000 ms MarkObjects: 15.866000 ms  DeleteObjects: 2.017000 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 10044.
+Total: 15.171000 ms (FindLiveObjects: 0.724000 ms CreateObjectMapping: 0.143000 ms MarkObjects: 14.292000 ms  DeleteObjects: 0.011000 ms)
+
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.805000 ms
+CameraTrigger Entered
+CameraTrigger Scene Start
+
+Unloading 151 unused Assets to reduce memory usage. Loaded Objects now: 19864.
+Total: 24.620001 ms (FindLiveObjects: 1.660000 ms CreateObjectMapping: 0.350000 ms MarkObjects: 22.063000 ms  DeleteObjects: 0.547000 ms)
+
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 21.917000 ms
+
+Unloading 548 unused Assets to reduce memory usage. Loaded Objects now: 10043.
+Total: 18.402000 ms (FindLiveObjects: 0.556000 ms CreateObjectMapping: 0.223000 ms MarkObjects: 15.555000 ms  DeleteObjects: 2.068000 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 10043.
+Total: 14.773000 ms (FindLiveObjects: 0.681000 ms CreateObjectMapping: 0.169000 ms MarkObjects: 13.913000 ms  DeleteObjects: 0.010000 ms)
+
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.841000 ms
+CameraTrigger Entered
+CameraTrigger Scene Start
+
+Unloading 643 unused Assets to reduce memory usage. Loaded Objects now: 24023.
+Total: 28.330000 ms (FindLiveObjects: 2.142000 ms CreateObjectMapping: 0.331000 ms MarkObjects: 23.434999 ms  DeleteObjects: 2.422000 ms)
+
+HIT
+HIT
+CheckPoint
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 40.316998 ms
+
+Unloading 1201 unused Assets to reduce memory usage. Loaded Objects now: 10043.
+Total: 19.316000 ms (FindLiveObjects: 0.619000 ms CreateObjectMapping: 0.301000 ms MarkObjects: 14.915000 ms  DeleteObjects: 3.481000 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 10043.
+Total: 14.807000 ms (FindLiveObjects: 0.681000 ms CreateObjectMapping: 0.197000 ms MarkObjects: 13.915999 ms  DeleteObjects: 0.012000 ms)
+
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.977000 ms
+CameraTrigger Entered
+CameraTrigger Scene Start
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 16396.
+Total: 20.198000 ms (FindLiveObjects: 1.320000 ms CreateObjectMapping: 0.298000 ms MarkObjects: 18.393000 ms  DeleteObjects: 0.186000 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 12.176000 ms
+
+Unloading 395 unused Assets to reduce memory usage. Loaded Objects now: 10045.
+Total: 17.439001 ms (FindLiveObjects: 0.597000 ms CreateObjectMapping: 0.181000 ms MarkObjects: 15.224000 ms  DeleteObjects: 1.436000 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 10045.
+Total: 15.010000 ms (FindLiveObjects: 0.599000 ms CreateObjectMapping: 0.155000 ms MarkObjects: 14.244000 ms  DeleteObjects: 0.011000 ms)
+
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.016000 ms
+CameraTrigger Entered
+CameraTrigger Scene Start
+
+Unloading 140 unused Assets to reduce memory usage. Loaded Objects now: 13804.
+Total: 19.035000 ms (FindLiveObjects: 0.688000 ms CreateObjectMapping: 0.286000 ms MarkObjects: 17.514000 ms  DeleteObjects: 0.547000 ms)
+
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.410000 ms
+
+Unloading 509 unused Assets to reduce memory usage. Loaded Objects now: 10047.
+Total: 25.480000 ms (FindLiveObjects: 0.618000 ms CreateObjectMapping: 0.168000 ms MarkObjects: 16.535002 ms  DeleteObjects: 8.157000 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 10047.
+Total: 16.047998 ms (FindLiveObjects: 0.716000 ms CreateObjectMapping: 0.214000 ms MarkObjects: 15.105000 ms  DeleteObjects: 0.011000 ms)
+
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.986000 ms
+CameraTrigger Entered
+CameraTrigger Scene Start
+
+Unloading 151 unused Assets to reduce memory usage. Loaded Objects now: 12141.
+Total: 18.177999 ms (FindLiveObjects: 0.648000 ms CreateObjectMapping: 0.236000 ms MarkObjects: 16.781000 ms  DeleteObjects: 0.513000 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.689000 ms
+
+Unloading 264 unused Assets to reduce memory usage. Loaded Objects now: 10048.
+Total: 16.736000 ms (FindLiveObjects: 0.544000 ms CreateObjectMapping: 0.171000 ms MarkObjects: 14.987000 ms  DeleteObjects: 1.034000 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 10048.
+Total: 14.579000 ms (FindLiveObjects: 0.526000 ms CreateObjectMapping: 0.139000 ms MarkObjects: 13.902000 ms  DeleteObjects: 0.011000 ms)
+
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.099000 ms
+CameraTrigger Entered
+CameraTrigger Scene Start
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 16401.
+Total: 20.927000 ms (FindLiveObjects: 1.324000 ms CreateObjectMapping: 0.267000 ms MarkObjects: 19.101999 ms  DeleteObjects: 0.234000 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 10.901999 ms
+
+Unloading 396 unused Assets to reduce memory usage. Loaded Objects now: 10049.
+Total: 16.980000 ms (FindLiveObjects: 0.626000 ms CreateObjectMapping: 0.177000 ms MarkObjects: 14.726000 ms  DeleteObjects: 1.450000 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 10049.
+Total: 14.838000 ms (FindLiveObjects: 0.608000 ms CreateObjectMapping: 0.148000 ms MarkObjects: 14.071000 ms  DeleteObjects: 0.011000 ms)
+
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.838000 ms
+CameraTrigger Entered
+CameraTrigger Scene Start
+
+Unloading 143 unused Assets to reduce memory usage. Loaded Objects now: 13777.
+Total: 19.309999 ms (FindLiveObjects: 0.695000 ms CreateObjectMapping: 0.427000 ms MarkObjects: 17.581999 ms  DeleteObjects: 0.605000 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.481000 ms
+
+Unloading 506 unused Assets to reduce memory usage. Loaded Objects now: 10051.
+Total: 23.175999 ms (FindLiveObjects: 0.528000 ms CreateObjectMapping: 0.207000 ms MarkObjects: 14.162001 ms  DeleteObjects: 8.279000 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 10051.
+Total: 15.619000 ms (FindLiveObjects: 0.671000 ms CreateObjectMapping: 0.229000 ms MarkObjects: 14.709000 ms  DeleteObjects: 0.010000 ms)
+
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.942000 ms
+CameraTrigger Entered
+CameraTrigger Scene Start
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 16404.
+Total: 20.972000 ms (FindLiveObjects: 1.575000 ms CreateObjectMapping: 0.258000 ms MarkObjects: 18.826000 ms  DeleteObjects: 0.313000 ms)
+
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 12.096000 ms
+
+Unloading 396 unused Assets to reduce memory usage. Loaded Objects now: 10052.
+Total: 19.218000 ms (FindLiveObjects: 0.701000 ms CreateObjectMapping: 0.197000 ms MarkObjects: 15.585999 ms  DeleteObjects: 2.732000 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 10052.
+Total: 16.463001 ms (FindLiveObjects: 0.957000 ms CreateObjectMapping: 0.175000 ms MarkObjects: 15.228000 ms  DeleteObjects: 0.103000 ms)
+
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.840000 ms
+CameraTrigger Entered
+CameraTrigger Scene Start
+
+Unloading 143 unused Assets to reduce memory usage. Loaded Objects now: 13780.
+Total: 19.484001 ms (FindLiveObjects: 0.788000 ms CreateObjectMapping: 0.379000 ms MarkObjects: 17.751001 ms  DeleteObjects: 0.566000 ms)
+
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.267000 ms
+
+Unloading 506 unused Assets to reduce memory usage. Loaded Objects now: 10054.
+Total: 24.649000 ms (FindLiveObjects: 0.706000 ms CreateObjectMapping: 0.191000 ms MarkObjects: 15.524000 ms  DeleteObjects: 8.227000 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 10054.
+Total: 16.998001 ms (FindLiveObjects: 0.746000 ms CreateObjectMapping: 0.153000 ms MarkObjects: 16.007000 ms  DeleteObjects: 0.092000 ms)
+
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.936000 ms
+CameraTrigger Entered
+CameraTrigger Scene Start
+
+Unloading 151 unused Assets to reduce memory usage. Loaded Objects now: 12148.
+Total: 18.492001 ms (FindLiveObjects: 0.584000 ms CreateObjectMapping: 0.265000 ms MarkObjects: 17.036001 ms  DeleteObjects: 0.606000 ms)
+
+CameraTrigger Entered
+CameraTrigger Scene already started
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.117000 ms
+
+Unloading 264 unused Assets to reduce memory usage. Loaded Objects now: 10054.
+Total: 17.011000 ms (FindLiveObjects: 0.541000 ms CreateObjectMapping: 0.256000 ms MarkObjects: 15.114000 ms  DeleteObjects: 1.099000 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 10054.
+Total: 14.721000 ms (FindLiveObjects: 0.582000 ms CreateObjectMapping: 0.142000 ms MarkObjects: 13.987000 ms  DeleteObjects: 0.010000 ms)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1510)
+
+The referenced script on this Behaviour (Game Object 'VLS Viewer') is missing!
+ 
+(Filename:  Line: 1656)
+
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.023000 ms
+CameraTrigger Entered
+CameraTrigger Scene Start
+
+Unloading 147 unused Assets to reduce memory usage. Loaded Objects now: 22335.
+Total: 25.302000 ms (FindLiveObjects: 1.815000 ms CreateObjectMapping: 0.388000 ms MarkObjects: 22.494999 ms  DeleteObjects: 0.602000 ms)
+
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 22.968000 ms
+
+Unloading 689 unused Assets to reduce memory usage. Loaded Objects now: 10056.
+Total: 18.976000 ms (FindLiveObjects: 0.967000 ms CreateObjectMapping: 0.263000 ms MarkObjects: 15.428000 ms  DeleteObjects: 2.316000 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 10057.
+Total: 15.641000 ms (FindLiveObjects: 0.864000 ms CreateObjectMapping: 0.184000 ms MarkObjects: 14.582000 ms  DeleteObjects: 0.011000 ms)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1510)
+
+The referenced script on this Behaviour (Game Object 'VLS Viewer') is missing!
+ 
+(Filename:  Line: 1656)
+
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.836000 ms
+CameraTrigger Entered
+CameraTrigger Scene Start
+
+Unloading 148 unused Assets to reduce memory usage. Loaded Objects now: 22323.
+Total: 23.855999 ms (FindLiveObjects: 1.887000 ms CreateObjectMapping: 0.313000 ms MarkObjects: 21.112001 ms  DeleteObjects: 0.544000 ms)
+
+CameraTrigger Entered
+CameraTrigger Scene already started
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 23.600000 ms
+
+Unloading 686 unused Assets to reduce memory usage. Loaded Objects now: 10056.
+Total: 19.638000 ms (FindLiveObjects: 2.215000 ms CreateObjectMapping: 0.156000 ms MarkObjects: 14.898999 ms  DeleteObjects: 2.367000 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 10057.
+Total: 15.144000 ms (FindLiveObjects: 0.642000 ms CreateObjectMapping: 0.143000 ms MarkObjects: 14.348001 ms  DeleteObjects: 0.010000 ms)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1510)
+
+The referenced script on this Behaviour (Game Object 'VLS Viewer') is missing!
+ 
+(Filename:  Line: 1656)
+
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.845000 ms
+CameraTrigger Entered
+CameraTrigger Scene Start
+
+Unloading 148 unused Assets to reduce memory usage. Loaded Objects now: 22323.
+Total: 24.560001 ms (FindLiveObjects: 2.127000 ms CreateObjectMapping: 0.259000 ms MarkObjects: 21.632999 ms  DeleteObjects: 0.541000 ms)
+
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 23.348000 ms
+
+Unloading 686 unused Assets to reduce memory usage. Loaded Objects now: 10056.
+Total: 19.813999 ms (FindLiveObjects: 2.114000 ms CreateObjectMapping: 0.179000 ms MarkObjects: 15.124000 ms  DeleteObjects: 2.397000 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 10057.
+Total: 15.290000 ms (FindLiveObjects: 0.715000 ms CreateObjectMapping: 0.144000 ms MarkObjects: 14.419000 ms  DeleteObjects: 0.012000 ms)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1510)
+
+The referenced script on this Behaviour (Game Object 'VLS Viewer') is missing!
+ 
+(Filename:  Line: 1656)
+
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.838000 ms
+CameraTrigger Entered
+CameraTrigger Scene Start
+
+Unloading 148 unused Assets to reduce memory usage. Loaded Objects now: 22323.
+Total: 23.768000 ms (FindLiveObjects: 1.629000 ms CreateObjectMapping: 0.333000 ms MarkObjects: 21.283998 ms  DeleteObjects: 0.521000 ms)
+
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 23.090000 ms
+
+Unloading 686 unused Assets to reduce memory usage. Loaded Objects now: 10077.
+Total: 21.338999 ms (FindLiveObjects: 3.007000 ms CreateObjectMapping: 0.172000 ms MarkObjects: 15.837001 ms  DeleteObjects: 2.320000 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 10078.
+Total: 15.177999 ms (FindLiveObjects: 0.693000 ms CreateObjectMapping: 0.197000 ms MarkObjects: 14.275001 ms  DeleteObjects: 0.012000 ms)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1510)
+
+The referenced script on this Behaviour (Game Object 'VLS Viewer') is missing!
+ 
+(Filename:  Line: 1656)
+
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.860000 ms
+CameraTrigger Entered
+CameraTrigger Scene Start
+
+Unloading 148 unused Assets to reduce memory usage. Loaded Objects now: 22344.
+Total: 25.837000 ms (FindLiveObjects: 1.755000 ms CreateObjectMapping: 0.553000 ms MarkObjects: 22.939001 ms  DeleteObjects: 0.589000 ms)
+
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+HIT
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+HIT
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+HIT
+HIT
+HIT
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 25.617001 ms
+
+Unloading 688 unused Assets to reduce memory usage. Loaded Objects now: 10077.
+Total: 20.355999 ms (FindLiveObjects: 0.775000 ms CreateObjectMapping: 0.283000 ms MarkObjects: 16.751001 ms  DeleteObjects: 2.547000 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 10077.
+Total: 15.322000 ms (FindLiveObjects: 0.689000 ms CreateObjectMapping: 0.198000 ms MarkObjects: 14.422999 ms  DeleteObjects: 0.010000 ms)
+
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.843000 ms
+CameraTrigger Entered
+CameraTrigger Scene Start
+
+Unloading 107 unused Assets to reduce memory usage. Loaded Objects now: 29017.
+Total: 30.592001 ms (FindLiveObjects: 2.426000 ms CreateObjectMapping: 1.306000 ms MarkObjects: 26.397999 ms  DeleteObjects: 0.462000 ms)
+
+HIT
+CameraTrigger Entered
+CameraTrigger Scene already started
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+CameraTrigger Entered
+CameraTrigger Scene already started
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+CameraTrigger Entered
+CameraTrigger Scene already started
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+CameraTrigger Entered
+CameraTrigger Scene already started
+HIT
+HIT
+HIT
+HIT
+CameraTrigger Entered
+CameraTrigger Scene already started
+HIT
+HIT
+CameraTrigger Entered
+CameraTrigger Scene already started
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+CameraTrigger Entered
+CameraTrigger Scene already started
+CheckPoint
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 38.837997 ms
+
+Unloading 929 unused Assets to reduce memory usage. Loaded Objects now: 10095.
+Total: 20.327000 ms (FindLiveObjects: 1.608000 ms CreateObjectMapping: 0.288000 ms MarkObjects: 15.051000 ms  DeleteObjects: 3.380000 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 10096.
+Total: 14.934999 ms (FindLiveObjects: 0.691000 ms CreateObjectMapping: 0.212000 ms MarkObjects: 14.020000 ms  DeleteObjects: 0.011000 ms)
+
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.867000 ms
+CheckPoint
+CameraTrigger Entered
+CameraTrigger Scene Start
+
+Unloading 107 unused Assets to reduce memory usage. Loaded Objects now: 29033.
+Total: 28.532000 ms (FindLiveObjects: 2.089000 ms CreateObjectMapping: 0.432000 ms MarkObjects: 25.570999 ms  DeleteObjects: 0.439000 ms)
+
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+HIT
+CameraTrigger Entered
+CameraTrigger Scene already started
+HIT
+CameraTrigger Entered
+CameraTrigger Scene already started
+HIT
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 41.384998 ms
+
+Unloading 929 unused Assets to reduce memory usage. Loaded Objects now: 10127.
+Total: 21.799000 ms (FindLiveObjects: 2.570000 ms CreateObjectMapping: 0.180000 ms MarkObjects: 15.537999 ms  DeleteObjects: 3.509000 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 10128.
+Total: 15.908999 ms (FindLiveObjects: 0.698000 ms CreateObjectMapping: 0.229000 ms MarkObjects: 14.970000 ms  DeleteObjects: 0.011000 ms)
+
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.873000 ms
+CameraTrigger Entered
+CameraTrigger Scene Start
+CheckPoint
+
+Unloading 107 unused Assets to reduce memory usage. Loaded Objects now: 29065.
+Total: 29.583000 ms (FindLiveObjects: 2.451000 ms CreateObjectMapping: 0.529000 ms MarkObjects: 26.128000 ms  DeleteObjects: 0.475000 ms)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1510)
+
+The referenced script on this Behaviour (Game Object 'ButtonAchievement') is missing!
+ 
+(Filename:  Line: 1656)
+
+A script behaviour (probably MainMenuManager?) has a different serialization layout when loading. (Read 1024 bytes but expected 1036 bytes)
+Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 42.509998 ms
+
+Unloading 3687 unused Assets to reduce memory usage. Loaded Objects now: 2050.
+Total: 26.078001 ms (FindLiveObjects: 0.310000 ms CreateObjectMapping: 0.164000 ms MarkObjects: 9.699000 ms  DeleteObjects: 15.905001 ms)
+
+Font size and style overrides are only supported for dynamic fonts. Font 'NotoSans-Regular' is not dynamic.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Font size and style overrides are only supported for dynamic fonts. Font 'NotoSans-Regular' is not dynamic.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Font size and style overrides are only supported for dynamic fonts. Font 'NotoSans-Regular' is not dynamic.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Font size and style overrides are only supported for dynamic fonts. Font 'NotoSans-Regular' is not dynamic.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+requesting resize 1920 x 1080
+Using native desktop resolution 1920 x 1080
+requesting fullscreen 1920 x 1080 at 60 Hz
+Desktop is 1920 x 1080 @ 60 Hz
+Setting up 4 worker threads for Enlighten.
+  Thread -> id: 7f5f433836c0 -> priority: 1 
+  Thread -> id: 7f5f42b826c0 -> priority: 1 
+  Thread -> id: 7f5f423816c0 -> priority: 1 
+  Thread -> id: 7f5f41b806c0 -> priority: 1 
