@@ -367,12 +367,12 @@ layout {
     focus-ring {
         off
         width 1.5
-        active-color "#689d6a"
+        active-color "#fe8019"
         inactive-color "#282828"
     }
     border {
         width 1.5
-        active-color "#689d6a"
+        active-color "#fe8019"
         inactive-color "#282828"
         urgent-color "#9b0000"
     }
