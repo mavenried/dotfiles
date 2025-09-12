@@ -22,5 +22,9 @@
   "hyprland": {
     "template": "/mnt/DATA/scripts/templates/hyprland.conf",
     "target": "/mnt/DATA/dots/hypr/accent.conf"
+  },
+  "dunst": {
+    "template": "/mnt/DATA/scripts/templates/dunst",
+    "target": "/mnt/DATA/dots/dunst/dunstrc"
   }
 }
