@@ -13,8 +13,8 @@ Direct3D:
     VRAM:     2048 MB
     Driver:   9.21.10.1280
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.538 seconds
-- Finished resetting the current domain, in  0.008 seconds
+- Loaded All Assemblies, in  0.227 seconds
+- Finished resetting the current domain, in  0.003 seconds
 [Physics::Module] Selected backend.
 [Physics::Module] Name: PhysX
 [Physics::Module] Id: 0xf2b8ea05
@@ -27,253 +27,208 @@ Dedicated video D3D11 device creation failed (error: 0x80004002). This device is
 <RI> Input initialized.
 d3d11: QueryInterface(IDXGISwapChain2) failed (80004002).
 <RI> Initialized touch support.
-UnloadTime: 0.744000 ms
+UnloadTime: 0.441200 ms
 Steam initializing
 Setting breakpad minidump AppID = 1030300
 SteamInternal_SetMinidumpSteamID:  Caching Steam ID:  76561198185164976 [API loaded no]
 Steam failed to initialize
 Selected online subsystem SteamOnlineSubsystem
 Unloading 5 Unused Serialized files (Serialized files now loaded: 527)
-UnloadTime: 2.431700 ms
+UnloadTime: 1.316600 ms
 Discovered supported languages: DE, EN, ES, FR, IT, JA, KO, PT, RU, ZH
 Loaded saved language code 'EN'
 Restored language code 'EN'
 Couldn't find a Game Manager, make sure one exists in the scene.
 Couldn't find GameCameras, make sure one exists in the scene.
 Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 6108.
-Total: 6.622600 ms (FindLiveObjects: 0.551200 ms CreateObjectMapping: 0.289700 ms MarkObjects: 5.730000 ms  DeleteObjects: 0.050700 ms)
+Total: 3.767500 ms (FindLiveObjects: 0.268900 ms CreateObjectMapping: 0.143200 ms MarkObjects: 3.329500 ms  DeleteObjects: 0.025300 ms)
 
 Unloading 2 Unused Serialized files (Serialized files now loaded: 527)
 Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 13326.
-Total: 12.436000 ms (FindLiveObjects: 0.905300 ms CreateObjectMapping: 0.818000 ms MarkObjects: 10.607900 ms  DeleteObjects: 0.103200 ms)
+Total: 18.966000 ms (FindLiveObjects: 0.855300 ms CreateObjectMapping: 1.404500 ms MarkObjects: 16.488200 ms  DeleteObjects: 0.216700 ms)
 
 Unloading 1 Unused Serialized files (Serialized files now loaded: 579)
 Couldn't find GameCameras, make sure one exists in the scene.
 Couldn't find a Game Manager, make sure one exists in the scene.
-UnloadTime: 12.910100 ms
+UnloadTime: 7.457200 ms
 Loaded saved language code 'EN'
 Restored language code 'EN'
 Unloading 73 unused Assets to reduce memory usage. Loaded Objects now: 66300.
-Total: 36.245400 ms (FindLiveObjects: 4.891200 ms CreateObjectMapping: 4.186100 ms MarkObjects: 26.490000 ms  DeleteObjects: 0.676600 ms)
+Total: 25.757900 ms (FindLiveObjects: 3.489400 ms CreateObjectMapping: 3.049000 ms MarkObjects: 18.529400 ms  DeleteObjects: 0.688800 ms)
+
+ERROR: Can't load achievements if they haven't been fetched yet!
+NullReferenceException: Object reference not set to an instance of an object
+  at PolyAndCode.UI.VerticalRecyclingSystem.CreateCellPool () [0x000e5] in <fd56c045f07f4558870b58a8c3e7932c>:0 
+  at PolyAndCode.UI.VerticalRecyclingSystem+<InitCoroutine>d__25.MoveNext () [0x0005c] in <fd56c045f07f4558870b58a8c3e7932c>:0 
+  at UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) [0x00026] in <efee8e9be36d4dfe98a6cfef804f28b8>:0 
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PolyAndCode.UI.RecyclableScrollRect.GetContentSize () [0x0000c] in <fd56c045f07f4558870b58a8c3e7932c>:0 
+  at UnityEngine.UI.MenuScroller+<ScrollLerped>d__18.MoveNext () [0x0002c] in <0b0a471467b440beb3f68fe57e78581a>:0 
+  at UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) [0x00026] in <efee8e9be36d4dfe98a6cfef804f28b8>:0 
+UnityEngine.MonoBehaviour:StartCoroutineManaged2_Injected(IntPtr, IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutineManaged2(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+UnityEngine.UI.MenuScroller:DoInput(Int32, Boolean)
+UnityEngine.UI.MenuScroller:Update()
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PolyAndCode.UI.RecyclableScrollRect.GetContentSize () [0x0000c] in <fd56c045f07f4558870b58a8c3e7932c>:0 
+  at UnityEngine.UI.MenuScroller+<ScrollLerped>d__18.MoveNext () [0x0002c] in <0b0a471467b440beb3f68fe57e78581a>:0 
+  at UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) [0x00026] in <efee8e9be36d4dfe98a6cfef804f28b8>:0 
+UnityEngine.MonoBehaviour:StartCoroutineManaged2_Injected(IntPtr, IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutineManaged2(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+UnityEngine.UI.MenuScroller:DoInput(Int32, Boolean)
+UnityEngine.UI.MenuScroller:Update()
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PolyAndCode.UI.RecyclableScrollRect.GetContentSize () [0x0000c] in <fd56c045f07f4558870b58a8c3e7932c>:0 
+  at UnityEngine.UI.MenuScroller+<ScrollLerped>d__18.MoveNext () [0x0002c] in <0b0a471467b440beb3f68fe57e78581a>:0 
+  at UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) [0x00026] in <efee8e9be36d4dfe98a6cfef804f28b8>:0 
+UnityEngine.MonoBehaviour:StartCoroutineManaged2_Injected(IntPtr, IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutineManaged2(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+UnityEngine.UI.MenuScroller:DoInput(Int32, Boolean)
+UnityEngine.UI.MenuScroller:Update()
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PolyAndCode.UI.RecyclableScrollRect.GetContentSize () [0x0000c] in <fd56c045f07f4558870b58a8c3e7932c>:0 
+  at UnityEngine.UI.MenuScroller+<ScrollLerped>d__18.MoveNext () [0x0002c] in <0b0a471467b440beb3f68fe57e78581a>:0 
+  at UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) [0x00026] in <efee8e9be36d4dfe98a6cfef804f28b8>:0 
+UnityEngine.MonoBehaviour:StartCoroutineManaged2_Injected(IntPtr, IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutineManaged2(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+UnityEngine.UI.MenuScroller:DoInput(Int32, Boolean)
+UnityEngine.UI.MenuScroller:Update()
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PolyAndCode.UI.RecyclableScrollRect.GetContentSize () [0x0000c] in <fd56c045f07f4558870b58a8c3e7932c>:0 
+  at UnityEngine.UI.MenuScroller+<ScrollLerped>d__18.MoveNext () [0x0002c] in <0b0a471467b440beb3f68fe57e78581a>:0 
+  at UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) [0x00026] in <efee8e9be36d4dfe98a6cfef804f28b8>:0 
+UnityEngine.MonoBehaviour:StartCoroutineManaged2_Injected(IntPtr, IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutineManaged2(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+UnityEngine.UI.MenuScroller:DoInput(Int32, Boolean)
+UnityEngine.UI.MenuScroller:Update()
 
 MenuButton missing flashEffect!
 Making UI menu lean.
 Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
 Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
 Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
-Unloading 3 Unused Serialized files (Serialized files now loaded: 640)
-Unloading 112 unused Assets to reduce memory usage. Loaded Objects now: 132331.
-Total: 71.603600 ms (FindLiveObjects: 10.216300 ms CreateObjectMapping: 6.857800 ms MarkObjects: 52.974500 ms  DeleteObjects: 1.553300 ms)
+Unloading 3 Unused Serialized files (Serialized files now loaded: 608)
+Unloading 111 unused Assets to reduce memory usage. Loaded Objects now: 121926.
+Total: 89.983400 ms (FindLiveObjects: 27.880400 ms CreateObjectMapping: 16.867000 ms MarkObjects: 44.433900 ms  DeleteObjects: 0.800900 ms)
 
 Converting Vertex Colors from Color32 to Color.
 Converting Vertex Colors from Color32 to Color.
 Converting Vertex Colors from Color32 to Color.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 661)
-Unloading 4734 unused Assets to reduce memory usage. Loaded Objects now: 148274.
-Total: 133.042600 ms (FindLiveObjects: 21.164500 ms CreateObjectMapping: 9.362000 ms MarkObjects: 83.709300 ms  DeleteObjects: 18.804900 ms)
-
-Unloading 1 Unused Serialized files (Serialized files now loaded: 661)
-Unloading 2193 unused Assets to reduce memory usage. Loaded Objects now: 148455.
-Total: 118.943300 ms (FindLiveObjects: 21.880700 ms CreateObjectMapping: 10.143800 ms MarkObjects: 73.271400 ms  DeleteObjects: 13.645800 ms)
-
-Unloading 1 Unused Serialized files (Serialized files now loaded: 661)
-Unloading 2186 unused Assets to reduce memory usage. Loaded Objects now: 148480.
-Total: 160.935300 ms (FindLiveObjects: 14.472600 ms CreateObjectMapping: 11.204800 ms MarkObjects: 119.560800 ms  DeleteObjects: 15.695600 ms)
-
-Unloading 1 Unused Serialized files (Serialized files now loaded: 661)
-Unloading 2184 unused Assets to reduce memory usage. Loaded Objects now: 148501.
-Total: 169.496200 ms (FindLiveObjects: 13.002600 ms CreateObjectMapping: 6.593400 ms MarkObjects: 132.329200 ms  DeleteObjects: 17.569300 ms)
-
-Could Not Create Action: : Behaviour: Sing:  (Maybe the script was removed?)
-Could Not Create Action: : Behaviour: Sing:  (Maybe the script was removed?)
-Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
-Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
-Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
-Cannot use 'linearVelocity' on a static body.
-Could Not Create Action: : Behaviour: Sing:  (Maybe the script was removed?)
-Could Not Create Action: : Behaviour: Sing:  (Maybe the script was removed?)
-Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
-Reloading same scene! Destroying GuidComponents to prevent collisions...
-Unloading 1 Unused Serialized files (Serialized files now loaded: 608)
-Unloading 2590 unused Assets to reduce memory usage. Loaded Objects now: 136224.
-Total: 202.456600 ms (FindLiveObjects: 28.284700 ms CreateObjectMapping: 11.901200 ms MarkObjects: 116.296900 ms  DeleteObjects: 45.971900 ms)
-
-Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
-Could Not Create Action: : Behaviour: Sing:  (Maybe the script was removed?)
-Could Not Create Action: : Behaviour: Sing:  (Maybe the script was removed?)
 Unloading 1 Unused Serialized files (Serialized files now loaded: 613)
-Unloading 582 unused Assets to reduce memory usage. Loaded Objects now: 136291.
-Total: 106.607700 ms (FindLiveObjects: 13.476400 ms CreateObjectMapping: 7.046400 ms MarkObjects: 78.845800 ms  DeleteObjects: 7.237600 ms)
+Unloading 3060 unused Assets to reduce memory usage. Loaded Objects now: 138448.
+Total: 151.710100 ms (FindLiveObjects: 10.209500 ms CreateObjectMapping: 5.090300 ms MarkObjects: 123.284700 ms  DeleteObjects: 13.124300 ms)
 
-Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
-Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
-Cannot use 'linearVelocity' on a static body.
-Unable to retrieve achievement state for FIRST_TOOL, because Steam is not initialized
-Unable to unlock achievement FIRST_TOOL, because Steam is not initialized
-Unable to update achievement progress for ALL_TOOLS, because Steam is not initialized
-Could Not Create Action: : Behaviour: Sing:  (Maybe the script was removed?)
-Could Not Create Action: : Behaviour: Sing:  (Maybe the script was removed?)
 Unloading 1 Unused Serialized files (Serialized files now loaded: 613)
-Unloading 1073 unused Assets to reduce memory usage. Loaded Objects now: 136315.
-Total: 129.193200 ms (FindLiveObjects: 20.762700 ms CreateObjectMapping: 12.533600 ms MarkObjects: 85.708900 ms  DeleteObjects: 10.185800 ms)
+Unloading 514 unused Assets to reduce memory usage. Loaded Objects now: 138455.
+Total: 120.428400 ms (FindLiveObjects: 17.092100 ms CreateObjectMapping: 7.376300 ms MarkObjects: 91.293100 ms  DeleteObjects: 4.665300 ms)
 
-Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
-Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
-Unloading 1 Unused Serialized files (Serialized files now loaded: 598)
-Unloading 2817 unused Assets to reduce memory usage. Loaded Objects now: 129301.
-Total: 160.200700 ms (FindLiveObjects: 13.069900 ms CreateObjectMapping: 7.156500 ms MarkObjects: 120.594900 ms  DeleteObjects: 19.377300 ms)
-
-Could Not Create Action: : Behaviour: Sing:  (Maybe the script was removed?)
-Could Not Create Action: : Behaviour: Sing:  (Maybe the script was removed?)
-Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
-Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
-Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
-Could Not Create Action: : Behaviour: Sing:  (Maybe the script was removed?)
-Could Not Create Action: : Behaviour: Sing:  (Maybe the script was removed?)
 Unloading 1 Unused Serialized files (Serialized files now loaded: 613)
-Unloading 1353 unused Assets to reduce memory usage. Loaded Objects now: 136296.
-Total: 113.794300 ms (FindLiveObjects: 13.180200 ms CreateObjectMapping: 6.165400 ms MarkObjects: 82.326400 ms  DeleteObjects: 12.120700 ms)
+Unloading 514 unused Assets to reduce memory usage. Loaded Objects now: 138461.
+Total: 112.586700 ms (FindLiveObjects: 10.622400 ms CreateObjectMapping: 4.885400 ms MarkObjects: 92.506500 ms  DeleteObjects: 4.570900 ms)
 
-Could Not Create Action: : Behaviour: Sing:  (Maybe the script was removed?)
-Could Not Create Action: : Behaviour: Sing:  (Maybe the script was removed?)
 Unloading 1 Unused Serialized files (Serialized files now loaded: 613)
-Unloading 588 unused Assets to reduce memory usage. Loaded Objects now: 136304.
-Total: 104.932500 ms (FindLiveObjects: 13.987000 ms CreateObjectMapping: 6.987500 ms MarkObjects: 76.548900 ms  DeleteObjects: 7.407300 ms)
+Unloading 514 unused Assets to reduce memory usage. Loaded Objects now: 138470.
+Total: 91.570500 ms (FindLiveObjects: 12.234400 ms CreateObjectMapping: 5.113200 ms MarkObjects: 71.243100 ms  DeleteObjects: 2.978800 ms)
 
-Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
-Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
-Unable to update achievement progress for ALL_MAPS, because Steam is not initialized
-Can not play a disabled audio source
-Could Not Create Action: : Behaviour: Sing:  (Maybe the script was removed?)
-Could Not Create Action: : Behaviour: Sing:  (Maybe the script was removed?)
-Unloading 1 Unused Serialized files (Serialized files now loaded: 631)
-Unloading 3087 unused Assets to reduce memory usage. Loaded Objects now: 136618.
-Total: 179.615800 ms (FindLiveObjects: 19.902900 ms CreateObjectMapping: 12.721500 ms MarkObjects: 113.236400 ms  DeleteObjects: 33.753500 ms)
+Unloading 1 Unused Serialized files (Serialized files now loaded: 613)
+Unloading 514 unused Assets to reduce memory usage. Loaded Objects now: 138473.
+Total: 108.424100 ms (FindLiveObjects: 13.695900 ms CreateObjectMapping: 6.958200 ms MarkObjects: 84.016200 ms  DeleteObjects: 3.752200 ms)
 
-Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
-Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
-Could Not Create Action: : Behaviour: Sing:  (Maybe the script was removed?)
-Could Not Create Action: : Behaviour: Sing:  (Maybe the script was removed?)
-Unloading 1 Unused Serialized files (Serialized files now loaded: 603)
-Unloading 2969 unused Assets to reduce memory usage. Loaded Objects now: 136516.
-Total: 183.897100 ms (FindLiveObjects: 14.013000 ms CreateObjectMapping: 7.736300 ms MarkObjects: 123.100700 ms  DeleteObjects: 39.045300 ms)
+Unloading 1 Unused Serialized files (Serialized files now loaded: 613)
+Unloading 514 unused Assets to reduce memory usage. Loaded Objects now: 138480.
+Total: 152.387900 ms (FindLiveObjects: 10.889400 ms CreateObjectMapping: 6.705700 ms MarkObjects: 130.719500 ms  DeleteObjects: 4.072000 ms)
 
-Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
-Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
-Could Not Create Action: : Behaviour: Sing:  (Maybe the script was removed?)
-Could Not Create Action: : Behaviour: Sing:  (Maybe the script was removed?)
-Unloading 1 Unused Serialized files (Serialized files now loaded: 631)
-Unloading 3071 unused Assets to reduce memory usage. Loaded Objects now: 136717.
-Total: 171.774200 ms (FindLiveObjects: 17.168300 ms CreateObjectMapping: 10.105600 ms MarkObjects: 109.893400 ms  DeleteObjects: 34.605500 ms)
+Unloading 1 Unused Serialized files (Serialized files now loaded: 613)
+Unloading 514 unused Assets to reduce memory usage. Loaded Objects now: 138486.
+Total: 134.189600 ms (FindLiveObjects: 11.543100 ms CreateObjectMapping: 6.332200 ms MarkObjects: 112.023400 ms  DeleteObjects: 4.289200 ms)
 
-Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
-Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
-Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
-Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
-Unloading 1 Unused Serialized files (Serialized files now loaded: 597)
+Unloading 1 Unused Serialized files (Serialized files now loaded: 613)
+Unloading 514 unused Assets to reduce memory usage. Loaded Objects now: 138495.
+Total: 74.282900 ms (FindLiveObjects: 8.203000 ms CreateObjectMapping: 4.067700 ms MarkObjects: 58.942300 ms  DeleteObjects: 3.069100 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 613)
+Unloading 514 unused Assets to reduce memory usage. Loaded Objects now: 138498.
+Total: 132.061000 ms (FindLiveObjects: 25.590300 ms CreateObjectMapping: 7.075800 ms MarkObjects: 95.595100 ms  DeleteObjects: 3.798000 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 613)
+Unloading 514 unused Assets to reduce memory usage. Loaded Objects now: 138507.
+Total: 96.106300 ms (FindLiveObjects: 8.613400 ms CreateObjectMapping: 4.035600 ms MarkObjects: 80.217100 ms  DeleteObjects: 3.239200 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 613)
+Unloading 514 unused Assets to reduce memory usage. Loaded Objects now: 138511.
+Total: 131.270000 ms (FindLiveObjects: 9.941200 ms CreateObjectMapping: 5.284200 ms MarkObjects: 110.287800 ms  DeleteObjects: 5.755300 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 613)
+Unloading 514 unused Assets to reduce memory usage. Loaded Objects now: 138517.
+Total: 132.090500 ms (FindLiveObjects: 10.631700 ms CreateObjectMapping: 4.949400 ms MarkObjects: 112.788300 ms  DeleteObjects: 3.720000 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 613)
+Unloading 514 unused Assets to reduce memory usage. Loaded Objects now: 138523.
+Total: 98.795700 ms (FindLiveObjects: 12.001300 ms CreateObjectMapping: 5.430000 ms MarkObjects: 78.164300 ms  DeleteObjects: 3.199200 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 624)
+Unloading 1632 unused Assets to reduce memory usage. Loaded Objects now: 138587.
+Total: 97.688900 ms (FindLiveObjects: 10.179200 ms CreateObjectMapping: 5.021000 ms MarkObjects: 70.105200 ms  DeleteObjects: 12.381700 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 669)
+Unloading 4351 unused Assets to reduce memory usage. Loaded Objects now: 149379.
+Total: 175.972200 ms (FindLiveObjects: 12.340900 ms CreateObjectMapping: 19.181300 ms MarkObjects: 122.114600 ms  DeleteObjects: 22.334000 ms)
+
+Could Not Create Action: : Behaviour: Sing:  (Maybe the script was removed?)
+Could Not Create Action: : Behaviour: Sing:  (Maybe the script was removed?)
+Could Not Create Action: : Behaviour: Sing:  (Maybe the script was removed?)
+Could Not Create Action: : Behaviour: Sing:  (Maybe the script was removed?)
+Unloading 1 Unused Serialized files (Serialized files now loaded: 614)
+Unloading 2656 unused Assets to reduce memory usage. Loaded Objects now: 136847.
+Total: 146.001800 ms (FindLiveObjects: 10.359200 ms CreateObjectMapping: 5.062800 ms MarkObjects: 83.603200 ms  DeleteObjects: 46.975300 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 610)
 Attempting to get `time` on an audio source that has a resource that is not a clip will always return 0.
 Attempting to get `time` on an audio source that has a resource that is not a clip will always return 0.
-UnloadTime: 11.822900 ms
-Unloading 6313 unused Assets to reduce memory usage. Loaded Objects now: 121635.
-Total: 150.388500 ms (FindLiveObjects: 22.637800 ms CreateObjectMapping: 12.390600 ms MarkObjects: 79.410100 ms  DeleteObjects: 35.948400 ms)
+Attempting to get `time` on an audio source that has a resource that is not a clip will always return 0.
+Attempting to get `time` on an audio source that has a resource that is not a clip will always return 0.
+UnloadTime: 10.585900 ms
+Unloading 4694 unused Assets to reduce memory usage. Loaded Objects now: 121806.
+Total: 138.997100 ms (FindLiveObjects: 9.011000 ms CreateObjectMapping: 5.423400 ms MarkObjects: 108.643100 ms  DeleteObjects: 15.918300 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 525)
-Unloading 7709 unused Assets to reduce memory usage. Loaded Objects now: 26098.
-Total: 120.453800 ms (FindLiveObjects: 7.186000 ms CreateObjectMapping: 7.225400 ms MarkObjects: 88.832400 ms  DeleteObjects: 17.208300 ms)
+Unloading 7852 unused Assets to reduce memory usage. Loaded Objects now: 25704.
+Total: 72.175500 ms (FindLiveObjects: 2.009200 ms CreateObjectMapping: 2.385800 ms MarkObjects: 56.502200 ms  DeleteObjects: 11.277200 ms)
 
 Unloading 1 Unused Serialized files (Serialized files now loaded: 577)
-UnloadTime: 1.170500 ms
+UnloadTime: 2.723600 ms
 Loaded saved language code 'EN'
 Restored language code 'EN'
-Unloading 311 unused Assets to reduce memory usage. Loaded Objects now: 72043.
-Total: 72.604000 ms (FindLiveObjects: 4.985700 ms CreateObjectMapping: 3.932300 ms MarkObjects: 62.116000 ms  DeleteObjects: 1.568700 ms)
+Unloading 56 unused Assets to reduce memory usage. Loaded Objects now: 71897.
+Total: 75.324700 ms (FindLiveObjects: 4.926500 ms CreateObjectMapping: 4.181500 ms MarkObjects: 65.982000 ms  DeleteObjects: 0.233500 ms)
 
 Unloading 1 Unused Serialized files (Serialized files now loaded: 575)
-Unloading 5609 unused Assets to reduce memory usage. Loaded Objects now: 66418.
-Total: 56.117600 ms (FindLiveObjects: 4.562300 ms CreateObjectMapping: 3.802400 ms MarkObjects: 35.685700 ms  DeleteObjects: 12.066000 ms)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 71898.
+Total: 115.101600 ms (FindLiveObjects: 4.225800 ms CreateObjectMapping: 3.994600 ms MarkObjects: 106.665200 ms  DeleteObjects: 0.215000 ms)
 
-MenuButton missing flashEffect!
-Making UI menu lean.
-Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
-Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
-Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
-Could Not Create Action: : Behaviour: Sing:  (Maybe the script was removed?)
-Could Not Create Action: : Behaviour: Sing:  (Maybe the script was removed?)
-Unloading 1 Unused Serialized files (Serialized files now loaded: 595)
-Unloading 118 unused Assets to reduce memory usage. Loaded Objects now: 119177.
-Total: 72.456200 ms (FindLiveObjects: 8.437700 ms CreateObjectMapping: 5.190500 ms MarkObjects: 57.778000 ms  DeleteObjects: 1.048800 ms)
-
-Converting Vertex Colors from Color32 to Color.
-Converting Vertex Colors from Color32 to Color.
-Converting Vertex Colors from Color32 to Color.
-Could Not Create Action: : Behaviour: Sing:  (Maybe the script was removed?)
-Could Not Create Action: : Behaviour: Sing:  (Maybe the script was removed?)
-Reloading same scene! Destroying GuidComponents to prevent collisions...
-Unloading 1 Unused Serialized files (Serialized files now loaded: 595)
-Unloading 1087 unused Assets to reduce memory usage. Loaded Objects now: 136640.
-Total: 107.218000 ms (FindLiveObjects: 13.822100 ms CreateObjectMapping: 7.413800 ms MarkObjects: 83.642200 ms  DeleteObjects: 2.338500 ms)
-
-Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
-Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
-Could Not Create Action: : Behaviour: Sing:  (Maybe the script was removed?)
-Could Not Create Action: : Behaviour: Sing:  (Maybe the script was removed?)
-Unloading 1 Unused Serialized files (Serialized files now loaded: 603)
-Unloading 889 unused Assets to reduce memory usage. Loaded Objects now: 136717.
-Total: 127.636200 ms (FindLiveObjects: 10.065900 ms CreateObjectMapping: 5.582700 ms MarkObjects: 106.904900 ms  DeleteObjects: 5.081500 ms)
-
-Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
-Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
-Could Not Create Action: : Behaviour: Sing:  (Maybe the script was removed?)
-Could Not Create Action: : Behaviour: Sing:  (Maybe the script was removed?)
-Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
-Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
-Could Not Create Action: : Behaviour: Sing:  (Maybe the script was removed?)
-Could Not Create Action: : Behaviour: Sing:  (Maybe the script was removed?)
-Unloading 1 Unused Serialized files (Serialized files now loaded: 631)
-Unloading 3085 unused Assets to reduce memory usage. Loaded Objects now: 136989.
-Total: 160.644600 ms (FindLiveObjects: 23.772700 ms CreateObjectMapping: 7.823400 ms MarkObjects: 98.025000 ms  DeleteObjects: 31.021900 ms)
-
-Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
-Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
-Unable to update achievement progress for ALL_MAPS, because Steam is not initialized
-Unloading 1 Unused Serialized files (Serialized files now loaded: 638)
-Unloading 5031 unused Assets to reduce memory usage. Loaded Objects now: 139041.
-Total: 128.681300 ms (FindLiveObjects: 10.707300 ms CreateObjectMapping: 5.767700 ms MarkObjects: 59.395100 ms  DeleteObjects: 52.809700 ms)
-
-Unloading 1 Unused Serialized files (Serialized files now loaded: 638)
-Unloading 1625 unused Assets to reduce memory usage. Loaded Objects now: 138983.
-Total: 100.177800 ms (FindLiveObjects: 17.522100 ms CreateObjectMapping: 7.445400 ms MarkObjects: 64.742000 ms  DeleteObjects: 10.466800 ms)
-
-Unable to retrieve achievement state for FIRST_TOOL, because Steam is not initialized
-Unable to update achievement progress for ALL_TOOLS, because Steam is not initialized
-Unable to retrieve achievement state for FIRST_SILK_SKILL, because Steam is not initialized
-Unable to unlock achievement FIRST_SILK_SKILL, because Steam is not initialized
-Unable to update achievement progress for ALL_SILK_SKILLS, because Steam is not initialized
-Cannot use 'linearVelocity' on a static body.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 582)
-Attempting to get `time` on an audio source that has a resource that is not a clip will always return 0.
-Attempting to get `time` on an audio source that has a resource that is not a clip will always return 0.
-Attempting to get `time` on an audio source that has a resource that is not a clip will always return 0.
-Attempting to get `time` on an audio source that has a resource that is not a clip will always return 0.
-UnloadTime: 15.508300 ms
-Unloading 9451 unused Assets to reduce memory usage. Loaded Objects now: 122703.
-Total: 177.796300 ms (FindLiveObjects: 26.021300 ms CreateObjectMapping: 13.415600 ms MarkObjects: 78.923200 ms  DeleteObjects: 59.434400 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 525)
-Unloading 7915 unused Assets to reduce memory usage. Loaded Objects now: 26291.
-Total: 62.733600 ms (FindLiveObjects: 2.021900 ms CreateObjectMapping: 1.983900 ms MarkObjects: 43.349500 ms  DeleteObjects: 15.377100 ms)
-
-Unloading 1 Unused Serialized files (Serialized files now loaded: 577)
-UnloadTime: 0.463200 ms
-Loaded saved language code 'EN'
-Restored language code 'EN'
-Unloading 56 unused Assets to reduce memory usage. Loaded Objects now: 72489.
-Total: 77.002500 ms (FindLiveObjects: 5.541400 ms CreateObjectMapping: 4.250600 ms MarkObjects: 66.966700 ms  DeleteObjects: 0.242200 ms)
-
-Unloading 1 Unused Serialized files (Serialized files now loaded: 575)
-Unloading 5609 unused Assets to reduce memory usage. Loaded Objects now: 66864.
-Total: 87.614300 ms (FindLiveObjects: 4.937900 ms CreateObjectMapping: 3.997500 ms MarkObjects: 59.977500 ms  DeleteObjects: 18.699200 ms)
-
+Couldn't find a Game Manager, make sure one exists in the scene.
+Couldn't find a Game Manager, make sure one exists in the scene.
+Couldn't find a Game Manager, make sure one exists in the scene.
+Couldn't find a Game Manager, make sure one exists in the scene.
+Couldn't find a Game Manager, make sure one exists in the scene.
+Couldn't find a Game Manager, make sure one exists in the scene.
+Couldn't find a Game Manager, make sure one exists in the scene.
+Couldn't find a Game Manager, make sure one exists in the scene.
+Couldn't find a Game Manager, make sure one exists in the scene.
+Couldn't find a Game Manager, make sure one exists in the scene.
+Couldn't find a Game Manager, make sure one exists in the scene.
+Couldn't find a Game Manager, make sure one exists in the scene.
+Couldn't find a Game Manager, make sure one exists in the scene.
 [Physics::Module] Cleanup current backned.
 [Physics::Module] Id: 0xf2b8ea05
 Input System module state changed to: ShutdownInProgress.
