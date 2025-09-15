@@ -90,3 +90,4 @@ alias icat="kitten icat"
 alias pls=sudo
 alias btop="btop --force-utf"
 alias ppc=powerprofilesctl
+alias bkp="rsync -aAX --delete --info=progress2 /mnt/DATA/ /run/media/mavenried/MavenDATA"
