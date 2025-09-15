@@ -20,12 +20,24 @@ mav() {
 }
 
 bak() {
-  for i in $@; do
-    mv -v "$i" "$i.bak"
+  for f in "$@"; do
+    if [[ "$f" == *.bak ]]; then
+      target="${f%.bak}"
+      if [[ -e "$target" ]]; then
+        echo "Skipping $f: $target already exists"
+      else
+        mv -- "$f" "$target"
+      fi
+    else
+      if [[ -e "$f.bak" ]]; then
+        echo "Skipping $f: $f.bak already exists"
+      else
+        mv -- "$f" "$f.bak"
+      fi
+    fi
   done
 }
 
-mav
 index() {
   if [[ "$1" == "" ]]; then
     dir=$(pwd)
@@ -71,6 +83,9 @@ anid() {
   echo "Initiating download for \"$@\"."
   ani -d "$@" -r 1-100
 }
+
+# Call mav once
+mav
 
 # Plugin init
 source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
