@@ -20,10 +20,10 @@ ns GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_textur
 _attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_meminfo GL_ATI_texture_float GL_ATI_texture_mirror_once GL_EXT_EGL_image_storage GL_EXT_EGL_image_storage_compression GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_debug_label GL_EXT_demote_to_helper_invocation GL_EXT_depth_bounds_test GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_clock GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_t
 exture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_filter_minmax GL_EXT_texture_integer GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_KHR_blend_equation_advanced GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_shader_subgroup GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_const_bandwidth GL_MESA_texture_signed_rgba GL_NVX_gpu_memory_info GL_NV_alpha
 _to_coverage_dither_control GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_packed_depth_stencil GL_NV_shader_atomic_int64 GL_NV_texture_barrier GL_NV_vdpau_interop GL_OES_EGL_image GL_S3_s3tc
-OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle 726288544
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle 586887232
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.083 seconds
-- Finished resetting the current domain, in  0.003 seconds
+- Loaded All Assemblies, in  0.113 seconds
+- Finished resetting the current domain, in  0.005 seconds
 [Physics::Module] Selected backend.
 [Physics::Module] Name: PhysX
 [Physics::Module] Id: 0xf2b8ea05
@@ -35,154 +35,137 @@ requesting resize 1920 x 1080
 Using native desktop resolution 1920 x 1080
 requesting fullscreen 1920 x 1080 at 0/1 Hz
 Desktop is 1920 x 1080 @ 60 Hz
-UnloadTime: 0.681117 ms
+UnloadTime: 0.707636 ms
 No online subsystems packaged.
 Unloading 5 Unused Serialized files (Serialized files now loaded: 527)
-UnloadTime: 2.272849 ms
+UnloadTime: 1.961215 ms
 Discovered supported languages: DE, EN, ES, FR, IT, JA, KO, PT, RU, ZH
 Loaded saved language code 'EN'
 Restored language code 'EN'
 Couldn't find a Game Manager, make sure one exists in the scene.
 Couldn't find GameCameras, make sure one exists in the scene.
 Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 5793.
-Total: 12.575547 ms (FindLiveObjects: 0.348203 ms CreateObjectMapping: 0.184506 ms MarkObjects: 12.002312 ms  DeleteObjects: 0.039855 ms)
+Total: 7.912338 ms (FindLiveObjects: 0.339506 ms CreateObjectMapping: 0.134722 ms MarkObjects: 7.385240 ms  DeleteObjects: 0.051206 ms)
 
 Unloading 2 Unused Serialized files (Serialized files now loaded: 527)
 Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 13011.
-Total: 15.605275 ms (FindLiveObjects: 0.926957 ms CreateObjectMapping: 0.444153 ms MarkObjects: 14.195242 ms  DeleteObjects: 0.038301 ms)
+Total: 11.665331 ms (FindLiveObjects: 0.791082 ms CreateObjectMapping: 0.525785 ms MarkObjects: 10.313317 ms  DeleteObjects: 0.034505 ms)
 
 Unloading 1 Unused Serialized files (Serialized files now loaded: 579)
 Couldn't find GameCameras, make sure one exists in the scene.
 Couldn't find a Game Manager, make sure one exists in the scene.
-UnloadTime: 9.127375 ms
+UnloadTime: 11.762734 ms
 Loaded saved language code 'EN'
 Restored language code 'EN'
 Unloading 73 unused Assets to reduce memory usage. Loaded Objects now: 66273.
-Total: 43.566265 ms (FindLiveObjects: 5.668784 ms CreateObjectMapping: 2.878875 ms MarkObjects: 34.666296 ms  DeleteObjects: 0.351760 ms)
+Total: 45.343014 ms (FindLiveObjects: 4.450641 ms CreateObjectMapping: 2.304048 ms MarkObjects: 37.641611 ms  DeleteObjects: 0.945292 ms)
 
 MenuButton missing flashEffect!
 Making UI menu lean.
 Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
 Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
 Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
-Unloading 3 Unused Serialized files (Serialized files now loaded: 608)
-Unloading 109 unused Assets to reduce memory usage. Loaded Objects now: 121644.
-Total: 75.460705 ms (FindLiveObjects: 7.185395 ms CreateObjectMapping: 4.292293 ms MarkObjects: 63.196452 ms  DeleteObjects: 0.785873 ms)
+Unloading 3 Unused Serialized files (Serialized files now loaded: 640)
+Unloading 110 unused Assets to reduce memory usage. Loaded Objects now: 132988.
+Total: 85.277533 ms (FindLiveObjects: 9.063204 ms CreateObjectMapping: 4.675012 ms MarkObjects: 70.062038 ms  DeleteObjects: 1.476567 ms)
 
 Converting Vertex Colors from Color32 to Color.
 Converting Vertex Colors from Color32 to Color.
 Converting Vertex Colors from Color32 to Color.
-Using fallback 1 to find tilemap. Scene Bellshrine requires manual fixing.
 Can not play a disabled audio source
 Can not play a disabled audio source
 Can not play a disabled audio source
 Can not play a disabled audio source
-Unloading 1 Unused Serialized files (Serialized files now loaded: 617)
-Attempting to get `time` on an audio source that has a resource that is not a clip will always return 0.
-Attempting to get `time` on an audio source that has a resource that is not a clip will always return 0.
-Attempting to get `time` on an audio source that has a resource that is not a clip will always return 0.
-Attempting to get `time` on an audio source that has a resource that is not a clip will always return 0.
-UnloadTime: 6.229274 ms
-Unloading 9645 unused Assets to reduce memory usage. Loaded Objects now: 121788.
-Total: 138.312251 ms (FindLiveObjects: 8.346091 ms CreateObjectMapping: 4.301141 ms MarkObjects: 79.910825 ms  DeleteObjects: 45.753473 ms)
+Can not play a disabled audio source
+Can not play a disabled audio source
+Unloading 1 Unused Serialized files (Serialized files now loaded: 665)
+UnloadTime: 13.316656 ms
+Unloading 11381 unused Assets to reduce memory usage. Loaded Objects now: 122123.
+Total: 146.727672 ms (FindLiveObjects: 8.392558 ms CreateObjectMapping: 4.169254 ms MarkObjects: 78.204106 ms  DeleteObjects: 55.960982 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 525)
-Unloading 7997 unused Assets to reduce memory usage. Loaded Objects now: 25127.
-Total: 99.591257 ms (FindLiveObjects: 6.686040 ms CreateObjectMapping: 7.868917 ms MarkObjects: 70.951465 ms  DeleteObjects: 14.084175 ms)
+Unloading 7638 unused Assets to reduce memory usage. Loaded Objects now: 25505.
+Total: 59.484396 ms (FindLiveObjects: 1.631187 ms CreateObjectMapping: 1.321166 ms MarkObjects: 43.381849 ms  DeleteObjects: 13.149442 ms)
 
 Unloading 1 Unused Serialized files (Serialized files now loaded: 577)
-UnloadTime: 1.285088 ms
+UnloadTime: 1.186985 ms
 Loaded saved language code 'EN'
 Restored language code 'EN'
-Unloading 57 unused Assets to reduce memory usage. Loaded Objects now: 71617.
-Total: 89.866643 ms (FindLiveObjects: 6.678044 ms CreateObjectMapping: 3.604184 ms MarkObjects: 79.336439 ms  DeleteObjects: 0.247163 ms)
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 71628.
+Total: 98.891636 ms (FindLiveObjects: 5.697858 ms CreateObjectMapping: 11.651655 ms MarkObjects: 81.316209 ms  DeleteObjects: 0.225212 ms)
 
 Unloading 1 Unused Serialized files (Serialized files now loaded: 575)
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 71601.
-Total: 112.215826 ms (FindLiveObjects: 4.480666 ms CreateObjectMapping: 2.709688 ms MarkObjects: 104.868056 ms  DeleteObjects: 0.156714 ms)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 71629.
+Total: 84.895376 ms (FindLiveObjects: 4.394345 ms CreateObjectMapping: 2.754723 ms MarkObjects: 77.585978 ms  DeleteObjects: 0.159749 ms)
 
 MenuButton missing flashEffect!
 Making UI menu lean.
 Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
 Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
 Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
+Unloading 1 Unused Serialized files (Serialized files now loaded: 640)
+Unloading 110 unused Assets to reduce memory usage. Loaded Objects now: 130519.
+Total: 99.807833 ms (FindLiveObjects: 7.935652 ms CreateObjectMapping: 3.919125 ms MarkObjects: 86.797461 ms  DeleteObjects: 1.155005 ms)
+
+Converting Vertex Colors from Color32 to Color.
+Converting Vertex Colors from Color32 to Color.
+Converting Vertex Colors from Color32 to Color.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 645)
+Unloading 4251 unused Assets to reduce memory usage. Loaded Objects now: 139624.
+Total: 142.567655 ms (FindLiveObjects: 9.863875 ms CreateObjectMapping: 4.907587 ms MarkObjects: 89.294360 ms  DeleteObjects: 38.500751 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 638)
+Unloading 1858 unused Assets to reduce memory usage. Loaded Objects now: 139637.
+Total: 134.969557 ms (FindLiveObjects: 10.168586 ms CreateObjectMapping: 4.114330 ms MarkObjects: 102.851948 ms  DeleteObjects: 17.833931 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 638)
+Unloading 1861 unused Assets to reduce memory usage. Loaded Objects now: 139666.
+Total: 135.693133 ms (FindLiveObjects: 9.262498 ms CreateObjectMapping: 4.166187 ms MarkObjects: 104.861093 ms  DeleteObjects: 17.402693 ms)
+
 Using fallback 1 to find tilemap. Scene Bellshrine requires manual fixing.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 565)
-Unloading 572 unused Assets to reduce memory usage. Loaded Objects now: 106138.
-Total: 204.989997 ms (FindLiveObjects: 18.074381 ms CreateObjectMapping: 7.581207 ms MarkObjects: 177.159151 ms  DeleteObjects: 2.174325 ms)
-
-Converting Vertex Colors from Color32 to Color.
-Converting Vertex Colors from Color32 to Color.
-Converting Vertex Colors from Color32 to Color.
 Could Not Create Action: : Behaviour: Sing:  (Maybe the script was removed?)
 Could Not Create Action: : Behaviour: Sing:  (Maybe the script was removed?)
 Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
 Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
+Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
+Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
 Can not play a disabled audio source
 Can not play a disabled audio source
 Can not play a disabled audio source
-Can not play a disabled audio source
+Unloading 1 Unused Serialized files (Serialized files now loaded: 668)
+Unloading 8861 unused Assets to reduce memory usage. Loaded Objects now: 151379.
+Total: 148.513217 ms (FindLiveObjects: 10.753392 ms CreateObjectMapping: 4.573972 ms MarkObjects: 70.502383 ms  DeleteObjects: 62.682829 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 651)
+Unloading 453 unused Assets to reduce memory usage. Loaded Objects now: 150827.
+Total: 87.765325 ms (FindLiveObjects: 13.087497 ms CreateObjectMapping: 4.924098 ms MarkObjects: 65.663976 ms  DeleteObjects: 4.089184 ms)
+
 Cannot use 'linearVelocity' on a static body.
-Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
-Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
-Cannot use 'linearVelocity' on a static body.
-Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
-Unloading 1 Unused Serialized files (Serialized files now loaded: 631)
-Unloading 5514 unused Assets to reduce memory usage. Loaded Objects now: 131890.
-Total: 149.080341 ms (FindLiveObjects: 9.990192 ms CreateObjectMapping: 5.209273 ms MarkObjects: 85.787147 ms  DeleteObjects: 48.092757 ms)
+Unloading 1 Unused Serialized files (Serialized files now loaded: 642)
+UnloadTime: 29.920942 ms
+Unloading 5657 unused Assets to reduce memory usage. Loaded Objects now: 123497.
+Total: 125.151347 ms (FindLiveObjects: 9.298916 ms CreateObjectMapping: 5.165100 ms MarkObjects: 70.716184 ms  DeleteObjects: 39.970065 ms)
 
-Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
-Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
-Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
-Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
-Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
-Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
-Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
-Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
-Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
-Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
-Can not play a disabled audio source
-Can not play a disabled audio source
-Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
-Unloading 1 Unused Serialized files (Serialized files now loaded: 625)
-Unloading 6365 unused Assets to reduce memory usage. Loaded Objects now: 129395.
-Total: 164.919975 ms (FindLiveObjects: 9.599119 ms CreateObjectMapping: 4.511435 ms MarkObjects: 98.635566 ms  DeleteObjects: 52.173154 ms)
-
-Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
-Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
-Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
-Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
-Cannot use 'linearVelocity' on a static body.
-Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
-Unloading 1 Unused Serialized files (Serialized files now loaded: 634)
-Unloading 2067 unused Assets to reduce memory usage. Loaded Objects now: 129310.
-Total: 137.353144 ms (FindLiveObjects: 8.729800 ms CreateObjectMapping: 8.245412 ms MarkObjects: 103.362575 ms  DeleteObjects: 17.014797 ms)
-
-Unloading 1 Unused Serialized files (Serialized files now loaded: 613)
-UnloadTime: 7.827119 ms
-Unloading 1995 unused Assets to reduce memory usage. Loaded Objects now: 121716.
-Total: 121.865900 ms (FindLiveObjects: 10.099266 ms CreateObjectMapping: 5.024426 ms MarkObjects: 100.668526 ms  DeleteObjects: 6.073042 ms)
-
+Inactive coroutines were cleared: 1
 Unloading 0 Unused Serialized files (Serialized files now loaded: 525)
-Unloading 7806 unused Assets to reduce memory usage. Loaded Objects now: 25573.
-Total: 104.909964 ms (FindLiveObjects: 1.728449 ms CreateObjectMapping: 1.336404 ms MarkObjects: 88.800925 ms  DeleteObjects: 13.043584 ms)
+Unloading 7790 unused Assets to reduce memory usage. Loaded Objects now: 25745.
+Total: 65.650090 ms (FindLiveObjects: 2.120534 ms CreateObjectMapping: 1.383824 ms MarkObjects: 48.054095 ms  DeleteObjects: 14.091027 ms)
 
 Unloading 1 Unused Serialized files (Serialized files now loaded: 577)
-UnloadTime: 0.464961 ms
+UnloadTime: 0.496461 ms
 Loaded saved language code 'EN'
 Restored language code 'EN'
-Unloading 56 unused Assets to reduce memory usage. Loaded Objects now: 72055.
-Total: 108.978970 ms (FindLiveObjects: 4.996073 ms CreateObjectMapping: 2.736969 ms MarkObjects: 100.997763 ms  DeleteObjects: 0.247414 ms)
+Unloading 85 unused Assets to reduce memory usage. Loaded Objects now: 72178.
+Total: 101.757376 ms (FindLiveObjects: 4.678718 ms CreateObjectMapping: 2.734916 ms MarkObjects: 93.244242 ms  DeleteObjects: 1.098068 ms)
 
 Unloading 1 Unused Serialized files (Serialized files now loaded: 575)
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 72039.
-Total: 113.064817 ms (FindLiveObjects: 5.629750 ms CreateObjectMapping: 3.380245 ms MarkObjects: 103.903548 ms  DeleteObjects: 0.150512 ms)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 72162.
+Total: 112.828714 ms (FindLiveObjects: 4.716779 ms CreateObjectMapping: 2.802822 ms MarkObjects: 105.139805 ms  DeleteObjects: 0.168736 ms)
 
-Couldn't find a Game Manager, make sure one exists in the scene.
-Couldn't find a Game Manager, make sure one exists in the scene.
-Couldn't find a Game Manager, make sure one exists in the scene.
-Couldn't find a Game Manager, make sure one exists in the scene.
-Couldn't find a Game Manager, make sure one exists in the scene.
+MenuButton missing flashEffect!
+MenuButton missing flashEffect!
+MenuButton missing flashEffect!
+MenuButton missing flashEffect!
 Couldn't find a Game Manager, make sure one exists in the scene.
 Couldn't find a Game Manager, make sure one exists in the scene.
 Couldn't find a Game Manager, make sure one exists in the scene.

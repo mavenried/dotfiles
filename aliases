@@ -18,6 +18,13 @@ PATH=$PATH:"./bin:/home/mavenried/.local/bin:$PROJECT_PATH_SCRIPTS"
 mav() {
   macchina --theme mavenried -o host -o machine -o processor -o distribution -o processor-load -o battery
 }
+
+bak() {
+  for i in $@; do
+    mv -v "$i" "$i.bak"
+  done
+}
+
 mav
 index() {
   if [[ "$1" == "" ]]; then
