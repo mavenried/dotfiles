@@ -1,6 +1,6 @@
 {
-  "waybar-color": "orange",
-  "accent-color-clean": "fe8019",
   "accent-color": "#fe8019",
-  "inactive-color": "#282828"
+  "inactive-color": "#282828",
+  "waybar-color": "orange",
+  "accent-color-clean": "fe8019"
 }
