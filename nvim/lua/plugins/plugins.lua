@@ -1,6 +1,6 @@
 return {
   { "ellisonleao/gruvbox.nvim" },
-
+  --[[
   {
     "github/copilot.vim",
     config = function()
@@ -15,7 +15,7 @@ return {
       vim.api.nvim_set_keymap("i", "<C-[>", "<Plug>(copilot-previous)", {})
     end,
   },
-
+  ]]
   {
     "jesseleite/nvim-noirbuddy",
     dependencies = {

@@ -70,13 +70,13 @@ open() {
   for file in "$@"; do
     xdg-open "$file"
   done
-
 }
 
 mkcd() {
   mkdir -p "$1"
   cd "$1" || return 1
 }
+
 # Call mav once
 mav
 
@@ -87,10 +87,11 @@ source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # Aliases
 alias zel="zellij -l welcome"
 alias clear="printf '\x1B[H\x1B[2J\x1B[3J';"
-alias pip="python3 -m pip"
+alias pip="python3 -m pip --break-system-packages"
 alias ls="eza -l"
 alias indexer="python3 $PROJECT_PATH_PYTHON/Indexer/main.py"
 alias lyrics="playerctl --format=\"{{artist}};{{title}}\" metadata | lyrics.py"
+alias mkdate="mkcd $(date +%d%m%y)"
 
 alias gc="git commit"
 alias gp="git push -u origin main"
