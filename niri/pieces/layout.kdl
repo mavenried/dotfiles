@@ -20,13 +20,13 @@ layout {
     focus-ring {
         off
         width 1.5
-        active-color "#fe8019"
-        inactive-color "#282828"
+        active-color "#cba6f7"
+        inactive-color "181824"
     }
     border {
         width 1.5
-        active-color "#fe8019"
-        inactive-color "#282828"
+        active-color "#cba6f7"
+        inactive-color "181824"
         urgent-color "#9b0000"
     }
     shadow {

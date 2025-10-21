@@ -1,6 +1,14 @@
 {
-  "inactive-color": "#282828",
-  "accent-color-clean": "fe8019",
-  "waybar-color": "orange",
-  "accent-color": "#fe8019"
+  "accent-color-clean": "cba6f7",
+  "hyprlock-battery-color": "94e2d5",
+  "ghostty_theme": "CatppuccinMocha",
+  "inactive-color": "181824",
+  "hyprlock-text-color": "cdd6f4",
+  "waybar-color": "mauve",
+  "hyprlock-bg-color": "rgba(24,24,37,0.8)",
+  "hyprlock-minutes-color": "cba6f7",
+  "accent-color": "#cba6f7",
+  "hyprlock-uptime-color": "b8bb26",
+  "hyprlock-hour-color": "94e2d5",
+  "hyprlock-textbg-color": "11111b"
 }
