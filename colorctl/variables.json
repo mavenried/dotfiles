@@ -1,14 +1,15 @@
 {
-  "accent-color-clean": "cba6f7",
-  "hyprlock-battery-color": "94e2d5",
-  "ghostty_theme": "CatppuccinMocha",
-  "inactive-color": "181824",
-  "hyprlock-text-color": "cdd6f4",
   "waybar-color": "mauve",
-  "hyprlock-bg-color": "rgba(24,24,37,0.8)",
-  "hyprlock-minutes-color": "cba6f7",
-  "accent-color": "#cba6f7",
+  "icon-theme": "Cpcn-Purple",
   "hyprlock-uptime-color": "b8bb26",
+  "ghostty_theme": "CatppuccinMocha",
+  "accent-color": "cba6f7",
+  "dark-bg-color": "11111b",
+  "bg-color": "181825",
+  "gtk-theme": "Catppuccin-Purple-Dark",
+  "hyprlock-battery-color": "94e2d5",
+  "hyprlock-text-color": "cdd6f4",
   "hyprlock-hour-color": "94e2d5",
-  "hyprlock-textbg-color": "11111b"
+  "text-color": "cdd6f4",
+  "hyprlock-minutes-color": "cba6f7"
 }

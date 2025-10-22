@@ -21,7 +21,7 @@
   },
   "rofi": {
     "template": "/mnt/DATA/scripts/templates/rofi.rasi",
-    "target": "/mnt/DATA/dots/rofi/accent.rofi"
+    "target": "/mnt/DATA/dots/rofi/theme.rasi"
   },
   "dunst": {
     "template": "/mnt/DATA/scripts/templates/dunst",

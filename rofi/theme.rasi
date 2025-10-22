@@ -1,14 +1,12 @@
-@theme "~/.config/rofi/accent.rofi"
-
 * {
-    bg-col:  #282828;
-    bg-col-light: #383838;
-    border-col: @accent;
-    selected-col: #383838;
-    blue: @accent;
-    fg-col: #ebdbb2;
-    fg-col2: #ebdbb2;
-    grey: #a89984;
+    bg-col:  #181825;
+    bg-col-light: #11111b;
+    border-col: #cba6f7;
+    selected-col: #11111b;
+    blue: #cba6f7;
+    fg-col: #cdd6f4;
+    fg-col2: #cdd6f4;
+    grey: #ffffff;
 
     width: 600;
     font: "JetbrainsMono Nerd Font 14";
