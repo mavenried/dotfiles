@@ -15,7 +15,7 @@
     "modules-right": [
       "group/utils",
       "custom/uptime",
-      "group/power",
+      "group/power"
     ],
     // CUSTOM STUFF
     "custom/separator": {
@@ -34,13 +34,13 @@
       "format": "󰎇",
       "tooltip-format": "{}",
       "exec": "/mnt/DATA/scripts/current_music",
-      "interval": 1,
+      "interval": 1
     },
     "custom/distro": {
       "format": " {}",
       "exec": "checkupdates | wc -l",
       "tooltip": false,
-      "interval": 10,
+      "interval": 10
     },
     "custom/quit": {
       "format": " 󰗼 ",
@@ -146,10 +146,10 @@
       "format-connected": "(󰂱) ",
       "tooltip": true,
       "tooltip-format": "{device_alias} ({device_battery_percentage}%)",
-      "on-click": "hyprctl dispatch exec blueman-manager || niri msg action spawn blueman-manager"
+      "on-click": "hyprctl dispatch exec blueman-manager || niri msg action spawn -- blueman-manager"
     },
     "clock": {
-      "format": "<b>{:%I:%M %p</b><i> %d/%m/%y}</i>",
+      "format": "<b> {:%H:%M</b> %d|%m|%y %a}",
       "tooltip-format": "<small>{calendar}</small>",
       "timezone": "Asia/Kolkata",
       "calendar": {
@@ -177,15 +177,15 @@
       },
       "scroll-step": 1,
       "on-click": "pamixer -t",
-      "on-click-right": "hyprctl dispatch exec pavucontrol || niri msg action spawn pavucontrol"
+      "on-click-right": "hyprctl dispatch exec pavucontrol || niri msg action spawn -- pavucontrol"
     },
     "memory": {
       "interval": 1,
-      "format": "  {percentage}%"
+      "format": "  {percentage:>3}%"
     },
     "cpu": {
       "interval": 1,
-      "format": "  {usage}%"
+      "format": "  {usage:>3}%"
     },
     "battery": {
       "states": {
@@ -195,8 +195,8 @@
         "bad": 20,
         "terrible": 10
       },
-      "format": "{icon} {capacity}% <b>[{power:.0f}W]</b>",
-      "format-charging": "{icon}󱐋 {capacity}% <b>[{power:.0f}W]</b>",
+      "format": "{icon} {capacity:>3}% <b>[{power:.0f}W]</b>",
+      "format-charging": "{icon}󱐋 {capacity:>3}% <b>[{power:.0f}W]</b>",
       "format-icons": [
         "󰁻",
         "󰁻",
@@ -213,7 +213,7 @@
     },
     "disk": {
       "interval": 1,
-      "format": "󰋊 {percentage_used}%",
+      "format": "󰋊 {percentage_used:>3}%",
       "path": "/mnt/DATA/"
     },
     "hyprland/workspaces": {

@@ -3,6 +3,7 @@ layout {
     children
       pane size=1 borderless=true {
           plugin location="https://github.com/dj95/zjstatus/releases/latest/download/zjstatus.wasm" {
+
             // -- Gruvbox --
             color_bg     "#282828"
             color_red    "#cc241d"
