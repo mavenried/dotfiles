@@ -7,8 +7,8 @@
 
 ## Images
 
-![./Screenshots/hyprlock.png]
-![./Screenshots/desktop.png]
-![./Screenshots/files.png]
-![./Screenshots/overview.png]
+![](./Screenshots/hyprlock.png)
+![](./Screenshots/desktop.png)
+![](./Screenshots/files.png)
+![](./Screenshots/overview.png)
 
