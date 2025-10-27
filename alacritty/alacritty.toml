@@ -19,7 +19,7 @@ x = 1
 y = 1
 
 [font.normal]
-family = "JetBrainsMono Nerd Font"
+family = "JetbrainsMono Nerd Font"
 
 [general]
-import = [ "~/.config/alacritty/themes/gruvbox.toml",]
+import = [ "~/.config/alacritty/themes/catppuccin-mocha.toml",]

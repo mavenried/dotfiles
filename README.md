@@ -5,4 +5,10 @@
   These are my personal configuration files for various tools and applications.
 </p>
 
-Might add images later.
+## Images
+
+![./Screenshots/hyprlock.png]
+![./Screenshots/desktop.png]
+![./Screenshots/files.png]
+![./Screenshots/overview.png]
+
