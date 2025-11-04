@@ -381,8 +381,8 @@ layout {
         proportion 1.0
     }
     default-column-width {
-        proportion 1.0
-   }
+        proportion 0.5
+    }
     focus-ring {
         off
         width 1.5
@@ -428,6 +428,7 @@ spawn-at-startup "waybar"
 spawn-at-startup "swayosd-server"
 spawn-at-startup "/mnt/DATA/scripts/wallpaper-init"
 spawn-at-startup "hypridle"
+spawn-at-startup "/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1"
 hotkey-overlay {
     skip-at-startup
 }

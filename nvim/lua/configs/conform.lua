@@ -7,6 +7,8 @@ local options = {
     java = { "google_java_format" },
     c = { "clang_format" },
     cpp = { "clang_format" },
+    sh = { "beautysh" },
+    python = { "black", "ruff", "isort" },
   },
 
   format_on_save = {

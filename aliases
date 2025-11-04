@@ -11,70 +11,73 @@ PROJECT_PATH_LUA="/home/mavenried/Projects/lua"
 PROJECT_PATH_RUST="/home/mavenried/Projects/rust"
 PROJECT_PATH_SCRIPTS="/mnt/DATA/scripts"
 
+#zsh opts
+setopt numericglobsort autocd extendedglob
+
 eval "$(proj-cmd init zsh)"
 
 PATH=$PATH:"./bin:/home/mavenried/.local/bin:$PROJECT_PATH_SCRIPTS"
 
-mav() {
-  macchina --theme mavenried -o host -o machine -o processor -o distribution -o processor-load -o battery
+function mav() {
+    macchina --theme mavenried -o host -o machine -o processor -o distribution -o processor-load -o battery
 }
 
-bak() {
-  for f in "$@"; do
-    if [[ "$f" == *.bak ]]; then
-      target="${f%.bak}"
-      if [[ -e "$target" ]]; then
-        echo "Skipping $f: $target already exists"
-      else
-        mv -- "$f" "$target"
-      fi
+function bak() {
+    for f in "$@"; do
+        if [[ "$f" == *.bak ]]; then
+            target="${f%.bak}"
+            if [[ -e "$target" ]]; then
+                echo "Skipping $f: $target already exists"
+            else
+                mv -- "$f" "$target"
+            fi
+        else
+            if [[ -e "$f.bak" ]]; then
+                echo "Skipping $f: $f.bak already exists"
+            else
+                mv -- "$f" "$f.bak"
+            fi
+        fi
+    done
+}
+
+function index() {
+    if [[ "$1" == "" ]]; then
+        dir=$(pwd)
     else
-      if [[ -e "$f.bak" ]]; then
-        echo "Skipping $f: $f.bak already exists"
-      else
-        mv -- "$f" "$f.bak"
-      fi
+        dir=$1
     fi
-  done
+    echo "Opening $dir/indexer.json in nvim..."
+    nvim "$dir/indexer.json"
 }
 
-index() {
-  if [[ "$1" == "" ]]; then
-    dir=$(pwd)
-  else
-    dir=$1
-  fi
-  echo "Opening $dir/indexer.json in nvim..."
-  nvim "$dir/indexer.json"
+function config() {
+    nvim "/mnt/DATA/dots/$1"
 }
 
-config() {
-  nvim "/mnt/DATA/dots/$1"
-}
-
-clean() {
-  files=$(fd target /mnt/DATA/Projects/rust/ -t d -u)
-  if [[ "$files" == "" ]]; then
-    printf "\x1b[31mNothing to clean.\x1b[0m\n"
-  else
-    printf "\x1b[33mFound the following directories:\n\x1b[31m%s\n\x1b[0m" "$files"
-    if gum confirm --default=false "Do you want to delete these directories?"; then
-      echo "deleting..."
-      gum spin --title="Removing..." -- fd target /mnt/DATA/Projects/rust/ -t d -u --exec rm -fr {}
+function clean() {
+    files=$(fd target /mnt/DATA/Projects/rust/ -t d -u)
+    if [[ "$files" == "" ]]; then
+        printf "\x1b[31mNothing to clean.\x1b[0m\n"
+    else
+        printf "\x1b[33mFound the following directories:\n\x1b[31m%s\n\x1b[0m" "$files"
+        if gum confirm --default=false "Do you want to delete these directories?"; then
+            echo "deleting..."
+            gum spin --title="Removing..." -- fd target /mnt/DATA/Projects/rust/ -t d -u --exec rm -fr {}
+        fi
     fi
-  fi
 
 }
 
-open() {
-  for file in "$@"; do
-    xdg-open "$file"
-  done
+function open() {
+    for file in "$@"; do
+        xdg-open "$file"
+    done
 }
 
-mkcd() {
-  mkdir -p "$1"
-  cd "$1" || return 1
+function mkcd() {
+    mkdir -p "$1"
+    cd "$1" || return 1
 }
 
 # Call mav once
@@ -87,7 +90,7 @@ source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 # Aliases
 alias zel="zellij -l welcome"
 alias clear="printf '\x1B[H\x1B[2J\x1B[3J';"
-alias pip="python3 -m pip --break-system-packages"
+alias pip="python3 -m pip install --break-system-packages"
 alias ls="eza -l"
 alias indexer="python3 $PROJECT_PATH_PYTHON/Indexer/main.py"
 alias lyrics="playerctl --format=\"{{artist}};{{title}}\" metadata | lyrics.py"

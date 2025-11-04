@@ -5,6 +5,8 @@ nvlsp.defaults()
 vim.lsp.enable "pyright"
 vim.lsp.enable "rust_analyzer"
 vim.lsp.enable "jdtls"
+vim.lsp.enable "clangd"
+vim.lsp.enable "bash-language-server"
 
 local opts = {
   on_attach = nvlsp.on_attach,
@@ -14,3 +16,5 @@ local opts = {
 vim.lsp.config("pyright", opts)
 vim.lsp.config("rust_analyzer", opts)
 vim.lsp.config("jdtls", opts)
+vim.lsp.config("clangd", opts)
+vim.lsp.config("bash-language-server", opts)
