@@ -91,7 +91,7 @@ source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 alias zel="zellij -l welcome"
 alias clear="printf '\x1B[H\x1B[2J\x1B[3J';"
 alias pip="python3 -m pip install --break-system-packages"
-alias ls="eza -l"
+alias ls="eza"
 alias indexer="python3 $PROJECT_PATH_PYTHON/Indexer/main.py"
 alias lyrics="playerctl --format=\"{{artist}};{{title}}\" metadata | lyrics.py"
 alias mkdate="mkcd $(date +%d%m%y)"
@@ -110,3 +110,4 @@ alias pls=sudo
 alias btop="btop --force-utf"
 alias ppc=powerprofilesctl
 alias bkp="rsync -aAX --delete --info=progress2 /mnt/DATA/ /run/media/mavenried/MavenDATA"
+alias sl=ls
