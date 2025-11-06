@@ -27,10 +27,10 @@ binds {
         spawn "swayosd-client" "--input-volume" "mute-toggle"
     }
     XF86MonBrightnessUp allow-when-locked=true {
-        spawn "swayosd-client" "--brightness" "raise"
+        spawn "swayosd-client" "--brightness" "+5"
     }
     XF86MonBrightnessDown allow-when-locked=true {
-        spawn "swayosd-client" "--brightness" "lower"
+        spawn "swayosd-client" "--brightness" "-5"
     }
     XF86AudioNext allow-when-locked=true {
         spawn-sh "/mnt/DATA/scripts/player-control next"
