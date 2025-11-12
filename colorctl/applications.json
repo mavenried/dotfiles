@@ -1,15 +1,15 @@
 {
-  "waybar": {
-    "template": "/mnt/DATA/scripts/templates/waybar.css",
-    "target": "/mnt/DATA/dots/waybar/accent.css"
-  },
-  "hyprland": {
-    "template": "/mnt/DATA/scripts/templates/hyprland.conf",
-    "target": "/mnt/DATA/dots/hypr/accent.conf"
-  },
   "mako": {
     "template": "/mnt/DATA/scripts/templates/mako",
     "target": "/mnt/DATA/dots/mako/config"
+  },
+  "starship": {
+    "template": "/mnt/DATA/scripts/templates/starship.toml",
+    "target": "/mnt/DATA/dots/starship.toml"
+  },
+  "rofi": {
+    "template": "/mnt/DATA/scripts/templates/rofi.rasi",
+    "target": "/mnt/DATA/dots/rofi/theme.rasi"
   },
   "hyprlock": {
     "template": "/mnt/DATA/scripts/templates/hyprlock.conf",
@@ -19,9 +19,13 @@
     "template": "/mnt/DATA/scripts/templates/niri.kdl",
     "target": "/mnt/DATA/dots/niri/pieces/layout.kdl"
   },
-  "rofi": {
-    "template": "/mnt/DATA/scripts/templates/rofi.rasi",
-    "target": "/mnt/DATA/dots/rofi/theme.rasi"
+  "waybar": {
+    "template": "/mnt/DATA/scripts/templates/waybar.css",
+    "target": "/mnt/DATA/dots/waybar/accent.css"
+  },
+  "hyprland": {
+    "template": "/mnt/DATA/scripts/templates/hyprland.conf",
+    "target": "/mnt/DATA/dots/hypr/accent.conf"
   },
   "dunst": {
     "template": "/mnt/DATA/scripts/templates/dunst",

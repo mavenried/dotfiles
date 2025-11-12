@@ -2,7 +2,9 @@
 	<pref name="AutoReload" type="int">1</pref>
 	<pref name="CameraShake" type="int">1</pref>
 	<pref name="Fullscreen" type="int">1</pref>
-	<pref name="LastCharacterSelected" type="int">0</pref>
+	<pref name="LastCharacterSelected" type="int">1</pref>
+	<pref name="LastMapSelected" type="int">0</pref>
+	<pref name="LastSelectedDifficulty" type="int">0</pref>
 	<pref name="ModeSelect" type="int">1</pref>
 	<pref name="MusicVolume" type="float">1</pref>
 	<pref name="Outline" type="int">0</pref>
@@ -16,8 +18,8 @@
 	<pref name="Screenmanager Resolution Width" type="int">1920</pref>
 	<pref name="Screenmanager Resolution Width Default" type="int">1024</pref>
 	<pref name="UnitySelectMonitor" type="int">-1</pref>
-	<pref name="rebinds" type="string"></pref>
+	<pref name="rebinds" type="string">eyJiaW5kaW5ncyI6W3siYWN0aW9uIjoiUGxheWVyTWFwL0ZpcmUiLCJpZCI6IjcyYWRmZGZiLTkyZTUtNDgyNi1hZmUzLWE3MzUyZGZlMTdjZSIsInBhdGgiOiI8S2V5Ym9hcmQ+L2NhcHNMb2NrIiwiaW50ZXJhY3Rpb25zIjoiIiwicHJvY2Vzc29ycyI6IiJ9XX0=</pref>
 	<pref name="unity.cloud_userid" type="string">N2I4MzQ0Y2VmYTBmN2UyMTViMDgyZjNiZTQxMGI4ZWI=</pref>
-	<pref name="unity.player_session_count" type="string">MQ==</pref>
-	<pref name="unity.player_sessionid" type="string">OTE2MDU0NTg0NzUwNTA2Njg0MA==</pref>
+	<pref name="unity.player_session_count" type="string">NA==</pref>
+	<pref name="unity.player_sessionid" type="string">NDcwMDQ4MTIxMzM4MTE2MDI2Ng==</pref>
 </unity_prefs>

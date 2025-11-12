@@ -1,0 +1,801 @@
+Mono path[0] = '/mnt/DATA/Games/ULTRAKILL/ULTRAKILL_Data/Managed'
+Mono config path = '/mnt/DATA/Games/ULTRAKILL/ULTRAKILL_Data/MonoBleedingEdge/etc'
+Preloaded 'libdiscord_game_sdk.so'
+Display 0 'eDP-1 15"': 1920x1080 (primary device).
+Desktop is 1920 x 1080 @ 60 Hz
+Unknown renderer 2 
+(Filename:  Line: 324)
+
+Initialize engine version: 2019.4.40f1 (ffc62b691db5)
+[Subsystems] Discovering subsystems at path /mnt/DATA/Games/ULTRAKILL/ULTRAKILL_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1
+GfxDevice: creating device client; threaded=1
+Renderer: AMD Radeon Graphics (radeonsi, renoir, ACO, DRM 3.64, 6.17.7-3-cachyos)
+Vendor:   AMD
+Version:  4.6 (Core Profile) Mesa 25.2.6-cachyos1.2
+GLES:     0
+ GL_AMD_conservative_depth GL_AMD_depth_clamp_separate GL_AMD_draw_buffers_blend GL_AMD_framebuffer_multisample_advanced GL_AMD_gpu_shader_int64 GL_AMD_multi_draw_indirect GL_AMD_performance_monitor GL_AMD_pinned_memory GL_AMD_query_buffer_object GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_stencil_export GL_AMD_shader_trinary_minmax GL_AMD_texture_texture4 GL_AMD_vertex_shader_layer GL_AMD_vertex_shader_viewport_index GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ARB_ES2_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_bindless_texture GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_dist
+ance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_shader GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel
+_buffer_object GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_stencil_export GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_sparse_buffer GL_ARB_sparse_texture GL_ARB_sparse_texture2 GL_ARB_sparse_texture_clamp GL_ARB_spirv_extensio
+ns GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_barrier GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_filter_minmax GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex
+_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_meminfo GL_ATI_texture_float GL_ATI_texture_mirror_once GL_EXT_EGL_image_storage GL_EXT_EGL_image_storage_compression GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_debug_label GL_EXT_demote_to_helper_invocation GL_EXT_depth_bounds_test GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_clock GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_t
+exture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_filter_minmax GL_EXT_texture_integer GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_KHR_blend_equation_advanced GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_shader_subgroup GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_const_bandwidth GL_MESA_texture_signed_rgba GL_NVX_gpu_memory_info GL_NV_alpha
+_to_coverage_dither_control GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_packed_depth_stencil GL_NV_shader_atomic_int64 GL_NV_texture_barrier GL_NV_vdpau_interop GL_OES_EGL_image GL_S3_s3tc
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle 415641488
+Begin MonoManager ReloadAssembly
+- Completed reload, in  0.116 seconds
+Default vsync count 0
+requesting resize 1920 x 1080
+Using native desktop resolution 1920 x 1080
+requesting fullscreen 1920 x 1080 at 0 Hz
+Desktop is 1920 x 1080 @ 60 Hz
+UnloadTime: 0.680870 ms
+/mnt/DATA/Games/ULTRAKILL/ULTRAKILL_Data/StreamingAssets/aa 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+(LoadSceneAsync) Loading scene Tutorial 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Couldn't create a Convex Mesh from source mesh "Melon" within the maximum polygons limit (256). The partial hull will be used. Consider simplifying your mesh. 
+(Filename:  Line: 91)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 24)
+UnloadTime: 3.519655 ms
+/Keyboard/0 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Can not play a disabled audio source 
+(Filename:  Line: 454)
+
+Can not play a disabled audio source 
+(Filename:  Line: 454)
+
+Fallback handler could not load library /mnt/DATA/Games/ULTRAKILL/ULTRAKILL_Data/Mono/libsteam_api64
+Fallback handler could not load library /mnt/DATA/Games/ULTRAKILL/ULTRAKILL_Data/Mono/libsteam_api64.so
+Fallback handler could not load library /mnt/DATA/Games/ULTRAKILL/ULTRAKILL_Data/Mono/steam_api64
+Fallback handler could not load library /mnt/DATA/Games/ULTRAKILL/ULTRAKILL_Data/Mono/libsteam_api64
+Fallback handler could not load library /mnt/DATA/Games/ULTRAKILL/ULTRAKILL_Data/Mono/libsteam_api64.so
+Fallback handler could not load library /mnt/DATA/Games/ULTRAKILL/ULTRAKILL_Data/Mono/libsteam_api64
+Fallback handler could not load library /mnt/DATA/Games/ULTRAKILL/ULTRAKILL_Data/Mono/libsteam_api64
+Fallback handler could not load library /mnt/DATA/Games/ULTRAKILL/ULTRAKILL_Data/Mono/libsteam_api64.so
+Fallback handler could not load library /mnt/DATA/Games/ULTRAKILL/ULTRAKILL_Data/Mono/steam_api64
+Fallback handler could not load library /mnt/DATA/Games/ULTRAKILL/ULTRAKILL_Data/Mono/libsteam_api64
+Fallback handler could not load library /mnt/DATA/Games/ULTRAKILL/ULTRAKILL_Data/Mono/libsteam_api64.so
+Fallback handler could not load library /mnt/DATA/Games/ULTRAKILL/ULTRAKILL_Data/Mono/libsteam_api64
+Fallback handler could not load library /mnt/DATA/Games/ULTRAKILL/ULTRAKILL_Data/Mono/libsteam_api64
+Fallback handler could not load library /mnt/DATA/Games/ULTRAKILL/ULTRAKILL_Data/Mono/libsteam_api64.so
+Fallback handler could not load library /mnt/DATA/Games/ULTRAKILL/ULTRAKILL_Data/Mono/steam_api64
+Fallback handler could not load library /mnt/DATA/Games/ULTRAKILL/ULTRAKILL_Data/Mono/libsteam_api64
+Fallback handler could not load library /mnt/DATA/Games/ULTRAKILL/ULTRAKILL_Data/Mono/libsteam_api64.so
+Fallback handler could not load library /mnt/DATA/Games/ULTRAKILL/ULTRAKILL_Data/Mono/libsteam_api64
+<color=#4AC1E4>[Steam]</color> <color=#CCEDFF>Couldn't initialize steam</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#50ADD8>[Discord]</color> <color=#CCE6F0>Couldn't initialize Discord</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+
+Unloading 5453 unused Assets to reduce memory usage. Loaded Objects now: 80329.
+Total: 187.687698 ms (FindLiveObjects: 4.836480 ms CreateObjectMapping: 4.239308 ms MarkObjects: 174.013337 ms  DeleteObjects: 4.596029 ms)
+
+<color=#5494EE>[Presence]</color> <color=#CCE0FF>Scene loaded: Tutorial</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Mixer Volume 0 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Mixer Volume -80 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Setting up 8 worker threads for Enlighten.
+  Thread -> id: 7f7994fca6c0 -> priority: 1 
+  Thread -> id: 7f79947c96c0 -> priority: 1 
+  Thread -> id: 7f7993fc86c0 -> priority: 1 
+  Thread -> id: 7f79937c76c0 -> priority: 1 
+  Thread -> id: 7f7992fc66c0 -> priority: 1 
+  Thread -> id: 7f79927c56c0 -> priority: 1 
+  Thread -> id: 7f7991fc46c0 -> priority: 1 
+  Thread -> id: 7f79917c36c0 -> priority: 1 
+requesting resize 1920 x 1080
+Using native desktop resolution 1920 x 1080
+requesting fullscreen 1920 x 1080 at 0 Hz
+Desktop is 1920 x 1080 @ 60 Hz
+[FS] Writing To /mnt/DATA/Games/ULTRAKILL/Saves/Slot1/generalprogress.bepis 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Break 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Break 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Break 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Break 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Break 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Break 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Break 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Break 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Break 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+State pit-falling is already registered 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[FS] Writing To /mnt/DATA/Games/ULTRAKILL/Saves/Slot1/generalprogress.bepis 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+(LoadSceneAsync) Loading scene Level 0-1 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 26)
+UnloadTime: 86.549389 ms
+<color=#5494EE>[Presence]</color> <color=#CCE0FF>Scene loaded: Level 0-1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+State pit-falling is already registered 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+
+Unloading 418 unused Assets to reduce memory usage. Loaded Objects now: 137599.
+Total: 261.221864 ms (FindLiveObjects: 7.565830 ms CreateObjectMapping: 4.344416 ms MarkObjects: 246.796451 ms  DeleteObjects: 2.514396 ms)
+
+Tried to pop state pit-falling, but it was not registered 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Break 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Break 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[FS] Writing To /mnt/DATA/Games/ULTRAKILL/Saves/Slot1/generalprogress.bepis 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Deactivated! 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Tried to pop state pit-falling, but it was not registered 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+(LoadSceneAsync) Loading scene Main Menu 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+The referenced script on this Behaviour (Game Object 'Virtual Camera') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Main Camera') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'HUD Camera') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Main Camera') is missing! 
+(Filename:  Line: 334)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 26)
+UnloadTime: 104.742753 ms
+<color=#5494EE>[Presence]</color> <color=#CCE0FF>Scene loaded: Main Menu</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+
+Unloading 3779 unused Assets to reduce memory usage. Loaded Objects now: 96387.
+Total: 256.298441 ms (FindLiveObjects: 6.324968 ms CreateObjectMapping: 4.451296 ms MarkObjects: 233.292401 ms  DeleteObjects: 12.229134 ms)
+
+UpdateSelf screenShake DefaultInt:  DefaultBool:  DefaultFloat: 1 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf discordIntegration DefaultInt:  DefaultBool: True DefaultFloat:  
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf parryFlash DefaultInt:  DefaultBool: True DefaultFloat:  
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf levelLeaderboards DefaultInt:  DefaultBool: True DefaultFloat:  
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf sandboxSaveOverwriteWarnings DefaultInt:  DefaultBool: True DefaultFloat:  
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf seasonalEvents DefaultInt:  DefaultBool: True DefaultFloat:  
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf variationMemory DefaultInt:  DefaultBool: False DefaultFloat:  
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf pauseMenuConfirmationDialogs DefaultInt: 0 DefaultBool:  DefaultFloat:  
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf weaponHoldPosition DefaultInt: 0 DefaultBool:  DefaultFloat:  
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf cameraTilt DefaultInt:  DefaultBool: True DefaultFloat:  
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Move)</b> Comparing action Move to default action Move</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Move to Move - Action: 5, Base: 5</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Dodge)</b> Comparing action Dodge to default action Dodge</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Dodge to Dodge - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Slide)</b> Comparing action Slide to default action Slide</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Slide to Slide - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Jump)</b> Comparing action Jump to default action Jump</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Jump to Jump - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Primary Fire)</b> Comparing action Primary Fire to default action Primary Fire</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Primary Fire to Primary Fire - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Secondary Fire)</b> Comparing action Secondary Fire to default action Secondary Fire</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Secondary Fire to Secondary Fire - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Next Variation)</b> Comparing action Next Variation to default action Next Variation</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Next Variation to Next Variation - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Previous Variation)</b> Comparing action Previous Variation to default action Previous Variation</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Previous Variation to Previous Variation - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Revolver)</b> Comparing action Revolver to default action Revolver</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Revolver to Revolver - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Shotgun)</b> Comparing action Shotgun to default action Shotgun</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Shotgun to Shotgun - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Nailgun)</b> Comparing action Nailgun to default action Nailgun</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Nailgun to Nailgun - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Railcannon)</b> Comparing action Railcannon to default action Railcannon</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Railcannon to Railcannon - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Rocket Launcher)</b> Comparing action Rocket Launcher to default action Rocket Launcher</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Rocket Launcher to Rocket Launcher - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Spawner Arm)</b> Comparing action Spawner Arm to default action Spawner Arm</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Spawner Arm to Spawner Arm - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Next Weapon)</b> Comparing action Next Weapon to default action Next Weapon</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Next Weapon to Next Weapon - Action: 0, Base: 0</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Previous Weapon)</b> Comparing action Previous Weapon to default action Previous Weapon</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Previous Weapon to Previous Weapon - Action: 0, Base: 0</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Last Used Weapon)</b> Comparing action Last Used Weapon to default action Last Used Weapon</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Last Used Weapon to Last Used Weapon - Action: 0, Base: 0</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Variation Slot 1)</b> Comparing action Variation Slot 1 to default action Variation Slot 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Variation Slot 1 to Variation Slot 1 - Action: 0, Base: 0</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Variation Slot 2)</b> Comparing action Variation Slot 2 to default action Variation Slot 2</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Variation Slot 2 to Variation Slot 2 - Action: 0, Base: 0</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Variation Slot 3)</b> Comparing action Variation Slot 3 to default action Variation Slot 3</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Variation Slot 3 to Variation Slot 3 - Action: 0, Base: 0</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Punch)</b> Comparing action Punch to default action Punch</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Punch to Punch - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Change Fist)</b> Comparing action Change Fist to default action Change Fist</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Change Fist to Change Fist - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Punch (Feedbacker))</b> Comparing action Punch (Feedbacker) to default action Punch (Feedbacker)</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Punch (Feedbacker) to Punch (Feedbacker) - Action: 0, Base: 0</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Punch (Knuckleblaster))</b> Comparing action Punch (Knuckleblaster) to default action Punch (Knuckleblaster)</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Punch (Knuckleblaster) to Punch (Knuckleblaster) - Action: 0, Base: 0</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Hook)</b> Comparing action Hook to default action Hook</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Hook to Hook - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Stats)</b> Comparing action Stats to default action Stats</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Stats to Stats - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf scrollReversed DefaultInt:  DefaultBool: False DefaultFloat:  
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf mouseReverseX DefaultInt:  DefaultBool: False DefaultFloat:  
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf mouseSensitivity DefaultInt:  DefaultBool:  DefaultFloat: 50 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf scrollWeapons DefaultInt:  DefaultBool: True DefaultFloat:  
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf weaponHoldPosition DefaultInt: 0 DefaultBool:  DefaultFloat:  
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf mouseReverseX DefaultInt:  DefaultBool: False DefaultFloat:  
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf pixelization DefaultInt: 0 DefaultBool:  DefaultFloat:  
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf textureWarping DefaultInt:  DefaultBool:  DefaultFloat: 0 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf simpleSpawns DefaultInt:  DefaultBool: False DefaultFloat:  
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf colorPalette DefaultInt:  DefaultBool: False DefaultFloat:  
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf gamma DefaultInt:  DefaultBool:  DefaultFloat: 1 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf simpleFire DefaultInt:  DefaultBool: False DefaultFloat:  
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf vSync DefaultInt:  DefaultBool: True DefaultFloat:  
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf simpleExplosions DefaultInt:  DefaultBool: False DefaultFloat:  
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf simpleNailPhysics DefaultInt:  DefaultBool: True DefaultFloat:  
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf freezeGore DefaultInt:  DefaultBool: False DefaultFloat:  
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf colorCompression DefaultInt: 2 DefaultBool:  DefaultFloat:  
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf bloodEnabled DefaultInt:  DefaultBool: True DefaultFloat:  
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf vertexWarping DefaultInt: 0 DefaultBool:  DefaultFloat:  
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf maxGore DefaultInt:  DefaultBool:  DefaultFloat: 3000 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf fieldOfView DefaultInt:  DefaultBool:  DefaultFloat: 105 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf dithering DefaultInt:  DefaultBool:  DefaultFloat: 0.2 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf disableEnvironmentParticles DefaultInt:  DefaultBool: False DefaultFloat:  
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf bloodStainMax DefaultInt:  DefaultBool:  DefaultFloat: 100000 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf bloodStainChance DefaultInt:  DefaultBool:  DefaultFloat: 0.5 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf subtitlesEnabled DefaultInt:  DefaultBool: False DefaultFloat:  
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf allVolume DefaultInt:  DefaultBool:  DefaultFloat: 1 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf muffleMusic DefaultInt:  DefaultBool: True DefaultFloat:  
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf sfxVolume DefaultInt:  DefaultBool:  DefaultFloat: 1 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf musicVolume DefaultInt:  DefaultBool:  DefaultFloat: 0.6 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf disableWhiplashHardDamage DefaultInt:  DefaultBool: False DefaultFloat:  
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf infiniteStamina DefaultInt:  DefaultBool: False DefaultFloat:  
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf majorAssist DefaultInt:  DefaultBool: False DefaultFloat:  
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf autoAim DefaultInt:  DefaultBool: False DefaultFloat:  
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf bossDifficultyOverride DefaultInt: 0 DefaultBool:  DefaultFloat:  
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf disableHardDamage DefaultInt:  DefaultBool: False DefaultFloat:  
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf damageTaken DefaultInt:  DefaultBool:  DefaultFloat: 1 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf gameSpeed DefaultInt:  DefaultBool:  DefaultFloat: 1 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf hideMajorAssistPopup DefaultInt:  DefaultBool: False DefaultFloat:  
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf disableWeaponFreshness DefaultInt:  DefaultBool: False DefaultFloat:  
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf autoAim DefaultInt:  DefaultBool: False DefaultFloat:  
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf autoAimAmount DefaultInt:  DefaultBool:  DefaultFloat: 0.2 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Generating SlotData for /mnt/DATA/Games/ULTRAKILL/Saves/Slot1 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf armIcons DefaultInt:  DefaultBool: True DefaultFloat:  
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf hudAlwaysOnTop DefaultInt:  DefaultBool: False DefaultFloat:  
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf speedometer DefaultInt: 0 DefaultBool:  DefaultFloat:  
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf hudBackgroundOpacity DefaultInt:  DefaultBool:  DefaultFloat: 50 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf iconPack DefaultInt: 0 DefaultBool:  DefaultFloat:  
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf crossHairColor DefaultInt: 1 DefaultBool:  DefaultFloat:  
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf powerUpMeter DefaultInt:  DefaultBool: True DefaultFloat:  
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf weaponIcons DefaultInt:  DefaultBool: True DefaultFloat:  
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf crossHairHudFade DefaultInt:  DefaultBool: True DefaultFloat:  
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf hudType DefaultInt: 1 DefaultBool:  DefaultFloat:  
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf styleInfo DefaultInt:  DefaultBool: True DefaultFloat:  
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf crossHairHud DefaultInt: 2 DefaultBool:  DefaultFloat:  
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf railcannonMeter DefaultInt:  DefaultBool: True DefaultFloat:  
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf styleMeter DefaultInt:  DefaultBool: True DefaultFloat:  
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf crossHair DefaultInt: 1 DefaultBool:  DefaultFloat:  
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Navigate)</b> Comparing action Navigate to default action Navigate</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Navigate to Navigate - Action: 5, Base: 5</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Submit)</b> Comparing action Submit to default action Submit</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Submit to Submit - Action: 0, Base: 0</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Cancel)</b> Comparing action Cancel to default action Cancel</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Cancel to Cancel - Action: 0, Base: 0</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Point)</b> Comparing action Point to default action Point</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Point to Point - Action: 2, Base: 2</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Click)</b> Comparing action Click to default action Click</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Click to Click - Action: 2, Base: 2</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(ScrollWheel)</b> Comparing action ScrollWheel to default action ScrollWheel</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>ScrollWheel to ScrollWheel - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(MiddleClick)</b> Comparing action MiddleClick to default action MiddleClick</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>MiddleClick to MiddleClick - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(RightClick)</b> Comparing action RightClick to default action RightClick</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>RightClick to RightClick - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(TrackedDevicePosition)</b> Comparing action TrackedDevicePosition to default action TrackedDevicePosition</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>TrackedDevicePosition to TrackedDevicePosition - Action: 0, Base: 0</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(TrackedDeviceOrientation)</b> Comparing action TrackedDeviceOrientation to default action TrackedDeviceOrientation</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>TrackedDeviceOrientation to TrackedDeviceOrientation - Action: 0, Base: 0</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(ScrollSublist)</b> Comparing action ScrollSublist to default action ScrollSublist</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>ScrollSublist to ScrollSublist - Action: 0, Base: 0</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Pause)</b> Comparing action Pause to default action Pause</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Pause to Pause - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Move)</b> Comparing action Move to default action Move</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Move to Move - Action: 5, Base: 5</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Look)</b> Comparing action Look to default action Look</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Look to Look - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Dodge)</b> Comparing action Dodge to default action Dodge</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Dodge to Dodge - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Slide)</b> Comparing action Slide to default action Slide</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Slide to Slide - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Jump)</b> Comparing action Jump to default action Jump</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Jump to Jump - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Punch)</b> Comparing action Punch to default action Punch</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Punch to Punch - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Change Fist)</b> Comparing action Change Fist to default action Change Fist</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Change Fist to Change Fist - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Punch (Feedbacker))</b> Comparing action Punch (Feedbacker) to default action Punch (Feedbacker)</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Punch (Feedbacker) to Punch (Feedbacker) - Action: 0, Base: 0</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Punch (Knuckleblaster))</b> Comparing action Punch (Knuckleblaster) to default action Punch (Knuckleblaster)</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Punch (Knuckleblaster) to Punch (Knuckleblaster) - Action: 0, Base: 0</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Hook)</b> Comparing action Hook to default action Hook</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Hook to Hook - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Primary Fire)</b> Comparing action Primary Fire to default action Primary Fire</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Primary Fire to Primary Fire - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Secondary Fire)</b> Comparing action Secondary Fire to default action Secondary Fire</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Secondary Fire to Secondary Fire - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Next Variation)</b> Comparing action Next Variation to default action Next Variation</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Next Variation to Next Variation - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Previous Variation)</b> Comparing action Previous Variation to default action Previous Variation</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Previous Variation to Previous Variation - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Revolver)</b> Comparing action Revolver to default action Revolver</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Revolver to Revolver - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Shotgun)</b> Comparing action Shotgun to default action Shotgun</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Shotgun to Shotgun - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Nailgun)</b> Comparing action Nailgun to default action Nailgun</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Nailgun to Nailgun - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Railcannon)</b> Comparing action Railcannon to default action Railcannon</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Railcannon to Railcannon - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Rocket Launcher)</b> Comparing action Rocket Launcher to default action Rocket Launcher</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Rocket Launcher to Rocket Launcher - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Spawner Arm)</b> Comparing action Spawner Arm to default action Spawner Arm</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Spawner Arm to Spawner Arm - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Next Weapon)</b> Comparing action Next Weapon to default action Next Weapon</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Next Weapon to Next Weapon - Action: 0, Base: 0</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Previous Weapon)</b> Comparing action Previous Weapon to default action Previous Weapon</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Previous Weapon to Previous Weapon - Action: 0, Base: 0</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Last Used Weapon)</b> Comparing action Last Used Weapon to default action Last Used Weapon</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Last Used Weapon to Last Used Weapon - Action: 0, Base: 0</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(WheelLook)</b> Comparing action WheelLook to default action WheelLook</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>WheelLook to WheelLook - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Variation Slot 1)</b> Comparing action Variation Slot 1 to default action Variation Slot 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Variation Slot 1 to Variation Slot 1 - Action: 0, Base: 0</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Variation Slot 2)</b> Comparing action Variation Slot 2 to default action Variation Slot 2</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Variation Slot 2 to Variation Slot 2 - Action: 0, Base: 0</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Variation Slot 3)</b> Comparing action Variation Slot 3 to default action Variation Slot 3</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Variation Slot 3 to Variation Slot 3 - Action: 0, Base: 0</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Stats)</b> Comparing action Stats to default action Stats</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Stats to Stats - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+

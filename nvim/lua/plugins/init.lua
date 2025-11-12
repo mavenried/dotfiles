@@ -5,6 +5,10 @@ return {
     opts = require "configs.conform",
   },
 
+  {
+    "nvim-mini/mini.nvim",
+  },
+
   -- These are some examples, uncomment them if you want to see them work!
   {
     "neovim/nvim-lspconfig",
