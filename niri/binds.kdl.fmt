@@ -1,6 +1,3 @@
-animations {
-
-}
 binds {
     Mod+Shift+Slash {
         show-hotkey-overlay
@@ -12,13 +9,13 @@ binds {
         spawn "rofi" "-show" "drun"
     }
     Mod+V {
-      toggle-window-floating
+        toggle-window-floating
     }
     Mod+S {
-      spawn "flatpak" "run" "org.spotify.Client"
+        spawn "flatpak" "run" "org.spotify.Client"
     }
     Mod+Shift+S {
-      spawn "ghostty" "-e" "musicman"
+        spawn "ghostty" "-e" "musicman"
     }
     Super+L hotkey-overlay-title="Lock the Screen: hyprlock" {
         spawn "hyprlock"
@@ -191,7 +188,7 @@ binds {
     Mod+Shift+Page_Up {
         move-workspace-up
     }
-    
+
     Mod+WheelScrollDown cooldown-ms=150 {
         focus-workspace-down
     }
@@ -335,116 +332,18 @@ binds {
         spawn "firefox"
     }
     Mod+N {
-      spawn-sh "dunstctl close-all"
+        spawn-sh "dunstctl close-all"
     }
     Mod+E {
         spawn "nautilus"
     }
     Mod+Shift+R {
-      spawn-sh "/mnt/DATA/dots/niri/compile-conf"
+        spawn-sh "/mnt/DATA/dots/niri/compile-conf"
     }
     Mod+U{
-      spawn-sh "bluetoothctl connect 90:A0:BE:73:C1:81"
+        spawn-sh "bluetoothctl connect 90:A0:BE:73:C1:81"
     }
     Mod+Shift+U{
-      spawn-sh "bluetoothctl connect 41:42:FF:07:FD:B6"
+        spawn-sh "bluetoothctl connect 41:42:FF:07:FD:B6"
     }
-}
-input {
-    keyboard {
-        xkb {
-            options "caps:escape"
-        }
-        numlock
-    }
-    touchpad {
-        tap
-        natural-scroll
-    }
-    mouse {
-
-    }
-    trackpoint {
-
-    }
-    focus-follows-mouse
-}
-layer-rule {
-    match namespace="^mpvpaper$"
-    place-within-backdrop true
-}
-layout {
-    background-color "transparent"
-    gaps 5
-    center-focused-column "never"
-    preset-column-widths {
-        proportion 0.25
-        proportion 0.5
-        proportion 0.75
-        proportion 1.0
-    }
-    preset-window-heights {
-        proportion 0.25
-        proportion 0.5
-        proportion 0.75
-        proportion 1.0
-    }
-    default-column-width {
-        proportion 1.0
-    }
-    focus-ring {
-        off
-        width 1.5
-        active-color "#cba6f7"
-        inactive-color "#181825"
-    }
-    border {
-        width 1.5
-        active-color "#cba6f7"
-        inactive-color "#181825"
-        urgent-color "#cba6f7"
-    }
-    shadow {
-        on
-        softness 30
-        spread 5
-        offset x=0 y=5
-        color "#282828"
-    }
-    struts {
-
-    }
-}
-overview {
-    zoom 0.75
-    backdrop-color "transparent"
-    workspace-shadow {
-        off
-    }
-}
-window-rule {
-    match app-id="^org\\.wezfurlong\\.wezterm$"
-    default-column-width {
-
-    }
-}
-window-rule {
-    match app-id="firefox$" title="^Picture-in-Picture$"
-    open-floating true
-}
-screenshot-path "~/Pictures/Screenshots/Screenshot from %Y-%m-%d %H-%M-%S.png"
-spawn-at-startup "waybar"
-spawn-at-startup "swayosd-server"
-spawn-at-startup "/mnt/DATA/scripts/wallpaper-init"
-spawn-at-startup "hypridle"
-spawn-at-startup "/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1"
-hotkey-overlay {
-    skip-at-startup
-}
-prefer-no-csd
-window-rule {
-    tiled-state true
-    draw-border-with-background false
-    geometry-corner-radius 10
-    clip-to-geometry true
 }
