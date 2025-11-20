@@ -1,38 +1,38 @@
 {
+  "hyprland": {
+    "template": "/mnt/DATA/scripts/templates/hyprland.conf",
+    "target": "/mnt/DATA/dots/hypr/accent.conf"
+  },
   "mako": {
     "template": "/mnt/DATA/scripts/templates/mako",
     "target": "/mnt/DATA/dots/mako/config"
-  },
-  "starship": {
-    "template": "/mnt/DATA/scripts/templates/starship.toml",
-    "target": "/mnt/DATA/dots/starship.toml"
-  },
-  "rofi": {
-    "template": "/mnt/DATA/scripts/templates/rofi.rasi",
-    "target": "/mnt/DATA/dots/rofi/theme.rasi"
-  },
-  "hyprlock": {
-    "template": "/mnt/DATA/scripts/templates/hyprlock.conf",
-    "target": "/mnt/DATA/dots/hypr/hyprlock.conf"
-  },
-  "niri": {
-    "template": "/mnt/DATA/scripts/templates/niri.kdl",
-    "target": "/mnt/DATA/dots/niri/pieces/layout.kdl"
   },
   "waybar": {
     "template": "/mnt/DATA/scripts/templates/waybar.css",
     "target": "/mnt/DATA/dots/waybar/accent.css"
   },
-  "hyprland": {
-    "template": "/mnt/DATA/scripts/templates/hyprland.conf",
-    "target": "/mnt/DATA/dots/hypr/accent.conf"
-  },
   "dunst": {
     "template": "/mnt/DATA/scripts/templates/dunst",
     "target": "/mnt/DATA/dots/dunst/dunstrc"
   },
+  "starship": {
+    "template": "/mnt/DATA/scripts/templates/starship.toml",
+    "target": "/mnt/DATA/dots/starship.toml"
+  },
+  "niri": {
+    "template": "/mnt/DATA/scripts/templates/niri.kdl",
+    "target": "/mnt/DATA/dots/niri/pieces/layout.kdl"
+  },
   "ghostty": {
     "template": "/mnt/DATA/scripts/templates/ghostty",
     "target": "/mnt/DATA/dots/ghostty/config"
+  },
+  "hyprlock": {
+    "template": "/mnt/DATA/scripts/templates/hyprlock.conf",
+    "target": "/mnt/DATA/dots/hypr/hyprlock.conf"
+  },
+  "rofi": {
+    "template": "/mnt/DATA/scripts/templates/rofi.rasi",
+    "target": "/mnt/DATA/dots/rofi/theme.rasi"
   }
 }

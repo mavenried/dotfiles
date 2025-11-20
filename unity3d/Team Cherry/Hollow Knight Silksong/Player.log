@@ -20,10 +20,10 @@ ns GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_textur
 _attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_meminfo GL_ATI_texture_float GL_ATI_texture_mirror_once GL_EXT_EGL_image_storage GL_EXT_EGL_image_storage_compression GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_debug_label GL_EXT_demote_to_helper_invocation GL_EXT_depth_bounds_test GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_clock GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_t
 exture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_filter_minmax GL_EXT_texture_integer GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_KHR_blend_equation_advanced GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_shader_subgroup GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_const_bandwidth GL_MESA_texture_signed_rgba GL_NVX_gpu_memory_info GL_NV_alpha
 _to_coverage_dither_control GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_packed_depth_stencil GL_NV_shader_atomic_int64 GL_NV_texture_barrier GL_NV_vdpau_interop GL_OES_EGL_image GL_S3_s3tc
-OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle 297192192
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle 297942000
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.108 seconds
-- Finished resetting the current domain, in  0.002 seconds
+- Loaded All Assemblies, in  0.168 seconds
+- Finished resetting the current domain, in  0.004 seconds
 [Physics::Module] Selected backend.
 [Physics::Module] Name: PhysX
 [Physics::Module] Id: 0xf2b8ea05
@@ -35,127 +35,24 @@ requesting resize 1920 x 1080
 Using native desktop resolution 1920 x 1080
 requesting fullscreen 1920 x 1080 at 0/1 Hz
 Desktop is 1920 x 1080 @ 60 Hz
-UnloadTime: 0.605856 ms
+UnloadTime: 0.529586 ms
 No online subsystems packaged.
 Unloading 5 Unused Serialized files (Serialized files now loaded: 527)
-UnloadTime: 1.896156 ms
+UnloadTime: 2.234051 ms
 Discovered supported languages: DE, EN, ES, FR, IT, JA, KO, PT, RU, ZH
 Loaded saved language code 'EN'
 Restored language code 'EN'
 Couldn't find a Game Manager, make sure one exists in the scene.
 Couldn't find GameCameras, make sure one exists in the scene.
 Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 5776.
-Total: 5.704839 ms (FindLiveObjects: 0.373270 ms CreateObjectMapping: 0.112861 ms MarkObjects: 5.112639 ms  DeleteObjects: 0.105638 ms)
+Total: 5.874206 ms (FindLiveObjects: 0.333527 ms CreateObjectMapping: 0.136407 ms MarkObjects: 5.368816 ms  DeleteObjects: 0.035036 ms)
 
-Unloading 2 Unused Serialized files (Serialized files now loaded: 527)
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 12994.
-Total: 9.172753 ms (FindLiveObjects: 1.275823 ms CreateObjectMapping: 0.441979 ms MarkObjects: 7.402473 ms  DeleteObjects: 0.051978 ms)
-
-Unloading 1 Unused Serialized files (Serialized files now loaded: 579)
-Couldn't find GameCameras, make sure one exists in the scene.
-Couldn't find a Game Manager, make sure one exists in the scene.
-UnloadTime: 5.251679 ms
-Loaded saved language code 'EN'
-Restored language code 'EN'
-Unloading 73 unused Assets to reduce memory usage. Loaded Objects now: 66256.
-Total: 22.109456 ms (FindLiveObjects: 4.115990 ms CreateObjectMapping: 1.815905 ms MarkObjects: 15.883429 ms  DeleteObjects: 0.293710 ms)
-
-MenuButton missing flashEffect!
-Making UI menu lean.
-Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
-Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
-Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
-Unloading 3 Unused Serialized files (Serialized files now loaded: 609)
-Unloading 106 unused Assets to reduce memory usage. Loaded Objects now: 120690.
-Total: 48.501552 ms (FindLiveObjects: 5.899815 ms CreateObjectMapping: 3.557562 ms MarkObjects: 38.249525 ms  DeleteObjects: 0.794310 ms)
-
-Converting Vertex Colors from Color32 to Color.
-Converting Vertex Colors from Color32 to Color.
-Converting Vertex Colors from Color32 to Color.
-Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
-Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
-Using fallback 1 to find tilemap. Scene Bellshrine_05 requires manual fixing.
-Using fallback 1 to find tilemap. Scene Bellshrine_05 requires manual fixing.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 599)
-Unloading 6760 unused Assets to reduce memory usage. Loaded Objects now: 126656.
-Total: 77.285485 ms (FindLiveObjects: 6.252777 ms CreateObjectMapping: 2.904146 ms MarkObjects: 47.197537 ms  DeleteObjects: 20.930464 ms)
-
-Can not play a disabled audio source
-Using fallback 1 to find tilemap. Scene Bellshrine_05 requires manual fixing.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 620)
-Unloading 4010 unused Assets to reduce memory usage. Loaded Objects now: 126774.
-Total: 75.341309 ms (FindLiveObjects: 6.136189 ms CreateObjectMapping: 3.013581 ms MarkObjects: 52.723100 ms  DeleteObjects: 13.468078 ms)
-
-Can not play a disabled audio source
-Using fallback 1 to find tilemap. Scene Bellshrine_05 requires manual fixing.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 613)
-Unloading 3704 unused Assets to reduce memory usage. Loaded Objects now: 126878.
-Total: 73.861825 ms (FindLiveObjects: 6.518475 ms CreateObjectMapping: 3.914412 ms MarkObjects: 48.739569 ms  DeleteObjects: 14.688978 ms)
-
-Using fallback 1 to find tilemap. Scene Bellshrine_05 requires manual fixing.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 595)
-Unloading 1573 unused Assets to reduce memory usage. Loaded Objects now: 126876.
-Total: 63.057181 ms (FindLiveObjects: 6.131209 ms CreateObjectMapping: 2.778941 ms MarkObjects: 48.499920 ms  DeleteObjects: 5.646730 ms)
-
-Hazard Respawn Trigger v2 (2) does not have a Hazard Respawn Marker Set
-Hazard Respawn Trigger v2 does not have a Hazard Respawn Marker Set
-Cannot set the parent of the GameObject 'Air Blow Region Updraft(Clone)' while activating or deactivating the parent GameObject 'Updraft After 2'.
-gameObject1 is null!
-Coroutine couldn't be started because the the game object 'Seamstress Umbrella Platform' is inactive!
-Cannot set the parent of the GameObject 'Air Blow Region Updraft(Clone)' while activating or deactivating the parent GameObject 'Updraft After 2'.
-gameObject1 is null!
-Using fallback 1 to find tilemap. Scene Bellshrine_05 requires manual fixing.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 617)
-Unloading 4642 unused Assets to reduce memory usage. Loaded Objects now: 127112.
-Total: 73.820968 ms (FindLiveObjects: 6.210037 ms CreateObjectMapping: 2.810040 ms MarkObjects: 48.354978 ms  DeleteObjects: 16.445533 ms)
-
-Using fallback 1 to find tilemap. Scene Bellshrine_05 requires manual fixing.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 595)
-Unloading 1573 unused Assets to reduce memory usage. Loaded Objects now: 127051.
-Total: 55.060013 ms (FindLiveObjects: 6.216960 ms CreateObjectMapping: 2.729269 ms MarkObjects: 40.098933 ms  DeleteObjects: 6.014450 ms)
-
-Using fallback 1 to find tilemap. Scene Bellshrine_05 requires manual fixing.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 619)
-Unloading 3870 unused Assets to reduce memory usage. Loaded Objects now: 127088.
-Total: 75.829044 ms (FindLiveObjects: 6.502906 ms CreateObjectMapping: 2.922410 ms MarkObjects: 49.485468 ms  DeleteObjects: 16.917899 ms)
-
-Unloading 1 Unused Serialized files (Serialized files now loaded: 621)
-UnloadTime: 2.390513 ms
-Unloading 2900 unused Assets to reduce memory usage. Loaded Objects now: 121969.
-Total: 52.494942 ms (FindLiveObjects: 6.415422 ms CreateObjectMapping: 2.751070 ms MarkObjects: 39.114627 ms  DeleteObjects: 4.213502 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 525)
-Unloading 7604 unused Assets to reduce memory usage. Loaded Objects now: 25825.
-Total: 45.657508 ms (FindLiveObjects: 1.349291 ms CreateObjectMapping: 0.757961 ms MarkObjects: 35.571272 ms  DeleteObjects: 7.978633 ms)
-
-Unloading 1 Unused Serialized files (Serialized files now loaded: 577)
-UnloadTime: 0.756459 ms
-Loaded saved language code 'EN'
-Restored language code 'EN'
-Unloading 57 unused Assets to reduce memory usage. Loaded Objects now: 72098.
-Total: 47.869827 ms (FindLiveObjects: 4.447150 ms CreateObjectMapping: 2.140294 ms MarkObjects: 41.085464 ms  DeleteObjects: 0.196518 ms)
-
-Unloading 1 Unused Serialized files (Serialized files now loaded: 575)
-Unloading 5609 unused Assets to reduce memory usage. Loaded Objects now: 66473.
-Total: 36.288738 ms (FindLiveObjects: 3.668130 ms CreateObjectMapping: 2.075212 ms MarkObjects: 24.124494 ms  DeleteObjects: 6.420561 ms)
-
-Couldn't find a Game Manager, make sure one exists in the scene.
-Couldn't find a Game Manager, make sure one exists in the scene.
-Couldn't find a Game Manager, make sure one exists in the scene.
-Couldn't find a Game Manager, make sure one exists in the scene.
-Couldn't find a Game Manager, make sure one exists in the scene.
-Couldn't find a Game Manager, make sure one exists in the scene.
-Couldn't find a Game Manager, make sure one exists in the scene.
-Couldn't find a Game Manager, make sure one exists in the scene.
-Couldn't find a Game Manager, make sure one exists in the scene.
-Couldn't find a Game Manager, make sure one exists in the scene.
-Couldn't find a Game Manager, make sure one exists in the scene.
-Couldn't find a Game Manager, make sure one exists in the scene.
-Couldn't find a Game Manager, make sure one exists in the scene.
-Couldn't find a Game Manager, make sure one exists in the scene.
+AssetBundle.Unload was called while the asset bundle had an async load operation in progress. The main thread will wait for the async load operation to complete.
+AssetBundle.Unload could not complete because the asset bundle still has an async load operation in progress.
 Couldn't find a Game Manager, make sure one exists in the scene.
 [Physics::Module] Cleanup current backned.
 [Physics::Module] Id: 0xf2b8ea05
+Deallocated serialized file cache memory but there are still active readers. This can occur when there are Assetbundles that are still loaded.
 Input System module state changed to: ShutdownInProgress.
 Input System polling thread exited.
 Input System module state changed to: Shutdown.

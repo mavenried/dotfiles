@@ -18,64 +18,64 @@ eval "$(proj-cmd init zsh)"
 PATH=$PATH:"./bin:/home/mavenried/.local/bin:$PROJECT_PATH_SCRIPTS"
 
 function mav() {
-    macchina --theme mavenried -o host -o machine -o processor -o distribution -o processor-load -o battery
+  macchina --theme mavenried -o host -o machine -o processor -o distribution -o processor-load -o battery
 }
 
 function bak() {
-    for f in "$@"; do
-        if [[ "$f" == *.bak ]]; then
-            target="${f%.bak}"
-            if [[ -e "$target" ]]; then
-                echo "Skipping $f: $target already exists"
-            else
-                mv -- "$f" "$target"
-            fi
-        else
-            if [[ -e "$f.bak" ]]; then
-                echo "Skipping $f: $f.bak already exists"
-            else
-                mv -- "$f" "$f.bak"
-            fi
-        fi
-    done
+  for f in "$@"; do
+    if [[ "$f" == *.bak ]]; then
+      target="${f%.bak}"
+      if [[ -e "$target" ]]; then
+        echo "Skipping $f: $target already exists"
+      else
+        mv -- "$f" "$target"
+      fi
+    else
+      if [[ -e "$f.bak" ]]; then
+        echo "Skipping $f: $f.bak already exists"
+      else
+        mv -- "$f" "$f.bak"
+      fi
+    fi
+  done
 }
 
 function index() {
-    if [[ "$1" == "" ]]; then
-        dir=$(pwd)
-    else
-        dir=$1
-    fi
-    echo "Opening $dir/indexer.json in nvim..."
-    $EDITOR "$dir/indexer.json"
+  if [[ "$1" == "" ]]; then
+    dir=$(pwd)
+  else
+    dir=$1
+  fi
+  echo "Opening $dir/indexer.json in nvim..."
+  $EDITOR "$dir/indexer.json"
 }
 
 function config() {
-    $EDITOR "/mnt/DATA/dots/$1"
+  $EDITOR "/mnt/DATA/dots/$1"
 }
 
 function clean() {
-    files=$(fd target $PROJECT_PATH_RUST -t d -u)
-    if [[ "$files" == "" ]]; then
-        printf "\x1b[31mNothing to clean.\x1b[0m\n"
-    else
-        printf "\x1b[33mFound the following directories:\n\x1b[31m%s\n\x1b[0m" "$files"
-        if gum confirm --default=false "Do you want to delete these directories?"; then
-            gum spin --title="Removing..." -- fd target $PROJECT_PATH_RUST -t d -u --exec rm -fr {}
-        fi
+  files=$(fd target $PROJECT_PATH_RUST -t d -u)
+  if [[ "$files" == "" ]]; then
+    printf "\x1b[31mNothing to clean.\x1b[0m\n"
+  else
+    printf "\x1b[33mFound the following directories:\n\x1b[31m%s\n\x1b[0m" "$files"
+    if gum confirm --default=false "Do you want to delete these directories?"; then
+      gum spin --title="Removing..." -- fd target $PROJECT_PATH_RUST -t d -u --exec rm -fr {}
     fi
+  fi
 
 }
 
 function open() {
-    for file in "$@"; do
-        xdg-open "$file"
-    done
+  for file in "$@"; do
+    xdg-open "$file"
+  done
 }
 
 function mkcd() {
-    mkdir -p "$1"
-    cd "$1" || return 1
+  mkdir -p "$1"
+  cd "$1" || return 1
 }
 
 # Call mav once
@@ -104,7 +104,6 @@ alias q=exit
 alias icat="kitten icat"
 alias pls=sudo
 alias btop="btop --force-utf"
-alias ppc=powerprofilesctl
 alias bkp="rsync -aAX --delete --info=progress2 /mnt/DATA/ /run/media/mavenried/MavenDATA"
 alias sl=ls
 alias edit=$EDITOR
