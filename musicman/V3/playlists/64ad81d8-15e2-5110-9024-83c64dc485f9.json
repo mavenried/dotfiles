@@ -1,0 +1,83 @@
+{
+  "id": "64ad81d8-15e2-5110-9024-83c64dc485f9",
+  "title": "Test",
+  "songs": [
+    {
+      "id": "381bf50b-c958-5dba-b35e-cdea3570ee36",
+      "title": "The Flame of Love",
+      "artists": [
+        "Rokudenashi"
+      ],
+      "duration": {
+        "secs": 193,
+        "nanos": 959000000
+      }
+    },
+    {
+      "id": "884cbf07-c1f0-5ea1-83f6-95e7fe86f727",
+      "title": "ただ声一つ",
+      "artists": [
+        "Rokudenashi"
+      ],
+      "duration": {
+        "secs": 161,
+        "nanos": 671000000
+      }
+    },
+    {
+      "id": "1d8326a2-5963-5d81-9a53-c6e73ef848da",
+      "title": "アルビレオ",
+      "artists": [
+        "Rokudenashi"
+      ],
+      "duration": {
+        "secs": 207,
+        "nanos": 882000000
+      }
+    },
+    {
+      "id": "565617ee-5d34-54f6-9a73-8afd98b5d1ef",
+      "title": "ユリイカ",
+      "artists": [
+        "Rokudenashi"
+      ],
+      "duration": {
+        "secs": 225,
+        "nanos": 567000000
+      }
+    },
+    {
+      "id": "696923f4-d26c-5d2d-9b65-7fe836d8e55d",
+      "title": "三時のキス",
+      "artists": [
+        "Rokudenashi"
+      ],
+      "duration": {
+        "secs": 280,
+        "nanos": 973000000
+      }
+    },
+    {
+      "id": "4d8309f4-8a32-5f5d-9a76-2aed69a14679",
+      "title": "知らないままで",
+      "artists": [
+        "Rokudenashi"
+      ],
+      "duration": {
+        "secs": 134,
+        "nanos": 321000000
+      }
+    },
+    {
+      "id": "0a3716a8-3850-5fa8-b58d-11079a5bd2cc",
+      "title": "脈拍",
+      "artists": [
+        "Rokudenashi"
+      ],
+      "duration": {
+        "secs": 219,
+        "nanos": 24000000
+      }
+    }
+  ]
+}

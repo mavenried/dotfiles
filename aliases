@@ -107,3 +107,4 @@ alias btop="btop --force-utf"
 alias bkp="rsync -aAX --delete --info=progress2 /mnt/DATA/ /run/media/mavenried/MavenDATA"
 alias sl=ls
 alias edit=$EDITOR
+alias cat=bat

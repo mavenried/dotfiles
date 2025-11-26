@@ -17,16 +17,16 @@ ns GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_textur
 _attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_meminfo GL_ATI_texture_float GL_ATI_texture_mirror_once GL_EXT_EGL_image_storage GL_EXT_EGL_image_storage_compression GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_debug_label GL_EXT_demote_to_helper_invocation GL_EXT_depth_bounds_test GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_clock GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_t
 exture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_filter_minmax GL_EXT_texture_integer GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_KHR_blend_equation_advanced GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_shader_subgroup GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_const_bandwidth GL_MESA_texture_signed_rgba GL_NVX_gpu_memory_info GL_NV_alpha
 _to_coverage_dither_control GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_packed_depth_stencil GL_NV_shader_atomic_int64 GL_NV_texture_barrier GL_NV_vdpau_interop GL_OES_EGL_image GL_S3_s3tc
-OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle 935565072
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle 404921152
 Begin MonoManager ReloadAssembly
-- Completed reload, in  0.143 seconds
+- Completed reload, in  0.103 seconds
 Default vsync count 1
 requesting resize 1920 x 1080
 Using native desktop resolution 1920 x 1080
 requesting fullscreen 1920 x 1080 at 0 Hz
 Desktop is 1920 x 1080 @ 60 Hz
 Disable old input system
-UnloadTime: 1.527161 ms
+UnloadTime: 1.221016 ms
 Odin Serializer ArchitectureInfo initialization with defaults (all unaligned read/writes disabled). 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
@@ -54,20 +54,286 @@ Using native desktop resolution 1920 x 1080
 requesting fullscreen 1920 x 1080 at 0 Hz
 Desktop is 1920 x 1080 @ 60 Hz
 Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 30.807758 ms
+UnloadTime: 31.061214 ms
 requesting resize 1920 x 1080
 Using native desktop resolution 1920 x 1080
 requesting fullscreen 1920 x 1080 at 0 Hz
 Desktop is 1920 x 1080 @ 60 Hz
 
-Unloading 4100 unused Assets to reduce memory usage. Loaded Objects now: 174698.
-Total: 816.968133 ms (FindLiveObjects: 14.767903 ms CreateObjectMapping: 2.421212 ms MarkObjects: 790.589161 ms  DeleteObjects: 9.188714 ms)
+Unloading 4141 unused Assets to reduce memory usage. Loaded Objects now: 175334.
+Total: 791.253149 ms (FindLiveObjects: 13.826764 ms CreateObjectMapping: 2.446590 ms MarkObjects: 766.611604 ms  DeleteObjects: 8.367000 ms)
 
 Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 672.433732 ms
+UnloadTime: 531.501635 ms
 
-Unloading 73 unused Assets to reduce memory usage. Loaded Objects now: 12928.
-Total: 103.480670 ms (FindLiveObjects: 2.231826 ms CreateObjectMapping: 0.408578 ms MarkObjects: 100.434504 ms  DeleteObjects: 0.404450 ms)
+Unloading 73 unused Assets to reduce memory usage. Loaded Objects now: 12927.
+Total: 103.748043 ms (FindLiveObjects: 0.959133 ms CreateObjectMapping: 0.447752 ms MarkObjects: 101.934513 ms  DeleteObjects: 0.405843 ms)
+
+requesting resize 1920 x 1080
+Using native desktop resolution 1920 x 1080
+requesting fullscreen 1920 x 1080 at 0 Hz
+Desktop is 1920 x 1080 @ 60 Hz
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 16.679106 ms
+requesting resize 1920 x 1080
+Using native desktop resolution 1920 x 1080
+requesting fullscreen 1920 x 1080 at 0 Hz
+Desktop is 1920 x 1080 @ 60 Hz
+
+Unloading 4089 unused Assets to reduce memory usage. Loaded Objects now: 174704.
+Total: 785.543735 ms (FindLiveObjects: 12.367531 ms CreateObjectMapping: 2.126908 ms MarkObjects: 762.559215 ms  DeleteObjects: 8.488939 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+Uploading Crash Report
+NullReferenceException: Object reference not set to an instance of an object
+  at flanne.Gun.StopShooting () [0x0003a] in <7a28f890ea114819b572e2daf33634c1>:0 
+  at flanne.Player.ShootingState.Exit () [0x000b0] in <7a28f890ea114819b572e2daf33634c1>:0 
+  at flanne.PlayerController.OnDisable () [0x00017] in <7a28f890ea114819b572e2daf33634c1>:0 
+ 
+(Filename: <7a28f890ea114819b572e2daf33634c1> Line: 0)
+
+UnloadTime: 342.862970 ms
+
+Unloading 73 unused Assets to reduce memory usage. Loaded Objects now: 12927.
+Total: 104.363730 ms (FindLiveObjects: 1.206187 ms CreateObjectMapping: 0.490112 ms MarkObjects: 102.331981 ms  DeleteObjects: 0.334519 ms)
+
+requesting resize 1920 x 1080
+Using native desktop resolution 1920 x 1080
+requesting fullscreen 1920 x 1080 at 0 Hz
+Desktop is 1920 x 1080 @ 60 Hz
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 16.537821 ms
+requesting resize 1920 x 1080
+Using native desktop resolution 1920 x 1080
+requesting fullscreen 1920 x 1080 at 0 Hz
+Desktop is 1920 x 1080 @ 60 Hz
+
+Unloading 4090 unused Assets to reduce memory usage. Loaded Objects now: 181900.
+Total: 674.726021 ms (FindLiveObjects: 12.319600 ms CreateObjectMapping: 1.987607 ms MarkObjects: 653.674366 ms  DeleteObjects: 6.743688 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 236.044075 ms
+
+Unloading 72 unused Assets to reduce memory usage. Loaded Objects now: 12927.
+Total: 105.815129 ms (FindLiveObjects: 1.739681 ms CreateObjectMapping: 0.637098 ms MarkObjects: 103.114993 ms  DeleteObjects: 0.321936 ms)
+
+requesting resize 1920 x 1080
+Using native desktop resolution 1920 x 1080
+requesting fullscreen 1920 x 1080 at 0 Hz
+Desktop is 1920 x 1080 @ 60 Hz
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 16.671452 ms
+requesting resize 1920 x 1080
+Using native desktop resolution 1920 x 1080
+requesting fullscreen 1920 x 1080 at 0 Hz
+Desktop is 1920 x 1080 @ 60 Hz
+
+Unloading 4090 unused Assets to reduce memory usage. Loaded Objects now: 181900.
+Total: 672.035814 ms (FindLiveObjects: 14.555805 ms CreateObjectMapping: 2.381828 ms MarkObjects: 647.083154 ms  DeleteObjects: 8.014236 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 286.981005 ms
+
+Unloading 72 unused Assets to reduce memory usage. Loaded Objects now: 12927.
+Total: 103.838162 ms (FindLiveObjects: 0.964273 ms CreateObjectMapping: 0.410071 ms MarkObjects: 102.186637 ms  DeleteObjects: 0.276039 ms)
+
+requesting resize 1920 x 1080
+Using native desktop resolution 1920 x 1080
+requesting fullscreen 1920 x 1080 at 0 Hz
+Desktop is 1920 x 1080 @ 60 Hz
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 16.747104 ms
+requesting resize 1920 x 1080
+Using native desktop resolution 1920 x 1080
+requesting fullscreen 1920 x 1080 at 0 Hz
+Desktop is 1920 x 1080 @ 60 Hz
+
+Unloading 4093 unused Assets to reduce memory usage. Loaded Objects now: 212951.
+Total: 844.901627 ms (FindLiveObjects: 16.464352 ms CreateObjectMapping: 1.924749 ms MarkObjects: 816.978672 ms  DeleteObjects: 9.531649 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+NullReferenceException: Object reference not set to an instance of an object
+  at flanne.Gun.StopShooting () [0x0003a] in <7a28f890ea114819b572e2daf33634c1>:0 
+  at flanne.Player.ShootingState.Exit () [0x000b0] in <7a28f890ea114819b572e2daf33634c1>:0 
+  at flanne.PlayerController.OnDisable () [0x00017] in <7a28f890ea114819b572e2daf33634c1>:0 
+ 
+(Filename: <7a28f890ea114819b572e2daf33634c1> Line: 0)
+
+UnloadTime: 547.003708 ms
+
+Unloading 73 unused Assets to reduce memory usage. Loaded Objects now: 12927.
+Total: 111.843441 ms (FindLiveObjects: 1.338646 ms CreateObjectMapping: 0.397427 ms MarkObjects: 109.772007 ms  DeleteObjects: 0.334138 ms)
+
+requesting resize 1920 x 1080
+Using native desktop resolution 1920 x 1080
+requesting fullscreen 1920 x 1080 at 0 Hz
+Desktop is 1920 x 1080 @ 60 Hz
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 16.988618 ms
+requesting resize 1920 x 1080
+Using native desktop resolution 1920 x 1080
+requesting fullscreen 1920 x 1080 at 0 Hz
+Desktop is 1920 x 1080 @ 60 Hz
+
+Unloading 4128 unused Assets to reduce memory usage. Loaded Objects now: 175351.
+Total: 794.434930 ms (FindLiveObjects: 12.749990 ms CreateObjectMapping: 1.872119 ms MarkObjects: 771.418030 ms  DeleteObjects: 8.393830 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+Uploading Crash Report
+NullReferenceException: Object reference not set to an instance of an object
+  at flanne.SeekerWeapon.OnDestroy () [0x00000] in <7a28f890ea114819b572e2daf33634c1>:0 
+ 
+(Filename: <7a28f890ea114819b572e2daf33634c1> Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at flanne.SeekerWeapon.OnDestroy () [0x00000] in <7a28f890ea114819b572e2daf33634c1>:0 
+ 
+(Filename: <7a28f890ea114819b572e2daf33634c1> Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at flanne.SeekerWeapon.OnDestroy () [0x00000] in <7a28f890ea114819b572e2daf33634c1>:0 
+ 
+(Filename: <7a28f890ea114819b572e2daf33634c1> Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at flanne.SeekerWeapon.OnDestroy () [0x00000] in <7a28f890ea114819b572e2daf33634c1>:0 
+ 
+(Filename: <7a28f890ea114819b572e2daf33634c1> Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at flanne.SeekerWeapon.OnDestroy () [0x00000] in <7a28f890ea114819b572e2daf33634c1>:0 
+ 
+(Filename: <7a28f890ea114819b572e2daf33634c1> Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at flanne.SeekerWeapon.OnDestroy () [0x00000] in <7a28f890ea114819b572e2daf33634c1>:0 
+ 
+(Filename: <7a28f890ea114819b572e2daf33634c1> Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at flanne.SeekerWeapon.OnDestroy () [0x00000] in <7a28f890ea114819b572e2daf33634c1>:0 
+ 
+(Filename: <7a28f890ea114819b572e2daf33634c1> Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at flanne.SeekerWeapon.OnDestroy () [0x00000] in <7a28f890ea114819b572e2daf33634c1>:0 
+ 
+(Filename: <7a28f890ea114819b572e2daf33634c1> Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at flanne.SeekerWeapon.OnDestroy () [0x00000] in <7a28f890ea114819b572e2daf33634c1>:0 
+ 
+(Filename: <7a28f890ea114819b572e2daf33634c1> Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at flanne.SeekerWeapon.OnDestroy () [0x00000] in <7a28f890ea114819b572e2daf33634c1>:0 
+ 
+(Filename: <7a28f890ea114819b572e2daf33634c1> Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at flanne.SeekerWeapon.OnDestroy () [0x00000] in <7a28f890ea114819b572e2daf33634c1>:0 
+ 
+(Filename: <7a28f890ea114819b572e2daf33634c1> Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at flanne.SeekerWeapon.OnDestroy () [0x00000] in <7a28f890ea114819b572e2daf33634c1>:0 
+ 
+(Filename: <7a28f890ea114819b572e2daf33634c1> Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at flanne.SeekerWeapon.OnDestroy () [0x00000] in <7a28f890ea114819b572e2daf33634c1>:0 
+ 
+(Filename: <7a28f890ea114819b572e2daf33634c1> Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at flanne.SeekerWeapon.OnDestroy () [0x00000] in <7a28f890ea114819b572e2daf33634c1>:0 
+ 
+(Filename: <7a28f890ea114819b572e2daf33634c1> Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at flanne.SeekerWeapon.OnDestroy () [0x00000] in <7a28f890ea114819b572e2daf33634c1>:0 
+ 
+(Filename: <7a28f890ea114819b572e2daf33634c1> Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at flanne.SeekerWeapon.OnDestroy () [0x00000] in <7a28f890ea114819b572e2daf33634c1>:0 
+ 
+(Filename: <7a28f890ea114819b572e2daf33634c1> Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at flanne.SeekerWeapon.OnDestroy () [0x00000] in <7a28f890ea114819b572e2daf33634c1>:0 
+ 
+(Filename: <7a28f890ea114819b572e2daf33634c1> Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at flanne.SeekerWeapon.OnDestroy () [0x00000] in <7a28f890ea114819b572e2daf33634c1>:0 
+ 
+(Filename: <7a28f890ea114819b572e2daf33634c1> Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at flanne.SeekerWeapon.OnDestroy () [0x00000] in <7a28f890ea114819b572e2daf33634c1>:0 
+ 
+(Filename: <7a28f890ea114819b572e2daf33634c1> Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at flanne.SeekerWeapon.OnDestroy () [0x00000] in <7a28f890ea114819b572e2daf33634c1>:0 
+ 
+(Filename: <7a28f890ea114819b572e2daf33634c1> Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at flanne.SeekerWeapon.OnDestroy () [0x00000] in <7a28f890ea114819b572e2daf33634c1>:0 
+ 
+(Filename: <7a28f890ea114819b572e2daf33634c1> Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at flanne.SeekerWeapon.OnDestroy () [0x00000] in <7a28f890ea114819b572e2daf33634c1>:0 
+ 
+(Filename: <7a28f890ea114819b572e2daf33634c1> Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at flanne.SeekerWeapon.OnDestroy () [0x00000] in <7a28f890ea114819b572e2daf33634c1>:0 
+ 
+(Filename: <7a28f890ea114819b572e2daf33634c1> Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at flanne.SeekerWeapon.OnDestroy () [0x00000] in <7a28f890ea114819b572e2daf33634c1>:0 
+ 
+(Filename: <7a28f890ea114819b572e2daf33634c1> Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at flanne.SeekerWeapon.OnDestroy () [0x00000] in <7a28f890ea114819b572e2daf33634c1>:0 
+ 
+(Filename: <7a28f890ea114819b572e2daf33634c1> Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at flanne.SeekerWeapon.OnDestroy () [0x00000] in <7a28f890ea114819b572e2daf33634c1>:0 
+ 
+(Filename: <7a28f890ea114819b572e2daf33634c1> Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at flanne.SeekerWeapon.OnDestroy () [0x00000] in <7a28f890ea114819b572e2daf33634c1>:0 
+ 
+(Filename: <7a28f890ea114819b572e2daf33634c1> Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at flanne.SeekerWeapon.OnDestroy () [0x00000] in <7a28f890ea114819b572e2daf33634c1>:0 
+ 
+(Filename: <7a28f890ea114819b572e2daf33634c1> Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at flanne.SeekerWeapon.OnDestroy () [0x00000] in <7a28f890ea114819b572e2daf33634c1>:0 
+ 
+(Filename: <7a28f890ea114819b572e2daf33634c1> Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at flanne.SeekerWeapon.OnDestroy () [0x00000] in <7a28f890ea114819b572e2daf33634c1>:0 
+ 
+(Filename: <7a28f890ea114819b572e2daf33634c1> Line: 0)
+
+UnloadTime: 325.151524 ms
+
+Unloading 72 unused Assets to reduce memory usage. Loaded Objects now: 12927.
+Total: 102.912892 ms (FindLiveObjects: 1.178907 ms CreateObjectMapping: 0.509718 ms MarkObjects: 100.940154 ms  DeleteObjects: 0.282811 ms)
 
 requesting resize 1920 x 1080
 Using native desktop resolution 1920 x 1080
@@ -76,15 +342,25 @@ Desktop is 1920 x 1080 @ 60 Hz
 Fallback handler could not load library /mnt/DATA/Games/20 Minutes Till Dawn/20MinuteTillDawn_Data/Mono/libsteam_api
 Fallback handler could not load library /mnt/DATA/Games/20 Minutes Till Dawn/20MinuteTillDawn_Data/Mono/libsteam_api.so
 Fallback handler could not load library /mnt/DATA/Games/20 Minutes Till Dawn/20MinuteTillDawn_Data/Mono/libsteam_api
+Uploading Crash Report
+Uploading Crash Report
 Setting up 8 worker threads for Enlighten.
-  Thread -> id: 7f42329f96c0 -> priority: 1 
-  Thread -> id: 7f4231bfa6c0 -> priority: 1 
-  Thread -> id: 7f42313f96c0 -> priority: 1 
-  Thread -> id: 7f4230bf86c0 -> priority: 1 
-  Thread -> id: 7f421ffff6c0 -> priority: 1 
-  Thread -> id: 7f421f7fe6c0 -> priority: 1 
-  Thread -> id: 7f421effd6c0 -> priority: 1 
-  Thread -> id: 7f421e7fc6c0 -> priority: 1 
+  Thread -> id: 7fd2213fe6c0 -> priority: 1 
+  Thread -> id: 7fd217fff6c0 -> priority: 1 
+  Thread -> id: 7fd2177fe6c0 -> priority: 1 
+  Thread -> id: 7fd216ffd6c0 -> priority: 1 
+  Thread -> id: 7fd2167fc6c0 -> priority: 1 
+  Thread -> id: 7fd215ffb6c0 -> priority: 1 
+  Thread -> id: 7fd2157fa6c0 -> priority: 1 
+  Thread -> id: 7fd214ff96c0 -> priority: 1 
+Curl error 42: Callback aborted
+ 
+(Filename:  Line: 867)
+
+Curl error 42: Callback aborted
+ 
+(Filename:  Line: 867)
+
 Curl error 42: Callback aborted
  
 (Filename:  Line: 867)

@@ -1,6 +1,6 @@
 -- bootstrap lazy.nvim, LazyVim and your plugins
 require("config.lazy")
-vim.cmd.colorscheme("catppuccin")
+vim.cmd.colorscheme("gruvbox")
 vim.filetype.add({
   extension = { rasi = "rasi" },
   pattern = {

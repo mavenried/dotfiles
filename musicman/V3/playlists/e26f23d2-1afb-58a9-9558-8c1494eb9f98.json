@@ -1,0 +1,381 @@
+{
+  "id": "e26f23d2-1afb-58a9-9558-8c1494eb9f98",
+  "title": "Sleep Token",
+  "songs": [
+    {
+      "id": "ecb89d0f-ac0b-5f06-97a8-d34d20eda6e8",
+      "title": "Alkaline",
+      "artists": [
+        "Sleep Token"
+      ],
+      "duration": {
+        "secs": 214,
+        "nanos": 204000000
+      }
+    },
+    {
+      "id": "e8445ab0-1980-54eb-95fc-7ad1bba4401a",
+      "title": "Aqua Regia",
+      "artists": [
+        "Sleep Token"
+      ],
+      "duration": {
+        "secs": 236,
+        "nanos": 120000000
+      }
+    },
+    {
+      "id": "1a2b4570-2a9c-5e32-a761-096fc6d14c79",
+      "title": "Atlantic",
+      "artists": [
+        "Sleep Token"
+      ],
+      "duration": {
+        "secs": 293,
+        "nanos": 93000000
+      }
+    },
+    {
+      "id": "8f886c21-0c38-5ae0-8585-5b11afe3b734",
+      "title": "Calcutta",
+      "artists": [
+        "Sleep Token"
+      ],
+      "duration": {
+        "secs": 413,
+        "nanos": 753000000
+      }
+    },
+    {
+      "id": "081f6329-1e03-54ae-a52f-445abcad111f",
+      "title": "Caramel",
+      "artists": [
+        "Sleep Token"
+      ],
+      "duration": {
+        "secs": 290,
+        "nanos": 220000000
+      }
+    },
+    {
+      "id": "c0dab1cd-c6d9-5223-a0da-dc0d4fd97646",
+      "title": "Damocles",
+      "artists": [
+        "Sleep Token"
+      ],
+      "duration": {
+        "secs": 264,
+        "nanos": 907000000
+      }
+    },
+    {
+      "id": "a9bfbee4-957d-5ad7-9325-f265782b2041",
+      "title": "Dangerous",
+      "artists": [
+        "Sleep Token"
+      ],
+      "duration": {
+        "secs": 251,
+        "nanos": 400000000
+      }
+    },
+    {
+      "id": "3bcd4b70-e2ad-54a8-9e48-cfb7dbbeba55",
+      "title": "Dark Signs",
+      "artists": [
+        "Sleep Token"
+      ],
+      "duration": {
+        "secs": 268,
+        "nanos": 486000000
+      }
+    },
+    {
+      "id": "298412bd-8d9c-5287-82d1-a518fb799cc4",
+      "title": "Emergence",
+      "artists": [
+        "Sleep Token"
+      ],
+      "duration": {
+        "secs": 386,
+        "nanos": 351000000
+      }
+    },
+    {
+      "id": "1d6f1dee-0390-5c86-ab7d-6743b175ea2b",
+      "title": "Emergence",
+      "artists": [
+        "Sleep Token"
+      ],
+      "duration": {
+        "secs": 386,
+        "nanos": 351000000
+      }
+    },
+    {
+      "id": "449e37ed-8e9f-53ab-a286-0b0152d52259",
+      "title": "Fall For Me",
+      "artists": [
+        "Sleep Token"
+      ],
+      "duration": {
+        "secs": 146,
+        "nanos": 285000000
+      }
+    },
+    {
+      "id": "c9cc44e6-d2cf-5a6a-a776-706b00d00684",
+      "title": "Fields of Elation",
+      "artists": [
+        "Sleep Token"
+      ],
+      "duration": {
+        "secs": 271,
+        "nanos": 307000000
+      }
+    },
+    {
+      "id": "5ac3a75b-7ef8-501f-8480-7504e221ab0f",
+      "title": "Gethsemane",
+      "artists": [
+        "Sleep Token"
+      ],
+      "duration": {
+        "secs": 383,
+        "nanos": 477000000
+      }
+    },
+    {
+      "id": "45b90458-e633-591c-99cd-851d90093435",
+      "title": "Give",
+      "artists": [
+        "Sleep Token"
+      ],
+      "duration": {
+        "secs": 236,
+        "nanos": 352000000
+      }
+    },
+    {
+      "id": "4d3e9cd2-dd87-5eb7-a7ba-9199d6f7383f",
+      "title": "Granite",
+      "artists": [
+        "Sleep Token"
+      ],
+      "duration": {
+        "secs": 225,
+        "nanos": 515000000
+      }
+    },
+    {
+      "id": "04c75740-ddb9-5164-a31b-e2499891cb73",
+      "title": "Higher",
+      "artists": [
+        "Sleep Token"
+      ],
+      "duration": {
+        "secs": 321,
+        "nanos": 802000000
+      }
+    },
+    {
+      "id": "abb2ff48-4ecc-5102-aa3e-e2537ca38169",
+      "title": "Hypnosis",
+      "artists": [
+        "Sleep Token"
+      ],
+      "duration": {
+        "secs": 336,
+        "nanos": 39000000
+      }
+    },
+    {
+      "id": "7db27b0a-e626-5d97-a6c8-39c04b790ff1",
+      "title": "Is It Really You?",
+      "artists": [
+        "Sleep Token",
+        "Loathe"
+      ],
+      "duration": {
+        "secs": 279,
+        "nanos": 666000000
+      }
+    },
+    {
+      "id": "94fa95a7-8a6f-5f61-a4a1-d8ca14493bf3",
+      "title": "Jaws",
+      "artists": [
+        "Sleep Token"
+      ],
+      "duration": {
+        "secs": 355,
+        "nanos": 369000000
+      }
+    },
+    {
+      "id": "5b43ed4f-10ce-5737-b223-3c8a4ff85839",
+      "title": "Jericho",
+      "artists": [
+        "Sleep Token"
+      ],
+      "duration": {
+        "secs": 317,
+        "nanos": 204000000
+      }
+    },
+    {
+      "id": "5777caae-8238-5415-8143-b565efc2f3a2",
+      "title": "Mine",
+      "artists": [
+        "Sleep Token"
+      ],
+      "duration": {
+        "secs": 296,
+        "nanos": 620000000
+      }
+    },
+    {
+      "id": "aafcf5b4-547d-5c8a-8983-1ad02db1706b",
+      "title": "Nazareth",
+      "artists": [
+        "Sleep Token"
+      ],
+      "duration": {
+        "secs": 336,
+        "nanos": 927000000
+      }
+    },
+    {
+      "id": "f7745888-d8da-5548-b478-6fad32c20e4d",
+      "title": "Past Self",
+      "artists": [
+        "Sleep Token"
+      ],
+      "duration": {
+        "secs": 214,
+        "nanos": 752000000
+      }
+    },
+    {
+      "id": "880cd158-8d49-5e64-aad6-2395e8146f57",
+      "title": "Rain",
+      "artists": [
+        "Sleep Token"
+      ],
+      "duration": {
+        "secs": 252,
+        "nanos": 238000000
+      }
+    },
+    {
+      "id": "dbe6adf3-c99c-5882-b70b-329fecbb22e2",
+      "title": "Sugar",
+      "artists": [
+        "Sleep Token"
+      ],
+      "duration": {
+        "secs": 292,
+        "nanos": 75000000
+      }
+    },
+    {
+      "id": "0aac4dc0-b708-5b0c-bb6c-5e2564eb2a1c",
+      "title": "Take Me Back To Eden",
+      "artists": [
+        "Sleep Token"
+      ],
+      "duration": {
+        "secs": 500,
+        "nanos": 218000000
+      }
+    },
+    {
+      "id": "b11bce1e-6659-5a65-ab32-d06f4ef99582",
+      "title": "The Apparition",
+      "artists": [
+        "Sleep Token"
+      ],
+      "duration": {
+        "secs": 268,
+        "nanos": 251000000
+      }
+    },
+    {
+      "id": "6b2660d9-0dff-591d-a833-76c54e10c6ce",
+      "title": "The Love You Want",
+      "artists": [
+        "Sleep Token"
+      ],
+      "duration": {
+        "secs": 263,
+        "nanos": 418000000
+      }
+    },
+    {
+      "id": "936697e2-60f3-59e3-b643-61f12369a449",
+      "title": "The Night Does Not Belong To God",
+      "artists": [
+        "Sleep Token"
+      ],
+      "duration": {
+        "secs": 303,
+        "nanos": 552000000
+      }
+    },
+    {
+      "id": "e3ee5d04-3aee-530b-a944-4ca6faaa2b94",
+      "title": "The Offering",
+      "artists": [
+        "Sleep Token"
+      ],
+      "duration": {
+        "secs": 349,
+        "nanos": 753000000
+      }
+    },
+    {
+      "id": "1e6a4e02-8026-51a9-ab4c-76772f363bf7",
+      "title": "The Summoning",
+      "artists": [
+        "Sleep Token"
+      ],
+      "duration": {
+        "secs": 395,
+        "nanos": 807000000
+      }
+    },
+    {
+      "id": "355938b7-1187-5955-9362-c1dc843813fc",
+      "title": "The Way That You Were",
+      "artists": [
+        "Sleep Token"
+      ],
+      "duration": {
+        "secs": 183,
+        "nanos": 719000000
+      }
+    },
+    {
+      "id": "16d51154-de09-578c-b395-784143f5b309",
+      "title": "Thread the Needle",
+      "artists": [
+        "Sleep Token"
+      ],
+      "duration": {
+        "secs": 396,
+        "nanos": 94000000
+      }
+    },
+    {
+      "id": "d1a1df58-5b79-5594-aa6b-e6ecc950eb7a",
+      "title": "When the Bough Breaks",
+      "artists": [
+        "Sleep Token"
+      ],
+      "duration": {
+        "secs": 455,
+        "nanos": 519000000
+      }
+    }
+  ]
+}
