@@ -5,3 +5,6 @@ window-rule {
     geometry-corner-radius 10
     clip-to-geometry true
 }
+environment {
+    ELECTRON_OZONE_PLATFORM_HINT "auto"
+}

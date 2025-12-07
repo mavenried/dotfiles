@@ -18,7 +18,7 @@ Scope {
                 right: true
             }
 
-            implicitHeight: 42
+            implicitHeight: row.implicitHeight
 
             Row {
                 spacing: 0
@@ -26,9 +26,11 @@ Scope {
                 width: parent.width
                 height: parent.height
                 Row {
+                  id: row
                     anchors.verticalCenter: parent.verticalCenter
                     padding: 5
-                    spacing: 10
+                    bottomPadding: 0
+                    spacing: 5
 
                     CommandMonitor {
                         labelColor: Theme.dstr
@@ -50,7 +52,7 @@ Scope {
                     padding: 5
                     anchors.verticalCenter: parent.verticalCenter
                     anchors.horizontalCenter: parent.horizontalCenter
-                    spacing: 10
+                    spacing: 5
 
                     SysInfo {}
                 }
@@ -59,7 +61,7 @@ Scope {
                     padding: 5
                     anchors.verticalCenter: parent.verticalCenter
                     anchors.right: parent.right
-                    spacing: 10
+                    spacing: 5
                     CommandMonitor {
                         labelColor: Theme.wifi
                         command: ["/mnt/DATA/scripts/qs-online"]

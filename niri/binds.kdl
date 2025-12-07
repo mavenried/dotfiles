@@ -323,7 +323,7 @@ binds {
         power-off-monitors
     }
     Mod+Z {
-        spawn-sh "/mnt/DATA/scripts/restart-app qs"
+        spawn-sh "/mnt/DATA/scripts/restart qs -c bar"
     }
     Mod+W {
         spawn-sh "/mnt/DATA/scripts/wallpaper-init toggle-live"
