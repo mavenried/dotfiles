@@ -323,13 +323,13 @@ binds {
         power-off-monitors
     }
     Mod+Z {
-        spawn-sh "/mnt/DATA/scripts/restart-waybar-hyprpaper waybar"
+        spawn-sh "/mnt/DATA/scripts/restart-app qs"
     }
     Mod+W {
         spawn-sh "/mnt/DATA/scripts/wallpaper-init toggle-live"
     }
     Mod+B {
-        spawn "firefox"
+        spawn "zen-browser"
     }
     Mod+N {
       spawn-sh "dunstctl close-all"

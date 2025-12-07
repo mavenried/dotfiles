@@ -1,0 +1,1 @@
+/home/mavenried/.config/quickshell/themes/CatppuccinMocha.qml

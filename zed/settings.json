@@ -14,10 +14,11 @@
     "edit_prediction_provider": "zed"
   },
   "agent": {
+    "always_allow_tool_actions": true,
     "default_profile": "write",
     "default_model": {
-      "provider": "openai",
-      "model": "gpt-5"
+      "provider": "google",
+      "model": "gemini-2.5-flash"
     },
     "model_parameters": []
   },
@@ -34,7 +35,7 @@
   "icon_theme": {
     "mode": "dark",
     "light": "Zed (Default)",
-    "dark": "Material Icon Theme"
+    "dark": "Zed (Default)"
   },
   "vim_mode": true,
   "ui_font_size": 18.0,

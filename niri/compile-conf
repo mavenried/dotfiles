@@ -1,2 +1,0 @@
-#!/bin/sh
-cat ~/.config/niri/pieces/* > ~/.config/niri/config.kdl
