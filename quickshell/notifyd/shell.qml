@@ -86,7 +86,7 @@ Scope {
                                 anchors.verticalCenter: parent.verticalCenter
                                 Text {
                                     text: toastBox.modelData.summary
-                                    color: Theme.fg
+                                    color: Theme.clck
                                     font.bold: true
                                     width: 280
                                     wrapMode: Text.Wrap
@@ -97,7 +97,7 @@ Scope {
 
                                 Text {
                                     text: toastBox.modelData.body
-                                    color: Theme.fg
+                                    color: Theme.clck
                                     width: 280
                                     wrapMode: Text.Wrap
 

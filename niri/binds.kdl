@@ -332,7 +332,7 @@ binds {
         spawn "zen-browser"
     }
     Mod+N {
-      spawn-sh "dunstctl close-all"
+      spawn-sh "/mnt/DATA/scripts/restart qs -c notifyd"
     }
     Mod+E {
         spawn "nautilus"
