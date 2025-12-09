@@ -1,5 +1,4 @@
 import QtQuick
-import Quickshell
 import Quickshell.Io
 
 Item {
@@ -28,7 +27,7 @@ Item {
         command: root.command
 
         stdout: StdioCollector {
-            onStreamFinished: label = root.template.replace("{}", this.text)
+            onStreamFinished: root.label = root.template.replace("{}", this.text.split('\n')[0])
         }
 
     }

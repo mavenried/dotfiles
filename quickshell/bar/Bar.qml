@@ -1,5 +1,4 @@
 import QtQuick
-import QtQuick.Layouts
 import Quickshell
 import qs
 
@@ -68,14 +67,14 @@ Scope {
 
                 CommandMonitor {
                     labelColor: Theme.wifi
-                    command: [".config/quickshell/scripts/qs-online"]
+                    command: ["zsh","-c","~/.config/quickshell/scripts/qs-online"]
                     label: "󰖟 --"
                     interval: 1000
                 }
 
                 CommandMonitor {
                     labelColor: Theme.uptm
-                    command: [".config/quickshell/scripts/qs-uptime"]
+                    command: ["zsh","-c","~/.config/quickshell/scripts/qs-uptime"]
                     label: " --:--:--:--"
                 }
 

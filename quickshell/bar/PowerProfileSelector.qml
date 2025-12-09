@@ -1,5 +1,4 @@
 import QtQuick
-import Quickshell
 import Quickshell.Services.UPower
 import qs
 
@@ -31,7 +30,6 @@ Item {
 
     Module {
         id: content
-
         label: root.getIcon()
         labelColor: Theme.pfle
     }

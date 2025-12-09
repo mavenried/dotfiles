@@ -1,11 +1,10 @@
 import QtQuick
-import Quickshell
 import Quickshell.Io
 
 Item {
     id: root
 
-    property var focusName: "----"
+    property var focusName: "desktop"
     property color labelColor
 
     width: content.width
@@ -22,7 +21,7 @@ Item {
         id: pythonScript
 
         running: true
-        command: [".config/quickshell/scripts/qs-niri-window-watch"]
+        command: ["zsh", "-c", "~/.config/quickshell/scripts/qs-niri-window-watch"]
         onRunningChanged: {
             if (!running)
                 running = true;
@@ -32,7 +31,7 @@ Item {
 
         stdout: SplitParser {
             onRead: function(data) {
-                focusName = data;
+                root.focusName = data;
             }
         }
 

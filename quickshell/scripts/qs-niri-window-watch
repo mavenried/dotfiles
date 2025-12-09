@@ -37,7 +37,7 @@ async def main():
             win_id = event["WindowFocusChanged"]['id']
 
             if win_id is None:
-                name = "----"
+                name = "desktop"
             else: 
                 name = windows[int(win_id)]
 
@@ -46,11 +46,12 @@ async def main():
         if "WindowOpenedOrChanged" in event:
             win_id = event["WindowOpenedOrChanged"]["window"]['id']
             win_title = event["WindowOpenedOrChanged"]["window"]['title']
+            win_active = event["WindowOpenedOrChanged"]["window"]['is_focused']
 
             windows[int(win_id)] = win_title
-            name = windows[int(win_id)]
 
-            display(name)
+            if win_active:
+                display(win_title)
 
 
 

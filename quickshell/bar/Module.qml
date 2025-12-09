@@ -1,9 +1,10 @@
 import QtQuick
-import QtQuick.Layouts
-import Quickshell
+import Quickshell.Widgets
 import qs
 
 Rectangle {
+    id: textRoot
+
     property string label
     property color labelColor
 
@@ -14,17 +15,33 @@ Rectangle {
     width: content.width
     height: content.height
 
-    Row {
+    ClippingRectangle {
         id: content
 
+        color: 'transparent'
+        width: inner.width
+        height: inner.height
+        layer.enabled: true
+        layer.smooth: false
+        layer.mipmap: false
+
         Text {
-            text: label
+            id: inner
+
+            text: textRoot.label
             font.pixelSize: 16
             font.family: "JetbrainsMono Nerd Font"
-            color: labelColor
+            color: textRoot.labelColor
             padding: 8
             leftPadding: 13
             rightPadding: 13
+        }
+
+        Behavior on width {
+            NumberAnimation {
+                duration: 200 // Animation duration
+            }
+
         }
 
     }
