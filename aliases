@@ -108,3 +108,4 @@ alias bkp="rsync -aAX --delete --info=progress2 /mnt/DATA/ /run/media/mavenried/
 alias sl=ls
 alias edit=$EDITOR
 alias cat=bat
+alias clone="git clone --depth=1"

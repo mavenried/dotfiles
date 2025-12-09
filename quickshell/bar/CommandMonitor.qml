@@ -1,31 +1,36 @@
 import QtQuick
-import Quickshell.Io
 import Quickshell
+import Quickshell.Io
 
 Item {
     id: root
+
     property string label: "^-^"
     property string template: "{}"
     property color labelColor
     property int interval: 500
     property list<string> command
 
+    width: content.width
+    height: content.height
+
     Module {
         id: content
+
         label: root.label
         labelColor: root.labelColor
     }
 
-    width: content.width
-    height: content.height
-
     Process {
         id: updater
+
         running: true
         command: root.command
+
         stdout: StdioCollector {
-            onStreamFinished: label = root.template.replace("{}", this.text.trim())
+            onStreamFinished: label = root.template.replace("{}", this.text)
         }
+
     }
 
     Timer {
@@ -34,4 +39,5 @@ Item {
         repeat: true
         onTriggered: updater.running = true
     }
+
 }

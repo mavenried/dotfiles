@@ -1,30 +1,41 @@
 import QtQuick
-import Quickshell.Io
 import Quickshell
+import Quickshell.Io
 
 Item {
     id: root
+
     property var focusName: "----"
     property color labelColor
-
-    Module {
-        id: content
-        label: root.focusName
-        labelColor: root.labelColor
-    }
 
     width: content.width
     height: content.height
 
+    Module {
+        id: content
+
+        label: root.focusName
+        labelColor: root.labelColor
+    }
+
     Process {
         id: pythonScript
+
         running: true
-        command: ["/usr/bin/python3", "/mnt/DATA/scripts/qs-niri-window-watch"]
-        onRunningChanged: if (!running)
-            running = true
-        stdout: SplitParser {
-            onRead: focusName = data
+        command: [".config/quickshell/scripts/qs-niri-window-watch"]
+        onRunningChanged: {
+            if (!running)
+                running = true;
+
         }
         Component.onCompleted: running = true
+
+        stdout: SplitParser {
+            onRead: function(data) {
+                focusName = data;
+            }
+        }
+
     }
+
 }

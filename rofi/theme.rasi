@@ -2,9 +2,9 @@
     bg-col-no-alpha: #282828;
     bg-col:  hsla(0, 0, 16%, 50%);
     bg-col-light: #181818;
-    border-col: #fe8019;
+    border-col: #689d6a;
     selected-col: #181818;
-    blue: #fe8019;
+    blue: #689d6a;
     fg-col: #cdd6f4;
     fg-col2: #cdd6f4;
     grey: #ffffff;

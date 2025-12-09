@@ -1,7 +1,6 @@
-pragma Singleton
-
-import Quickshell
 import QtQuick
+import Quickshell
+pragma Singleton
 
 Singleton {
     readonly property color bg: Qt.rgba(0.16, 0.16, 0.16, 0.8)
@@ -14,7 +13,6 @@ Singleton {
     readonly property color gray: "#a89984"
     readonly property color orange: "#fe8019"
     readonly property color fg: "#ebdbb2"
-
     readonly property color bgnd: bg
     readonly property color cpuc: purple
     readonly property color mmry: blue
@@ -29,12 +27,11 @@ Singleton {
     readonly property color clck: fg
     readonly property color sptr: bg
     readonly property color pfle: aqua
-
     readonly property color acct: Accent.acct
-
     readonly property color bat1: green
     readonly property color bat2: aqua
     readonly property color bat3: yellow
     readonly property color bat4: orange
     readonly property color bat5: red
+    readonly property int radius: 15
 }

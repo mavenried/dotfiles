@@ -1,18 +1,18 @@
 {
-  "bg-color-tr": "test",
-  "accent-color": "fe8019",
+  "hyprlock-text-color": "cdd6f4",
   "ghostty_theme": "GruvboxDark",
   "rofi-bg-color-tr": "hsla(0, 0, 16%, 50%)",
-  "hyprlock-text-color": "cdd6f4",
-  "icon-theme": "gruvbox_dark",
-  "hyprlock-minutes-color": "d3869b",
-  "hyprlock-hour-color": "689d6a",
-  "hyprlock-uptime-color": "438488",
   "dark-bg-color": "181818",
   "hyprlock-battery-color": "689d6a",
-  "gtk-theme": "Gruvbox-Orange-Dark",
-  "text-color": "ebdbb2",
   "bg-color": "282828",
+  "gtk-theme": "Gruvbox-Teal-Dark",
+  "accent-color": "689d6a",
+  "hyprlock-minutes-color": "d3869b",
+  "text-color": "ebdbb2",
+  "hyprlock-uptime-color": "438488",
   "starship-palette": "gruvbox",
-  "waybar-color": "orange"
+  "icon-theme": "gruvbox_dark",
+  "waybar-color": "aqua",
+  "bg-color-tr": "test",
+  "hyprlock-hour-color": "689d6a"
 }

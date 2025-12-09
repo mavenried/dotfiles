@@ -323,16 +323,13 @@ binds {
         power-off-monitors
     }
     Mod+Z {
-        spawn-sh "/mnt/DATA/scripts/restart qs -c bar"
+        spawn-sh "/mnt/DATA/scripts/restart qs"
     }
     Mod+W {
         spawn-sh "/mnt/DATA/scripts/wallpaper-init toggle-live"
     }
     Mod+B {
         spawn "zen-browser"
-    }
-    Mod+N {
-      spawn-sh "/mnt/DATA/scripts/restart qs -c notifyd"
     }
     Mod+E {
         spawn "nautilus"

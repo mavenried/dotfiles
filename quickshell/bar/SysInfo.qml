@@ -1,5 +1,6 @@
 import QtQuick
 import Quickshell.Io
+import qs
 
 Rectangle {
     id: root
@@ -13,17 +14,18 @@ Rectangle {
     color: Theme.bgnd
     border.color: Theme.acct
     border.width: 2
-    radius: 10
-
+    radius: Theme.radius
     width: content.implicitWidth
     height: content.implicitHeight
 
     Row {
         id: content
+
         spacing: 20
         padding: 8
         leftPadding: 13
         rightPadding: 13
+
         Text {
             text: root.cpu
             font.pixelSize: 16
@@ -51,7 +53,6 @@ Rectangle {
             font.family: "JetBrainsMono Nerd Font"
             color: {
                 var num = root.bat.trim().replace(/[^\d]/g, "");
-
                 if (10 > num)
                     return Theme.bat5;
                 else if (30 > num)
@@ -64,20 +65,28 @@ Rectangle {
                     return Theme.bat1;
             }
         }
+
         Text {
             text: root.pow
             font.pixelSize: 16
             font.family: "JetBrainsMono Nerd Font"
             color: Theme.powr
         }
+
     }
 
     Process {
         id: pythonScript
+
         running: true
         command: ["/mnt/DATA/scripts/qs-sysinfo"]
-        onRunningChanged: if (!running)
-            running = true
+        onRunningChanged: {
+            if (!running)
+                running = true;
+
+        }
+        Component.onCompleted: running = true
+
         stdout: StdioCollector {
             onStreamFinished: {
                 var val = this.text.trim().split(" | ");
@@ -88,6 +97,7 @@ Rectangle {
                 pow = val[4];
             }
         }
-        Component.onCompleted: running = true
+
     }
+
 }

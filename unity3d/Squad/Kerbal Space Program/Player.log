@@ -1,30 +1,31 @@
-Mono path[0] = '/mnt/DATA/Games/KerbalSpaceProgram/game/KSP_Data/Managed'
-Mono config path = '/mnt/DATA/Games/KerbalSpaceProgram/game/KSP_Data/MonoBleedingEdge/etc'
+Mono path[0] = '/mnt/DATA/Games/KSP/game/KSP_Data/Managed'
+Mono config path = '/mnt/DATA/Games/KSP/game/KSP_Data/MonoBleedingEdge/etc'
 Preloaded 'libkeyboard.so'
 Preloaded 'liblingoona.grammar.kerbal.so'
 Preloaded 'libsteam_api.so'
 Display 0 'eDP-1 15"': 1920x1080 (primary device).
 Desktop is 1920 x 1080 @ 60 Hz
 Initialize engine version: 2019.4.18f1 (3310a4d4f880)
-[Subsystems] Discovering subsystems at path /mnt/DATA/Games/KerbalSpaceProgram/game/KSP_Data/UnitySubsystems
+[Subsystems] Discovering subsystems at path /mnt/DATA/Games/KSP/game/KSP_Data/UnitySubsystems
 GfxDevice: creating device client; threaded=1
-Renderer: AMD Radeon Graphics (radeonsi, renoir, LLVM 19.1.5, DRM 3.59, 6.12.8-200.fc41.x86_64)
+Renderer: AMD Radeon Graphics (radeonsi, renoir, ACO, DRM 3.64, 6.18.0-3-cachyos)
 Vendor:   AMD
-Version:  4.6 (Core Profile) Mesa 24.3.2
+Version:  4.6 (Core Profile) Mesa 25.3.1-arch1.3
 GLES:     0
  GL_AMD_conservative_depth GL_AMD_depth_clamp_separate GL_AMD_draw_buffers_blend GL_AMD_framebuffer_multisample_advanced GL_AMD_gpu_shader_int64 GL_AMD_multi_draw_indirect GL_AMD_performance_monitor GL_AMD_pinned_memory GL_AMD_query_buffer_object GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_stencil_export GL_AMD_shader_trinary_minmax GL_AMD_texture_texture4 GL_AMD_vertex_shader_layer GL_AMD_vertex_shader_viewport_index GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ARB_ES2_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_bindless_texture GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_dist
 ance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_shader GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel
 _buffer_object GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_stencil_export GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_sparse_buffer GL_ARB_sparse_texture GL_ARB_sparse_texture2 GL_ARB_sparse_texture_clamp GL_ARB_spirv_extensio
 ns GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_barrier GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_filter_minmax GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex
-_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_meminfo GL_ATI_texture_float GL_ATI_texture_mirror_once GL_EXT_EGL_image_storage GL_EXT_EGL_image_storage_compression GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_debug_label GL_EXT_demote_to_helper_invocation GL_EXT_depth_bounds_test GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_texture_compression_d
-xt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_filter_minmax GL_EXT_texture_integer GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_KHR_blend_equation_advanced GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_shader_subgroup GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_const_bandwidth GL_MESA_texture_signed_rgba GL_NVX_gpu_memory_info GL_NV_alpha_to_coverage_dither_
-control GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_packed_depth_stencil GL_NV_shader_atomic_int64 GL_NV_texture_barrier GL_NV_vdpau_interop GL_OES_EGL_image GL_S3_s3tc
-OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle 402838752
+_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_meminfo GL_ATI_texture_float GL_ATI_texture_mirror_once GL_EXT_EGL_image_storage GL_EXT_EGL_image_storage_compression GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_debug_label GL_EXT_demote_to_helper_invocation GL_EXT_depth_bounds_test GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_clock GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_t
+exture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_filter_minmax GL_EXT_texture_integer GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_KHR_blend_equation_advanced GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_shader_subgroup GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_const_bandwidth GL_MESA_texture_signed_rgba GL_NVX_gpu_memory_info GL_NV_alpha
+_to_coverage_dither_control GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_packed_depth_stencil GL_NV_shader_atomic_int64 GL_NV_texture_barrier GL_OES_EGL_image GL_S3_s3tc
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle 225395552
 Begin MonoManager ReloadAssembly
-- Completed reload, in  0.139 seconds
+- Completed reload, in  0.091 seconds
 Default vsync count 0
-requesting resize 1280 x 720
-resizing window to 1280 x 720
+requesting resize 1920 x 1080
+Using native desktop resolution 1920 x 1080
+requesting fullscreen 1920 x 1080 at 0 Hz
 Desktop is 1920 x 1080 @ 60 Hz
 [AlarmClockScenario]: Generating ID, but the scenario is not running at this time - no unique checks 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
@@ -32,7 +33,7 @@ Desktop is 1920 x 1080 @ 60 Hz
 The referenced script on this Behaviour (Game Object 'ScreenKerbalsInventory') is missing! 
 (Filename:  Line: 334)
 
-UnloadTime: 1.739241 ms
+UnloadTime: 0.960882 ms
 Release Build 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
@@ -42,76 +43,7 @@ Release Build
 [Input Devices]:  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[Input Devices]:  
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Input Devices]:  
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Input Devices]:  
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Input Devices]:  
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Input Devices]:  
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Input Devices]:  
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Input Devices]:  
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Input Devices]:  
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Input Devices]:  
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Input Devices]:  
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Input Devices]:  
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Input Devices]:  
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Input Devices]:  
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Input Devices]:  
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Input Devices]:  
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Input Devices]:  
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Input Devices]:  
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Input Devices]:  
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Input Devices]:  
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Input Devices]:  
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Input Devices]:  
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Input Devices]:  
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Input Devices]:  
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Input Devices]:  
+[Input Devices]: 0: PS4 Controller 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 PhysicsGlobals: Loading database 
@@ -172,8 +104,9 @@ Stock folder: SquadExpansion
 Load(Audio): Squad/Alarms/Sounds/Chirps 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-requesting resize 1280 x 720
-resizing window to 1280 x 720
+requesting resize 1920 x 1080
+Using native desktop resolution 1920 x 1080
+requesting fullscreen 1920 x 1080 at 0 Hz
 Desktop is 1920 x 1080 @ 60 Hz
 Load(Audio): Squad/Alarms/Sounds/Classic 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
@@ -196,12 +129,13 @@ Load(Audio): Squad/Alarms/Sounds/ComputerTriad
 Load(Audio): Squad/Alarms/Sounds/DoorBell 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-requesting resize 1280 x 720
-resizing window to 1280 x 720
-Desktop is 1920 x 1080 @ 60 Hz
 Load(Audio): Squad/Alarms/Sounds/Glass 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
+requesting resize 1920 x 1080
+Using native desktop resolution 1920 x 1080
+requesting fullscreen 1920 x 1080 at 0 Hz
+Desktop is 1920 x 1080 @ 60 Hz
 Load(Audio): Squad/Alarms/Sounds/Klaxon 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
@@ -814,7 +748,7 @@ Load(Texture): Squad/Missions/Banners/Fail/default
 Load(Texture): Squad/Missions/Banners/Menu/default 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-Texture resolution is not valid for compression: '/mnt/DATA/Games/KerbalSpaceProgram/game/GameData/Squad/Missions/Banners/Menu/default.png' - consider changing the image's width and height to enable compression 
+Texture resolution is not valid for compression: '/mnt/DATA/Games/KSP/game/GameData/Squad/Missions/Banners/Menu/default.png' - consider changing the image's width and height to enable compression 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 Load(Texture): Squad/Missions/Banners/Success/default 
@@ -823,55 +757,55 @@ Load(Texture): Squad/Missions/Banners/Success/default
 Load(Texture): Squad/Missions/ESA-BepiColombo/Banners/Fail/ESA_MB_Fail_01 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-Texture resolution is not valid for compression: '/mnt/DATA/Games/KerbalSpaceProgram/game/GameData/Squad/Missions/ESA-BepiColombo/Banners/Fail/ESA_MB_Fail_01.png' - consider changing the image's width and height to enable compression 
+Texture resolution is not valid for compression: '/mnt/DATA/Games/KSP/game/GameData/Squad/Missions/ESA-BepiColombo/Banners/Fail/ESA_MB_Fail_01.png' - consider changing the image's width and height to enable compression 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 Load(Texture): Squad/Missions/ESA-BepiColombo/Banners/Menu/ESA_MB_Select_01 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-Texture resolution is not valid for compression: '/mnt/DATA/Games/KerbalSpaceProgram/game/GameData/Squad/Missions/ESA-BepiColombo/Banners/Menu/ESA_MB_Select_01.png' - consider changing the image's width and height to enable compression 
+Texture resolution is not valid for compression: '/mnt/DATA/Games/KSP/game/GameData/Squad/Missions/ESA-BepiColombo/Banners/Menu/ESA_MB_Select_01.png' - consider changing the image's width and height to enable compression 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 Load(Texture): Squad/Missions/ESA-BepiColombo/Banners/Success/ESA_MB_Success_01 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-Texture resolution is not valid for compression: '/mnt/DATA/Games/KerbalSpaceProgram/game/GameData/Squad/Missions/ESA-BepiColombo/Banners/Success/ESA_MB_Success_01.png' - consider changing the image's width and height to enable compression 
+Texture resolution is not valid for compression: '/mnt/DATA/Games/KSP/game/GameData/Squad/Missions/ESA-BepiColombo/Banners/Success/ESA_MB_Success_01.png' - consider changing the image's width and height to enable compression 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 Load(Texture): Squad/Missions/ESA-BepiColombo-Short/Banners/Fail/ESA_MB_Fail_01 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-Texture resolution is not valid for compression: '/mnt/DATA/Games/KerbalSpaceProgram/game/GameData/Squad/Missions/ESA-BepiColombo-Short/Banners/Fail/ESA_MB_Fail_01.png' - consider changing the image's width and height to enable compression 
+Texture resolution is not valid for compression: '/mnt/DATA/Games/KSP/game/GameData/Squad/Missions/ESA-BepiColombo-Short/Banners/Fail/ESA_MB_Fail_01.png' - consider changing the image's width and height to enable compression 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 Load(Texture): Squad/Missions/ESA-BepiColombo-Short/Banners/Menu/ESA_MB_Select_01 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-Texture resolution is not valid for compression: '/mnt/DATA/Games/KerbalSpaceProgram/game/GameData/Squad/Missions/ESA-BepiColombo-Short/Banners/Menu/ESA_MB_Select_01.png' - consider changing the image's width and height to enable compression 
+Texture resolution is not valid for compression: '/mnt/DATA/Games/KSP/game/GameData/Squad/Missions/ESA-BepiColombo-Short/Banners/Menu/ESA_MB_Select_01.png' - consider changing the image's width and height to enable compression 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 Load(Texture): Squad/Missions/ESA-BepiColombo-Short/Banners/Success/ESA_MB_Success_01 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-Texture resolution is not valid for compression: '/mnt/DATA/Games/KerbalSpaceProgram/game/GameData/Squad/Missions/ESA-BepiColombo-Short/Banners/Success/ESA_MB_Success_01.png' - consider changing the image's width and height to enable compression 
+Texture resolution is not valid for compression: '/mnt/DATA/Games/KSP/game/GameData/Squad/Missions/ESA-BepiColombo-Short/Banners/Success/ESA_MB_Success_01.png' - consider changing the image's width and height to enable compression 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 Load(Texture): Squad/Missions/ESA-Rosetta/Banners/Fail/ESA_MB_Fail_02 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-Texture resolution is not valid for compression: '/mnt/DATA/Games/KerbalSpaceProgram/game/GameData/Squad/Missions/ESA-Rosetta/Banners/Fail/ESA_MB_Fail_02.png' - consider changing the image's width and height to enable compression 
+Texture resolution is not valid for compression: '/mnt/DATA/Games/KSP/game/GameData/Squad/Missions/ESA-Rosetta/Banners/Fail/ESA_MB_Fail_02.png' - consider changing the image's width and height to enable compression 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 Load(Texture): Squad/Missions/ESA-Rosetta/Banners/Menu/ESA_MB_Select_02 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-Texture resolution is not valid for compression: '/mnt/DATA/Games/KerbalSpaceProgram/game/GameData/Squad/Missions/ESA-Rosetta/Banners/Menu/ESA_MB_Select_02.png' - consider changing the image's width and height to enable compression 
+Texture resolution is not valid for compression: '/mnt/DATA/Games/KSP/game/GameData/Squad/Missions/ESA-Rosetta/Banners/Menu/ESA_MB_Select_02.png' - consider changing the image's width and height to enable compression 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 Load(Texture): Squad/Missions/ESA-Rosetta/Banners/Success/ESA_MB_Success_02 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-Texture resolution is not valid for compression: '/mnt/DATA/Games/KerbalSpaceProgram/game/GameData/Squad/Missions/ESA-Rosetta/Banners/Success/ESA_MB_Success_02.png' - consider changing the image's width and height to enable compression 
+Texture resolution is not valid for compression: '/mnt/DATA/Games/KSP/game/GameData/Squad/Missions/ESA-Rosetta/Banners/Success/ESA_MB_Success_02.png' - consider changing the image's width and height to enable compression 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 Load(Texture): Squad/PartList/SimpleIcons/R&D_node_icon_advaerodynamics 
@@ -2327,6 +2261,12 @@ Load(Texture): Squad/Parts/Command/probeRoverBody_v2/probeRoverBody_v2_gold_NRM
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 Load(Texture): Squad/Parts/Command/probeRoverBody_v2/probeRoverBody_v2_gold_diffuse 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+[HighLogic]: PS4 Controller pressed a button. 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+[HighLogic]: PS4 Controller pressed a button. 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 Load(Texture): Squad/Parts/Command/probeRoverBody_v2/probeRoverBody_v2_gold_specular 
@@ -4195,7 +4135,7 @@ Load(Texture): Squad/Tutorials/StagingStack
 Load(Texture): Squad/Tutorials/YPRDiagram 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-Texture resolution is not valid for compression: '/mnt/DATA/Games/KerbalSpaceProgram/game/GameData/Squad/Tutorials/YPRDiagram.png' - consider changing the image's width and height to enable compression 
+Texture resolution is not valid for compression: '/mnt/DATA/Games/KSP/game/GameData/Squad/Tutorials/YPRDiagram.png' - consider changing the image's width and height to enable compression 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 Load(Texture): SquadExpansion/MakingHistory/Banners/Fail/default 
@@ -4210,25 +4150,25 @@ Load(Texture): SquadExpansion/MakingHistory/Banners/Fail/fail02
 Load(Texture): SquadExpansion/MakingHistory/Banners/Menu/MBanner_01 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-Texture resolution is not valid for compression: '/mnt/DATA/Games/KerbalSpaceProgram/game/GameData/SquadExpansion/MakingHistory/Banners/Menu/MBanner_01.png' - consider changing the image's width and height to enable compression 
+Texture resolution is not valid for compression: '/mnt/DATA/Games/KSP/game/GameData/SquadExpansion/MakingHistory/Banners/Menu/MBanner_01.png' - consider changing the image's width and height to enable compression 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 Load(Texture): SquadExpansion/MakingHistory/Banners/Menu/MBanner_02 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-Texture resolution is not valid for compression: '/mnt/DATA/Games/KerbalSpaceProgram/game/GameData/SquadExpansion/MakingHistory/Banners/Menu/MBanner_02.png' - consider changing the image's width and height to enable compression 
+Texture resolution is not valid for compression: '/mnt/DATA/Games/KSP/game/GameData/SquadExpansion/MakingHistory/Banners/Menu/MBanner_02.png' - consider changing the image's width and height to enable compression 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 Load(Texture): SquadExpansion/MakingHistory/Banners/Menu/MBanner_03 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-Texture resolution is not valid for compression: '/mnt/DATA/Games/KerbalSpaceProgram/game/GameData/SquadExpansion/MakingHistory/Banners/Menu/MBanner_03.png' - consider changing the image's width and height to enable compression 
+Texture resolution is not valid for compression: '/mnt/DATA/Games/KSP/game/GameData/SquadExpansion/MakingHistory/Banners/Menu/MBanner_03.png' - consider changing the image's width and height to enable compression 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 Load(Texture): SquadExpansion/MakingHistory/Banners/Menu/default 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-Texture resolution is not valid for compression: '/mnt/DATA/Games/KerbalSpaceProgram/game/GameData/SquadExpansion/MakingHistory/Banners/Menu/default.png' - consider changing the image's width and height to enable compression 
+Texture resolution is not valid for compression: '/mnt/DATA/Games/KSP/game/GameData/SquadExpansion/MakingHistory/Banners/Menu/default.png' - consider changing the image's width and height to enable compression 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 Load(Texture): SquadExpansion/MakingHistory/Banners/Success/default 
@@ -4246,7 +4186,7 @@ Load(Texture): SquadExpansion/MakingHistory/Missions/Acapello 13/Banners/Fail/fa
 Load(Texture): SquadExpansion/MakingHistory/Missions/Acapello 13/Banners/Menu/Mun 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-Texture resolution is not valid for compression: '/mnt/DATA/Games/KerbalSpaceProgram/game/GameData/SquadExpansion/MakingHistory/Missions/Acapello 13/Banners/Menu/Mun.png' - consider changing the image's width and height to enable compression 
+Texture resolution is not valid for compression: '/mnt/DATA/Games/KSP/game/GameData/SquadExpansion/MakingHistory/Missions/Acapello 13/Banners/Menu/Mun.png' - consider changing the image's width and height to enable compression 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 Load(Texture): SquadExpansion/MakingHistory/Missions/Acapello 13/Banners/Success/success01 
@@ -4261,7 +4201,7 @@ Load(Texture): SquadExpansion/MakingHistory/Missions/Acapello 15/Banners/Fail/fa
 Load(Texture): SquadExpansion/MakingHistory/Missions/Acapello 15/Banners/Menu/default 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-Texture resolution is not valid for compression: '/mnt/DATA/Games/KerbalSpaceProgram/game/GameData/SquadExpansion/MakingHistory/Missions/Acapello 15/Banners/Menu/default.png' - consider changing the image's width and height to enable compression 
+Texture resolution is not valid for compression: '/mnt/DATA/Games/KSP/game/GameData/SquadExpansion/MakingHistory/Missions/Acapello 15/Banners/Menu/default.png' - consider changing the image's width and height to enable compression 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 Load(Texture): SquadExpansion/MakingHistory/Missions/Acapello 15/Banners/Success/default 
@@ -4273,7 +4213,7 @@ Load(Texture): SquadExpansion/MakingHistory/Missions/Blue Mun/Banners/Fail/fail0
 Load(Texture): SquadExpansion/MakingHistory/Missions/Blue Mun/Banners/Menu/default 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-Texture resolution is not valid for compression: '/mnt/DATA/Games/KerbalSpaceProgram/game/GameData/SquadExpansion/MakingHistory/Missions/Blue Mun/Banners/Menu/default.png' - consider changing the image's width and height to enable compression 
+Texture resolution is not valid for compression: '/mnt/DATA/Games/KSP/game/GameData/SquadExpansion/MakingHistory/Missions/Blue Mun/Banners/Menu/default.png' - consider changing the image's width and height to enable compression 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 Load(Texture): SquadExpansion/MakingHistory/Missions/Blue Mun/Banners/Success/success02 
@@ -4285,7 +4225,7 @@ Load(Texture): SquadExpansion/MakingHistory/Missions/Dawn of the Space Age/Banne
 Load(Texture): SquadExpansion/MakingHistory/Missions/Dawn of the Space Age/Banners/Menu/default 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-Texture resolution is not valid for compression: '/mnt/DATA/Games/KerbalSpaceProgram/game/GameData/SquadExpansion/MakingHistory/Missions/Dawn of the Space Age/Banners/Menu/default.png' - consider changing the image's width and height to enable compression 
+Texture resolution is not valid for compression: '/mnt/DATA/Games/KSP/game/GameData/SquadExpansion/MakingHistory/Missions/Dawn of the Space Age/Banners/Menu/default.png' - consider changing the image's width and height to enable compression 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 Load(Texture): SquadExpansion/MakingHistory/Missions/Dawn of the Space Age/Banners/Success/default 
@@ -4300,7 +4240,7 @@ Load(Texture): SquadExpansion/MakingHistory/Missions/Meet Me in Zero G/Banners/F
 Load(Texture): SquadExpansion/MakingHistory/Missions/Meet Me in Zero G/Banners/Menu/default 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-Texture resolution is not valid for compression: '/mnt/DATA/Games/KerbalSpaceProgram/game/GameData/SquadExpansion/MakingHistory/Missions/Meet Me in Zero G/Banners/Menu/default.png' - consider changing the image's width and height to enable compression 
+Texture resolution is not valid for compression: '/mnt/DATA/Games/KSP/game/GameData/SquadExpansion/MakingHistory/Missions/Meet Me in Zero G/Banners/Menu/default.png' - consider changing the image's width and height to enable compression 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 Load(Texture): SquadExpansion/MakingHistory/Missions/Meet Me in Zero G/Banners/Success/default 
@@ -4318,7 +4258,7 @@ Load(Texture): SquadExpansion/MakingHistory/Missions/Munar 1/Banners/Fail/fail02
 Load(Texture): SquadExpansion/MakingHistory/Missions/Munar 1/Banners/Menu/default 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-Texture resolution is not valid for compression: '/mnt/DATA/Games/KerbalSpaceProgram/game/GameData/SquadExpansion/MakingHistory/Missions/Munar 1/Banners/Menu/default.png' - consider changing the image's width and height to enable compression 
+Texture resolution is not valid for compression: '/mnt/DATA/Games/KSP/game/GameData/SquadExpansion/MakingHistory/Missions/Munar 1/Banners/Menu/default.png' - consider changing the image's width and height to enable compression 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 Load(Texture): SquadExpansion/MakingHistory/Missions/Munar 1/Banners/Success/default 
@@ -4348,7 +4288,7 @@ Load(Texture): SquadExpansion/MakingHistory/Missions/To the Mun Via Minmus/Banne
 Load(Texture): SquadExpansion/MakingHistory/Missions/To the Mun Via Minmus/Banners/Menu/MissionBannerKerbin 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-Texture resolution is not valid for compression: '/mnt/DATA/Games/KerbalSpaceProgram/game/GameData/SquadExpansion/MakingHistory/Missions/To the Mun Via Minmus/Banners/Menu/MissionBannerKerbin.png' - consider changing the image's width and height to enable compression 
+Texture resolution is not valid for compression: '/mnt/DATA/Games/KSP/game/GameData/SquadExpansion/MakingHistory/Missions/To the Mun Via Minmus/Banners/Menu/MissionBannerKerbin.png' - consider changing the image's width and height to enable compression 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 Load(Texture): SquadExpansion/MakingHistory/Missions/To the Mun Via Minmus/Banners/Success/success01 
@@ -4360,7 +4300,7 @@ Load(Texture): SquadExpansion/MakingHistory/Missions/Trouble in the Void/Banners
 Load(Texture): SquadExpansion/MakingHistory/Missions/Trouble in the Void/Banners/Menu/default 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-Texture resolution is not valid for compression: '/mnt/DATA/Games/KerbalSpaceProgram/game/GameData/SquadExpansion/MakingHistory/Missions/Trouble in the Void/Banners/Menu/default.png' - consider changing the image's width and height to enable compression 
+Texture resolution is not valid for compression: '/mnt/DATA/Games/KSP/game/GameData/SquadExpansion/MakingHistory/Missions/Trouble in the Void/Banners/Menu/default.png' - consider changing the image's width and height to enable compression 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 Load(Texture): SquadExpansion/MakingHistory/Missions/Trouble in the Void/Banners/Success/success02 
@@ -7162,13 +7102,13 @@ Load(Model): SquadExpansion/Serenity/Parts/Propellers/Assets/largeFanBlade
 Load(Model): SquadExpansion/Serenity/Parts/Propellers/Assets/largeHeliBlade 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Prop_06/copter_lg/mount/blades" 
-(Filename:  Line: 0)
-
 Load(Model): SquadExpansion/Serenity/Parts/Propellers/Assets/largePropeller 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Prop_03/propeller_large/mount/blades" 
+(Filename:  Line: 0)
 
 Load(Model): SquadExpansion/Serenity/Parts/Propellers/Assets/mediumFanBlade 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
@@ -7182,13 +7122,13 @@ Load(Model): SquadExpansion/Serenity/Parts/Propellers/Assets/mediumPropeller
 Load(Model): SquadExpansion/Serenity/Parts/Propellers/Assets/smallFanBlade 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-Load(Model): SquadExpansion/Serenity/Parts/Propellers/Assets/smallHeliBlade 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
 BoxColliders does not support negative scale or size.
 The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Prop_04/copter_small/mount/blades" 
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "FanBlade_01/FanBlade_01/mount/blades" 
 (Filename:  Line: 0)
+
+Load(Model): SquadExpansion/Serenity/Parts/Propellers/Assets/smallHeliBlade 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 Load(Model): SquadExpansion/Serenity/Parts/Propellers/Assets/smallPropeller 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
@@ -12074,7 +12014,7 @@ ExperienceSystemConfig: Added Effect 'DeployedScienceExpSkill' to Trait 'Scienti
 ConfigNode[] 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-GameDatabase: Assets loaded in 42.961s 
+GameDatabase: Assets loaded in 46.874s 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 PartLoader: Loading part database 
@@ -15701,10 +15641,10 @@ cometdustmaterial.mat
 cometgeysermat.mat 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-Expansion makinghistory detected in path /mnt/DATA/Games/KerbalSpaceProgram/game/GameData/SquadExpansion/MakingHistory 
+Expansion makinghistory detected in path /mnt/DATA/Games/KSP/game/GameData/SquadExpansion/MakingHistory 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-Expansion serenity detected in path /mnt/DATA/Games/KerbalSpaceProgram/game/GameData/SquadExpansion/Serenity 
+Expansion serenity detected in path /mnt/DATA/Games/KSP/game/GameData/SquadExpansion/Serenity 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 GetTypesOfModulesImplementingInterface2: Found 69 types with IPartModuleAdjuster interface in 1 assemblies. 
@@ -15827,21 +15767,22 @@ GetSubclassesOfParentClass: Found 0 types with ModuleToggleCrossfeed parent in 1
 GetSubclassesOfParentClass: Found 0 types with ModuleWheelDeployment parent in 1 assemblies. 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-ExpansionsLoader: Expansions loaded in 49.392s 
+ExpansionsLoader: Expansions loaded in 46.041s 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-Loading Systems: Elapsed time is 102.7089s 
+Loading Systems: Elapsed time is 102.7968s 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-requesting resize 1908 x 1030
-resizing window to 1908 x 1030
+requesting resize 1920 x 1080
+Using native desktop resolution 1920 x 1080
+requesting fullscreen 1920 x 1080 at 0 Hz
 Desktop is 1920 x 1080 @ 60 Hz
 Unloading 8 Unused Serialized files (Serialized files now loaded: 6)
 Shader 'AtmosphereFromGround': fallback shader 'None' not found
-UnloadTime: 48.030817 ms
+UnloadTime: 4.143180 ms
 
 Unloading 1591 unused Assets to reduce memory usage. Loaded Objects now: 223895.
-Total: 576.800428 ms (FindLiveObjects: 49.908207 ms CreateObjectMapping: 12.698139 ms MarkObjects: 492.451826 ms  DeleteObjects: 21.740974 ms)
+Total: 462.332452 ms (FindLiveObjects: 12.921814 ms CreateObjectMapping: 8.837654 ms MarkObjects: 433.956135 ms  DeleteObjects: 6.615928 ms)
 
 [Agent]: Found 19 agent mentality types 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
@@ -15864,7 +15805,7 @@ Total: 576.800428 ms (FindLiveObjects: 49.908207 ms CreateObjectMapping: 12.6981
 Unloading 5 Unused Serialized files (Serialized files now loaded: 6)
 WARNING: Shader Unsupported: 'Hidden/Nature/Terrain/Utilities' - All passes removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-UnloadTime: 4.407534 ms
+UnloadTime: 3.175115 ms
 [AddonLoader]: Instantiating addon 'ContractDefs' from assembly 'KSP' 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
@@ -15873,7 +15814,7 @@ UnloadTime: 4.407534 ms
 
 
 Unloading 2635 unused Assets to reduce memory usage. Loaded Objects now: 235819.
-Total: 668.852053 ms (FindLiveObjects: 19.214527 ms CreateObjectMapping: 10.956834 ms MarkObjects: 635.407305 ms  DeleteObjects: 3.272055 ms)
+Total: 466.544822 ms (FindLiveObjects: 13.047831 ms CreateObjectMapping: 7.930974 ms MarkObjects: 443.405356 ms  DeleteObjects: 2.159580 ms)
 
 [GameParameters]: Loaded custom parameter class CommNetParams. 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
@@ -15896,7 +15837,7 @@ Total: 668.852053 ms (FindLiveObjects: 19.214527 ms CreateObjectMapping: 10.9568
 [ScenarioTypes]: List Created 23 scenario types loaded from 1 loaded assemblies. 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-File '/mnt/DATA/Games/KerbalSpaceProgram/game/KSP_Data/../Missions/MissionScoreInfo.cfg' does not exist 
+File '/mnt/DATA/Games/KSP/game/KSP_Data/../Missions/MissionScoreInfo.cfg' does not exist 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 [ApplicationLauncher] Awake False 
@@ -15920,7 +15861,7 @@ File '/mnt/DATA/Games/KerbalSpaceProgram/game/KSP_Data/../Missions/MissionScoreI
 [MessageSystem] OnAppInitialized 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[MessageSystem] Reposition 0.06312006 12790 
+[MessageSystem] Reposition 0.04523504 8185 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 [UIMasterController]: HideUI 
@@ -15933,7 +15874,7 @@ The referenced script on this Behaviour (Game Object 'Screen') is missing!
 (Filename:  Line: 334)
 
 Unloading 3 Unused Serialized files (Serialized files now loaded: 6)
-UnloadTime: 10.435947 ms
+UnloadTime: 6.940417 ms
 UICanvasPrefabSpawner SettingsSpawner spawning Settings 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
@@ -15942,7 +15883,7 @@ UICanvasPrefabSpawner SettingsSpawner spawning Settings
 
 
 Unloading 553 unused Assets to reduce memory usage. Loaded Objects now: 234497.
-Total: 688.011496 ms (FindLiveObjects: 18.438291 ms CreateObjectMapping: 9.924128 ms MarkObjects: 641.435056 ms  DeleteObjects: 18.212829 ms)
+Total: 488.197882 ms (FindLiveObjects: 12.971568 ms CreateObjectMapping: 8.068332 ms MarkObjects: 458.017710 ms  DeleteObjects: 9.139581 ms)
 
 [AccessorBase] Create GameSettings  FLT_VESSEL_LABELS 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
@@ -16055,133 +15996,61 @@ Total: 688.011496 ms (FindLiveObjects: 18.438291 ms CreateObjectMapping: 9.92412
 [AccessorBase] Create GameSettings  MISSION_MINIMUM_CANVAS_ZOOM 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[GenericAppFrame] Reposition 0 13144 
+[GenericAppFrame] Reposition 0 8557 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 [ApplicationLauncher] OnSceneLoadedGUIReady: scene SETTINGS ShouldBeVisible() False ShouldBeOnTop() False iIsPositionedAtTop True 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[AccessorBase] Create GameSettings  PLANET_SCATTER 
+[AccessorBase] Create GameSettings  AXIS_MOUSEWHEEL 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[AccessorBase] Create GameSettings  PLANET_SCATTER_FACTOR 
+[AccessorBase] Create GameSettings  TRACKIR_ENABLED 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[AccessorBase] Create GameSettings   
+[AccessorBase] Create TrackIR HighLogic (TrackIR) activeFlight 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[AccessorBase] Create GameSettings  FULLSCREEN 
+[AccessorBase] Create TrackIR HighLogic (TrackIR) activeIVA 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[AccessorBase] Create GameSettings  ANTI_ALIASING 
+[AccessorBase] Create TrackIR HighLogic (TrackIR) activeEVA 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[AccessorBase] Create GameSettings  SYNC_VBL 
+[AccessorBase] Create TrackIR HighLogic (TrackIR) activeMap 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[AccessorBase] Create GameSettings  FRAMERATE_LIMIT 
+[AccessorBase] Create TrackIR HighLogic (TrackIR) activeKSC 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[AccessorBase] Create GameSettings  LIGHT_QUALITY 
+[AccessorBase] Create TrackIR HighLogic (TrackIR) activeTrackingStation 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[AccessorBase] Create GameSettings  SHADOWS_QUALITY 
+[AccessorBase] Create TrackIR HighLogic (TrackIR) activeEditors 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[AccessorBase] Create GameSettings  AMBIENTLIGHT_BOOSTFACTOR 
+[AccessorBase] Create GameSettings  TOGGLE_SPACENAV_FLIGHT_CONTROL 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[AccessorBase] Create GameSettings  AMBIENTLIGHT_BOOSTFACTOR_MAPONLY 
+[AccessorBase] Create GameSettings  TOGGLE_SPACENAV_ROLL_LOCK 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[AccessorBase] Create GameSettings  AMBIENTLIGHT_BOOSTFACTOR_EDITONLY 
+[AccessorBase] Create GameSettings  SPACENAV_CAMERA_SENS_ROT 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[AccessorBase] Create GameSettings  QUALITY_PRESET 
+[AccessorBase] Create GameSettings  SPACENAV_CAMERA_SHARPNESS_ROT 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[AccessorBase] Create GameSettings  TEXTURE_QUALITY 
+[AccessorBase] Create GameSettings  SPACENAV_CAMERA_SENS_LIN 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[AccessorBase] Create GameSettings  AERO_FX_QUALITY 
+[AccessorBase] Create GameSettings  SPACENAV_CAMERA_SHARPNESS_LIN 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[AccessorBase] Create GameSettings  REFLECTION_PROBE_REFRESH_MODE 
+[AccessorBase] Create GameSettings  SPACENAV_FLIGHT_SENS_ROT 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[AccessorBase] Create GameSettings  REFLECTION_PROBE_TEXTURE_RESOLUTION 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[AccessorBase] Create GameSettings  TERRAIN_SHADER_QUALITY 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[AccessorBase] Create GameSettings   
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[AccessorBase] Create GameSettings  SURFACE_FX 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[AccessorBase] Create GameSettings  FALLBACK_UNDERWATER_MODE 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[AccessorBase] Create GameSettings  HIGHLIGHT_FX 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[AccessorBase] Create GameSettings  CONIC_PATCH_DRAW_MODE 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[AccessorBase] Create GameSettings  CONIC_PATCH_LIMIT 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[AccessorBase] Create GameSettings  ORBIT_FADE_STRENGTH 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[AccessorBase] Create GameSettings  ORBIT_FADE_DIRECTION_INV 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[AccessorBase] Create GameSettings  ALWAYS_SHOW_TARGET_APPROACH_MARKERS 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[AccessorBase] Create GameSettings  COMMNET_LOWCOLOR_BRIGHTNESSFACTOR 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[AccessorBase] Create GameSettings  PART_HIGHLIGHTER_BRIGHTNESSFACTOR 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[AccessorBase] Create GameSettings  INFLIGHT_HIGHLIGHT 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[AccessorBase] Create GameSettings  CELESTIAL_BODIES_CAST_SHADOWS 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-requesting resize 1280 x 720
-requesting fullscreen 1280 x 720 at 0 Hz
-Setting up downscaled viewport at 1280 x 720
-Desktop is 1920 x 1080 @ 60 Hz
-Changing real window size to 1908 x 1030
-Setting up downscaled viewport at 1280 x 720
-[MessageSystem] Reposition 6.426924 13533 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[GenericAppFrame] Reposition 6.426924 13533 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[GenericAppFrame] Reposition 6.426924 13533 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Changing real window size to 1920 x 1080
-Setting up downscaled viewport at 1280 x 720
-requesting resize 1920 x 1080
-Using native desktop resolution 1920 x 1080
-requesting fullscreen 1920 x 1080 at 0 Hz
-Desktop is 1920 x 1080 @ 60 Hz
-[MessageSystem] Reposition 18.89601 14281 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[GenericAppFrame] Reposition 18.89601 14281 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[GenericAppFrame] Reposition 18.89601 14281 
+[AccessorBase] Create GameSettings  SPACENAV_FLIGHT_SENS_LIN 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 [UIMasterController]: HideUI 
@@ -16193,30 +16062,30 @@ Desktop is 1920 x 1080 @ 60 Hz
 Unloading 5 Unused Serialized files (Serialized files now loaded: 6)
 WARNING: Shader Unsupported: 'Hidden/Nature/Terrain/Utilities' - All passes removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-UnloadTime: 4.301345 ms
+UnloadTime: 2.806974 ms
 [UIMasterController]: ShowUI 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 
-Unloading 1329 unused Assets to reduce memory usage. Loaded Objects now: 236038.
-Total: 660.052634 ms (FindLiveObjects: 19.128205 ms CreateObjectMapping: 11.001287 ms MarkObjects: 627.169299 ms  DeleteObjects: 2.752762 ms)
+Unloading 1279 unused Assets to reduce memory usage. Loaded Objects now: 236037.
+Total: 477.563297 ms (FindLiveObjects: 13.522942 ms CreateObjectMapping: 8.267195 ms MarkObjects: 454.439910 ms  DeleteObjects: 1.332469 ms)
 
 [ScenarioTypes]: List Created 23 scenario types loaded from 1 loaded assemblies. 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-File '/mnt/DATA/Games/KerbalSpaceProgram/game/KSP_Data/../Missions/MissionScoreInfo.cfg' does not exist 
+File '/mnt/DATA/Games/KSP/game/KSP_Data/../Missions/MissionScoreInfo.cfg' does not exist 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 [ApplicationLauncher] OnSceneLoadedGUIReady: scene MAINMENU ShouldBeVisible() True ShouldBeOnTop() True iIsPositionedAtTop True 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[MessageSystem] Reposition 0.02 14670 
+[MessageSystem] Reposition 0.02 9699 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[GenericAppFrame] Reposition 0.02 14670 
+[GenericAppFrame] Reposition 0.02 9699 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[GenericAppFrame] Reposition 0.02 14670 
+[GenericAppFrame] Reposition 0.02 9699 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 [ExperienceSystem]: Found 0 trait types 
@@ -16225,13 +16094,64 @@ File '/mnt/DATA/Games/KerbalSpaceProgram/game/KSP_Data/../Missions/MissionScoreI
 [ExperienceSystem]: Found 20 effect types 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-Game State Created. 
+Loading banner texture from /mnt/DATA/Games/KSP/game/KSP_Data/../saves/training/banners/A_VesselConstruction.png 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Loading banner texture from /mnt/DATA/Games/KSP/game/KSP_Data/../saves/training/banners/B_flightBasics.png 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Loading banner texture from /mnt/DATA/Games/KSP/game/KSP_Data/../saves/training/banners/B_fmidEditor.png 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Loading banner texture from /mnt/DATA/Games/KSP/game/KSP_Data/../saves/training/banners/B_fsuborbital.png 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Loading banner texture from /mnt/DATA/Games/KSP/game/KSP_Data/../saves/training/banners/B_gadvancedConstr.png 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Loading banner texture from /mnt/DATA/Games/KSP/game/KSP_Data/../saves/training/banners/B_goForOrbit.png 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Loading banner texture from /mnt/DATA/Games/KSP/game/KSP_Data/../saves/training/banners/C_Orbit101.png 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Loading banner texture from /mnt/DATA/Games/KSP/game/KSP_Data/../saves/training/banners/D_Science.png 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Loading banner texture from /mnt/DATA/Games/KSP/game/KSP_Data/../saves/training/banners/E_MunFlight1.png 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Loading banner texture from /mnt/DATA/Games/KSP/game/KSP_Data/../saves/training/banners/F_MunFlight2.png 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Loading banner texture from /mnt/DATA/Games/KSP/game/KSP_Data/../saves/training/banners/F_MunFlight3.png 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Loading banner texture from /mnt/DATA/Games/KSP/game/KSP_Data/../saves/training/banners/G_Docking.png 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Loading banner texture from /mnt/DATA/Games/KSP/game/KSP_Data/../saves/training/banners/I_Asteroid1.png 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Loading banner texture from /mnt/DATA/Games/KSP/game/KSP_Data/../saves/training/banners/J_Asteroid2.png 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+[UpgradeScript]: JPLRepo ModuleDockingNodeFixed replace supports files from 1.12.0 and higher only! 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+[KSPUpgradePipeline]: A_VesselConstruction updated from 1.0.0 to 1.12.5. 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 [ScenarioTypes]: List Created 23 scenario types loaded from 1 loaded assemblies. 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-Game State Saved to saves/default/persistent 
+[MessageSystem] Load Messages 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+MessageSystem: Cannot load messages - MESSAGESYSTEM node does not exist 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Game State Saved to saves/training/A_VesselConstruction/persistent 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 [UIMasterController]: HideUI 
@@ -16241,27 +16161,27 @@ Game State Saved to saves/default/persistent
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 Unloading 1 Unused Serialized files (Serialized files now loaded: 6)
-UnloadTime: 7.535419 ms
+UnloadTime: 5.009094 ms
 [UIMasterController]: HideUI 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 
-Unloading 550 unused Assets to reduce memory usage. Loaded Objects now: 233071.
-Total: 665.021962 ms (FindLiveObjects: 18.015349 ms CreateObjectMapping: 10.566802 ms MarkObjects: 618.617785 ms  DeleteObjects: 17.820363 ms)
+Unloading 564 unused Assets to reduce memory usage. Loaded Objects now: 233070.
+Total: 469.222575 ms (FindLiveObjects: 12.849789 ms CreateObjectMapping: 8.997845 ms MarkObjects: 439.104931 ms  DeleteObjects: 8.269068 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 6)
 
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 233071.
-Total: 667.778821 ms (FindLiveObjects: 36.057226 ms CreateObjectMapping: 11.709976 ms MarkObjects: 619.532781 ms  DeleteObjects: 0.476623 ms)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 233070.
+Total: 467.338110 ms (FindLiveObjects: 19.014631 ms CreateObjectMapping: 8.060326 ms MarkObjects: 439.953142 ms  DeleteObjects: 0.308989 ms)
 
 Unloading 4 Unused Serialized files (Serialized files now loaded: 6)
-UnloadTime: 4.154079 ms
+UnloadTime: 2.790243 ms
 [UIMasterController]: HideUI 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 
-Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 238668.
-Total: 596.483313 ms (FindLiveObjects: 17.938795 ms CreateObjectMapping: 10.102893 ms MarkObjects: 567.855436 ms  DeleteObjects: 0.585127 ms)
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 238667.
+Total: 485.524709 ms (FindLiveObjects: 12.465769 ms CreateObjectMapping: 8.526331 ms MarkObjects: 464.024667 ms  DeleteObjects: 0.507041 ms)
 
 GetSubclassesOfParentClass: Found 7 types with AlarmTypeBase parent in 1 assemblies. 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
@@ -16293,13 +16213,13 @@ GetSubclassesOfParentClass: Found 7 types with AlarmTypeBase parent in 1 assembl
 [UIApp] OnDestroy: Contracts 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[MessageSystem] Reposition 0.02 18032 
+[MessageSystem] Reposition 0.02 11352 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[GenericAppFrame] Reposition 0.02 18032 
+[GenericAppFrame] Reposition 0.02 11352 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[GenericAppFrame] Reposition 0.02 18032 
+[GenericAppFrame] Reposition 0.02 11352 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 [UIApp] Adding AlarmClock to Application Launcher 
@@ -16308,10 +16228,10 @@ GetSubclassesOfParentClass: Found 7 types with AlarmTypeBase parent in 1 assembl
 [UIApp] Adding Missions App to Application Launcher 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[GenericAppFrame] Reposition 0.2431321 18038 
+[GenericAppFrame] Reposition 0.2286471 11358 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[MissionsApp] OnAppStarted(): id: -363614 
+[MissionsApp] OnAppStarted(): id: -361948 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 MissionsApp does not execute in this game mode, destroying this instance 
@@ -16323,31 +16243,19 @@ MissionsApp does not execute in this game mode, destroying this instance
 [UIApp] Adding KSPedia to Application Launcher 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-Flight State Captured 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Saving Achievements Tree... 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[MessageSystem] Save Messages 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Game State Saved to saves/default/persistent 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
 [UIMasterController]: ShowUI 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-Flight State Captured 
+[AsteroidSpawner]: New object found near Kerbin: Ast. ZOU-697! 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-Saving Achievements Tree... 
+Flight State Captured 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 [MessageSystem] Save Messages 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-Game State Saved to saves/default/persistent 
+Game State Saved to saves/training/A_VesselConstruction/persistent 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 [UIMasterController]: HideUI 
@@ -16363,21 +16271,21 @@ Unloading 1 Unused Serialized files (Serialized files now loaded: 6)
 [UIApp] OnDestroy: KSPedia 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-UnloadTime: 12.887514 ms
+UnloadTime: 8.789935 ms
 [UIMasterController]: HideUI 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 
-Unloading 3087 unused Assets to reduce memory usage. Loaded Objects now: 234091.
-Total: 691.083406 ms (FindLiveObjects: 18.538139 ms CreateObjectMapping: 10.382527 ms MarkObjects: 655.461936 ms  DeleteObjects: 6.699431 ms)
+Unloading 3087 unused Assets to reduce memory usage. Loaded Objects now: 234090.
+Total: 524.454199 ms (FindLiveObjects: 12.094894 ms CreateObjectMapping: 7.828251 ms MarkObjects: 500.343591 ms  DeleteObjects: 4.186712 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 6)
 
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 234091.
-Total: 683.652994 ms (FindLiveObjects: 18.459451 ms CreateObjectMapping: 10.085841 ms MarkObjects: 654.654833 ms  DeleteObjects: 0.451747 ms)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 234090.
+Total: 519.734037 ms (FindLiveObjects: 11.881653 ms CreateObjectMapping: 7.618168 ms MarkObjects: 499.935876 ms  DeleteObjects: 0.297568 ms)
 
 Unloading 6 Unused Serialized files (Serialized files now loaded: 6)
-UnloadTime: 4.446757 ms
+UnloadTime: 2.799721 ms
 UICanvasPrefabSpawner SceneLogic spawning Editor 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
@@ -16388,8 +16296,8 @@ No Input Locks in effect right now
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 239840.
-Total: 740.414481 ms (FindLiveObjects: 18.453009 ms CreateObjectMapping: 10.466755 ms MarkObjects: 711.030296 ms  DeleteObjects: 0.463259 ms)
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 239839.
+Total: 568.925573 ms (FindLiveObjects: 12.231530 ms CreateObjectMapping: 8.007929 ms MarkObjects: 548.389959 ms  DeleteObjects: 0.295164 ms)
 
 [UIMasterController]: ShowUI 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
@@ -16454,13 +16362,13 @@ HighlightingSystem : Framebuffer depth data is not available and can't be used t
 [UIApp] OnDestroy: Contracts 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[MessageSystem] Reposition 0.02 18186 
+[MessageSystem] Reposition 0.02 12019 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[GenericAppFrame] Reposition 0.02 18186 
+[GenericAppFrame] Reposition 0.02 12019 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[GenericAppFrame] Reposition 0.02 18186 
+[GenericAppFrame] Reposition 0.02 12019 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 [UIApp] Adding AlarmClock to Application Launcher 
@@ -16478,19 +16386,19 @@ HighlightingSystem : Framebuffer depth data is not available and can't be used t
 [UIApp] Adding EngineersReport to Application Launcher 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[GenericAppFrame] Reposition 0.1905003 18192 
+[GenericAppFrame] Reposition 0.1286736 12025 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[ActionGroupsApp] OnAppStarted(): id: -391382 
+[ActionGroupsApp] OnAppStarted(): id: -389976 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[GenericAppFrame] Reposition 0.1905003 18192 
+[GenericAppFrame] Reposition 0.1286736 12025 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 [UIApp] Adding DeltaVApp to Application Launcher 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[MissionsApp] OnAppStarted(): id: -391370 
+[MissionsApp] OnAppStarted(): id: -389964 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 MissionsApp does not execute in this game mode, destroying this instance 
@@ -16499,10 +16407,10 @@ MissionsApp does not execute in this game mode, destroying this instance
 [UIApp] OnDestroy: Missions App 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[GenericAppFrame] Reposition 0.1905003 18192 
+[GenericAppFrame] Reposition 0.1286736 12025 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[GenericAppFrame] Reposition 0.2305003 18193 
+[GenericAppFrame] Reposition 0.1686736 12026 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 [UIApp] Adding KSPedia to Application Launcher 
@@ -16511,31 +16419,31 @@ MissionsApp does not execute in this game mode, destroying this instance
 [UIMasterController]: ShowUI 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-Saving Achievements Tree... 
+parachuteSingle added to ship - part count: 2 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+solidBooster1-1 added to ship - part count: 3 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+solidBooster1-1 added to ship - part count: 3 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+deleting part solidBooster1-1 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+solidBooster.sm.v2 added to ship - part count: 3 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 [MessageSystem] Save Messages 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-Game State Saved to saves/default/persistent 
+Game State Saved to saves/training/A_VesselConstruction/persistent 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-deleting part adapterSize2-Mk2 
+Clearing undo states from #7 forward (5 entries) 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-fuelTankSmall added to ship - part count: 2 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-fuelTank added to ship - part count: 3 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-liquidEngineMini.v2 added to ship - part count: 4 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Shrimp added to ship - part count: 5 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Shrimp added to ship - part count: 5 
+solidBooster.sm.v2 added to ship - part count: 3 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 [SpaceCenter/VehicleAssemblyBuilding]: Instance unregistered. 
@@ -16571,7 +16479,7 @@ Shrimp added to ship - part count: 5
 [UIMasterController]: ShowUI 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-Untitled Space Craft loaded! 
+y loaded! 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 [SpaceCenter/VehicleAssemblyBuilding]: Instance unregistered. 
@@ -16598,7 +16506,7 @@ Untitled Space Craft loaded!
 [UIMasterController]: ShowUI 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-Untitled Space Craft loaded! 
+y loaded! 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 [SpaceCenter/TrackingStation]: Instance unregistered. 
@@ -16619,10 +16527,7 @@ Untitled Space Craft loaded!
 [UIMasterController]: ShowUI 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-Untitled Space Craft loaded! 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-deleting part Shrimp 
+y loaded! 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 [SpaceCenter/VehicleAssemblyBuilding]: Instance unregistered. 
@@ -16646,119 +16551,31 @@ deleting part Shrimp
 [UIMasterController]: ShowUI 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-Untitled Space Craft loaded! 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-radialLiquidEngine1-2 added to ship - part count: 5 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-radialLiquidEngine1-2 added to ship - part count: 5 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-fuelTank added to ship - part count: 5 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-radialLiquidEngine1-2 added to ship - part count: 5 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-deleting part liquidEngineMini.v2 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-radialLiquidEngine1-2 added to ship - part count: 4 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-KSPediaController: Fix broken dependencies! 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-KSPediaController: Compiling KSPedia databases 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-KSPediaController: Compiling 3 KSPedia databases 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-KSPediaController: Merging kspedia_kspedia database 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-KSPediaController: Merging makinghistory_kspedia database 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-KSPediaController: Merging serenity_kspedia database 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-KSPediaController: Completed compiling databases 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-KSPediaController: Loading screen Manual 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-SymmetryMode Changed from 0 to 1 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-SymmetryMode Changed from 1 to 2 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-radialLiquidEngine1-2 added to ship - part count: 4 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-radialLiquidEngine1-2 added to ship - part count: 5 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-radialLiquidEngine1-2 added to ship - part count: 6 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Pre-Flight Check]: Checking for CraftWithinPartCountLimit: PASS! 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Pre-Flight Check]: Checking for CraftWithinSizeLimits: PASS! 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Pre-Flight Check]: Checking for CraftWithinMassLimits: PASS! 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Pre-Flight Check]: Checking for ExperimentalPartsAvailable: PASS! 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Pre-Flight Check]: Checking for CanAffordLaunchTest: PASS! 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Pre-Flight Check]: Checking for FacilityOperational: PASS! 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Pre-Flight Check]: Checking for NoControlSources: PASS! 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Pre-Flight Check]: Checking for LaunchSiteClear: PASS! 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Pre-Flight Check]: All Checks Complete. Go for Launch! 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Launching vessel from LaunchPad. Craft file: /mnt/DATA/Games/KerbalSpaceProgram/game/saves/default/Ships/VAB//Auto-Saved Ship.craft 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Saving Achievements Tree... 
+y loaded! 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 [MessageSystem] Save Messages 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-Game State Saved to saves/default/persistent 
+Game State Saved to saves/training/A_VesselConstruction/persistent 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 [UIMasterController]: HideUI 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[HighLogic]: =========================== Scene Change : From EDITOR to FLIGHT (Async) ===================== 
+[HighLogic]: =========================== Scene Change : From EDITOR to MAINMENU ===================== 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-Unloading 12 Unused Serialized files (Serialized files now loaded: 8)
-[UIApp] OnDestroy: ActionGroupsApp 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
+Unloading 11 Unused Serialized files (Serialized files now loaded: 6)
+WARNING: Shader Unsupported: 'Hidden/Nature/Terrain/Utilities' - All passes removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 [UIApp] OnDestroy: DeltaVApp 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 [UIApp] OnDestroy: KSPedia 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+[UIApp] OnDestroy: ActionGroupsApp 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 [UIApp] OnDestroy: AlarmClock 
@@ -16767,7 +16584,115 @@ Unloading 12 Unused Serialized files (Serialized files now loaded: 8)
 [UIApp] OnDestroy: EngineersReport 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-UnloadTime: 44.535994 ms
+UnloadTime: 24.641033 ms
+[UIMasterController]: ShowUI 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+
+Unloading 2973 unused Assets to reduce memory usage. Loaded Objects now: 240785.
+Total: 619.230607 ms (FindLiveObjects: 13.459563 ms CreateObjectMapping: 8.475325 ms MarkObjects: 583.922770 ms  DeleteObjects: 13.371918 ms)
+
+[ScenarioTypes]: List Created 23 scenario types loaded from 1 loaded assemblies. 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+File '/mnt/DATA/Games/KSP/game/KSP_Data/../Missions/MissionScoreInfo.cfg' does not exist 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+[ApplicationLauncher] OnSceneLoadedGUIReady: scene MAINMENU ShouldBeVisible() True ShouldBeOnTop() True iIsPositionedAtTop False 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+[ApplicationLauncher] SpawnSimpleLayout: VerticalTopDown 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+[ApplicationLauncher] SetHidden:  
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+[MessageSystem] Reposition 0.02 20439 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+[GenericAppFrame] Reposition 0.02 20439 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+[GenericAppFrame] Reposition 0.02 20439 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Loading banner texture from /mnt/DATA/Games/KSP/game/KSP_Data/../saves/training/banners/A_VesselConstruction.png 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Loading banner texture from /mnt/DATA/Games/KSP/game/KSP_Data/../saves/training/banners/B_flightBasics.png 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Loading banner texture from /mnt/DATA/Games/KSP/game/KSP_Data/../saves/training/banners/B_fmidEditor.png 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Loading banner texture from /mnt/DATA/Games/KSP/game/KSP_Data/../saves/training/banners/B_fsuborbital.png 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Loading banner texture from /mnt/DATA/Games/KSP/game/KSP_Data/../saves/training/banners/B_gadvancedConstr.png 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Loading banner texture from /mnt/DATA/Games/KSP/game/KSP_Data/../saves/training/banners/B_goForOrbit.png 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Loading banner texture from /mnt/DATA/Games/KSP/game/KSP_Data/../saves/training/banners/C_Orbit101.png 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Loading banner texture from /mnt/DATA/Games/KSP/game/KSP_Data/../saves/training/banners/D_Science.png 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Loading banner texture from /mnt/DATA/Games/KSP/game/KSP_Data/../saves/training/banners/E_MunFlight1.png 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Loading banner texture from /mnt/DATA/Games/KSP/game/KSP_Data/../saves/training/banners/F_MunFlight2.png 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Loading banner texture from /mnt/DATA/Games/KSP/game/KSP_Data/../saves/training/banners/F_MunFlight3.png 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Loading banner texture from /mnt/DATA/Games/KSP/game/KSP_Data/../saves/training/banners/G_Docking.png 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Loading banner texture from /mnt/DATA/Games/KSP/game/KSP_Data/../saves/training/banners/I_Asteroid1.png 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Loading banner texture from /mnt/DATA/Games/KSP/game/KSP_Data/../saves/training/banners/J_Asteroid2.png 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Scenario #autoLOC_1100006 is non-resumable. 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Scenario #autoLOC_1100006 is non-resumable. 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Scenario #autoLOC_1100006 is non-resumable. 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+[UpgradeScript]: JPLRepo ModuleDockingNodeFixed replace supports files from 1.12.0 and higher only! 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+[KSPUpgradePipeline]: B_flightBasics updated from 1.0.0 to 1.12.5. 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+[ScenarioTypes]: List Created 23 scenario types loaded from 1 loaded assemblies. 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+[MessageSystem] Load Messages 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+MessageSystem: Cannot load messages - MESSAGESYSTEM node does not exist 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+[GamePersistence]: Saving to persistent.sfs is disabled in FLIGHT scenario options (disabled autosave) 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+[UIMasterController]: HideUI 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+[HighLogic]: =========================== Scene Change : From MAINMENU to FLIGHT (Async) ===================== 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 6)
+UnloadTime: 5.357959 ms
 [PlanetariumCamera]: Focus: Kerbin 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
@@ -16775,16 +16700,16 @@ UnloadTime: 44.535994 ms
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 
-Unloading 4133 unused Assets to reduce memory usage. Loaded Objects now: 241075.
-Total: 894.155222 ms (FindLiveObjects: 22.466213 ms CreateObjectMapping: 11.139186 ms MarkObjects: 823.276776 ms  DeleteObjects: 37.271793 ms)
+Unloading 599 unused Assets to reduce memory usage. Loaded Objects now: 238099.
+Total: 566.399646 ms (FindLiveObjects: 12.917456 ms CreateObjectMapping: 8.541509 ms MarkObjects: 535.948637 ms  DeleteObjects: 8.991072 ms)
 
-Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 6)
 
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 241075.
-Total: 847.622554 ms (FindLiveObjects: 22.496881 ms CreateObjectMapping: 10.790963 ms MarkObjects: 813.861562 ms  DeleteObjects: 0.471934 ms)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 238099.
+Total: 565.200827 ms (FindLiveObjects: 19.501935 ms CreateObjectMapping: 8.522294 ms MarkObjects: 536.855186 ms  DeleteObjects: 0.320641 ms)
 
-Unloading 8 Unused Serialized files (Serialized files now loaded: 8)
-UnloadTime: 4.749685 ms
+Unloading 8 Unused Serialized files (Serialized files now loaded: 6)
+UnloadTime: 2.972735 ms
 UICanvasPrefabSpawner FlightUI spawning Flight 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
@@ -16804,8 +16729,8 @@ UICanvasPrefabSpawner FlightUI spawning VesselLabels
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 
-Unloading 75 unused Assets to reduce memory usage. Loaded Objects now: 247616.
-Total: 897.695459 ms (FindLiveObjects: 21.758977 ms CreateObjectMapping: 11.911474 ms MarkObjects: 863.249764 ms  DeleteObjects: 0.774312 ms)
+Unloading 77 unused Assets to reduce memory usage. Loaded Objects now: 244636.
+Total: 565.360657 ms (FindLiveObjects: 12.773466 ms CreateObjectMapping: 8.747285 ms MarkObjects: 543.237176 ms  DeleteObjects: 0.601929 ms)
 
 [UIMasterController]: HideUI 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
@@ -16813,52 +16738,10 @@ Total: 897.695459 ms (FindLiveObjects: 21.758977 ms CreateObjectMapping: 11.9114
 ------------------- initializing flight mode... ------------------ 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[MessageSystem] Save Messages 
+Target vessel index: 0  vessel count: 1 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-GetSubclassesOfParentClass: Using cached results for AlarmTypeBase 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Loading Depletion Nodes 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-DepNodeCount:  0 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Loading Biome Nodes 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-BiomeNodeCount:  0 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Loading Planet Nodes 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-PlanetNodeCount:  0 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[ScenarioDestructibles]: Loading... 0 objects registered 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Loading ship from file: /mnt/DATA/Games/KerbalSpaceProgram/game/saves/default/Ships/VAB//Auto-Saved Ship.craft 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[UIMasterController]: HideUI 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Untitled Space Craft loaded! 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-putting ship to ground: 11.222 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Untitled Space Craft]: Ready to Launch - waiting to start physics... 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Crewmember Jebediah Kerman assigned to Mk1 Command Pod, seat # 0 (crew seat index: 0) 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[FLIGHT GLOBALS]: Switching To Vessel Untitled Space Craft ----------------------  
+[FLIGHT GLOBALS]: Switching To Vessel Hopper ----------------------  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 setting new dominant body: Kerbin
@@ -16868,13 +16751,59 @@ FlightGlobals.mainBody: Kerbin
 Reference Frame: Rotating 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-Vessel assembly complete! 
+[Part]: Cannot have ModuleCargoPart and ModuleInventoryPart on same Part [Hopper (unloaded)'. Removed ModuleCargoPart 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+[Part]: PartModule indexing mismatch at mk1pod.v2, index 2.
+Node 'ModuleScienceExperiment' found in loaded data, but 'ModuleColorChanger' is defined in prefab.
+Looking for ModuleScienceExperiment in other indices... 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+...ModuleScienceExperiment module found at index 3. 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+[Part]: PartModule indexing mismatch at mk1pod.v2, index 3.
+Node 'ModuleScienceContainer' found in loaded data, but 'ModuleScienceExperiment' is defined in prefab.
+Looking for ModuleScienceContainer in other indices... 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+...ModuleScienceContainer module found at index 4. 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+[Part]: PartModule indexing mismatch at mk1pod.v2, index 4.
+Node 'FlagDecal' found in loaded data, but 'ModuleScienceContainer' is defined in prefab.
+Looking for FlagDecal in other indices... 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+...FlagDecal module found at index 8. 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+[Part]: PartModule indexing mismatch at mk1pod.v2, index 6.
+Node 'ModuleTripLogger' found in loaded data, but 'ModuleDataTransmitter' is defined in prefab.
+Looking for ModuleTripLogger in other indices... 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+...ModuleTripLogger module found at index 12. 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+[Part]: PartModule indexing mismatch at mk1pod.v2, index 7.
+Node 'TransferDialogSpawner' found in loaded data, but 'ModuleLiftingSurface' is defined in prefab.
+Looking for TransferDialogSpawner in other indices... 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+...no TransferDialogSpawner module found on part definition. Skipping... 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+PartModule is null. 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+[Hopper]: landed - waiting for ground contact to resume physics... 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Camera Mode: AUTO 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 all systems started 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[AsteroidSpawner]: No new objects this time. (Odds are 1:2) 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 [UiApp] Awake: CurrencyWidgetsApp 
@@ -16907,34 +16836,31 @@ all systems started
 [UiApp] Awake: ManeuverTool 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[ApplicationLauncher] OnSceneLoadedGUIReady: scene FLIGHT ShouldBeVisible() True ShouldBeOnTop() True iIsPositionedAtTop False 
+[ApplicationLauncher] OnSceneLoadedGUIReady: scene FLIGHT ShouldBeVisible() True ShouldBeOnTop() True iIsPositionedAtTop True 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[ApplicationLauncher] SpawnSimpleLayout: VerticalTopDown 
+[ApplicationLauncher] SetVisible:  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[KnowledgeBase] OnAppLauncherReady 30521 
+[KnowledgeBase] OnAppLauncherReady 20936 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 [UIApp] OnDestroy: Contracts 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[MessageSystem] Reposition 0.02 30522 
+[MessageSystem] Reposition 0.02 20937 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[GenericAppFrame] Reposition 0.02 30522 
+[GenericAppFrame] Reposition 0.02 20937 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[GenericAppFrame] Reposition 0.02 30522 
+[GenericAppFrame] Reposition 0.02 20937 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[FlightIntegrator]: Reloaded drag cube for zeroed cube root part mk1pod.v2 on vessel Untitled Space Craft 
+[FlightIntegrator]: Reloaded drag cube for zeroed cube root part mk1pod.v2 (Hopper) on vessel Hopper 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[FlightIntegrator]: Vessel Untitled Space Craft has been unloaded 1.79769313486232E+308, applying analytic temperature 309.637182490567 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[PlanetariumCamera]: Focus: Untitled Space Craft 
+[PlanetariumCamera]: Focus: Hopper 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 [UIApp] Adding ResourceDisplay to Application Launcher 
@@ -16943,22 +16869,19 @@ all systems started
 [UIApp] Adding ResourceDisplay to Application Launcher 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[ResourceDisplay] OnAppStarted(): id: -473280 
+[ResourceDisplay] OnAppStarted(): id: -451480 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[GenericAppFrame] Reposition 0.1486009 30526 
+[GenericAppFrame] Reposition 0.1366322 20941 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[ResourceDisplay] OnAppStarted(): id: 406768 
+[ResourceDisplay] OnAppStarted(): id: 411392 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 ResourceDisplay already exist, destroying this instance 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 [UIApp] OnDestroy: ResourceDisplay 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[UIApp] Adding AlarmClock to Application Launcher 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 [UIApp] Adding ActionGroupsApp to Application Launcher 
@@ -16973,19 +16896,16 @@ CURRENCY WIDGET False False False
 [UIApp] OnDestroy: CurrencyWidgetsApp 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[GenericAppFrame] Reposition 0.2166443 30528 
+[ActionGroupsApp] OnAppStarted(): id: -451504 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[ActionGroupsApp] OnAppStarted(): id: -473304 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[GenericAppFrame] Reposition 0.2166443 30528 
+[GenericAppFrame] Reposition 0.1812356 20943 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 [UIApp] Adding DeltaVApp to Application Launcher 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[MissionsApp] OnAppStarted(): id: -473292 
+[MissionsApp] OnAppStarted(): id: -451492 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 MissionsApp does not execute in this game mode, destroying this instance 
@@ -16994,7 +16914,7 @@ MissionsApp does not execute in this game mode, destroying this instance
 [UIApp] OnDestroy: Missions App 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[GenericAppFrame] Reposition 0.2566442 30529 
+[GenericAppFrame] Reposition 0.2124068 20944 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 [UIApp] Adding Cargo to Application Launcher 
@@ -17009,22 +16929,10 @@ MissionsApp does not execute in this game mode, destroying this instance
 HighlightingSystem : Framebuffer depth data is not available and can't be used to occlude highlighting. Highlighting occluders enabled. 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[UIApp] Adding ManeuverTool to Application Launcher 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
 [ApplicationLauncher] SetHidden:  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[GenericAppFrame] Reposition 0.3567504 30532 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[ManeuverTool]: Found 1 transfer types 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
 Flight State Captured 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Saving Achievements Tree... 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 [MessageSystem] Save Messages 
@@ -17033,474 +16941,18 @@ Saving Achievements Tree...
 Game State Saved as persistent 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[Untitled Space Craft]: ground contact! - error. Moving Vessel  down -0.136m 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Unpacking Untitled Space Craft 
+Unpacking Hopper 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 [UIMasterController]: ShowUI 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[AsteroidSpawner]: New object found near Kerbin: Ast. USU-266! 
+[FLIGHT GLOBALS]: Switching To Vessel Valentina Kerman ----------------------  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[AsteroidSpawner]: No new objects this time. (Odds are 1:2) 
+[PlanetariumCamera]: Focus: Valentina Kerman 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[AsteroidSpawner]: New object found near Kerbin: Ast. KGK-262! 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Look rotation viewing vector is zero 
-(Filename:  Line: 85)
-
-Look rotation viewing vector is zero 
-(Filename:  Line: 85)
-
-Look rotation viewing vector is zero 
-(Filename:  Line: 85)
-
-Look rotation viewing vector is zero 
-(Filename:  Line: 85)
-
-Look rotation viewing vector is zero 
-(Filename:  Line: 85)
-
-Look rotation viewing vector is zero 
-(Filename:  Line: 85)
-
-[Progress Node Reached]: RecordsAltitude 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Progress Node Reached]: RecordsSpeed 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Progress Node Reached]: RecordsDistance 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Progress Node Reached]: FirstLaunch 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Progress Node Complete]: FirstLaunch 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[AsteroidSpawner]: No new objects this time. (Odds are 1:2) 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[AsteroidSpawner]: New object found near Kerbin: Ast. DCM-592! 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[AsteroidSpawner]: No new objects this time. (Odds are 1:2) 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[FLIGHT GLOBALS]: Switching To Vessel Jebediah Kerman ----------------------  
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[PlanetariumCamera]: Focus: Jebediah Kerman 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Progress Node Reached]: RecordsDistance 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[AsteroidSpawner]: New object found near Kerbin: Ast. HYZ-718! 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[AsteroidSpawner]: No new objects this time. (Odds are 1:2) 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[F: 34825]: [mk1pod.v2] Collision Enhancer Punch Through - vel: 210.4548 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-mk1pod.v2 Exploded!! - blast awesomeness: 0.5 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[F: 34825]: [fuelTankSmall] Collision Enhancer Punch Through - vel: 210.4545 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-fuelTankSmall Exploded!! - blast awesomeness: 0.5 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[F: 34825]: [fuelTank] Collision Enhancer Punch Through - vel: 210.4651 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-fuelTank Exploded!! - blast awesomeness: 0.5 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[F: 34825]: [radialLiquidEngine1-2] Collision Enhancer Punch Through - vel: 210.4742 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-radialLiquidEngine1-2 Exploded!! - blast awesomeness: 0.5 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[F: 34825]: [radialLiquidEngine1-2] Collision Enhancer Punch Through - vel: 210.438 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-radialLiquidEngine1-2 Exploded!! - blast awesomeness: 0.5 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[F: 34825]: [radialLiquidEngine1-2] Collision Enhancer Punch Through - vel: 210.4732 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-radialLiquidEngine1-2 Exploded!! - blast awesomeness: 0.5 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[AsteroidSpawner]: New object found near Kerbin: Ast. GHW-034! 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[AsteroidSpawner]: No new objects this time. (Odds are 1:2) 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[AsteroidSpawner]: No new objects this time. (Odds are 1:2) 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Progress Node Reached]: Landing 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Progress Node Reached]: Kerbin 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Progress Node Complete]: Landing 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
 Event Stumble not assigned to state Ragdoll 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
@@ -17556,66 +17008,27 @@ Event Stumble not assigned to state Ragdoll
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 Event Stumble not assigned to state Ragdoll 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[AsteroidSpawner]: New object found near Kerbin: Ast. AAA-895! 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Comet Manager]:Generated Comet Type:short 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[CometSpawner]: New object found near Kerbin 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[CometManager]: Generated Dust Tail Color: #0 = RGBA(0.991, 0.943, 0.743, 0.031) 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[CometManager]: Generated Ion Tail Color: #0 = RGBA(0.043, 0.291, 0.867, 0.451) 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Game Paused! 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[UIMasterController]: ShowUI 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[FlightGlobals]: Active Vessel is moving (sqrVel = 0.426837789341973). Cannot save. 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Game Unpaused! 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[FlightGlobals]: Active Vessel is moving (sqrVel = 4.64880143097593). Cannot save. 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[AsteroidSpawner]: No new objects this time. (Odds are 1:2) 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[FlightGlobals]: Active Vessel is about to crash. Cannot save 
+[Experiments]: Setting FX Modules to 1... 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[AsteroidSpawner]: No new objects this time. (Odds are 1:2) 
+[Experiments]: FX Modules set: 1 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 Flight State Captured 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-Saving Achievements Tree... 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Saving Achievements Tree... 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
 [MessageSystem] Save Messages 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-Game State Saved to saves/default/persistent 
+[FlightIntegrator]: Reloaded drag cube for zeroed cube root part flag(Clone)(Clone) on vessel Flag 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[AutoSave]: Game Backed Up and Saved 
+[Experiments]: Setting FX Modules to 0... 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[AsteroidSpawner]: No new objects this time. (Odds are 1:2) 
+[Experiments]: FX Modules set: 0 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 Game Paused! 
@@ -17624,228 +17037,303 @@ Game Paused!
 [UIMasterController]: ShowUI 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[FlightDriver]: Flight State Reverted to Prelaunch. 
+Flight State Captured 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-Game State Saved as persistent 
+[MessageSystem] Save Messages 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[MessageSystem] Load Messages 
+[GamePersistence]: Saving to persistent.sfs is disabled in FLIGHT scenario options (disabled autosave) 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 [UIMasterController]: HideUI 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[HighLogic]: =========================== Scene Change : From FLIGHT to EDITOR ===================== 
+[HighLogic]: =========================== Scene Change : From FLIGHT to MAINMENU ===================== 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-Unloading 6 Unused Serialized files (Serialized files now loaded: 8)
-KbApp.OnDestroy NullName 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[UIApp] OnDestroy: ManeuverTool 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[UIApp] OnDestroy: Cargo 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[UIApp] OnDestroy: AlarmClock 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 6)
+WARNING: Shader Unsupported: 'Hidden/Nature/Terrain/Utilities' - All passes removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+KbApp.OnDestroy Vessel Info 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 [UIApp] OnDestroy: ActionGroupsApp 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-KbApp.OnDestroy Planet Parameters 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[UIApp] OnDestroy: KSPedia 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-KbApp.OnDestroy Vessel Crew 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
 [UIApp] OnDestroy: DeltaVApp 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[UIApp] OnDestroy: ResourceDisplay 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-KbApp.OnDestroy Vessel Info 
+[UIApp] OnDestroy: KSPedia 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 KbApp.OnDestroy Planet Resources 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-KbApp.OnDestroy Unowned Info 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-KbApp.OnDestroy Planet Info 
+[UIApp] OnDestroy: ResourceDisplay 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 [UIApp] OnDestroy: Construction 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-UnloadTime: 33.697792 ms
-UICanvasPrefabSpawner SceneLogic spawning Editor 
+[UIApp] OnDestroy: AlarmClock 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-No Input Locks in effect right now 
+KbApp.OnDestroy Vessel Crew 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
+KbApp.OnDestroy Unowned Info 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+[UIApp] OnDestroy: Cargo 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+KbApp.OnDestroy Planet Parameters 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+KbApp.OnDestroy Planet Info 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+[UIApp] OnDestroy: ManeuverTool 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+KbApp.OnDestroy NullName 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+UnloadTime: 21.296080 ms
 [UIMasterController]: ShowUI 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 
-Unloading 3230 unused Assets to reduce memory usage. Loaded Objects now: 243858.
-Total: 898.151674 ms (FindLiveObjects: 22.835556 ms CreateObjectMapping: 11.645796 ms MarkObjects: 849.088282 ms  DeleteObjects: 14.579907 ms)
+Unloading 3666 unused Assets to reduce memory usage. Loaded Objects now: 240878.
+Total: 803.950261 ms (FindLiveObjects: 14.510143 ms CreateObjectMapping: 8.439467 ms MarkObjects: 772.173625 ms  DeleteObjects: 8.826234 ms)
 
-[UIMasterController]: ShowUI 
+[ScenarioTypes]: List Created 23 scenario types loaded from 1 loaded assemblies. 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[UIMasterController]: ShowUI 
+File '/mnt/DATA/Games/KSP/game/KSP_Data/../Missions/MissionScoreInfo.cfg' does not exist 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-------------------- initializing editor mode... ------------------ 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-editor started 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-GetSubclassesOfParentClass: Using cached results for AlarmTypeBase 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Loading Depletion Nodes 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-DepNodeCount:  0 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Loading Biome Nodes 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-BiomeNodeCount:  0 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Loading Planet Nodes 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-PlanetNodeCount:  0 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[ScenarioDestructibles]: Loading... 0 objects registered 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Untitled Space Craft loaded! 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-HighlightingSystem : Framebuffer depth data is not available and can't be used to occlude highlighting. Highlighting occluders enabled. 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[UiApp] Awake: EngineersReport 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[UiApp] Awake: KSPedia 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[UiApp] Awake: Missions App 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[UiApp] Awake: DeltaVApp 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[UiApp] Awake: ActionGroupsApp 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[UiApp] Awake: AlarmClock 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[ApplicationLauncher] OnSceneLoadedGUIReady: scene EDITOR ShouldBeVisible() True ShouldBeOnTop() False iIsPositionedAtTop True 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[ApplicationLauncher] SpawnSimpleLayout: HorizontalRightLeft 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[UIApp] OnDestroy: Contracts 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[MessageSystem] Reposition 0.02 41957 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[GenericAppFrame] Reposition 0.02 41957 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[GenericAppFrame] Reposition 0.02 41957 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[UIApp] Adding AlarmClock to Application Launcher 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[UIApp] Adding ActionGroupsApp to Application Launcher 
+[ApplicationLauncher] OnSceneLoadedGUIReady: scene MAINMENU ShouldBeVisible() True ShouldBeOnTop() True iIsPositionedAtTop True 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 [ApplicationLauncher] SetHidden:  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[UIApp] Adding Missions App to Application Launcher 
+[MessageSystem] Reposition 0.02 33143 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[UIApp] Adding EngineersReport to Application Launcher 
+[GenericAppFrame] Reposition 0.02 33143 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[GenericAppFrame] Reposition 0.1740114 41963 
+[GenericAppFrame] Reposition 0.02 33143 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[ActionGroupsApp] OnAppStarted(): id: -518592 
+[UIMasterController]: HideUI 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[GenericAppFrame] Reposition 0.1740114 41963 
+[HighLogic]: =========================== Scene Change : From MAINMENU to MISSIONBUILDER (Async) ===================== 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[UIApp] Adding DeltaVApp to Application Launcher 
+Unloading 2 Unused Serialized files (Serialized files now loaded: 6)
+UnloadTime: 5.196135 ms
+UICanvasPrefabSpawner SettingsSpawner spawning MissionEditor 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[MissionsApp] OnAppStarted(): id: -518580 
+[UIMasterController]: ShowUI 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-MissionsApp does not execute in this game mode, destroying this instance 
+[ScenarioTypes]: List Created 23 scenario types loaded from 1 loaded assemblies. 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[UIApp] OnDestroy: Missions App 
+File '/mnt/DATA/Games/KSP/game/KSP_Data/../Missions/MissionScoreInfo.cfg' does not exist 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[GenericAppFrame] Reposition 0.1740114 41963 
+GetSubclassesOfParentClass: Using cached results for AlarmTypeBase 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[GenericAppFrame] Reposition 0.2140114 41964 
+[ScenarioDestructibles]: Loading... 0 objects registered 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[UIApp] Adding KSPedia to Application Launcher 
+[MissionSystem]: <b><color=orange>Mission file not found:</color></b> /mnt/DATA/Games/KSP/game/KSP_Data/../Missions/New Mission/persistent.mission 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+[MissionSystem]: <b><color=orange>Mission file not found:</color></b> /mnt/DATA/Games/KSP/game/KSP_Data/../Missions/New Mission/persistent.mission 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+[MissionSystem]: <b><color=orange>Mission file not found:</color></b> /mnt/DATA/Games/KSP/game/KSP_Data/../Missions/New Mission/persistent.mission 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+[MissionSystem]: <b><color=orange>Mission file not found:</color></b> /mnt/DATA/Games/KSP/game/KSP_Data/../Missions/New Mission/persistent.mission 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+[MissionSystem]: <b><color=orange>Mission file not found:</color></b> /mnt/DATA/Games/KSP/game/KSP_Data/../Missions/New Mission/persistent.mission 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+[MissionSystem]: <b><color=orange>Mission file not found:</color></b> /mnt/DATA/Games/KSP/game/KSP_Data/../Missions/New Mission/persistent.mission 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+[MissionSystem]: <b><color=orange>Mission file not found:</color></b> /mnt/DATA/Games/KSP/game/KSP_Data/../Missions/New Mission/persistent.mission 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+[MissionSystem]: <b><color=orange>Mission file not found:</color></b> /mnt/DATA/Games/KSP/game/KSP_Data/../Missions/New Mission/persistent.mission 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+[MissionSystem]: <b><color=orange>Mission file not found:</color></b> /mnt/DATA/Games/KSP/game/KSP_Data/../Missions/New Mission/persistent.mission 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+[MissionSystem]: <b><color=orange>Mission file not found:</color></b> /mnt/DATA/Games/KSP/game/KSP_Data/../Missions/New Mission/persistent.mission 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+[MissionSystem]: <b><color=orange>Mission file not found:</color></b> /mnt/DATA/Games/KSP/game/KSP_Data/../Missions/New Mission/persistent.mission 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+NodeList MASK: 8796093022208 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+NodeFilter MASK: 8796093022208 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Viewport MASK: 536870912 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+ActionPane MASK: 57040923788288 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+SettingsActionPane MASK: 8796093022208 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+GraphicsActionPane MASK: 549755813888 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 Setting up 8 worker threads for Enlighten.
-  Thread -> id: 7f8c1cb146c0 -> priority: 1 
-  Thread -> id: 7f8c17fff6c0 -> priority: 1 
-  Thread -> id: 7f8c177fe6c0 -> priority: 1 
-  Thread -> id: 7f8c16ffd6c0 -> priority: 1 
-  Thread -> id: 7f8c167fc6c0 -> priority: 1 
-  Thread -> id: 7f8c15ffb6c0 -> priority: 1 
-  Thread -> id: 7f8c157fa6c0 -> priority: 1 
-  Thread -> id: 7f8c14ff96c0 -> priority: 1 
-[UIApp] OnDestroy: ActionGroupsApp 
+  Thread -> id: 7f1dc25fb6c0 -> priority: 1 
+  Thread -> id: 7f1dc15fa6c0 -> priority: 1 
+  Thread -> id: 7f1cdffff6c0 -> priority: 1 
+  Thread -> id: 7f1cdeffe6c0 -> priority: 1 
+  Thread -> id: 7f1cddffd6c0 -> priority: 1 
+  Thread -> id: 7f1cdcffc6c0 -> priority: 1 
+  Thread -> id: 7f1cdbffb6c0 -> priority: 1 
+  Thread -> id: 7f1cdaffa6c0 -> priority: 1 
+
+Unloading 1005 unused Assets to reduce memory usage. Loaded Objects now: 247829.
+Total: 659.520479 ms (FindLiveObjects: 15.708651 ms CreateObjectMapping: 11.158447 ms MarkObjects: 623.359392 ms  DeleteObjects: 9.292998 ms)
+
+[ApplicationLauncher] OnSceneLoadedGUIReady: scene MISSIONBUILDER ShouldBeVisible() False ShouldBeOnTop() False iIsPositionedAtTop True 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[UIApp] OnDestroy: DeltaVApp 
+[UIMasterController]: HideUI 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[UIApp] OnDestroy: AlarmClock 
+[HighLogic]: =========================== Scene Change : From MISSIONBUILDER to MAINMENU (Async) ===================== 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[UIApp] OnDestroy: KSPedia 
+Unloading 1 Unused Serialized files (Serialized files now loaded: 6)
+UnloadTime: 11.150452 ms
+[UIMasterController]: HideUI 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
+
+Unloading 5480 unused Assets to reduce memory usage. Loaded Objects now: 239629.
+Total: 625.844141 ms (FindLiveObjects: 13.912934 ms CreateObjectMapping: 8.650393 ms MarkObjects: 598.196670 ms  DeleteObjects: 5.083133 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 6)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 239629.
+Total: 621.523608 ms (FindLiveObjects: 13.247946 ms CreateObjectMapping: 8.385076 ms MarkObjects: 599.606033 ms  DeleteObjects: 0.283451 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 6)
+WARNING: Shader Unsupported: 'Hidden/Nature/Terrain/Utilities' - All passes removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+UnloadTime: 2.951225 ms
+[UIMasterController]: ShowUI 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 242593.
+Total: 630.575054 ms (FindLiveObjects: 13.691557 ms CreateObjectMapping: 8.227600 ms MarkObjects: 608.345193 ms  DeleteObjects: 0.309921 ms)
+
+[ScenarioTypes]: List Created 23 scenario types loaded from 1 loaded assemblies. 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+File '/mnt/DATA/Games/KSP/game/KSP_Data/../Missions/MissionScoreInfo.cfg' does not exist 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+[ApplicationLauncher] OnSceneLoadedGUIReady: scene MAINMENU ShouldBeVisible() True ShouldBeOnTop() True iIsPositionedAtTop True 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+[MessageSystem] Reposition 0.02 34073 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+[GenericAppFrame] Reposition 0.02 34073 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+[GenericAppFrame] Reposition 0.02 34073 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Loading banner texture from /mnt/DATA/Games/KSP/game/KSP_Data/../saves/scenarios/banners/ARM_Asteroid1.png 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Loading banner texture from /mnt/DATA/Games/KSP/game/KSP_Data/../saves/scenarios/banners/ARM_Asteroid2.png 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Loading banner texture from /mnt/DATA/Games/KSP/game/KSP_Data/../saves/scenarios/banners/Dynawing Final Approach.png 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Loading banner texture from /mnt/DATA/Games/KSP/game/KSP_Data/../saves/scenarios/banners/Dynawing Re-entry.png 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Loading banner texture from /mnt/DATA/Games/KSP/game/KSP_Data/../saves/scenarios/banners/EVA in Kerbin Orbit.png 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Loading banner texture from /mnt/DATA/Games/KSP/game/KSP_Data/../saves/scenarios/banners/EVA on Duna.png 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Loading banner texture from /mnt/DATA/Games/KSP/game/KSP_Data/../saves/scenarios/banners/Exploring Gilly.png 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Loading banner texture from /mnt/DATA/Games/KSP/game/KSP_Data/../saves/scenarios/banners/Impending Impact.png 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Loading banner texture from /mnt/DATA/Games/KSP/game/KSP_Data/../saves/scenarios/banners/Jool Aerobrake.png 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Loading banner texture from /mnt/DATA/Games/KSP/game/KSP_Data/../saves/scenarios/banners/Mun Orbit.png 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Loading banner texture from /mnt/DATA/Games/KSP/game/KSP_Data/../saves/scenarios/banners/Mun Rover.png 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Loading banner texture from /mnt/DATA/Games/KSP/game/KSP_Data/../saves/scenarios/banners/Powered Landing.png 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Loading banner texture from /mnt/DATA/Games/KSP/game/KSP_Data/../saves/scenarios/banners/Prospecting Eeloo.png 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Loading banner texture from /mnt/DATA/Games/KSP/game/KSP_Data/../saves/scenarios/banners/Refuel at Minmus.png 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Loading banner texture from /mnt/DATA/Games/KSP/game/KSP_Data/../saves/scenarios/banners/Space Station 1.png 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Loading banner texture from /mnt/DATA/Games/KSP/game/KSP_Data/../saves/scenarios/banners/Transmissions.png 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Scenario #autoLOC_1200000 is non-resumable. 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Scenario #autoLOC_1200000 is non-resumable. 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+[1377791, Main Thread] WARNING: Theme parsing error: gtk-dark.css:6754:15: Junk at end of value for padding: 'glib warning', file /home/ubuntu/actions-runner/_work/desktop/desktop/engine/toolkit/xre/nsSigHandlers.cpp:201
+
+(zen:1377791): Gtk-WARNING **: 20:56:32.351: Theme parsing error: gtk-dark.css:6754:15: Junk at end of value for padding
+[Parent 1377791, Main Thread] WARNING: Theme parsing error: gtk.css:6754:15: Junk at end of value for padding: 'glib warning', file /home/ubuntu/actions-runner/_work/desktop/desktop/engine/toolkit/xre/nsSigHandlers.cpp:201
+
+(zen:1377791): Gtk-WARNING **: 20:56:32.628: Theme parsing error: gtk.css:6754:15: Junk at end of value for padding
+[Parent 1377791, Main Thread] WARNING: Theme parsing error: gtk-dark.css:6754:15: Junk at end of value for padding: 'glib warning', file /home/ubuntu/actions-runner/_work/desktop/desktop/engine/toolkit/xre/nsSigHandlers.cpp:201
+
+(zen:1377791): Gtk-WARNING **: 20:56:32.708: Theme parsing error: gtk-dark.css:6754:15: Junk at end of value for padding
 [UIApp] OnDestroy:  
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[UIApp] OnDestroy: EngineersReport 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 

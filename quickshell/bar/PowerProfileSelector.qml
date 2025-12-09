@@ -1,6 +1,7 @@
+import QtQuick
 import Quickshell
 import Quickshell.Services.UPower
-import QtQuick
+import qs
 
 Item {
     id: root
@@ -17,13 +18,12 @@ Item {
 
     function setNextMode() {
         var mode = PowerProfiles.profile;
-        if (mode == PowerProfile.PowerSaver) {
+        if (mode == PowerProfile.PowerSaver)
             PowerProfiles.profile = PowerProfile.Balanced;
-        } else if (mode == PowerProfile.Performance) {
+        else if (mode == PowerProfile.Performance)
             PowerProfiles.profile = PowerProfile.PowerSaver;
-        } else if (mode == PowerProfile.Balanced) {
+        else if (mode == PowerProfile.Balanced)
             PowerProfiles.profile = PowerProfile.Performance;
-        }
     }
 
     width: content.width
@@ -31,6 +31,7 @@ Item {
 
     Module {
         id: content
+
         label: root.getIcon()
         labelColor: Theme.pfle
     }
@@ -39,4 +40,5 @@ Item {
         anchors.fill: parent
         onClicked: root.setNextMode()
     }
+
 }
