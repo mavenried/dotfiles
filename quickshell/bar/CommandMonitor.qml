@@ -5,10 +5,27 @@ Item {
     id: root
 
     property string label: "^-^"
-    property string template: "{}"
+    property string template: "%s"
     property color labelColor
     property int interval: 500
     property list<string> command
+    property bool drawBox: true
+
+    function fmt(template, value) {
+        return template.replace(/%(-?\d*)s/g, function(_, widthSpec) {
+            const width = parseInt(widthSpec, 10);
+            if (!width || isNaN(width))
+                return value;
+ // plain %s
+            if (width > 0)
+                return value.toString().padStart(width, " ");
+
+            if (width < 0)
+                return value.toString().padEnd(-width, " ");
+
+            return value;
+        });
+    }
 
     width: content.width
     height: content.height
@@ -18,6 +35,7 @@ Item {
 
         label: root.label
         labelColor: root.labelColor
+        drawBox: root.drawBox
     }
 
     Process {
@@ -27,7 +45,7 @@ Item {
         command: root.command
 
         stdout: StdioCollector {
-            onStreamFinished: root.label = root.template.replace("{}", this.text.split('\n')[0])
+            onStreamFinished: root.label = root.fmt(root.template, this.text.trim())
         }
 
     }

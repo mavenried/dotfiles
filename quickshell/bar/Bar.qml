@@ -11,6 +11,13 @@ Scope {
 
             required property var modelData
 
+            function truncate(str) {
+                if (str.length > 35) {
+                    return str.slice(0, 34) + "…";
+                }
+                return str;
+            }
+
             screen: modelData
             color: "transparent"
             implicitHeight: row.implicitHeight
@@ -31,8 +38,8 @@ Scope {
 
                 CommandMonitor {
                     labelColor: Theme.dstr
-                    command: ["zsh", "-c", "checkupdates | wc -l | awk '{printf \"%3s\\n\", $0}'"]
-                    template: " {}"
+                    command: ["zsh", "-c", "checkupdates | wc -l "]
+                    template: " %3s"
                     label: " ---"
                     interval: 5000
                 }
@@ -41,11 +48,28 @@ Scope {
                     label: Time.time
                     labelColor: Theme.clck
                 }
-
-                ActiveWindow {
-                    labelColor: Theme.clck
+                Rectangle {
+                    implicitHeight: inner.implicitHeight
+                    implicitWidth: inner.implicitWidth
+                    color: Theme.bgnd
+                    border.width: 2
+                    border.color: Theme.acct
+                    radius: Theme.radius
+                    Row {
+                        id: inner
+                        spacing: -20
+                        Module {
+                            label: "[" + (Niri.state.workspaces.indexOf(Niri.state.workspace_id) + 1) + "]"
+                            labelColor: Theme.wksp
+                            drawBox: false
+                        }
+                        Module {
+                            label: root.truncate(Niri.state.window_name)
+                            labelColor: Theme.name
+                            drawBox: false
+                        }
+                    }
                 }
-
             }
 
             Row {
@@ -53,10 +77,9 @@ Scope {
                 anchors.verticalCenter: parent.verticalCenter
                 anchors.horizontalCenter: parent.horizontalCenter
                 spacing: 5
+                bottomPadding: 0
 
-                SysInfo {
-                }
-
+                SysInfo {}
             }
 
             Row {
@@ -64,31 +87,28 @@ Scope {
                 anchors.verticalCenter: parent.verticalCenter
                 anchors.right: parent.right
                 spacing: 5
+                bottomPadding: 0
 
                 CommandMonitor {
                     labelColor: Theme.wifi
-                    command: ["zsh","-c","~/.config/quickshell/scripts/qs-online"]
-                    label: "󰖟 --"
+                    command: ["zsh", "-c", "~/.config/quickshell/scripts/qs-online"]
+                    label: "󰖟 offline"
                     interval: 1000
                 }
 
                 CommandMonitor {
                     labelColor: Theme.uptm
-                    command: ["zsh","-c","~/.config/quickshell/scripts/qs-uptime"]
+                    command: ["mavencore", "uptime"]
+                    template: " %s"
                     label: " --:--:--:--"
                 }
 
-                PowerProfileSelector {
-                }
+                PowerProfileSelector {}
 
                 IdleInhibitor {
                     labelColor: Theme.idle
                 }
-
             }
-
         }
-
     }
-
 }

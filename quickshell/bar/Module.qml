@@ -7,10 +7,11 @@ Rectangle {
 
     property string label
     property color labelColor
+    property bool drawBox: true
 
-    color: Theme.bgnd
+    color: drawBox ? Theme.bgnd : "transparent"
     border.color: Theme.acct
-    border.width: 2
+    border.width: drawBox ? 2 : 0
     radius: Theme.radius
     width: content.width
     height: content.height

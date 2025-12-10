@@ -17,12 +17,12 @@ Singleton {
     readonly property color cpuc: purple
     readonly property color mmry: blue
     readonly property color disk: aqua
-    readonly property color adio: purple
+    readonly property color name: orange
     readonly property color idle: yellow
     readonly property color powr: yellow
     readonly property color wifi: purple
     readonly property color dstr: green
-    readonly property color blth: green
+    readonly property color wksp: purple
     readonly property color uptm: blue
     readonly property color clck: fg
     readonly property color sptr: bg

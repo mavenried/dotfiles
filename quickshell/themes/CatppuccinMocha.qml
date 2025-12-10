@@ -33,12 +33,12 @@ Singleton {
     readonly property color cpuc: mauve
     readonly property color mmry: blue
     readonly property color disk: teal
-    readonly property color adio: mauve
+    readonly property color wksp: mauve
     readonly property color idle: blue
     readonly property color bglt: yellow
     readonly property color wifi: peach
     readonly property color dstr: green
-    readonly property color blth: green
+    readonly property color name: green
     readonly property color uptm: green
     readonly property color clck: text
     readonly property color sptr: surface2

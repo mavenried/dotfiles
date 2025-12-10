@@ -4,10 +4,6 @@ import qs.bar
 import qs.notifyd
 
 ShellRoot {
-    Bar {
-    }
-
-    Notifyd {
-    }
-
+    Bar {}
+    Notifyd {}
 }

@@ -11,14 +11,12 @@ border          = "rounded"
 visible         = false
 
 [bar]
-glyph           = ""
-hide_delimiters = true
-visible         = true
+visible         = false
 
 [box.inner_margin]
 x               = 2
 y               = 1
 
 [custom_ascii]
-color           = "#94e2d5"
-path            = "~/.config/macchina/ascii/mavenried.ascii"
+color           = "cyan"
+path            = "~/.config/macchina/ascii/mavencore.ascii"

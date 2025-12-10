@@ -1,7 +1,8 @@
-import QtQuick
-import Quickshell
 pragma Singleton
 
+import Quickshell
+import QtQuick
+
 Singleton {
-    readonly property color acct: "#689d6a"
+    readonly property color acct: "#cba6f7"
 }

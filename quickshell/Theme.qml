@@ -1,1 +1,1 @@
-/home/mavenried/.config/quickshell/themes/GruvboxDark.qml
+/home/mavenried/.config/quickshell/themes/CatppuccinMocha.qml

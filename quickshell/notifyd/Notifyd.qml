@@ -1,4 +1,5 @@
 import QtQuick
+import QtQuick.Controls
 import QtQuick.Layouts
 import Quickshell
 import Quickshell.Services.Notifications
@@ -9,6 +10,16 @@ Scope {
     id: root
 
     property bool showToasts: server.trackedNotifications.values.length > 0
+
+    function resolveIcon(value) {
+        if (!value || value === "")
+            return "";
+
+        if (value.startsWith("/") || value.startsWith("image://"))
+            return value;
+
+        return "";
+    }
 
     NotificationServer {
         id: server
@@ -82,7 +93,14 @@ Scope {
                                     Image {
                                         id: img
 
-                                        source: toastBox.modelData.image.length > 0 ? toastBox.modelData.image : toastBox.modelData.appIcon.length > 0 ? toastBox.modelData.appIcon : ""
+                                        source: {
+                                            if (toastBox.modelData.image.length > 0)
+                                                return resolveIcon(toastBox.modelData.image);
+                                            else if (toastBox.modelData.appIcon.length > 0)
+                                                return resolveIcon(toastBox.modelData.appIcon);
+                                            else
+                                                return "";
+                                        }
                                         height: 60
                                         width: 60
                                     }

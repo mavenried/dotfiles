@@ -30,6 +30,7 @@ Item {
 
     Module {
         id: content
+
         label: root.getIcon()
         labelColor: Theme.pfle
     }

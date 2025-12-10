@@ -6,13 +6,13 @@ Singleton {
     id: root
 
     readonly property string time: {
-        Qt.formatDateTime(clock.date, "<b> hh:mm</b> dd|M|yy ddd");
+        Qt.formatDateTime(clock.date, "<b> hh:mm:ss</b> dd|M|yy ddd");
     }
 
     SystemClock {
         id: clock
 
-        precision: SystemClock.Minutes
+        precision: SystemClock.Seconds
     }
 
 }

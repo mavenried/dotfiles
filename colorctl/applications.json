@@ -38,5 +38,9 @@
   "qs": {
     "template": "/mnt/DATA/scripts/templates/qs.qml",
     "target": "/mnt/DATA/dots/quickshell/Accent.qml"
+  },
+  "nvim": {
+    "template": "/mnt/DATA/scripts/templates/nvim.lua",
+    "target": "/mnt/DATA/dots/nvim/lua/colorscheme.lua"
   }
 }

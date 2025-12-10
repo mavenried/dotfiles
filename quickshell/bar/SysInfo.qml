@@ -8,8 +8,23 @@ Rectangle {
     property string cpu: " ---%"
     property string ram: " ---%"
     property string dsk: "󰋊 ---%"
-    property string bat: "󰁾 ---%"
+    property string bat: "  ---%"
+    property string bat_icon: "󰁾"
     property string pow: "󱐋 --W"
+
+    function getBatteryColor() {
+        var num = root.bat.replace(/[^\d]/g, "");
+        if (10 > num)
+            return Theme.bat5;
+        else if (25 > num)
+            return Theme.bat4;
+        else if (50 > num)
+            return Theme.bat3;
+        else if (75 > num)
+            return Theme.bat2;
+        else if (100 >= num)
+            return Theme.bat1;
+    }
 
     color: Theme.bgnd
     border.color: Theme.acct
@@ -21,83 +36,74 @@ Rectangle {
     Row {
         id: content
 
-        spacing: 20
-        padding: 8
-        leftPadding: 13
-        rightPadding: 13
+        spacing: 0
 
-        Text {
-            text: root.cpu
-            font.pixelSize: 16
-            font.family: "JetBrainsMono Nerd Font"
-            color: Theme.cpuc
+        CommandMonitor {
+            label: root.cpu
+            labelColor: Theme.cpuc
+            drawBox: false
+            template: " %3s%"
+            command: ["mavencore", "cpu"]
         }
 
-        Text {
-            text: root.ram
-            font.pixelSize: 16
-            font.family: "JetBrainsMono Nerd Font"
-            color: Theme.mmry
+        CommandMonitor {
+            label: root.ram
+            labelColor: Theme.mmry
+            drawBox: false
+            template: " %3s%"
+            command: ["mavencore", "memory"]
         }
 
-        Text {
-            text: root.dsk
-            font.pixelSize: 16
-            font.family: "JetBrainsMono Nerd Font"
-            color: Theme.disk
+        CommandMonitor {
+            label: root.dsk
+            labelColor: Theme.disk
+            drawBox: false
+            template: "󰋊 %3s%"
+            command: ["mavencore", "disk", "/mnt/DATA/"]
         }
 
-        Text {
-            text: root.bat
-            font.pixelSize: 16
-            font.family: "JetBrainsMono Nerd Font"
-            color: {
-                var num = root.bat.trim().replace(/[^\d]/g, "");
-                if (10 > num)
-                    return Theme.bat5;
-                else if (30 > num)
-                    return Theme.bat4;
-                else if (50 > num)
-                    return Theme.bat3;
-                else if (80 > num)
-                    return Theme.bat2;
-                else if (100 >= num)
-                    return Theme.bat1;
-            }
+        CommandMonitor {
+            id: battery
+
+            label: root.bat
+            labelColor: root.getBatteryColor()
+            drawBox: false
+            template: root.bat_icon + " %3s%"
+            command: ["mavencore", "battery", "/sys/class/power_supply/BAT1"]
         }
 
-        Text {
-            text: root.pow
-            font.pixelSize: 16
-            font.family: "JetBrainsMono Nerd Font"
-            color: Theme.powr
+        CommandMonitor {
+            label: root.pow
+            labelColor: Theme.powr
+            drawBox: false
+            template: "󱐋 %2sW"
+            command: ["mavencore", "power", "/sys/class/power_supply/BAT1"]
         }
 
     }
 
+    Connections {
+        target: battery
+        onLabelChanged: root.bat = battery.label
+    }
+
     Process {
-        id: pythonScript
+        id: updater
 
         running: true
-        command: ["/mnt/DATA/scripts/qs-sysinfo"]
-        onRunningChanged: {
-            if (!running)
-                running = true;
-
-        }
-        Component.onCompleted: running = true
+        command: ["mavencore", "battery-icon", "/sys/class/power_supply/BAT1"]
 
         stdout: StdioCollector {
-            onStreamFinished: {
-                var val = this.text.trim().split(" | ");
-                cpu = val[0];
-                ram = val[1];
-                dsk = val[2];
-                bat = val[3];
-                pow = val[4];
-            }
+            onStreamFinished: root.bat_icon = this.text.trim()
         }
 
+    }
+
+    Timer {
+        interval: 1000
+        running: true
+        repeat: true
+        onTriggered: updater.running = true
     }
 
 }
