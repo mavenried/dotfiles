@@ -8,7 +8,7 @@ Rectangle {
     property string cpu: " ---%"
     property string ram: " ---%"
     property string dsk: "󰋊 ---%"
-    property string bat: "  ---%"
+    property string bat: " ---%"
     property string bat_icon: "󰁾"
     property string pow: "󱐋 --W"
 
@@ -65,7 +65,7 @@ Rectangle {
         CommandMonitor {
             id: battery
 
-            label: root.bat
+            label: root.bat_icon + root.bat
             labelColor: root.getBatteryColor()
             drawBox: false
             template: root.bat_icon + " %3s%"

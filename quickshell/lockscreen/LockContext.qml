@@ -35,6 +35,7 @@ Scope {
         config: "password.conf"
         // pam_unix will ask for a response for the password prompt
         onPamMessage: {
+            console.log(this)
             if (this.responseRequired)
                 this.respond(root.currentText);
 

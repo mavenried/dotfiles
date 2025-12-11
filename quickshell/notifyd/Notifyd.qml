@@ -4,11 +4,25 @@ import QtQuick.Layouts
 import Quickshell
 import Quickshell.Services.Notifications
 import Quickshell.Widgets
+import Quickshell.Io
 import qs
 
 Scope {
     id: root
 
+    IpcHandler {
+        target: "notifyd"
+        function clear() {
+            console.log("Clearing all notifications.");
+            while (server.trackedNotifications.values.length > 0) {
+                server.trackedNotifications.values.forEach(function (notif: Notification) {
+                    console.log(notif.summary);
+                    notif.tracked = false;
+                });
+            }
+        }
+    }
+    
     property bool showToasts: server.trackedNotifications.values.length > 0
 
     function resolveIcon(value) {
@@ -27,7 +41,7 @@ Scope {
         bodySupported: true
         actionsSupported: true
         persistenceSupported: true
-        onNotification: function(notification) {
+        onNotification: function (notification) {
             notification.tracked = true;
             notification.timestamp = Date.now();
             console.log("Got: [" + notification.appIcon + ", " + notification.image + "]: " + notification.summary + " | " + notification.body);
@@ -44,7 +58,6 @@ Scope {
 
             implicitHeight: toastColumn.implicitHeight
             implicitWidth: toastColumn.implicitWidth
-            // Like the OSD example: compositor chooses the monitor
             anchors.bottom: true
             anchors.right: true
             margins.right: 10
@@ -55,7 +68,7 @@ Scope {
             ColumnLayout {
                 id: toastColumn
 
-                spacing: 12
+                spacing: 5
                 Layout.margins: 10
 
                 Repeater {
@@ -104,9 +117,7 @@ Scope {
                                         height: 60
                                         width: 60
                                     }
-
                                 }
-
                             }
 
                             Column {
@@ -131,9 +142,7 @@ Scope {
                                     font.pixelSize: 14
                                     font.family: "JetbrainsMono Nerd Font"
                                 }
-
                             }
-
                         }
 
                         MouseArea {
@@ -154,15 +163,9 @@ Scope {
                                 toastBox.modelData.expire();
                             }
                         }
-
                     }
-
                 }
-
             }
-
         }
-
     }
-
 }

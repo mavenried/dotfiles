@@ -24,7 +24,7 @@
   },
   "autosave": {
     "after_delay": {
-      "milliseconds": 0
+      "milliseconds": 200
     }
   },
   "ui_font_weight": 100.0,
@@ -43,6 +43,6 @@
   "theme": {
     "mode": "dark",
     "light": "Gruvbox Light",
-    "dark": "Gruvbox Dark"
+    "dark": "Catppuccin Mocha"
   }
 }

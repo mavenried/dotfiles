@@ -331,6 +331,9 @@ binds {
     Mod+B {
         spawn "zen-browser"
     }
+    Mod+N {
+      spawn-sh "qs ipc call notifyd clear"
+    }
     Mod+E {
         spawn "nautilus"
     }
