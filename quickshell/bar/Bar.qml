@@ -12,8 +12,8 @@ Scope {
             required property var modelData
 
             function truncate(str) {
-                if (str.length > 35) {
-                    return str.slice(0, 34) + "…";
+                if (str.length > 37) {
+                    return str.slice(0, 36) + "…";
                 }
                 return str;
             }
@@ -51,22 +51,22 @@ Scope {
                 Rectangle {
                     implicitHeight: inner.implicitHeight
                     implicitWidth: inner.implicitWidth
-                    color: Theme.bgnd
+                    color: Theme.acct
                     border.width: 2
                     border.color: Theme.acct
                     radius: Theme.radius
                     Row {
                         id: inner
-                        spacing: -20
                         Module {
-                            label: "[" + (Niri.state.workspaces.indexOf(Niri.state.workspace_id) + 1) + "]"
+                            label:  "<b>" +(CompositorIpc.state.workspaces.indexOf(CompositorIpc.state.workspace_id) + 1) + "</b"
                             labelColor: Theme.wksp
                             drawBox: false
                         }
                         Module {
-                            label: root.truncate(Niri.state.window_name)
+                            label: root.truncate(CompositorIpc.state.window_name)
                             labelColor: Theme.name
-                            drawBox: false
+                            color: Theme.wksp
+                            drawBox: true
                         }
                     }
                 }

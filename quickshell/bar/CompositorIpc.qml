@@ -8,7 +8,7 @@ Singleton {
     id: root
     property var state: undefined
     Process {
-        command: ["mavencore", "listen", "niri"]
+        command: ["mavencore", "listen"]
         onRunningChanged: {
             if (!running)
                 running = true;

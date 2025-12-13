@@ -3,52 +3,26 @@ import Quickshell
 pragma Singleton
 
 Singleton {
-    readonly property color rosewater: "#f5e0dc"
-    readonly property color flamingo: "#f2cdcd"
-    readonly property color pink: "#f5c2e7"
-    readonly property color mauve: "#cba6f7"
-    readonly property color red: "#f38ba8"
-    readonly property color maroon: "#eba0ac"
-    readonly property color peach: "#fab387"
-    readonly property color yellow: "#f9e2af"
-    readonly property color green: "#a6e3a1"
-    readonly property color teal: "#94e2d5"
-    readonly property color sky: "#89dceb"
-    readonly property color sapphire: "#74c7ec"
-    readonly property color blue: "#89b4fa"
-    readonly property color lavender: "#b4befe"
-    readonly property color text: "#cdd6f4"
-    readonly property color subtext1: "#bac2de"
-    readonly property color subtext0: "#a6adc8"
-    readonly property color overlay2: "#9399b2"
-    readonly property color overlay1: "#7f849c"
-    readonly property color overlay0: "#6c7086"
-    readonly property color surface2: "#585b70"
-    readonly property color surface1: "#45475a"
-    readonly property color surface0: "#313244"
-    readonly property color base: "#1e1e2e"
-    readonly property color mantle: Qt.rgba(0.094, 0.094, 0.145, 0.8)
-    readonly property color crust: "#11111b"
-    readonly property color bgnd: mantle
-    readonly property color cpuc: mauve
-    readonly property color mmry: blue
-    readonly property color disk: teal
-    readonly property color wksp: mauve
-    readonly property color idle: blue
-    readonly property color bglt: yellow
-    readonly property color wifi: peach
-    readonly property color dstr: green
-    readonly property color name: green
-    readonly property color uptm: green
-    readonly property color clck: text
-    readonly property color sptr: surface2
-    readonly property color powr: yellow
-    readonly property color pfle: teal
-    readonly property color bat1: green
-    readonly property color bat2: teal
-    readonly property color bat3: yellow
-    readonly property color bat4: peach
-    readonly property color bat5: red
-    readonly property color acct: Accent.acct
+    readonly property color bgnd: Qt.rgba(0.094, 0.094, 0.145, 0.8)
+    readonly property color cpuc: "#cba6f7"
+    readonly property color mmry: "#89b4fa"
+    readonly property color disk: "#94e2d5"
+    readonly property color wksp: "#89b4fa"
+    readonly property color idle: "#89b4fa"
+    readonly property color bglt: "#f9e2af"
+    readonly property color wifi: "#fab387"
+    readonly property color dstr: "#a6e3a1"
+    readonly property color name: "#a6e3a1"
+    readonly property color uptm: "#a6e3a1"
+    readonly property color clck: "#cdd6f4"
+    readonly property color sptr: "#585b70"
+    readonly property color powr: "#f9e2af"
+    readonly property color pfle: "#94e2d5"
+    readonly property color bat1: "#a6e3a1"
+    readonly property color bat2: "#94e2d5"
+    readonly property color bat3: "#f9e2af"
+    readonly property color bat4: "#fab387"
+    readonly property color bat5: "#f38ba8"
+    readonly property color acct: "#cba6f7"
     readonly property int radius: 15
 }
