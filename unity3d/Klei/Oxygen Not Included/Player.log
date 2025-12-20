@@ -1,0 +1,303 @@
+Mono path[0] = '/mnt/DATA/Games/Oxygen Not Included/OxygenNotIncluded_Data/Managed'
+Mono config path = '/mnt/DATA/Games/Oxygen Not Included/OxygenNotIncluded_Data/MonoBleedingEdge/etc'
+Preloaded 'cimgui.so'
+Preloaded 'libSimDLL.so'
+Preloaded 'libfmodstudio.so'
+Preloaded 'libresonanceaudio.so'
+Preloaded 'libsdkencryptedappticket.so'
+Preloaded 'libsteam_api.so'
+Display 0 'eDP-1 15"': 1920x1080 (primary device).
+Desktop is 1920 x 1080 @ 60 Hz
+Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
+[Subsystems] Discovering subsystems at path /mnt/DATA/Games/Oxygen Not Included/OxygenNotIncluded_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1
+Renderer: AMD Radeon Graphics (radeonsi, renoir, LLVM 19.1.5, DRM 3.59, 6.12.8-200.fc41.x86_64)
+Vendor:   AMD
+Version:  4.6 (Core Profile) Mesa 24.3.2
+GLES:     0
+ GL_AMD_conservative_depth GL_AMD_depth_clamp_separate GL_AMD_draw_buffers_blend GL_AMD_framebuffer_multisample_advanced GL_AMD_gpu_shader_int64 GL_AMD_multi_draw_indirect GL_AMD_performance_monitor GL_AMD_pinned_memory GL_AMD_query_buffer_object GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_stencil_export GL_AMD_shader_trinary_minmax GL_AMD_texture_texture4 GL_AMD_vertex_shader_layer GL_AMD_vertex_shader_viewport_index GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ARB_ES2_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_bindless_texture GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_dist
+ance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_shader GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel
+_buffer_object GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_stencil_export GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_sparse_buffer GL_ARB_sparse_texture GL_ARB_sparse_texture2 GL_ARB_sparse_texture_clamp GL_ARB_spirv_extensio
+ns GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_barrier GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_filter_minmax GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex
+_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_meminfo GL_ATI_texture_float GL_ATI_texture_mirror_once GL_EXT_EGL_image_storage GL_EXT_EGL_image_storage_compression GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_debug_label GL_EXT_demote_to_helper_invocation GL_EXT_depth_bounds_test GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_texture_compression_d
+xt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_filter_minmax GL_EXT_texture_integer GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_KHR_blend_equation_advanced GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_shader_subgroup GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_const_bandwidth GL_MESA_texture_signed_rgba GL_NVX_gpu_memory_info GL_NV_alpha_to_coverage_dither_
+control GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_packed_depth_stencil GL_NV_shader_atomic_int64 GL_NV_texture_barrier GL_NV_vdpau_interop GL_OES_EGL_image GL_S3_s3tc
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle 994043936
+Begin MonoManager ReloadAssembly
+- Completed reload, in  0.218 seconds
+Default vsync count 1
+requesting resize 1920 x 1080
+Using native desktop resolution 1920 x 1080
+requesting fullscreen 1920 x 1080 at 0 Hz
+Desktop is 1920 x 1080 @ 60 Hz
+UnloadTime: 0.836111 ms
+[14:36:15.602] [1] [INFO] KProfiler: Start
+[14:36:15.882] [1] [INFO] Applying resolution 1920x1080 @60hz (fullscreen: True)
+[14:36:15.883] [1] [INFO] Low Res Textures? No
+[14:36:15.936] [1] [INFO] Date: 01/24/2025 20:06:15
+[14:36:15.937] [1] [INFO] Build: ??-623711-? (release)
+[14:36:15.942] [1] [INFO] Creating SteamManager.
+[14:36:15.975] [1] [INFO] DistributionPlatform initialized.
+[14:36:15.975] [1] [INFO] -----------------------------------------------------------
+[14:36:15.985] [1] [INFO] Build: U52-623711-SC (release)
+[14:36:15.985] [1] [INFO] -----------------------------------------------------------
+[14:36:15.985] [1] [INFO] DLC Information
+[14:36:15.991] [1] [INFO] - DLC2_ID loaded: True
+[14:36:15.991] [1] [INFO] - EXPANSION1_ID loaded: True
+[14:36:15.991] [1] [INFO] -----------------------------------------------------------
+[14:36:19.164] [1] [INFO] Loading Expansion1 assets from bundle
+[14:36:27.458] [1] [INFO] Loading DLC DLC2_ID assets from bundle
+SYSTEM INFO:
+    Platform=LinuxPlayer
+    OSname=Linux 6.12 Fedora Linux 41 64bit
+    OSversion=6.12.8.200
+    CPUmodel=PC
+    CPUdeviceType=Desktop
+    ProcBits=64
+    CPUcount=16
+    CPUtype=AMD Ryzen 7 7730U with Radeon Graphics
+    SystemMemoryMegs=7273
+    GPUgraphicsDeviceID=0
+    GPUname=AMD Radeon Graphics (radeonsi, renoir, LLVM 19.1.5, DRM 3.59, 6.12.8-200.fc41.x86_64)
+    GPUgraphicsDeviceType=OpenGLCore
+    GPUgraphicsDeviceVendor=AMD
+    GPUgraphicsDeviceVendorID=0
+    GPUgraphicsDeviceVersion=OpenGL 4.6 (Core Profile) Mesa 24.3.2
+    GPUmemoryMegs=210
+    GPUgraphicsMultiThreaded=False
+    GPUgraphicsShaderLevel=50
+    GPUmaxTextureSize=16384
+    GPUnpotSupport=Full
+    GPUsupportedRenderTargetCount=8
+    GPUsupports2DArrayTextures=True
+    GPUsupports3DTextures=True
+    GPUsupportsComputeShaders=True
+    GPUsupportsImageEffects=True
+    GPUsupportsInstancing=True
+    GPUsupportsRenderToCubemap=True
+    GPUsupportsShadows=True
+    GPUsupportsSparseTextures=True
+    GPUcopyTextureSupport=Basic, Copy3D, DifferentTypes, TextureToRT, RTToTexture
+    System Language=English
+[14:36:29.041] [1] [INFO] Initializing at 2025-01-24 14:36:29.041
+[14:36:29.041] [1] [INFO] Save path: /home/maverikio/.config/unity3d/Klei/Oxygen Not Included
+[14:36:30.620] [1] [INFO] Using builtin mod system.
+[14:36:30.675] [1] [INFO] Localization.Initialize!
+[14:36:30.683] [1] [INFO] Logged into Steam with ID:76561199555268885, NAME:Noob
+[14:36:30.684] [1] [INFO] [Account] Requesting auth ticket from Steam
+[14:36:38.185] [4] [INFO] [Account] Error logging in: {"ErrorCode":"E_INVALID_TICKET","Error":true}
+ for ticket=140000007B7B7B7B0400000015D1115F010010017B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B
+[14:36:38.958] [6] [INFO] World settings reload complete!
+[14:36:40.023] [1] [WARNING] Tried loading prefab with duplicate tag, ignoring: DebugPlacer
+[14:36:40.023] [1] [WARNING] Tried loading prefab with duplicate tag, ignoring: DebugPlacer
+Unloading 5 Unused Serialized files (Serialized files now loaded: 2)
+requesting resize 1920 x 1080
+Using native desktop resolution 1920 x 1080
+requesting fullscreen 1920 x 1080 at 60 Hz
+Desktop is 1920 x 1080 @ 60 Hz
+
+Unloading 5597 unused Assets to reduce memory usage. Loaded Objects now: 71130.
+Total: 397.900571 ms (FindLiveObjects: 6.421977 ms CreateObjectMapping: 8.415483 ms MarkObjects: 373.169621 ms  DeleteObjects: 9.891927 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 2)
+UnloadTime: 5.173081 ms
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 75004.
+Total: 384.716599 ms (FindLiveObjects: 5.621873 ms CreateObjectMapping: 2.856969 ms MarkObjects: 375.931992 ms  DeleteObjects: 0.304312 ms)
+
+[14:36:48.767] [1] [INFO] -- MAIN MENU -- 
+[14:36:48.966] [1] [INFO] Checking which steam branch we're on. Got: [public]
+[14:36:49.068] [1] [INFO] Screen resolution updated, saving values to prefs: 1920x1080 @ 60, fullscreen: True
+Curl error 28: Connection time-out
+Curl error 28: Connection time-out
+Curl error 28: Connection time-out
+[14:36:54.560] [1] [WARNING] MOTD Error: failed to fetch web image at https://klei-motd.klei.com/oni/freew/default/en/BionicBoosterMOTD_1a006.png. Request timeout
+[14:36:54.560] [1] [WARNING] MOTD Error: failed to fetch web image at https://klei-motd.klei.com/oni/freew/default/en/youtooz-motd-oni_ee4f8.png. Request timeout
+[14:36:54.560] [1] [WARNING] MOTD Error: failed to fetch web image at https://klei-motd.klei.com/oni/freew/default/en/freeupdate_fb95c.png. Request timeout
+[14:36:54.561] [1] [WARNING] MOTD Error: couldn't fetch all web motd images
+[14:36:54.562] [1] [WARNING] MOTD Error: failed to get valid motd data, hiding ui.
+[14:37:30.909] [1] [INFO] Game mode changed from Nosweat to Survival
+[14:37:30.910] [1] [INFO] Game mode changed from Survival to Custom
+[14:37:30.910] [1] [INFO] Game mode changed from Custom to Nosweat
+
+
+
+[14:37:42.006] [32] [INFO] WORLDGEN START
+[14:37:42.006] [32] [INFO]  - seed:     V-SNDST-C-715130044-HXNAM-D3-DH
+[14:37:42.006] [32] [INFO]  - cluster:  expansion1::clusters/VanillaSandstoneCluster
+[14:37:42.006] [32] [INFO]  - storytraits:
+[14:37:42.007] [32] [INFO]     - storytraits/MegaBrainTank
+[14:37:42.007] [32] [INFO]     - storytraits/CritterManipulator
+[14:37:42.007] [32] [INFO]     - storytraits/LonelyMinion
+[14:37:42.007] [32] [INFO]     - storytraits/FossilHunt
+[14:37:42.007] [32] [INFO]     - storytraits/MorbRoverMaker
+[14:37:42.016] [32] [INFO] -----------------------------------------------------------
+[14:37:42.017] [32] [INFO] Generating world: expansion1::worlds/VanillaSandstoneDefault
+[14:37:57.290] [32] [INFO] Applied story trait 'storytraits/MegaBrainTank'
+[14:37:57.492] [32] [INFO] Applied story trait 'storytraits/CritterManipulator'
+[14:37:57.682] [32] [INFO] Applied story trait 'storytraits/LonelyMinion'
+[14:37:58.109] [32] [INFO] Applied story trait 'storytraits/FossilHunt'
+[14:37:58.494] [32] [INFO] Applied story trait 'storytraits/MorbRoverMaker'
+THREAD - started 'SimThread' (140503882397376)
+[14:38:07.291] [32] [INFO] -----------------------------------------------------------
+[14:38:07.291] [32] [INFO] Generating world: expansion1::worlds/MediumRadioactiveVanillaWarpPlanet
+[14:38:07.291] [32] [INFO]  - worldtraits: traits/BouldersMedium, expansion1::traits/RadioactiveCrust
+THREAD - started 'SimThread' (140503882397376)
+[14:38:14.179] [32] [WARNING] Invalid cell modification (zero temp with non-zero mass): Cell=17699, EIdx=146, T=0, M=1.04, Oxygen default temp = 300
+[14:38:14.179] [32] [WARNING] Invalid cell modification (zero temp with non-zero mass): Cell=17535, EIdx=146, T=0, M=1.04, Oxygen default temp = 300
+[14:38:14.179] [32] [WARNING] Invalid cell modification (zero temp with non-zero mass): Cell=17536, EIdx=146, T=0, M=1.04, Oxygen default temp = 300
+[14:38:14.179] [32] [WARNING] Invalid cell modification (zero temp with non-zero mass): Cell=17537, EIdx=146, T=0, M=1.04, Oxygen default temp = 300
+[14:38:14.179] [32] [WARNING] Invalid cell modification (zero temp with non-zero mass): Cell=17539, EIdx=146, T=0, M=1.04, Oxygen default temp = 300
+[14:38:14.179] [32] [WARNING] Invalid cell modification (zero temp with non-zero mass): Cell=17540, EIdx=146, T=0, M=1.04, Oxygen default temp = 300
+[14:38:14.179] [32] [WARNING] Invalid cell modification (zero temp with non-zero mass): Cell=17534, EIdx=146, T=0, M=1.04, Oxygen default temp = 300
+[14:38:14.234] [32] [INFO] -----------------------------------------------------------
+[14:38:14.234] [32] [INFO] Generating world: expansion1::worlds/TundraMoonlet
+[14:38:14.234] [32] [INFO]  - worldtraits: traits/SlimeSplats, expansion1::traits/DistressSignal
+THREAD - started 'SimThread' (140503882397376)
+[14:38:15.701] [32] [INFO] -----------------------------------------------------------
+[14:38:15.701] [32] [INFO] Generating world: expansion1::worlds/MarshyMoonlet
+THREAD - started 'SimThread' (140503882397376)
+[14:38:18.497] [32] [INFO] -----------------------------------------------------------
+[14:38:18.497] [32] [INFO] Generating world: expansion1::worlds/NiobiumMoonlet
+[14:38:18.497] [32] [INFO]  - worldtraits: expansion1::traits/LushCore
+THREAD - started 'SimThread' (140503882397376)
+[14:38:20.180] [32] [INFO] -----------------------------------------------------------
+[14:38:20.181] [32] [INFO] Generating world: expansion1::worlds/MooMoonlet
+[14:38:20.632] [32] [WARNING] Could not place geysers/chlorine_gas using normal rules, trying relaxed
+THREAD - started 'SimThread' (140503882397376)
+[14:38:22.005] [32] [INFO] -----------------------------------------------------------
+[14:38:22.005] [32] [INFO] Generating world: expansion1::worlds/WaterMoonlet
+THREAD - started 'SimThread' (140503882397376)
+[14:38:26.623] [32] [INFO] -----------------------------------------------------------
+[14:38:26.623] [32] [INFO] Generating world: expansion1::worlds/MiniRegolithMoonlet
+THREAD - started 'SimThread' (140503882397376)
+[14:38:28.780] [32] [INFO] -----------------------------------------------------------
+[14:38:28.780] [32] [INFO] Placing worlds on cluster map
+[14:38:28.800] [32] [WARNING] There is no room for a Space POI in ring range [5, 7] with pois: HarvestableSpacePOI_RockyAsteroidField
+ - HarvestableSpacePOI_InterstellarIceField
+ - HarvestableSpacePOI_InterstellarOcean
+ - HarvestableSpacePOI_ForestyOreField
+ - HarvestableSpacePOI_SwampyOreField
+ - HarvestableSpacePOI_OrganicMassField
+[14:38:28.802] [32] [WARNING] There is no room for a Space POI in ring range [4, 11] with pois: ArtifactSpacePOI_GravitasSpaceStation2
+ - ArtifactSpacePOI_GravitasSpaceStation3
+ - ArtifactSpacePOI_GravitasSpaceStation5
+ - ArtifactSpacePOI_GravitasSpaceStation7
+ - ArtifactSpacePOI_GravitasSpaceStation8
+[14:38:28.802] [32] [WARNING] There is no room for a Space POI in ring range [4, 11] with pois: ArtifactSpacePOI_GravitasSpaceStation2
+ - ArtifactSpacePOI_GravitasSpaceStation3
+ - ArtifactSpacePOI_GravitasSpaceStation5
+ - ArtifactSpacePOI_GravitasSpaceStation7
+ - ArtifactSpacePOI_GravitasSpaceStation8
+[14:38:28.802] [32] [WARNING] There is no room for a Space POI in ring range [4, 11] with pois: ArtifactSpacePOI_GravitasSpaceStation2
+ - ArtifactSpacePOI_GravitasSpaceStation3
+ - ArtifactSpacePOI_GravitasSpaceStation5
+ - ArtifactSpacePOI_GravitasSpaceStation7
+ - ArtifactSpacePOI_GravitasSpaceStation8
+[14:38:28.802] [32] [WARNING] There is no room for a Space POI in ring range [4, 11] with pois: ArtifactSpacePOI_GravitasSpaceStation2
+ - ArtifactSpacePOI_GravitasSpaceStation3
+ - ArtifactSpacePOI_GravitasSpaceStation5
+ - ArtifactSpacePOI_GravitasSpaceStation7
+ - ArtifactSpacePOI_GravitasSpaceStation8
+[14:38:29.858] [32] [INFO] -----------------------------------------------------------
+[14:38:29.859] [32] [INFO] WORLDGEN COMPLETE
+
+
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 2)
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 75507.
+Total: 735.733235 ms (FindLiveObjects: 8.660944 ms CreateObjectMapping: 3.462636 ms MarkObjects: 723.250358 ms  DeleteObjects: 0.357712 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 2)
+UnloadTime: 6.540640 ms
+
+Unloading 96 unused Assets to reduce memory usage. Loaded Objects now: 95470.
+Total: 954.716707 ms (FindLiveObjects: 9.385666 ms CreateObjectMapping: 10.816605 ms MarkObjects: 933.924468 ms  DeleteObjects: 0.588736 ms)
+
+[14:38:33.984] [1] [INFO] Attempting to start a new game with current world gen
+[14:38:39.618] [1] [INFO] Attempt success
+THREAD - started 'SimThread' (140503882397376)
+[14:38:39.692] [1] [INFO] 147.196 Level Loaded.... backend
+0:3(12): error: extension `GL_OVR_multiview2' unsupported in vertex shader
+
+Note: Creation of internal variant of shader 'GUI/Text Shader' failed.
+ShaderProgram is unsupported, but because jobified rendering is enabled the ShaderProgram can not be removed.
+0:3(12): error: extension `GL_OVR_multiview2' unsupported in vertex shader
+
+Note: Creation of internal variant of shader 'Hidden/InternalErrorShader' failed.
+ShaderProgram is unsupported, but because jobified rendering is enabled the ShaderProgram can not be removed.
+Shader warmup: 74 shaders 357 combinations 3.781s
+[14:38:46.184] [1] [INFO] -- GAME --
+[14:38:46.186] [1] [INFO] [InterfaceTool] Initializing configs with values of DefaultKey: Invalid Configs: 3
+[14:38:46.191] [1] [INFO] [InterfaceTool] Pushing config with key: Invalid
+[14:38:46.299] [1] [WARNING] True Timelapse.OnNewDay but worldsToScreenshot is not empty
+[14:38:46.799] [1] [INFO] Checking which steam branch we're on. Got: [public]
+[14:38:46.843] [1] [WARNING] Trying to get lock entry log1 before codex cache has been initialized.
+[14:38:47.151] [1] [WARNING] world Asteroid has invalid season VanillaSandstoneDefaultMeteorShowers
+[14:38:47.154] [1] [WARNING] world Asteroid has invalid season MediumRadioactiveVanillaWarpPlanetMeteorShowers
+[14:38:47.333] [1] [INFO] Screen resolution updated, saving values to prefs: 1920x1080 @ 60, fullscreen: True
+False
+False
+False
+False
+[14:49:19.913] [1] [WARNING] artifacts_kanim ui placeSymbol [ ui ] is missing
+[14:49:21.242] [1] [INFO] WattsonMessage OnActivate
+[14:49:39.775] [1] [INFO] Active Mods (0):
+[14:49:40.696] [1] [INFO] Saved to [/home/maverikio/.config/unity3d/Klei/Oxygen Not Included/cloud_save_files/76561199555268885/Tragic Base/Tragic Base.sav]
+[14:49:41.517] [1] [INFO] Saving screenshot to /home/maverikio/.config/unity3d/Klei/Oxygen Not Included/cloud_save_files/76561199555268885/Tragic Base/Tragic Base.png
+[14:49:42.112] [1] [INFO] Saving screenshot to /home/maverikio/.config/unity3d/Klei/Oxygen Not Included/RetiredColonies/Tragic Base/00000/Sanctani
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+[14:58:33.229] [1] [WARNING] True Timelapse.OnNewDay but worldsToScreenshot is not empty
+[14:58:34.975] [1] [INFO] Average frame time: 0.03107324
+[14:58:35.522] [1] [INFO] Saved to [/home/maverikio/.config/unity3d/Klei/Oxygen Not Included/cloud_save_files/76561199555268885/Tragic Base/auto_save/Tragic Base Cycle 2.sav]
+[14:58:36.270] [1] [INFO] Saving screenshot to /home/maverikio/.config/unity3d/Klei/Oxygen Not Included/cloud_save_files/76561199555268885/Tragic Base/auto_save/Tragic Base Cycle 2.png
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+[15:01:55.146] [1] [WARNING] True Timelapse.OnNewDay but worldsToScreenshot is not empty
+[15:01:57.162] [1] [INFO] Average frame time: 0.03101635
+[15:01:57.928] [1] [INFO] Saved to [/home/maverikio/.config/unity3d/Klei/Oxygen Not Included/cloud_save_files/76561199555268885/Tragic Base/auto_save/Tragic Base Cycle 3.sav]
+[15:01:58.720] [1] [INFO] Saving screenshot to /home/maverikio/.config/unity3d/Klei/Oxygen Not Included/cloud_save_files/76561199555268885/Tragic Base/auto_save/Tragic Base Cycle 3.png
+False
+False
+[15:03:37.398] [1] [INFO] Saving screenshot to /home/maverikio/.config/unity3d/Klei/Oxygen Not Included/RetiredColonies/Tragic Base/00000/Sanctani
+[15:05:17.881] [1] [WARNING] True Timelapse.OnNewDay but worldsToScreenshot is not empty
+[15:05:19.635] [1] [INFO] Average frame time: 0.03672655
+[15:05:20.202] [1] [INFO] Saved to [/home/maverikio/.config/unity3d/Klei/Oxygen Not Included/cloud_save_files/76561199555268885/Tragic Base/auto_save/Tragic Base Cycle 4.sav]
+[15:05:20.977] [1] [INFO] Saving screenshot to /home/maverikio/.config/unity3d/Klei/Oxygen Not Included/cloud_save_files/76561199555268885/Tragic Base/auto_save/Tragic Base Cycle 4.png
+False
+False
+[15:07:40.868] [1] [INFO] Saving screenshot to /home/maverikio/.config/unity3d/Klei/Oxygen Not Included/RetiredColonies/Tragic Base/00000/Sanctani
+Game.OnApplicationQuit()
+Setting up 4 worker threads for Enlighten.
+  Thread -> id: 7fc99bfff6c0 -> priority: 1 
+  Thread -> id: 7fc8bd20e6c0 -> priority: 1 
+  Thread -> id: 7fc8bc20d6c0 -> priority: 1 
+  Thread -> id: 7fc8bb20c6c0 -> priority: 1 

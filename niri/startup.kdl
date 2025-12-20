@@ -1,0 +1,8 @@
+spawn-at-startup "qs"
+spawn-at-startup "swayosd-server"
+spawn-at-startup "/mnt/DATA/scripts/wallpaper-init"
+spawn-at-startup "hypridle"
+spawn-at-startup "/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1"
+hotkey-overlay {
+    skip-at-startup
+}

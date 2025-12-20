@@ -1,0 +1,1537 @@
+Mono path[0] = '/mnt/DATA/Games/ULTRAKILL/ULTRAKILL_Data/Managed'
+Mono config path = '/mnt/DATA/Games/ULTRAKILL/ULTRAKILL_Data/MonoBleedingEdge/etc'
+Preloaded 'libdiscord_game_sdk.so'
+Display 0 'eDP-1 15"': 1920x1080 (primary device).
+Desktop is 1920 x 1080 @ 60 Hz
+Unknown renderer 2 
+(Filename:  Line: 324)
+
+Initialize engine version: 2019.4.40f1 (ffc62b691db5)
+[Subsystems] Discovering subsystems at path /mnt/DATA/Games/ULTRAKILL/ULTRAKILL_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1
+GfxDevice: creating device client; threaded=1
+Renderer: AMD Radeon Graphics (radeonsi, renoir, ACO, DRM 3.61, 6.12.56-3-cachyos-lts)
+Vendor:   AMD
+Version:  4.6 (Core Profile) Mesa 25.2.7-cachyos1.2
+GLES:     0
+ GL_AMD_conservative_depth GL_AMD_depth_clamp_separate GL_AMD_draw_buffers_blend GL_AMD_framebuffer_multisample_advanced GL_AMD_gpu_shader_int64 GL_AMD_multi_draw_indirect GL_AMD_performance_monitor GL_AMD_pinned_memory GL_AMD_query_buffer_object GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_stencil_export GL_AMD_shader_trinary_minmax GL_AMD_texture_texture4 GL_AMD_vertex_shader_layer GL_AMD_vertex_shader_viewport_index GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ARB_ES2_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_bindless_texture GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_dist
+ance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_shader GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel
+_buffer_object GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_stencil_export GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_sparse_buffer GL_ARB_sparse_texture GL_ARB_sparse_texture2 GL_ARB_sparse_texture_clamp GL_ARB_spirv_extensio
+ns GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_barrier GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_filter_minmax GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex
+_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_meminfo GL_ATI_texture_float GL_ATI_texture_mirror_once GL_EXT_EGL_image_storage GL_EXT_EGL_image_storage_compression GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_debug_label GL_EXT_demote_to_helper_invocation GL_EXT_depth_bounds_test GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_clock GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_t
+exture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_filter_minmax GL_EXT_texture_integer GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_KHR_blend_equation_advanced GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_shader_subgroup GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_const_bandwidth GL_MESA_texture_signed_rgba GL_NVX_gpu_memory_info GL_NV_alpha
+_to_coverage_dither_control GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_packed_depth_stencil GL_NV_shader_atomic_int64 GL_NV_texture_barrier GL_NV_vdpau_interop GL_OES_EGL_image GL_S3_s3tc
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle 551898352
+Begin MonoManager ReloadAssembly
+- Completed reload, in  0.170 seconds
+Default vsync count 0
+requesting resize 1920 x 1080
+Using native desktop resolution 1920 x 1080
+requesting fullscreen 1920 x 1080 at 0 Hz
+Desktop is 1920 x 1080 @ 60 Hz
+UnloadTime: 1.083282 ms
+/mnt/DATA/Games/ULTRAKILL/ULTRAKILL_Data/StreamingAssets/aa 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+(LoadSceneAsync) Loading scene Intro 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 25)
+UnloadTime: 4.542189 ms
+requesting resize 1920 x 1080
+Using native desktop resolution 1920 x 1080
+requesting fullscreen 1920 x 1080 at 0 Hz
+Desktop is 1920 x 1080 @ 60 Hz
+
+Unloading 123 unused Assets to reduce memory usage. Loaded Objects now: 3779.
+Total: 25.112798 ms (FindLiveObjects: 0.278042 ms CreateObjectMapping: 0.131847 ms MarkObjects: 24.078959 ms  DeleteObjects: 0.623279 ms)
+
+(LoadSceneAsync) Loading scene Main Menu 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Couldn't create a Convex Mesh from source mesh "Melon" within the maximum polygons limit (256). The partial hull will be used. Consider simplifying your mesh. 
+(Filename:  Line: 91)
+
+The referenced script on this Behaviour (Game Object 'Virtual Camera') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Main Camera') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'HUD Camera') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Main Camera') is missing! 
+(Filename:  Line: 334)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 27)
+UnloadTime: 10.323010 ms
+/Keyboard/0 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#50ADD8>[Discord]</color> <color=#CCE6F0>Couldn't initialize Discord</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Fallback handler could not load library /mnt/DATA/Games/ULTRAKILL/ULTRAKILL_Data/Mono/libsteam_api64
+Fallback handler could not load library /mnt/DATA/Games/ULTRAKILL/ULTRAKILL_Data/Mono/libsteam_api64.so
+Fallback handler could not load library /mnt/DATA/Games/ULTRAKILL/ULTRAKILL_Data/Mono/steam_api64
+Fallback handler could not load library /mnt/DATA/Games/ULTRAKILL/ULTRAKILL_Data/Mono/libsteam_api64
+Fallback handler could not load library /mnt/DATA/Games/ULTRAKILL/ULTRAKILL_Data/Mono/libsteam_api64.so
+Fallback handler could not load library /mnt/DATA/Games/ULTRAKILL/ULTRAKILL_Data/Mono/libsteam_api64
+Fallback handler could not load library /mnt/DATA/Games/ULTRAKILL/ULTRAKILL_Data/Mono/libsteam_api64
+Fallback handler could not load library /mnt/DATA/Games/ULTRAKILL/ULTRAKILL_Data/Mono/libsteam_api64.so
+Fallback handler could not load library /mnt/DATA/Games/ULTRAKILL/ULTRAKILL_Data/Mono/steam_api64
+Fallback handler could not load library /mnt/DATA/Games/ULTRAKILL/ULTRAKILL_Data/Mono/libsteam_api64
+Fallback handler could not load library /mnt/DATA/Games/ULTRAKILL/ULTRAKILL_Data/Mono/libsteam_api64.so
+Fallback handler could not load library /mnt/DATA/Games/ULTRAKILL/ULTRAKILL_Data/Mono/libsteam_api64
+Fallback handler could not load library /mnt/DATA/Games/ULTRAKILL/ULTRAKILL_Data/Mono/libsteam_api64
+Fallback handler could not load library /mnt/DATA/Games/ULTRAKILL/ULTRAKILL_Data/Mono/libsteam_api64.so
+Fallback handler could not load library /mnt/DATA/Games/ULTRAKILL/ULTRAKILL_Data/Mono/steam_api64
+Fallback handler could not load library /mnt/DATA/Games/ULTRAKILL/ULTRAKILL_Data/Mono/libsteam_api64
+Fallback handler could not load library /mnt/DATA/Games/ULTRAKILL/ULTRAKILL_Data/Mono/libsteam_api64.so
+Fallback handler could not load library /mnt/DATA/Games/ULTRAKILL/ULTRAKILL_Data/Mono/libsteam_api64
+<color=#4AC1E4>[Steam]</color> <color=#CCEDFF>Couldn't initialize steam</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#5494EE>[Presence]</color> <color=#CCE0FF>Scene loaded: Main Menu</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+
+Unloading 4536 unused Assets to reduce memory usage. Loaded Objects now: 80236.
+Total: 277.219983 ms (FindLiveObjects: 5.631541 ms CreateObjectMapping: 5.242331 ms MarkObjects: 260.427680 ms  DeleteObjects: 5.917257 ms)
+
+Setting up 8 worker threads for Enlighten.
+  Thread -> id: 708c5112a6c0 -> priority: 1 
+  Thread -> id: 708c509296c0 -> priority: 1 
+  Thread -> id: 708c27fff6c0 -> priority: 1 
+  Thread -> id: 708c277fe6c0 -> priority: 1 
+  Thread -> id: 708c26ffd6c0 -> priority: 1 
+  Thread -> id: 708c267fc6c0 -> priority: 1 
+  Thread -> id: 708c25ffb6c0 -> priority: 1 
+  Thread -> id: 708c257fa6c0 -> priority: 1 
+UpdateSelf screenShake DefaultInt:  DefaultBool:  DefaultFloat: 1 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf discordIntegration DefaultInt:  DefaultBool: True DefaultFloat:  
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf parryFlash DefaultInt:  DefaultBool: True DefaultFloat:  
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf levelLeaderboards DefaultInt:  DefaultBool: True DefaultFloat:  
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf sandboxSaveOverwriteWarnings DefaultInt:  DefaultBool: True DefaultFloat:  
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf seasonalEvents DefaultInt:  DefaultBool: True DefaultFloat:  
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf variationMemory DefaultInt:  DefaultBool: False DefaultFloat:  
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf pauseMenuConfirmationDialogs DefaultInt: 0 DefaultBool:  DefaultFloat:  
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf weaponHoldPosition DefaultInt: 0 DefaultBool:  DefaultFloat:  
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf cameraTilt DefaultInt:  DefaultBool: True DefaultFloat:  
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Move)</b> Comparing action Move to default action Move</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Move to Move - Action: 5, Base: 5</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Dodge)</b> Comparing action Dodge to default action Dodge</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Dodge to Dodge - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Slide)</b> Comparing action Slide to default action Slide</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Slide to Slide - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Jump)</b> Comparing action Jump to default action Jump</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Jump to Jump - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Primary Fire)</b> Comparing action Primary Fire to default action Primary Fire</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Primary Fire to Primary Fire - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Secondary Fire)</b> Comparing action Secondary Fire to default action Secondary Fire</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Secondary Fire to Secondary Fire - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Next Variation)</b> Comparing action Next Variation to default action Next Variation</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Next Variation to Next Variation - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Previous Variation)</b> Comparing action Previous Variation to default action Previous Variation</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Previous Variation to Previous Variation - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Revolver)</b> Comparing action Revolver to default action Revolver</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Revolver to Revolver - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Shotgun)</b> Comparing action Shotgun to default action Shotgun</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Shotgun to Shotgun - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Nailgun)</b> Comparing action Nailgun to default action Nailgun</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Nailgun to Nailgun - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Railcannon)</b> Comparing action Railcannon to default action Railcannon</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Railcannon to Railcannon - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Rocket Launcher)</b> Comparing action Rocket Launcher to default action Rocket Launcher</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Rocket Launcher to Rocket Launcher - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Spawner Arm)</b> Comparing action Spawner Arm to default action Spawner Arm</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Spawner Arm to Spawner Arm - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Next Weapon)</b> Comparing action Next Weapon to default action Next Weapon</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Next Weapon to Next Weapon - Action: 0, Base: 0</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Previous Weapon)</b> Comparing action Previous Weapon to default action Previous Weapon</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Previous Weapon to Previous Weapon - Action: 0, Base: 0</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Last Used Weapon)</b> Comparing action Last Used Weapon to default action Last Used Weapon</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Last Used Weapon to Last Used Weapon - Action: 0, Base: 0</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Variation Slot 1)</b> Comparing action Variation Slot 1 to default action Variation Slot 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Variation Slot 1 to Variation Slot 1 - Action: 0, Base: 0</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Variation Slot 2)</b> Comparing action Variation Slot 2 to default action Variation Slot 2</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Variation Slot 2 to Variation Slot 2 - Action: 0, Base: 0</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Variation Slot 3)</b> Comparing action Variation Slot 3 to default action Variation Slot 3</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Variation Slot 3 to Variation Slot 3 - Action: 0, Base: 0</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Punch)</b> Comparing action Punch to default action Punch</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Punch to Punch - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Change Fist)</b> Comparing action Change Fist to default action Change Fist</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Change Fist to Change Fist - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Punch (Feedbacker))</b> Comparing action Punch (Feedbacker) to default action Punch (Feedbacker)</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Punch (Feedbacker) to Punch (Feedbacker) - Action: 0, Base: 0</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Punch (Knuckleblaster))</b> Comparing action Punch (Knuckleblaster) to default action Punch (Knuckleblaster)</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Punch (Knuckleblaster) to Punch (Knuckleblaster) - Action: 0, Base: 0</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Hook)</b> Comparing action Hook to default action Hook</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Hook to Hook - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Stats)</b> Comparing action Stats to default action Stats</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Stats to Stats - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf scrollReversed DefaultInt:  DefaultBool: False DefaultFloat:  
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf mouseReverseX DefaultInt:  DefaultBool: False DefaultFloat:  
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf mouseSensitivity DefaultInt:  DefaultBool:  DefaultFloat: 50 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf scrollWeapons DefaultInt:  DefaultBool: True DefaultFloat:  
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf weaponHoldPosition DefaultInt: 0 DefaultBool:  DefaultFloat:  
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UpdateSelf mouseReverseX DefaultInt:  DefaultBool: False DefaultFloat:  
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Set Difficulty to: 0 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Secret Mission Status: 0 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Error in finding 16 Data 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Error in finding 17 Data 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Error in finding 18 Data 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Error in finding 19 Data 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Secret Mission Status: 0 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Error in finding 20 Data 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Error in finding 21 Data 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Error in finding 22 Data 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Error in finding 23 Data 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Secret Mission Status: 0 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Error in finding 24 Data 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Error in finding 25 Data 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Secret Mission Status: 0 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Error in finding 1 Data 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Error in finding 2 Data 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Error in finding 3 Data 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Error in finding 4 Data 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Error in finding 5 Data 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Secret Mission Status: 0 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Error in finding 666 Data 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Error in finding 666 Data 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Error in finding 666 Data 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Secret Mission Status: 0 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Error in finding 6 Data 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Error in finding 7 Data 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Error in finding 8 Data 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Error in finding 9 Data 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Secret Mission Status: 0 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Error in finding 10 Data 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Error in finding 11 Data 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Error in finding 12 Data 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Error in finding 13 Data 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Secret Mission Status: 0 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Error in finding 14 Data 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Error in finding 15 Data 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Secret Mission Status: 0 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Error in finding 26 Data 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Error in finding 27 Data 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Error in finding 28 Data 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Error in finding 29 Data 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Secret Mission Status: 0 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Error in finding 30 Data 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Error in finding 31 Data 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Error in finding 32 Data 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Error in finding 33 Data 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Secret Mission Status: 0 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Error in finding 34 Data 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Error in finding 35 Data 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Secret Mission Status: 0 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Secret Mission Status: 0 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+(LoadSceneAsync) Loading scene Tutorial 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 26)
+UnloadTime: 138.023206 ms
+Can not play a disabled audio source 
+(Filename:  Line: 454)
+
+Can not play a disabled audio source 
+(Filename:  Line: 454)
+
+<color=#5494EE>[Presence]</color> <color=#CCE0FF>Scene loaded: Tutorial</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+State pit-falling is already registered 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Mixer Volume 0 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Mixer Volume -80 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+
+Unloading 1196 unused Assets to reduce memory usage. Loaded Objects now: 92079.
+Total: 326.056694 ms (FindLiveObjects: 7.617496 ms CreateObjectMapping: 5.423321 ms MarkObjects: 310.395993 ms  DeleteObjects: 2.619072 ms)
+
+Releasing a render texture which is being used as a camera target (via Camera.SetTargetBuffers) for camera with name 'Main Camera'. 
+(Filename:  Line: 4588)
+
+Set Difficulty to: 0 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[FS] Writing To /mnt/DATA/Games/ULTRAKILL/Saves/Slot1/generalprogress.bepis 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Tried to pop state pit-falling, but it was not registered 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Break 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Break 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Break 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Break 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Break 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Break 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Break 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Break 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Break 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+State pit-falling is already registered 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+State pit-falling is already registered 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+State pit-falling is already registered 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+State pit-falling is already registered 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[FS] Writing To /mnt/DATA/Games/ULTRAKILL/Saves/Slot1/generalprogress.bepis 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+(LoadSceneAsync) Loading scene Level 0-1 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 26)
+UnloadTime: 99.287739 ms
+<color=#5494EE>[Presence]</color> <color=#CCE0FF>Scene loaded: Level 0-1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+State pit-falling is already registered 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+
+Unloading 368 unused Assets to reduce memory usage. Loaded Objects now: 137604.
+Total: 361.960670 ms (FindLiveObjects: 9.990847 ms CreateObjectMapping: 5.968583 ms MarkObjects: 342.713443 ms  DeleteObjects: 3.286794 ms)
+
+Tried to pop state pit-falling, but it was not registered 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Break 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Deactivated! 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Tried to pop state pit-falling, but it was not registered 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[FS] Writing To /mnt/DATA/Games/ULTRAKILL/Saves/Slot1/generalprogress.bepis 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[FS] Writing To /mnt/DATA/Games/ULTRAKILL/Saves/Slot1/generalprogress.bepis 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[FS] Writing To /mnt/DATA/Games/ULTRAKILL/Saves/Slot1/generalprogress.bepis 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#EB52EB>[BossBarManager]</color> <color=#FFCCFF>Creating Boss Bar for MALICIOUS FACE (-310858)</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[FS] Writing To /mnt/DATA/Games/ULTRAKILL/Saves/Slot1/generalprogress.bepis 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#EB52EB>[BossBarManager]</color> <color=#FFCCFF>Removing Expired Boss Bar for MALICIOUS FACE (-310858)</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[FS] Saving Progress for Level 2 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[FS] Writing To /mnt/DATA/Games/ULTRAKILL/Saves/Slot1/difficulty0progress.bepis 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Rankscore after time: 2 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Rankscore after kills: 5 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Rankscore after style: 7 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Float: 1.666667 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+PreInt: 5 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+PostInt: 2 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[FS] Writing To /mnt/DATA/Games/ULTRAKILL/Saves/Slot1/lvl1progress.bepis 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[FS] Writing To /mnt/DATA/Games/ULTRAKILL/Saves/Slot1/generalprogress.bepis 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+(LoadSceneAsync) Loading scene Level 0-2 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Challenge - Title') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 26)
+UnloadTime: 187.258214 ms
+<color=#5494EE>[Presence]</color> <color=#CCE0FF>Scene loaded: Level 0-2</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+State pit-falling is already registered 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+
+Unloading 1664 unused Assets to reduce memory usage. Loaded Objects now: 157719.
+Total: 372.469108 ms (FindLiveObjects: 11.529653 ms CreateObjectMapping: 8.303704 ms MarkObjects: 343.680897 ms  DeleteObjects: 8.953873 ms)
+
+Tried to pop state pit-falling, but it was not registered 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Order in WeaponOrderController: 1324 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Order in WeaponOrderController: 1324 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[FS] Writing To /mnt/DATA/Games/ULTRAKILL/Saves/Slot1/generalprogress.bepis 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[FS] Writing To /mnt/DATA/Games/ULTRAKILL/Saves/Slot1/generalprogress.bepis 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Order in WeaponOrderController: 1324 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Order in WeaponOrderController: 1324 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Challenge - Title') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 24)
+UnloadTime: 143.635202 ms
+<color=#5494EE>[Presence]</color> <color=#CCE0FF>Scene loaded: Level 0-2</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+
+Unloading 831 unused Assets to reduce memory usage. Loaded Objects now: 157828.
+Total: 364.166016 ms (FindLiveObjects: 11.506109 ms CreateObjectMapping: 7.504304 ms MarkObjects: 339.915676 ms  DeleteObjects: 5.239166 ms)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Challenge - Title') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 24)
+UnloadTime: 145.602752 ms
+<color=#5494EE>[Presence]</color> <color=#CCE0FF>Scene loaded: Level 0-2</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+
+Unloading 822 unused Assets to reduce memory usage. Loaded Objects now: 157825.
+Total: 366.163623 ms (FindLiveObjects: 12.519269 ms CreateObjectMapping: 5.908742 ms MarkObjects: 342.124348 ms  DeleteObjects: 5.609461 ms)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Challenge - Title') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 24)
+UnloadTime: 153.622141 ms
+<color=#5494EE>[Presence]</color> <color=#CCE0FF>Scene loaded: Level 0-2</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+
+Unloading 823 unused Assets to reduce memory usage. Loaded Objects now: 157827.
+Total: 366.577129 ms (FindLiveObjects: 12.219086 ms CreateObjectMapping: 5.607046 ms MarkObjects: 344.110122 ms  DeleteObjects: 4.640162 ms)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Sphere') is missing! 
+(Filename:  Line: 334)
+
+[FS] Saving Progress for Level 3 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[FS] Writing To /mnt/DATA/Games/ULTRAKILL/Saves/Slot1/difficulty0progress.bepis 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Rankscore after time: 3 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Rankscore after kills: 7 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Rankscore after style: 9 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Float: 2.666667 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+PreInt: 8 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+PostInt: 3 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[FS] Writing To /mnt/DATA/Games/ULTRAKILL/Saves/Slot1/lvl2progress.bepis 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[FS] Writing To /mnt/DATA/Games/ULTRAKILL/Saves/Slot1/generalprogress.bepis 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+(LoadSceneAsync) Loading scene Level 0-3 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 26)
+UnloadTime: 170.027268 ms
+<color=#5494EE>[Presence]</color> <color=#CCE0FF>Scene loaded: Level 0-3</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+State pit-falling is already registered 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+
+Unloading 1077 unused Assets to reduce memory usage. Loaded Objects now: 142826.
+Total: 493.487463 ms (FindLiveObjects: 10.138485 ms CreateObjectMapping: 5.935001 ms MarkObjects: 468.532581 ms  DeleteObjects: 8.880445 ms)
+
+Tried to pop state pit-falling, but it was not registered 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+(LoadSceneAsync) Loading scene Main Menu 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+The referenced script on this Behaviour (Game Object 'Virtual Camera') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Main Camera') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'HUD Camera') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Main Camera') is missing! 
+(Filename:  Line: 334)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 26)
+UnloadTime: 149.390886 ms
+<color=#5494EE>[Presence]</color> <color=#CCE0FF>Scene loaded: Main Menu</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+
+Unloading 3104 unused Assets to reduce memory usage. Loaded Objects now: 96444.
+Total: 355.919400 ms (FindLiveObjects: 7.853599 ms CreateObjectMapping: 5.244786 ms MarkObjects: 329.244373 ms  DeleteObjects: 13.575540 ms)
+
+[278453, Main Thread] WARNING: Theme parsing error: gtk-dark.css:6754:15: Junk at end of value for padding: 'glib warning', file /usr/src/debug/firefox/firefox-145.0/toolkit/xre/nsSigHandlers.cpp:201
+
+(firefox:278453): Gtk-WARNING **: 16:16:54.530: Theme parsing error: gtk-dark.css:6754:15: Junk at end of value for padding
+[Parent 278453, Main Thread] WARNING: Theme parsing error: gtk.css:6754:15: Junk at end of value for padding: 'glib warning', file /usr/src/debug/firefox/firefox-145.0/toolkit/xre/nsSigHandlers.cpp:201
+
+(firefox:278453): Gtk-WARNING **: 16:16:54.760: Theme parsing error: gtk.css:6754:15: Junk at end of value for padding
+[Parent 278453, Main Thread] WARNING: Theme parsing error: gtk-dark.css:6754:15: Junk at end of value for padding: 'glib warning', file /usr/src/debug/firefox/firefox-145.0/toolkit/xre/nsSigHandlers.cpp:201
+
+(firefox:278453): Gtk-WARNING **: 16:16:54.842: Theme parsing error: gtk-dark.css:6754:15: Junk at end of value for padding
+[278639, Main Thread] WARNING: Theme parsing error: gtk-dark.css:6754:15: Junk at end of value for padding: 'glib warning', file /usr/src/debug/firefox/firefox-145.0/toolkit/xre/nsSigHandlers.cpp:201
+
+(firefox:278639): Gtk-WARNING **: 16:16:55.512: Theme parsing error: gtk-dark.css:6754:15: Junk at end of value for padding
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Navigate)</b> Comparing action Navigate to default action Navigate</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Navigate to Navigate - Action: 5, Base: 5</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Submit)</b> Comparing action Submit to default action Submit</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Submit to Submit - Action: 0, Base: 0</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Cancel)</b> Comparing action Cancel to default action Cancel</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Cancel to Cancel - Action: 0, Base: 0</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Point)</b> Comparing action Point to default action Point</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Point to Point - Action: 2, Base: 2</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Click)</b> Comparing action Click to default action Click</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Click to Click - Action: 2, Base: 2</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(ScrollWheel)</b> Comparing action ScrollWheel to default action ScrollWheel</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>ScrollWheel to ScrollWheel - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(MiddleClick)</b> Comparing action MiddleClick to default action MiddleClick</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>MiddleClick to MiddleClick - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(RightClick)</b> Comparing action RightClick to default action RightClick</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>RightClick to RightClick - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(TrackedDevicePosition)</b> Comparing action TrackedDevicePosition to default action TrackedDevicePosition</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>TrackedDevicePosition to TrackedDevicePosition - Action: 0, Base: 0</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(TrackedDeviceOrientation)</b> Comparing action TrackedDeviceOrientation to default action TrackedDeviceOrientation</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>TrackedDeviceOrientation to TrackedDeviceOrientation - Action: 0, Base: 0</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(ScrollSublist)</b> Comparing action ScrollSublist to default action ScrollSublist</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>ScrollSublist to ScrollSublist - Action: 0, Base: 0</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Pause)</b> Comparing action Pause to default action Pause</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Pause to Pause - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Move)</b> Comparing action Move to default action Move</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Move to Move - Action: 5, Base: 5</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Look)</b> Comparing action Look to default action Look</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Look to Look - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Dodge)</b> Comparing action Dodge to default action Dodge</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Dodge to Dodge - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Slide)</b> Comparing action Slide to default action Slide</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Slide to Slide - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Jump)</b> Comparing action Jump to default action Jump</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Jump to Jump - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Punch)</b> Comparing action Punch to default action Punch</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Punch to Punch - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Change Fist)</b> Comparing action Change Fist to default action Change Fist</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Change Fist to Change Fist - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Punch (Feedbacker))</b> Comparing action Punch (Feedbacker) to default action Punch (Feedbacker)</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Punch (Feedbacker) to Punch (Feedbacker) - Action: 0, Base: 0</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Punch (Knuckleblaster))</b> Comparing action Punch (Knuckleblaster) to default action Punch (Knuckleblaster)</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Punch (Knuckleblaster) to Punch (Knuckleblaster) - Action: 0, Base: 0</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Hook)</b> Comparing action Hook to default action Hook</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Hook to Hook - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Primary Fire)</b> Comparing action Primary Fire to default action Primary Fire</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Primary Fire to Primary Fire - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Secondary Fire)</b> Comparing action Secondary Fire to default action Secondary Fire</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Secondary Fire to Secondary Fire - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Next Variation)</b> Comparing action Next Variation to default action Next Variation</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Next Variation to Next Variation - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Previous Variation)</b> Comparing action Previous Variation to default action Previous Variation</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Previous Variation to Previous Variation - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Revolver)</b> Comparing action Revolver to default action Revolver</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Revolver to Revolver - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Shotgun)</b> Comparing action Shotgun to default action Shotgun</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Shotgun to Shotgun - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Nailgun)</b> Comparing action Nailgun to default action Nailgun</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Nailgun to Nailgun - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Railcannon)</b> Comparing action Railcannon to default action Railcannon</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Railcannon to Railcannon - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Rocket Launcher)</b> Comparing action Rocket Launcher to default action Rocket Launcher</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Rocket Launcher to Rocket Launcher - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Spawner Arm)</b> Comparing action Spawner Arm to default action Spawner Arm</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Spawner Arm to Spawner Arm - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Next Weapon)</b> Comparing action Next Weapon to default action Next Weapon</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Next Weapon to Next Weapon - Action: 0, Base: 0</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Previous Weapon)</b> Comparing action Previous Weapon to default action Previous Weapon</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Previous Weapon to Previous Weapon - Action: 0, Base: 0</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Last Used Weapon)</b> Comparing action Last Used Weapon to default action Last Used Weapon</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Last Used Weapon to Last Used Weapon - Action: 0, Base: 0</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(WheelLook)</b> Comparing action WheelLook to default action WheelLook</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>WheelLook to WheelLook - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Variation Slot 1)</b> Comparing action Variation Slot 1 to default action Variation Slot 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Variation Slot 1 to Variation Slot 1 - Action: 0, Base: 0</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Variation Slot 2)</b> Comparing action Variation Slot 2 to default action Variation Slot 2</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Variation Slot 2 to Variation Slot 2 - Action: 0, Base: 0</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Variation Slot 3)</b> Comparing action Variation Slot 3 to default action Variation Slot 3</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Variation Slot 3 to Variation Slot 3 - Action: 0, Base: 0</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC><b>(Stats)</b> Comparing action Stats to default action Stats</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#4AE34A>[Input]</color> <color=#D6FFCC>Stats to Stats - Action: 1, Base: 1</color> 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Parent 278453, Main Thread] WARNING: ../glib/gobject/gsignal.c:3648: signal name 'text-insert::system' is invalid for instance '0x7441aece30b0' of type 'MaiAtkType27': 'glib warning', file /usr/src/debug/firefox/firefox-145.0/toolkit/xre/nsSigHandlers.cpp:201
+
+(firefox:278453): GLib-GObject-CRITICAL **: 16:17:35.975: ../glib/gobject/gsignal.c:3648: signal name 'text-insert::system' is invalid for instance '0x7441aece30b0' of type 'MaiAtkType27'
+[Parent 278453, Main Thread] WARNING: ../glib/gobject/gsignal.c:3648: signal name 'text-remove::system' is invalid for instance '0x7441aece30b0' of type 'MaiAtkType27': 'glib warning', file /usr/src/debug/firefox/firefox-145.0/toolkit/xre/nsSigHandlers.cpp:201
+
+(firefox:278453): GLib-GObject-CRITICAL **: 16:27:47.278: ../glib/gobject/gsignal.c:3648: signal name 'text-remove::system' is invalid for instance '0x7441aece30b0' of type 'MaiAtkType27'
+[Parent 278453, Main Thread] WARNING: ../glib/gobject/gsignal.c:3648: signal name 'text-insert::system' is invalid for instance '0x7441aece30b0' of type 'MaiAtkType27': 'glib warning', file /usr/src/debug/firefox/firefox-145.0/toolkit/xre/nsSigHandlers.cpp:201
+
+(firefox:278453): GLib-GObject-CRITICAL **: 16:27:47.279: ../glib/gobject/gsignal.c:3648: signal name 'text-insert::system' is invalid for instance '0x7441aece30b0' of type 'MaiAtkType27'
+[Parent 278453, Main Thread] WARNING: ../glib/gobject/gsignal.c:3648: signal name 'text-remove::system' is invalid for instance '0x7441aece30b0' of type 'MaiAtkType27': 'glib warning', file /usr/src/debug/firefox/firefox-145.0/toolkit/xre/nsSigHandlers.cpp:201
+
+(firefox:278453): GLib-GObject-CRITICAL **: 16:52:22.945: ../glib/gobject/gsignal.c:3648: signal name 'text-remove::system' is invalid for instance '0x7441aece30b0' of type 'MaiAtkType27'
+[Parent 278453, Main Thread] WARNING: ../glib/gobject/gsignal.c:3648: signal name 'text-insert::system' is invalid for instance '0x7441aece30b0' of type 'MaiAtkType27': 'glib warning', file /usr/src/debug/firefox/firefox-145.0/toolkit/xre/nsSigHandlers.cpp:201
+
+(firefox:278453): GLib-GObject-CRITICAL **: 16:52:22.946: ../glib/gobject/gsignal.c:3648: signal name 'text-insert::system' is invalid for instance '0x7441aece30b0' of type 'MaiAtkType27'
+[Parent 278453, Main Thread] WARNING: ../glib/gobject/gsignal.c:3648: signal name 'text-remove::system' is invalid for instance '0x7441aece30b0' of type 'MaiAtkType27': 'glib warning', file /usr/src/debug/firefox/firefox-145.0/toolkit/xre/nsSigHandlers.cpp:201
+
+(firefox:278453): GLib-GObject-CRITICAL **: 16:57:03.450: ../glib/gobject/gsignal.c:3648: signal name 'text-remove::system' is invalid for instance '0x7441aece30b0' of type 'MaiAtkType27'
+[Parent 278453, Main Thread] WARNING: ../glib/gobject/gsignal.c:3648: signal name 'text-insert::system' is invalid for instance '0x7441aece30b0' of type 'MaiAtkType27': 'glib warning', file /usr/src/debug/firefox/firefox-145.0/toolkit/xre/nsSigHandlers.cpp:201
+
+(firefox:278453): GLib-GObject-CRITICAL **: 16:57:03.450: ../glib/gobject/gsignal.c:3648: signal name 'text-insert::system' is invalid for instance '0x7441aece30b0' of type 'MaiAtkType27'
+[Parent 278453, Main Thread] WARNING: ../glib/gobject/gsignal.c:3648: signal name 'text-remove::system' is invalid for instance '0x7441aece30b0' of type 'MaiAtkType27': 'glib warning', file /usr/src/debug/firefox/firefox-145.0/toolkit/xre/nsSigHandlers.cpp:201
+
+(firefox:278453): GLib-GObject-CRITICAL **: 16:57:03.722: ../glib/gobject/gsignal.c:3648: signal name 'text-remove::system' is invalid for instance '0x7441aece30b0' of type 'MaiAtkType27'
+[Parent 278453, Main Thread] WARNING: ../glib/gobject/gsignal.c:3648: signal name 'text-insert::system' is invalid for instance '0x7441aece30b0' of type 'MaiAtkType27': 'glib warning', file /usr/src/debug/firefox/firefox-145.0/toolkit/xre/nsSigHandlers.cpp:201
+
+(firefox:278453): GLib-GObject-CRITICAL **: 16:57:03.723: ../glib/gobject/gsignal.c:3648: signal name 'text-insert::system' is invalid for instance '0x7441aece30b0' of type 'MaiAtkType27'
+[Parent 278453, Main Thread] WARNING: ../glib/gobject/gsignal.c:3648: signal name 'text-remove::system' is invalid for instance '0x7441aece30b0' of type 'MaiAtkType27': 'glib warning', file /usr/src/debug/firefox/firefox-145.0/toolkit/xre/nsSigHandlers.cpp:201
+
+(firefox:278453): GLib-GObject-CRITICAL **: 16:57:05.193: ../glib/gobject/gsignal.c:3648: signal name 'text-remove::system' is invalid for instance '0x7441aece30b0' of type 'MaiAtkType27'
+[Parent 278453, Main Thread] WARNING: ../glib/gobject/gsignal.c:3648: signal name 'text-insert::system' is invalid for instance '0x7441aece30b0' of type 'MaiAtkType27': 'glib warning', file /usr/src/debug/firefox/firefox-145.0/toolkit/xre/nsSigHandlers.cpp:201
+
+(firefox:278453): GLib-GObject-CRITICAL **: 16:57:05.193: ../glib/gobject/gsignal.c:3648: signal name 'text-insert::system' is invalid for instance '0x7441aece30b0' of type 'MaiAtkType27'
+[Parent 278453, Main Thread] WARNING: ../glib/gobject/gsignal.c:3648: signal name 'text-remove::system' is invalid for instance '0x7441aece30b0' of type 'MaiAtkType27': 'glib warning', file /usr/src/debug/firefox/firefox-145.0/toolkit/xre/nsSigHandlers.cpp:201
+
+(firefox:278453): GLib-GObject-CRITICAL **: 16:57:06.417: ../glib/gobject/gsignal.c:3648: signal name 'text-remove::system' is invalid for instance '0x7441aece30b0' of type 'MaiAtkType27'
+[Parent 278453, Main Thread] WARNING: ../glib/gobject/gsignal.c:3648: signal name 'text-insert::system' is invalid for instance '0x7441aece30b0' of type 'MaiAtkType27': 'glib warning', file /usr/src/debug/firefox/firefox-145.0/toolkit/xre/nsSigHandlers.cpp:201
+
+(firefox:278453): GLib-GObject-CRITICAL **: 16:57:06.417: ../glib/gobject/gsignal.c:3648: signal name 'text-insert::system' is invalid for instance '0x7441aece30b0' of type 'MaiAtkType27'
+[ERROR glean_core::metrics::ping] Invalid reason code idchange for ping sync
+[ERROR glean_core::metrics::ping] Invalid reason code idchange for ping sync
+[Parent 278453, Main Thread] WARNING: Error writing selection data: Error writing to file descriptor: Broken pipe: 'glib warning', file /usr/src/debug/firefox/firefox-145.0/toolkit/xre/nsSigHandlers.cpp:201
+
+(firefox:278453): Gdk-WARNING **: 20:08:44.482: Error writing selection data: Error writing to file descriptor: Broken pipe
+[Parent 278453, Main Thread] WARNING: Error writing selection data: Error writing to file descriptor: Broken pipe: 'glib warning', file /usr/src/debug/firefox/firefox-145.0/toolkit/xre/nsSigHandlers.cpp:201
+
+(firefox:278453): Gdk-WARNING **: 20:09:55.141: Error writing selection data: Error writing to file descriptor: Broken pipe
+[Parent 278453, Main Thread] WARNING: Error writing selection data: Error writing to file descriptor: Broken pipe: 'glib warning', file /usr/src/debug/firefox/firefox-145.0/toolkit/xre/nsSigHandlers.cpp:201
+
+(firefox:278453): Gdk-WARNING **: 20:19:10.408: Error writing selection data: Error writing to file descriptor: Broken pipe
+[Parent 278453, Main Thread] WARNING: Error writing selection data: Error writing to file descriptor: Broken pipe: 'glib warning', file /usr/src/debug/firefox/firefox-145.0/toolkit/xre/nsSigHandlers.cpp:201
+
+(firefox:278453): Gdk-WARNING **: 20:20:27.145: Error writing selection data: Error writing to file descriptor: Broken pipe
+[Parent 278453, Main Thread] WARNING: Error writing selection data: Error writing to file descriptor: Broken pipe: 'glib warning', file /usr/src/debug/firefox/firefox-145.0/toolkit/xre/nsSigHandlers.cpp:201
+
+(firefox:278453): Gdk-WARNING **: 20:23:08.249: Error writing selection data: Error writing to file descriptor: Broken pipe
+[Child 279349, MediaDecoderStateMachine #7] WARNING: Decoder=744107b14600 Decode error: NS_ERROR_DOM_MEDIA_RANGE_ERR (0x806e0069) - Result<already_AddRefed<MediaRawData>, MediaResult> mozilla::SampleIterator::GetNext(): Sample data byte range beyond end of resource: file /usr/src/debug/firefox/firefox-145.0/dom/media/MediaDecoderStateMachineBase.cpp:168
+[Parent 278453, Main Thread] WARNING: Error writing selection data: Error writing to file descriptor: Broken pipe: 'glib warning', file /usr/src/debug/firefox/firefox-145.0/toolkit/xre/nsSigHandlers.cpp:201
+
+(firefox:278453): Gdk-WARNING **: 22:16:18.344: Error writing selection data: Error writing to file descriptor: Broken pipe
+[ERROR glean_core::metrics::ping] Invalid reason code idchange for ping sync

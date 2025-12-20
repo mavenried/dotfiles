@@ -1,0 +1,26 @@
+<unity_prefs version_major="1" version_minor="1">
+	<pref name="AutoReload" type="int">1</pref>
+	<pref name="CameraShake" type="int">1</pref>
+	<pref name="Fullscreen" type="int">1</pref>
+	<pref name="Language" type="int">0</pref>
+	<pref name="LastCharacterSelected" type="int">3</pref>
+	<pref name="LastMapSelected" type="int">0</pref>
+	<pref name="LastSelectedDifficulty" type="int">0</pref>
+	<pref name="ModeSelect" type="int">1</pref>
+	<pref name="MusicVolume" type="float">1</pref>
+	<pref name="Outline" type="int">0</pref>
+	<pref name="SFXVolume" type="float">1</pref>
+	<pref name="Screenmanager Fullscreen mode" type="int">1</pref>
+	<pref name="Screenmanager Fullscreen mode Default" type="int">1</pref>
+	<pref name="Screenmanager Resolution Height" type="int">1080</pref>
+	<pref name="Screenmanager Resolution Height Default" type="int">768</pref>
+	<pref name="Screenmanager Resolution Use Native" type="int">1</pref>
+	<pref name="Screenmanager Resolution Use Native Default" type="int">1</pref>
+	<pref name="Screenmanager Resolution Width" type="int">1920</pref>
+	<pref name="Screenmanager Resolution Width Default" type="int">1024</pref>
+	<pref name="UnitySelectMonitor" type="int">-1</pref>
+	<pref name="rebinds" type="string">eyJiaW5kaW5ncyI6W3siYWN0aW9uIjoiUGxheWVyTWFwL0ZpcmUiLCJpZCI6IjcyYWRmZGZiLTkyZTUtNDgyNi1hZmUzLWE3MzUyZGZlMTdjZSIsInBhdGgiOiI8S2V5Ym9hcmQ+L2NhcHNMb2NrIiwiaW50ZXJhY3Rpb25zIjoiIiwicHJvY2Vzc29ycyI6IiJ9XX0=</pref>
+	<pref name="unity.cloud_userid" type="string">N2I4MzQ0Y2VmYTBmN2UyMTViMDgyZjNiZTQxMGI4ZWI=</pref>
+	<pref name="unity.player_session_count" type="string">OQ==</pref>
+	<pref name="unity.player_sessionid" type="string">Njc3MDEyNTMzNDM3Njc2Mjgy</pref>
+</unity_prefs>

@@ -1,0 +1,22 @@
+# Oxygen
+
+spacing         = 3
+key_color       = "Green"
+hide_ascii      = false
+separator       = "❯"
+separator_color = "Blue"
+
+[box]
+border          = "rounded"
+visible         = false
+
+[bar]
+visible         = false
+
+[box.inner_margin]
+x               = 2
+y               = 1
+
+[custom_ascii]
+color           = "cyan"
+path            = "~/.config/macchina/ascii/mavencore.ascii"

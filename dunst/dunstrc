@@ -19,7 +19,7 @@
     separator_color = frame
     padding = 15
     horizontal_padding = 15
-    frame_width = 2
+    frame_width = 1
     corner_radius = 10
     sort = yes
     idle_threshold = 120
@@ -53,36 +53,15 @@
     mouse_middle_click = do_action, close_current
     mouse_right_click = close_all
 
+    background = "#181825"
+    foreground = "#cdd6f4"
+    frame_color = "#cba6f7"
+    timeout = 5
+
 [experimental]
-    per_monitor_dpi = false
-
-[urgency_low]
-    background = "#282828"
-    foreground = "#689d6a"
-    highlight = "#689d6a"
-    frame_color = "#689d6a"
-    timeout = 5
-
-[urgency_normal]
-    background = "#282828"
-    foreground = "#d79921"
-    highlight = "#d79921"
-    frame_color = "#d79921"
-    timeout = 5
-
-[urgency_critical]
-    background = "#282828"
-    foreground = "#cc241d"
-    frame_color = "#cc241d"
-    frame_color = "#cc241d"
-    timeout = 1000
-
-[volume]
-    appname = "Volume"
-    highlight = "#cba6f7"
-
-[backlight]
-    appname = "Backlight"
-    highlight = "#eba0ac"
-
-# vim: ft=cfg
+ 
+[shortcuts]
+    close = ctrl+space
+    close_all = ctrl+shift+space
+    history = ctrl+grave
+    context = ctrl+shift+period   per_monitor_dpi = false

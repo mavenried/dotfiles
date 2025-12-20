@@ -6,17 +6,16 @@
     "modules-left": [
       "custom/distro",
       "clock",
-      "hyprland/workspaces",
       "idle_inhibitor",
       "custom/music"
     ],
     "modules-center": [
-      "group/system",
+      "group/system"
     ],
     "modules-right": [
       "group/utils",
       "custom/uptime",
-      "group/power",
+      "group/power"
     ],
     // CUSTOM STUFF
     "custom/separator": {
@@ -34,19 +33,19 @@
     "custom/music": {
       "format": "󰎇",
       "tooltip-format": "{}",
-      "exec": "$HOME/projects/scripts/current_music",
-      "interval": 1,
+      "exec": "/mnt/DATA/scripts/current_music",
+      "interval": 1
     },
     "custom/distro": {
       "format": " {}",
       "exec": "checkupdates | wc -l",
       "tooltip": false,
-      "interval": 10,
+      "interval": 10
     },
     "custom/quit": {
       "format": " 󰗼 ",
       "tooltip": false,
-      "on-click": "hyprctl dispatch exit"
+      "on-click": "hyprctl dispatch exit || niri msg action quit"
     },
     "custom/lock": {
       "format": " 󰍁 ",
@@ -64,7 +63,7 @@
       "on-click": "shutdown now"
     },
     "custom/uptime": {
-      "exec": "$HOME/projects/scripts/uptime",
+      "exec": "/mnt/DATA/scripts/uptime",
       "interval": 1,
       "tooltip": false
     },
@@ -147,10 +146,10 @@
       "format-connected": "(󰂱) ",
       "tooltip": true,
       "tooltip-format": "{device_alias} ({device_battery_percentage}%)",
-      "on-click": "hyprctl dispatch exec blueman-manager"
+      "on-click": "hyprctl dispatch exec blueman-manager || niri msg action spawn -- blueman-manager"
     },
     "clock": {
-      "format": "<b>{:%I:%M %p</b><i> %d/%m/%y}</i>",
+      "format": "<b> {:%H:%M</b> %d|%m|%y %a}",
       "tooltip-format": "<small>{calendar}</small>",
       "timezone": "Asia/Kolkata",
       "calendar": {
@@ -178,15 +177,15 @@
       },
       "scroll-step": 1,
       "on-click": "pamixer -t",
-      "on-click-right": "hyprctl dispatch exec pavucontrol"
+      "on-click-right": "hyprctl dispatch exec pavucontrol || niri msg action spawn -- pavucontrol"
     },
     "memory": {
       "interval": 1,
-      "format": "  {percentage}%"
+      "format": "  {percentage:>3}%"
     },
     "cpu": {
       "interval": 1,
-      "format": "  {usage}%"
+      "format": "  {usage:>3}%"
     },
     "battery": {
       "states": {
@@ -196,8 +195,8 @@
         "bad": 20,
         "terrible": 10
       },
-      "format": "{icon} {capacity}% <b>[{power:.0f}W]</b>",
-      "format-charging": "{icon}󱐋 {capacity}% <b>[{power:.0f}W]</b>",
+      "format": "{icon} {capacity:>3}% <b>[{power:.0f}W]</b>",
+      "format-charging": "{icon}󱐋 {capacity:>3}% <b>[{power:.0f}W]</b>",
       "format-icons": [
         "󰁻",
         "󰁻",
@@ -214,7 +213,7 @@
     },
     "disk": {
       "interval": 1,
-      "format": "󰋊 {percentage_used}%",
+      "format": "󰋊 {percentage_used:>3}%",
       "path": "/mnt/DATA/"
     },
     "hyprland/workspaces": {

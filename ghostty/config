@@ -1,7 +1,7 @@
-font-family = JetrainsMono Nerd Font
-theme = GruvboxDark
+font-family = JetbrainsMono Nerd Font
+theme = CatppuccinMocha
 window-decoration = none
-background-opacity = 1
-font-size = 15 
+background-opacity = 0.8
+font-size = 14 
 background-blur = false
 

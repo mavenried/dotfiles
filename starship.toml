@@ -1,3 +1,4 @@
+
 "$schema" = 'https://starship.rs/config-schema.json'
 palette = "catppuccin"
 format = '$directory$character'
@@ -21,18 +22,19 @@ style = 'bold blue'
 read_only = "⦿ "
 format = '[$read_only]($read_only_style) [$path]($style) '
 
-[palettes.gruvbox]
+[palettes.gatekeeper]
+red    = '#ff1a67'
+green  = '#00e756'
+blue   = '#29adff'
+purple = '#a79ac0'
 
-bg     = '#282828'
+
+[palettes.gruvbox]
 red    = '#cc241d'
 green  = '#b8bb26'
-yellow = '#d79921'
 blue   = '#458588'
 purple = '#d3869b'
-aqua   = '#689d6a'
-gray   = '#a89984'
-orange = '#fe8019'
-fg     = '#ebdbb2'
+
 [palettes.catppuccin]
 red    = '#f38ba8'
 purple = '#cba6f7'

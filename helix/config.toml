@@ -11,3 +11,18 @@ select = "underline"
 
 [editor.indent-guides]
 render = true
+
+[keys.normal]
+F1 = [":fmt", ":w"]
+F2 = ":wq"
+F3 = ":q!"
+
+[keys.insert]
+F1 = ["normal_mode", ":w"]
+F2 = ["normal_mode", ":wq"]
+F3 = ["normal_mode", ":q!"]
+
+[keys.select]
+F1 = ["normal_mode", ":w"]
+F2 = ["normal_mode", ":wq"]
+F3 = ["normal_mode", ":q!"]

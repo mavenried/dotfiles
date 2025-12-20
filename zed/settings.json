@@ -1,0 +1,49 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "base_keymap": "JetBrains",
+  "edit_predictions": {
+    "mode": "subtle"
+  },
+  "features": {
+    "edit_prediction_provider": "zed"
+  },
+  "agent": {
+    "always_allow_tool_actions": true,
+    "default_profile": "write",
+    "default_model": {
+      "provider": "google",
+      "model": "gemini-2.5-flash"
+    },
+    "model_parameters": []
+  },
+  "autosave": {
+    "after_delay": {
+      "milliseconds": 200
+    }
+  },
+  "ui_font_weight": 100.0,
+  "ui_font_family": "Cantarell",
+  "buffer_line_height": "standard",
+  "buffer_font_weight": 300.0,
+  "buffer_font_family": "JetBrainsMono Nerd Font",
+  "icon_theme": {
+    "mode": "system",
+    "light": "Zed (Default)",
+    "dark": "Zed (Default)"
+  },
+  "vim_mode": true,
+  "ui_font_size": 18.0,
+  "buffer_font_size": 20.0,
+  "theme": {
+    "mode": "system",
+    "light": "Gruvbox Light",
+    "dark": "Gruvbox Dark"
+  }
+}

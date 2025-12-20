@@ -1,14 +1,46 @@
 {
-  "rofi": {
-    "template": "/home/mavenried/Projects/scripts/templates/rofi.rasi",
-    "target": "/home/mavenried/.config/rofi/accent.rofi"
+  "ghostty": {
+    "template": "/mnt/DATA/scripts/templates/ghostty",
+    "target": "/mnt/DATA/dots/ghostty/config"
   },
-  "hyprland": {
-    "template": "~/projects/scripts/templates/accent.conf.template",
-    "target": "~/.config/hypr/accent.conf"
+  "starship": {
+    "template": "/mnt/DATA/scripts/templates/starship.toml",
+    "target": "/mnt/DATA/dots/starship.toml"
+  },
+  "rofi": {
+    "template": "/mnt/DATA/scripts/templates/rofi.rasi",
+    "target": "/mnt/DATA/dots/rofi/theme.rasi"
+  },
+  "dunst": {
+    "template": "/mnt/DATA/scripts/templates/dunst",
+    "target": "/mnt/DATA/dots/dunst/dunstrc"
+  },
+  "waybar": {
+    "template": "/mnt/DATA/scripts/templates/waybar.css",
+    "target": "/mnt/DATA/dots/waybar/accent.css"
+  },
+  "mako": {
+    "template": "/mnt/DATA/scripts/templates/mako",
+    "target": "/mnt/DATA/dots/mako/config"
+  },
+  "hyprlock": {
+    "template": "/mnt/DATA/scripts/templates/hyprlock.conf",
+    "target": "/mnt/DATA/dots/hypr/hyprlock.conf"
   },
   "niri": {
-    "template": "/home/mavenried/projects/scripts/templates/niri.kdl",
-    "target": "/home/mavenried/.config/niri/pieces/layout.kdl"
+    "template": "/mnt/DATA/scripts/templates/niri.kdl",
+    "target": "/mnt/DATA/dots/niri/layout.kdl"
+  },
+  "hyprland": {
+    "template": "/mnt/DATA/scripts/templates/hyprland.conf",
+    "target": "/mnt/DATA/dots/hypr/accent.conf"
+  },
+  "qs": {
+    "template": "/mnt/DATA/scripts/templates/qs.qml",
+    "target": "/mnt/DATA/dots/quickshell/Theme.qml"
+  },
+  "nvim": {
+    "template": "/mnt/DATA/scripts/templates/nvim.lua",
+    "target": "/mnt/DATA/dots/nvim/lua/colorscheme.lua"
   }
 }

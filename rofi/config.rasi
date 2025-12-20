@@ -1,6 +1,5 @@
 configuration{
     modi: "run,drun,window";
-    icon-theme: "Gruvbox-Dark";
     show-icons: true;
     terminal: "ghostty";
     drun-display-format: "{icon} {name}";
@@ -14,11 +13,4 @@ configuration{
     sidebar-mode: true;
 }
 
-//@theme "catppuccin-mocha"
-
-
-//@theme "/usr/share/rofi/themes/gruvbox-dark.rasi"
-
-//@theme "/usr/share/rofi/themes/docu.rasi"
-
-@theme "~/.config/rofi/gruvbox.rasi"
+@theme "~/.config/rofi/theme.rasi"

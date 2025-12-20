@@ -360,5 +360,5 @@ plugins {
 // Default: false
 //
 // disable_session_metadata true
-theme "gruvbox-dark"
+theme "catppuccin-mocha"
 pane_frames false

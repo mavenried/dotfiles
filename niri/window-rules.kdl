@@ -1,0 +1,10 @@
+prefer-no-csd
+window-rule {
+    tiled-state true
+    draw-border-with-background false
+    geometry-corner-radius 15
+    clip-to-geometry true
+}
+environment {
+    ELECTRON_OZONE_PLATFORM_HINT "auto"
+}

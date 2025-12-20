@@ -4,8 +4,6 @@ opacity = 0.9
 blur = false
 decorations = "Buttonless"
 dynamic_padding = true
-startup_mode = "Maximized"
-resize_increments = true
 option_as_alt = "Both"
 
 [selection]
@@ -19,7 +17,7 @@ x = 1
 y = 1
 
 [font.normal]
-family = "JetBrainsMono Nerd Font"
+family = "JetbrainsMono Nerd Font"
 
 [general]
-import = [ "~/.config/alacritty/themes/gruvbox.toml",]
+import = [ "~/.config/alacritty/themes/catppuccin-mocha.toml",]
