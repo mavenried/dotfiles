@@ -1,6 +1,6 @@
 
 "$schema" = 'https://starship.rs/config-schema.json'
-palette = "catppuccin"
+palette = "gruvbox"
 format = '$directory$character'
 right_format = "$git_status"
 

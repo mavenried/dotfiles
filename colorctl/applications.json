@@ -37,7 +37,7 @@
   },
   "qs": {
     "template": "/mnt/DATA/scripts/templates/qs.qml",
-    "target": "/mnt/DATA/dots/quickshell/Theme.qml"
+    "target": "/mnt/DATA/.config/quickshell/Theme.qml"
   },
   "nvim": {
     "template": "/mnt/DATA/scripts/templates/nvim.lua",

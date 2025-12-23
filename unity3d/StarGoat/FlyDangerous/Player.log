@@ -1,0 +1,893 @@
+Mono path[0] = '/mnt/DATA/SteamLibrary/steamapps/common/Fly Dangerous/flydangerous_Data/Managed'
+Mono config path = '/mnt/DATA/SteamLibrary/steamapps/common/Fly Dangerous/flydangerous_Data/MonoBleedingEdge/etc'
+Preloaded 'libNativePlugins.so'
+Preloaded 'lib_burst_generated.so'
+Preloaded 'libsteam_api.so'
+Preloaded 'libsteam_api64.so'
+Input System module state changed to: Initialized.
+Display 0 'eDP-1 15"': 1920x1080 (primary device).
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+Unable to load player prefs
+Desktop is 1920 x 1080 @ 60 Hz
+Initialize engine version: 2022.3.62f1 (4af31df58517)
+[Subsystems] Discovering subsystems at path /mnt/DATA/SteamLibrary/steamapps/common/Fly Dangerous/flydangerous_Data/UnitySubsystems
+[Subsystems] No descriptors matched for  examples in UnitySubsystems/UnityOpenXR/UnitySubsystemsManifest.json.
+[Subsystems] 1 'inputs' descriptors matched in UnitySubsystems/UnityOpenXR/UnitySubsystemsManifest.json
+[Subsystems] 1 'displays' descriptors matched in UnitySubsystems/UnityOpenXR/UnitySubsystemsManifest.json
+[Subsystems] No descriptors matched for  meshings in UnitySubsystems/UnityOpenXR/UnitySubsystemsManifest.json.
+GfxDevice: creating device client; threaded=1; jobified=1
+Renderer: AMD Radeon Graphics (radeonsi, renoir, ACO, DRM 3.64, 6.18.2-2-cachyos)
+Vendor:   AMD
+Version:  4.6 (Core Profile) Mesa 25.3.2-arch1.2
+GLES:     0
+ GL_AMD_conservative_depth GL_AMD_depth_clamp_separate GL_AMD_draw_buffers_blend GL_AMD_framebuffer_multisample_advanced GL_AMD_gpu_shader_int64 GL_AMD_multi_draw_indirect GL_AMD_performance_monitor GL_AMD_pinned_memory GL_AMD_query_buffer_object GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_stencil_export GL_AMD_shader_trinary_minmax GL_AMD_texture_texture4 GL_AMD_vertex_shader_layer GL_AMD_vertex_shader_viewport_index GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ARB_ES2_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_bindless_texture GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_dist
+ance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_shader GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel
+_buffer_object GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_stencil_export GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_sparse_buffer GL_ARB_sparse_texture GL_ARB_sparse_texture2 GL_ARB_sparse_texture_clamp GL_ARB_spirv_extensio
+ns GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_barrier GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_filter_minmax GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex
+_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_meminfo GL_ATI_texture_float GL_ATI_texture_mirror_once GL_EXT_EGL_image_storage GL_EXT_EGL_image_storage_compression GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_debug_label GL_EXT_demote_to_helper_invocation GL_EXT_depth_bounds_test GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_clock GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_t
+exture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_filter_minmax GL_EXT_texture_integer GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_KHR_blend_equation_advanced GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_shader_subgroup GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_const_bandwidth GL_MESA_texture_signed_rgba GL_NVX_gpu_memory_info GL_NV_alpha
+_to_coverage_dither_control GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_packed_depth_stencil GL_NV_shader_atomic_int64 GL_NV_texture_barrier GL_OES_EGL_image GL_S3_s3tc
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle 172942224
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.217 seconds
+- Finished resetting the current domain, in  0.005 seconds
+Default vsync count 1
+requesting resize 1920 x 1080
+Using native desktop resolution 1920 x 1080
+requesting fullscreen 1920 x 1080 at 0/1 Hz
+Desktop is 1920 x 1080 @ 60 Hz
+Disable old input system
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+UnloadTime: 0.951715 ms
+DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
+ #0 PlayerMain(int, char**)
+ #1 PlayerMain(int, char**)
+ #2 ???
+ #3 ???
+ #4  (Mono JIT Code) (wrapper managed-to-native) UnityEngine.Object:DontDestroyOnLoad (UnityEngine.Object)
+ #5  (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+ #6 mono_get_runtime_build_info
+ #7 mono_runtime_invoke
+ #8 mono_runtime_invoke
+ #9 ???
+ #10 ???
+ #11 ???
+ #12 ???
+ #13 ???
+ #14 ???
+ #15 ???
+ #16 ???
+ #17 ???
+ #18 ???
+ #19 ???
+ #20 ???
+ #21 PlayerMain(int, char**)
+ #22 __libc_init_first
+ #23 __libc_start_main
+ #24 ???
+
+[S_API] SteamAPI_Init(): Loaded '/home/mavenried/.local/share/Steam/linux64/steamclient.so' OK.
+Setting breakpad minidump AppID = 1781750
+SteamInternal_SetMinidumpSteamID:  Caching Steam ID:  76561199773635261 [API loaded no]
+KcpTransport initialized!
+Fallback handler could not load library /mnt/DATA/SteamLibrary/steamapps/common/Fly Dangerous/flydangerous_Data/MonoBleedingEdge/x86_64/haptic_library
+Fallback handler could not load library /mnt/DATA/SteamLibrary/steamapps/common/Fly Dangerous/flydangerous_Data/MonoBleedingEdge/x86_64/libhaptic_library.so
+Fallback handler could not load library /mnt/DATA/SteamLibrary/steamapps/common/Fly Dangerous/flydangerous_Data/MonoBleedingEdge/x86_64/libhaptic_library.so
+Fallback handler could not load library /mnt/DATA/SteamLibrary/steamapps/common/Fly Dangerous/flydangerous_Data/MonoBleedingEdge/x86_64/haptic_library
+Fallback handler could not load library /mnt/DATA/SteamLibrary/steamapps/common/Fly Dangerous/flydangerous_Data/MonoBleedingEdge/x86_64/libhaptic_library
+Fallback handler could not load library /mnt/DATA/SteamLibrary/steamapps/common/Fly Dangerous/flydangerous_Data/MonoBleedingEdge/x86_64/libhaptic_library.so
+Fallback handler could not load library /mnt/DATA/SteamLibrary/steamapps/common/Fly Dangerous/flydangerous_Data/MonoBleedingEdge/x86_64/libhaptic_library.so
+Fallback handler could not load library /mnt/DATA/SteamLibrary/steamapps/common/Fly Dangerous/flydangerous_Data/MonoBleedingEdge/x86_64/libhaptic_library
+Fallback handler could not load library /mnt/DATA/SteamLibrary/steamapps/common/Fly Dangerous/flydangerous_Data/MonoBleedingEdge/x86_64/haptic_library
+Fallback handler could not load library /mnt/DATA/SteamLibrary/steamapps/common/Fly Dangerous/flydangerous_Data/MonoBleedingEdge/x86_64/libhaptic_library.so
+Fallback handler could not load library /mnt/DATA/SteamLibrary/steamapps/common/Fly Dangerous/flydangerous_Data/MonoBleedingEdge/x86_64/libhaptic_library.so
+Fallback handler could not load library /mnt/DATA/SteamLibrary/steamapps/common/Fly Dangerous/flydangerous_Data/MonoBleedingEdge/x86_64/haptic_library
+Fallback handler could not load library /mnt/DATA/SteamLibrary/steamapps/common/Fly Dangerous/flydangerous_Data/MonoBleedingEdge/x86_64/libhaptic_library
+Fallback handler could not load library /mnt/DATA/SteamLibrary/steamapps/common/Fly Dangerous/flydangerous_Data/MonoBleedingEdge/x86_64/libhaptic_library.so
+Fallback handler could not load library /mnt/DATA/SteamLibrary/steamapps/common/Fly Dangerous/flydangerous_Data/MonoBleedingEdge/x86_64/libhaptic_library.so
+Fallback handler could not load library /mnt/DATA/SteamLibrary/steamapps/common/Fly Dangerous/flydangerous_Data/MonoBleedingEdge/x86_64/libhaptic_library
+[bhaptics] BhapticsManager.cs - GetHaptic() / haptic_library assembly:<unknown assembly> type:<unknown type> member:(null)
+DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
+ #0 PlayerMain(int, char**)
+ #1 PlayerMain(int, char**)
+ #2 ???
+ #3 ???
+ #4  (Mono JIT Code) (wrapper managed-to-native) UnityEngine.Object:DontDestroyOnLoad (UnityEngine.Object)
+ #5 mono_get_runtime_build_info
+ #6 mono_runtime_invoke
+ #7 mono_runtime_invoke
+ #8 ???
+ #9 ???
+ #10 ???
+ #11 ???
+ #12 ???
+ #13 ???
+ #14 ???
+ #15 ???
+ #16 ???
+ #17 ???
+ #18 ???
+ #19 ???
+ #20 PlayerMain(int, char**)
+ #21 __libc_init_first
+ #22 __libc_start_main
+ #23 ???
+
+Loading from /home/mavenried/.config/unity3d/StarGoat/FlyDangerous/Save/Preferences.json
+Could not find file "/home/mavenried/.config/unity3d/StarGoat/FlyDangerous/Save/Preferences.json"
+Loading default preferences
+Loading from /home/mavenried/.config/unity3d/StarGoat/FlyDangerous/Save/Preferences.json
+Could not find file "/home/mavenried/.config/unity3d/StarGoat/FlyDangerous/Save/Preferences.json"
+Loading default preferences
+Shutting down UDP Server
+[bhaptics] BhapticsManager.cs - GetHaptic() / haptic_library assembly:<unknown assembly> type:<unknown type> member:(null)
+[bhaptics] BhapticsManager.cs - GetHaptic() / haptic_library assembly:<unknown assembly> type:<unknown type> member:(null)
+[bhaptics] BhapticsManager.cs - GetHaptic() / haptic_library assembly:<unknown assembly> type:<unknown type> member:(null)
+[bhaptics] BhapticsManager.cs - GetHaptic() / haptic_library assembly:<unknown assembly> type:<unknown type> member:(null)
+[bhaptics] BhapticsManager.cs - GetHaptic() / haptic_library assembly:<unknown assembly> type:<unknown type> member:(null)
+[bhaptics] BhapticsManager.cs - GetHaptic() / haptic_library assembly:<unknown assembly> type:<unknown type> member:(null)
+[bhaptics] BhapticsManager.cs - GetHaptic() / haptic_library assembly:<unknown assembly> type:<unknown type> member:(null)
+[bhaptics] BhapticsManager.cs - GetHaptic() / haptic_library assembly:<unknown assembly> type:<unknown type> member:(null)
+Saving to /home/mavenried/.config/unity3d/StarGoat/FlyDangerous/Save/Preferences.json
+Saving to /home/mavenried/.config/unity3d/StarGoat/FlyDangerous/Save/Preferences.json
+Failed to parse enum with name None, returning first element None
+Saving to /home/mavenried/.config/unity3d/StarGoat/FlyDangerous/Save/Preferences.json
+[SERVER] PLAYER CONNECT (1 / 128 players)
+[CLIENT] LOCAL CLIENT HAS CONNECTED
+[SERVER] PLAYER DISCONNECT
+[CLIENT] LOCAL CLIENT HAS DISCONNECTED
+[CLIENT] SERVER SHUTDOWN
+[SERVER] PLAYER CONNECT (1 / 128 players)
+[CLIENT] LOCAL CLIENT HAS CONNECTED
+Failed to parse enum string Biome World, returning first element Biome Terrain V2
+Saving to /home/mavenried/.config/unity3d/StarGoat/FlyDangerous/Save/Preferences.json
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+UnloadTime: 62.873696 ms
+No Camera Floor Offset GameObject specified for XR Origin, using attached GameObject.
+ #0 PlayerMain(int, char**)
+ #1 PlayerMain(int, char**)
+ #2 ???
+ #3  (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+ #4  (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+ #5 mono_get_runtime_build_info
+ #6 mono_runtime_invoke
+ #7 mono_runtime_invoke
+ #8 ???
+ #9 ???
+ #10 ???
+ #11 ???
+ #12 ???
+ #13 ???
+ #14 ???
+ #15 ???
+ #16 ???
+ #17 ???
+ #18 ???
+ #19 ???
+ #20 ???
+ #21 ???
+ #22 ???
+ #23 PlayerMain(int, char**)
+ #24 __libc_init_first
+ #25 __libc_start_main
+ #26 ???
+
+Unloading 1195 unused Assets to reduce memory usage. Loaded Objects now: 26003.
+Total: 31.756367 ms (FindLiveObjects: 1.880406 ms CreateObjectMapping: 1.917386 ms MarkObjects: 24.731282 ms  DeleteObjects: 3.225780 ms)
+
+Changed generators ids on serialize: 31
+REPLACE PLAYER Loading Player(Clone) (Core.Player.LoadingPlayer) connection(0) Ship Player(Clone) (Core.Player.ShipPlayer)
+Shutting down Json Telemetry UDP Server
+Shutting down UDP Server
+Loaded level 22bca5b82c43732b8df7f1f1609e1e01b82f91a06908d5c942c270490bf74a2b
+** USER INPUT ENABLED **
+Mouse with path </Mouse> detected
+Keyboard with path </Keyboard> detected
+Gamepad with path </Gamepad> detected
+---
+Keyboard paired
+Mouse paired
+Gamepad paired
+** USER INPUT DISABLED **
+** UI INPUT DISABLED **
+No Camera Floor Offset GameObject specified for XR Origin, using attached GameObject.
+ #0 PlayerMain(int, char**)
+ #1 PlayerMain(int, char**)
+ #2 ???
+ #3  (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+ #4  (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+ #5 mono_get_runtime_build_info
+ #6 mono_runtime_invoke
+ #7 mono_runtime_invoke
+ #8 ???
+ #9 ???
+ #10 ???
+ #11 ???
+ #12 ???
+ #13 ???
+ #14 ???
+ #15 ???
+ #16 ???
+ #17 ???
+ #18 ???
+ #19 ???
+ #20 ???
+ #21 ???
+ #22 ???
+ #23 PlayerMain(int, char**)
+ #24 __libc_init_first
+ #25 __libc_start_main
+ #26 ???
+
+** UI INPUT DISABLED **
+** USER INPUT ENABLED **
+Mouse with path </Mouse> detected
+Keyboard with path </Keyboard> detected
+Gamepad with path </Gamepad> detected
+---
+Keyboard paired
+Mouse paired
+Gamepad paired
+** UI INPUT DISABLED **
+** USER INPUT ENABLED **
+Mouse with path </Mouse> detected
+Keyboard with path </Keyboard> detected
+Gamepad with path </Gamepad> detected
+---
+Keyboard paired
+Mouse paired
+Gamepad paired
+** USER INPUT DISABLED **
+** UI INPUT ENABLED **
+Load preferences
+requesting resize 1920 x 1080
+Using native desktop resolution 1920 x 1080
+requesting fullscreen 1920 x 1080 at 0/1 Hz
+Desktop is 1920 x 1080 @ 60 Hz
+** USER INPUT ENABLED **
+Mouse with path </Mouse> detected
+Keyboard with path </Keyboard> detected
+Gamepad with path </Gamepad> detected
+---
+Keyboard paired
+Mouse paired
+Gamepad paired
+** UI INPUT DISABLED **
+** USER INPUT DISABLED **
+** UI INPUT ENABLED **
+** USER INPUT ENABLED **
+Mouse with path </Mouse> detected
+Keyboard with path </Keyboard> detected
+Gamepad with path </Gamepad> detected
+---
+Keyboard paired
+Mouse paired
+Gamepad paired
+** UI INPUT DISABLED **
+** UI INPUT DISABLED **
+** USER INPUT ENABLED **
+Mouse with path </Mouse> detected
+Keyboard with path </Keyboard> detected
+Gamepad with path </Gamepad> detected
+---
+Keyboard paired
+Mouse paired
+Gamepad paired
+** USER INPUT DISABLED **
+** UI INPUT ENABLED **
+Load preferences
+Saving to /home/mavenried/.config/unity3d/StarGoat/FlyDangerous/Save/Preferences.json
+Shutting down Json Telemetry UDP Server
+Shutting down UDP Server
+** USER INPUT ENABLED **
+Mouse with path </Mouse> detected
+Keyboard with path </Keyboard> detected
+Gamepad with path </Gamepad> detected
+---
+Keyboard paired
+Mouse paired
+Gamepad paired
+** UI INPUT DISABLED **
+** UI INPUT DISABLED **
+** USER INPUT ENABLED **
+Mouse with path </Mouse> detected
+Keyboard with path </Keyboard> detected
+Gamepad with path </Gamepad> detected
+---
+Keyboard paired
+Mouse paired
+Gamepad paired
+** USER INPUT DISABLED **
+** UI INPUT ENABLED **
+Load preferences
+Saving to /home/mavenried/.config/unity3d/StarGoat/FlyDangerous/Save/Preferences.json
+Shutting down Json Telemetry UDP Server
+Shutting down UDP Server
+** USER INPUT ENABLED **
+Mouse with path </Mouse> detected
+Keyboard with path </Keyboard> detected
+Gamepad with path </Gamepad> detected
+---
+Keyboard paired
+Mouse paired
+Gamepad paired
+** UI INPUT DISABLED **
+InvalidOperationException: Collection was modified; enumeration operation may not execute.
+  at System.Collections.Generic.Dictionary`2+ValueCollection+Enumerator[TKey,TValue].MoveNext () [0x00013] in <9c9d7808da6a43e3b68409f2b63b3e6f>:0 
+  at MapMagic.Products.TileData.Clear (System.Boolean clearApply, System.Boolean inSubs) [0x0008d] in <6623431d86f7416b917629a074d4bfaa>:0 
+  at MapMagic.Terrains.TerrainTile.Move (Den.Tools.Coord newCoord, System.Single newRemoteness) [0x00022] in <6623431d86f7416b917629a074d4bfaa>:0 
+  at Den.Tools.TileManager`1[T].Deploy (Den.Tools.Coord[] camCoords, System.Collections.Generic.Dictionary`2[TKey,TValue] pinned, UnityEngine.MonoBehaviour holder) [0x002ca] in <a9d7b25a7c174440a4fa07a897c2b34d>:0 
+  at Den.Tools.TileManager`1[T].Update (UnityEngine.Vector3 tileSize, System.Collections.Generic.Dictionary`2[TKey,TValue] pinned, UnityEngine.MonoBehaviour holder, System.Boolean distsOnly) [0x00033] in <a9d7b25a7c174440a4fa07a897c2b34d>:0 
+  at MapMagic.Core.MapMagicObject.Update () [0x00017] in <6623431d86f7416b917629a074d4bfaa>:0 
+
+Thread failed: System.InvalidOperationException: Collection was modified; enumeration operation may not execute.
+  at System.Collections.Generic.Dictionary`2+ValueCollection+Enumerator[TKey,TValue].MoveNext () [0x00013] in <9c9d7808da6a43e3b68409f2b63b3e6f>:0 
+  at MapMagic.Products.TileData.Clear (System.Boolean clearApply, System.Boolean inSubs) [0x0008d] in <6623431d86f7416b917629a074d4bfaa>:0 
+  at MapMagic.Terrains.TerrainTile.Generate (MapMagic.Nodes.Graph graph, MapMagic.Terrains.TerrainTile tile, MapMagic.Terrains.TerrainTile+DetailLevel det, MapMagic.Products.StopToken stop) [0x000b0] in <6623431d86f7416b917629a074d4bfaa>:0 
+  at MapMagic.Terrains.TerrainTile+<>c__DisplayClass51_0.<EnqueueMainTask>b__0 () [0x00000] in <6623431d86f7416b917629a074d4bfaa>:0 
+  at Den.Tools.Tasks.ThreadManager.TaskThreadAction (Den.Tools.Tasks.ThreadManager+Task task) [0x00000] in <a9d7b25a7c174440a4fa07a897c2b34d>:0 
+** USER INPUT DISABLED **
+** UI INPUT DISABLED **
+No Camera Floor Offset GameObject specified for XR Origin, using attached GameObject.
+ #0 PlayerMain(int, char**)
+ #1 PlayerMain(int, char**)
+ #2 ???
+ #3  (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+ #4  (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+ #5 mono_get_runtime_build_info
+ #6 mono_runtime_invoke
+ #7 mono_runtime_invoke
+ #8 ???
+ #9 ???
+ #10 ???
+ #11 ???
+ #12 ???
+ #13 ???
+ #14 ???
+ #15 ???
+ #16 ???
+ #17 ???
+ #18 ???
+ #19 ???
+ #20 ???
+ #21 ???
+ #22 ???
+ #23 PlayerMain(int, char**)
+ #24 __libc_init_first
+ #25 __libc_start_main
+ #26 ???
+
+** UI INPUT DISABLED **
+** USER INPUT ENABLED **
+Mouse with path </Mouse> detected
+Keyboard with path </Keyboard> detected
+Gamepad with path </Gamepad> detected
+---
+Keyboard paired
+Mouse paired
+Gamepad paired
+** USER INPUT DISABLED **
+** UI INPUT ENABLED **
+** USER INPUT ENABLED **
+Mouse with path </Mouse> detected
+Keyboard with path </Keyboard> detected
+Gamepad with path </Gamepad> detected
+---
+Keyboard paired
+Mouse paired
+Gamepad paired
+** UI INPUT DISABLED **
+Saving to /home/mavenried/.config/unity3d/StarGoat/FlyDangerous/Save/Preferences.json
+** USER INPUT DISABLED **
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.616583 ms
+There can be only one active Event System.
+ #0 PlayerMain(int, char**)
+ #1 PlayerMain(int, char**)
+ #2 ???
+ #3  (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+ #4 mono_get_runtime_build_info
+ #5 mono_runtime_invoke
+ #6 mono_runtime_invoke
+ #7 ???
+ #8 ???
+ #9 ???
+ #10 ???
+ #11 ???
+ #12 ???
+ #13 ???
+ #14 ???
+ #15 ???
+ #16 ???
+ #17 ???
+ #18 ???
+ #19 PlayerMain(int, char**)
+ #20 __libc_init_first
+ #21 __libc_start_main
+ #22 ???
+
+Loading from /home/mavenried/.config/unity3d/StarGoat/FlyDangerous/Save/Preferences.json
+Unloading 3312 unused Assets to reduce memory usage. Loaded Objects now: 70505.
+Total: 93.482622 ms (FindLiveObjects: 7.589203 ms CreateObjectMapping: 15.205657 ms MarkObjects: 33.484028 ms  DeleteObjects: 37.202652 ms)
+
+Shutting down Json Telemetry UDP Server
+Shutting down UDP Server
+[SERVER] PLAYER DISCONNECT
+[CLIENT] LOCAL CLIENT HAS DISCONNECTED
+[CLIENT] SERVER SHUTDOWN
+Saving to /home/mavenried/.config/unity3d/StarGoat/FlyDangerous/Save/Preferences.json
+[SERVER] PLAYER CONNECT (1 / 128 players)
+[CLIENT] LOCAL CLIENT HAS CONNECTED
+Saving to /home/mavenried/.config/unity3d/StarGoat/FlyDangerous/Save/Preferences.json
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 64.895087 ms
+No Camera Floor Offset GameObject specified for XR Origin, using attached GameObject.
+ #0 PlayerMain(int, char**)
+ #1 PlayerMain(int, char**)
+ #2 ???
+ #3  (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+ #4  (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+ #5 mono_get_runtime_build_info
+ #6 mono_runtime_invoke
+ #7 mono_runtime_invoke
+ #8 ???
+ #9 ???
+ #10 ???
+ #11 ???
+ #12 ???
+ #13 ???
+ #14 ???
+ #15 ???
+ #16 ???
+ #17 ???
+ #18 ???
+ #19 ???
+ #20 ???
+ #21 ???
+ #22 ???
+ #23 PlayerMain(int, char**)
+ #24 __libc_init_first
+ #25 __libc_start_main
+ #26 ???
+
+Unloading 327 unused Assets to reduce memory usage. Loaded Objects now: 26193.
+Total: 38.247251 ms (FindLiveObjects: 2.128372 ms CreateObjectMapping: 1.905093 ms MarkObjects: 26.165903 ms  DeleteObjects: 8.046471 ms)
+
+REPLACE PLAYER Loading Player(Clone) (Core.Player.LoadingPlayer) connection(0) Ship Player(Clone) (Core.Player.ShipPlayer)
+** USER INPUT DISABLED **
+** UI INPUT DISABLED **
+Loading from /home/mavenried/.config/unity3d/StarGoat/FlyDangerous/Save/Preferences.json
+Shutting down UDP Server
+Load preferences
+Saving to /home/mavenried/.config/unity3d/StarGoat/FlyDangerous/Save/Preferences.json
+Shutting down UDP Server
+Saving to /home/mavenried/.config/unity3d/StarGoat/FlyDangerous/Save/Preferences.json
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.620243 ms
+There can be only one active Event System.
+ #0 PlayerMain(int, char**)
+ #1 PlayerMain(int, char**)
+ #2 ???
+ #3  (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+ #4 mono_get_runtime_build_info
+ #5 mono_runtime_invoke
+ #6 mono_runtime_invoke
+ #7 ???
+ #8 ???
+ #9 ???
+ #10 ???
+ #11 ???
+ #12 ???
+ #13 ???
+ #14 ???
+ #15 ???
+ #16 ???
+ #17 ???
+ #18 ???
+ #19 PlayerMain(int, char**)
+ #20 __libc_init_first
+ #21 __libc_start_main
+ #22 ???
+
+Loading from /home/mavenried/.config/unity3d/StarGoat/FlyDangerous/Save/Preferences.json
+Unloading 631 unused Assets to reduce memory usage. Loaded Objects now: 70341.
+Total: 39.618703 ms (FindLiveObjects: 6.070355 ms CreateObjectMapping: 2.695055 ms MarkObjects: 30.214205 ms  DeleteObjects: 0.638127 ms)
+
+Shutting down UDP Server
+[SERVER] PLAYER DISCONNECT
+[CLIENT] LOCAL CLIENT HAS DISCONNECTED
+[CLIENT] SERVER SHUTDOWN
+Saving to /home/mavenried/.config/unity3d/StarGoat/FlyDangerous/Save/Preferences.json
+[SERVER] PLAYER CONNECT (1 / 128 players)
+[CLIENT] LOCAL CLIENT HAS CONNECTED
+Loaded level You Have to Start Somewhere: b9b6a0e268fb76964dfa2dbc266812ab642cc4c9838287f7273fee24029aed52
+Loaded level A Little Verticality: b51b9ef381c07055e2065ee319cd4e9611dbf20a5574a082d83c1e09e87f0468
+Loaded level Ups and Downs: b7c849a463e4973ffdd9340a8413ebde437e11642b7194fe9976e1772b2ff30b
+Loaded level Hold on to your stomach: 0ffdeed0899c63d0dfa4e339842764b4d73bd90ebf49f5ff6e34620ca290b357
+Loaded level Tiny Trial: 074c974412f5a49c71afca8c772edf83494f8e9cf80e9218868085f4c30e0ead
+Loaded level Ramping Up: e2e7bc2be85a233138f0630c4c0c002933df3da0dc7690a7cf60695f13f1ab9a
+Loaded level Around the station: f9e77ad7b89fe7f80027263356927c46181417e97a4cde0ddb1c9283683398c2
+Loaded level Around The Block: 100d1fb8d0b5809d89217157f11e33572ef8fbf8ad2c7324173398dbc4a284a4
+Loaded level Speed is Only Half the Battle: 28717e0173d79b83061279c4e9c2e5f10488b6bdb36688255f7c90d244d3a4a2
+Loaded level Death Valley: 8657048592eee0ee04196716df4cccfbbed733f2b3b4a23d5fa3bb1e8a2172d3
+Loaded level Snake: 1d12b7b6cf492877de0bc55a1503101be6aad12bcb054086883d2e2c88126839
+Loaded level Corkscrew: e2f58025933d2dfb992e96b62b97abd30dbfacdd8f67bcb562249b818c367911
+Loaded level Sightseeing: c2ab1591b9fa43f6cde619ed83f547e3a8a7b440cda62a51aebbf2d1968df32a
+Loaded level Yeet: 5c6b273d58aa609e7fbf68b420b845fe3ee683e0eaa7171693aabf1fc028d283
+Loaded level Desert Dash: b94db94e6e0db288a78ebce957a3e2d032b82b280bd7723ae29800d7f589ffcd
+Loaded level Coaster: 50c43dbaab561bf0a91c3671084b2e75f62272fee5023ba0c52d3b0ccf32790c
+Loaded level A Little Dip: 8934f87773d34f7cdd6e8089d81d492989219ab2ac055bc612d9a67e0a5878c3
+Loaded level Marsh Marathon: f208e73c10c7c29e8d60c1790bcc5391fcb8da25ec0bf3084af9619081bf2223
+Loaded level You Might Wanna Hold Back a Bit: 790dbcc3528b52fbf10adbd592b9a89f52621e9dbded0f44b63b0371053479ac
+Loaded level Tight Squeeze: 46f61ce852c1f5673ab384ac2c433f490eaf5d2b2eca7ff7d2f0e3d60034f196
+Loaded level Thread The Needle: 2c1df43c456f66e281e3794756ac92ec31d1fe0ae82990ce0461ef5bec2e6fd9
+Loaded level Chute: de0c808bf7ccc69fe29676564e3c34325b870fb2e708e319b115378c87e51dbb
+Loaded level Twists and Turns: b89457940d87fbc2c10063a2f4e4b784d89c4441c021432a21720591f4d2d1f1
+Loaded level Mountain Spiral: e8821db37b24269de8077c270bdc15f1c9177c24a2ed4758aa659c5f49e49ccf
+Loaded level Loop-de-loop: 78f8b39387fd7da0b81774b41d14fe514d2ff71ae5d818a99d9fe7cd417ae6a3
+Loaded level Crest Loop: 7a2e21e71455bb07b5029486e824bca49f1d00d0a2354fe195b0d8cdcde8dc2c
+Loaded level Slalom: cfdf89e9a69c428f029feacbbbefcad6f4d0fce233bc9317769cbbdeca67415f
+Loaded level Long Road: 5f963aa651e93fb019ecbff9498d677193855b04a25819457aa4b411183160c2
+Loaded level Island Hopping: 7c1e52c2932d8a6b8df1c33cfc5cda02d9dad0b552c09725c115d51130054546
+Loaded level Labyrinth: 73cd2df744c7268d56324c5b4f8df82f61fbd6d3b98207bba35a94df7d6cb18c
+Loaded level Fresh Hell: 7cb8a97784df5f5a3615c27e62bf3bf026679ba84afa2ae6634dc79cad3e09e7
+Loaded level Around the Station Again: d603aa1d27868096bc58e4ea1c5dc04af889e8c240c7858e7cc5bce7e8d8423d
+Loaded level Coastline Circuit: 2bafc759ac2e3fca5742400dc524fdd6faf3204a66479d9a85691cabe37f8213
+Loaded level Slipstream: 4ad1a92829ce54b8ab7c72d8c29cb3c7e41633289e1e3ffe4ee0eec29dfc462c
+Loaded level Speedway: 1c9e30cdeec46fd888ab061c56e367aff30452098fa3d99f7e35179ed8626c29
+Loaded level Long Haul: f6c08bdf3a1f6c8918251d4c1ace722e664fcf14c8412bb03ce39062439ba6a1
+Loaded level Decisions decisions: 2f6af5b1233ad1dc77810c314d08a89ecc2a62592bf0b509b9ec095170325218
+Loaded level Playground: 85add39ccb8579a8a461cca667f5a15ad709a08d3ee1fc82fddd929d05189847
+Loaded level Highways: b8bc0131e9c7afda485fe9c0c9950fc422cd61d43768aceb2332b395010e91de
+InvalidOperationException: Sequence contains no elements
+  at System.Linq.Enumerable.First[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x00010] in <bc3d89eeb39444249f635544ef5ffb99>:0 
+  at Menus.Main_Menu.Components.LevelSelectPanel+<>c__DisplayClass27_0+<<LoadLevels>g__AddLevelPanels|0>d.MoveNext () [0x0016e] in <17fd7041307544949d5d68079eb404df>:0 
+  at UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) [0x00026] in <fa98f25db3794e469ea74161ee26bb45>:0 
+UnityEngine.MonoBehaviour:StartCoroutineManaged2(MonoBehaviour, IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+Menus.Main_Menu.Components.LevelSelectPanel:LoadLevels(List`1)
+Menus.Main_Menu.Components.LevelSelectPanel:OnLevelGroupTabSelected(String)
+FdUI.TabGroup:SelectTab(TabButton)
+FdUI.TabButton:OnPointerClick(PointerEventData)
+UnityEngine.EventSystems.ExecuteEvents:Execute(IPointerClickHandler, BaseEventData)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointerButton(ButtonState&, PointerEventData)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointer(PointerModel&)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+
+Loaded level A Gentle Start: 59edba84985793d319370ee42f649631fd21f317e32fc0bbab5b179425bb2dd3
+Loaded level Limiter Mastery: 7dc9ec3fd8561551fef7c3013222ec66a08e9f920aea39c8c60a867d46069b21
+Loaded level You Have Headlights, Right?: 23f261ee8cd18fd2db02e9738b3f4100867de776c010e5ded51dd82c00149a0d
+Loaded level Hide and Seek: 8b7f9f7b4d0b5a29f6b6bc3a3778424f45d85baad750df2d0df68da95e08768a
+[SERVER] PLAYER DISCONNECT
+[CLIENT] LOCAL CLIENT HAS DISCONNECTED
+[CLIENT] SERVER SHUTDOWN
+SHUTDOWN STEAM
+Shutting down UDP Listener
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.
+Memory Statistics:
+[ALLOC_TEMP_TLS] TLS Allocator
+  StackAllocators : 
+    [ALLOC_TEMP_MAIN]
+      Peak usage frame count: [2.0 KB-4.0 KB]: 125 frames, [4.0 KB-8.0 KB]: 13 frames, [8.0 KB-16.0 KB]: 3 frames, [32.0 KB-64.0 KB]: 9171 frames, [64.0 KB-128.0 KB]: 41435 frames, [128.0 KB-256.0 KB]: 20 frames, [256.0 KB-0.5 MB]: 4164 frames, [0.5 MB-1.0 MB]: 82 frames, [1.0 MB-2.0 MB]: 568 frames, [2.0 MB-4.0 MB]: 2 frames, [4.0 MB-8.0 MB]: 5 frames
+      Initial Block Size 4.0 MB
+      Current Block Size 8.0 MB
+      Peak Allocated Bytes 8.0 MB
+      Overflow Count 25
+    [ALLOC_TEMP_Loading.AsyncRead]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 256 B
+      Overflow Count 0
+    [ALLOC_TEMP_Loading.PreloadManager]
+      Initial Block Size 256.0 KB
+      Current Block Size 0.5 MB
+      Peak Allocated Bytes 507.5 KB
+      Overflow Count 246
+    [ALLOC_TEMP_Background Job.Worker 8]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 6]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 36.9 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 0]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 4.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 10]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 9]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 5]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 47.6 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 14]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 6]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 4]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 104.6 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 14]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 19.1 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 3]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 104.6 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 13]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 34.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 12]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_EnlightenWorker] x 4
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 15]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 1]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 2]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 7]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_UnityGfxDeviceWorker]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 192.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_AssetGarbageCollectorHelper] x 15
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 5]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 9]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 15.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 13]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 8]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 34.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 7]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 30.7 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 1]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 194.7 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 2]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 60.9 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 3]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 11]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 10]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 30.3 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 0]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 11]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 34.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 12]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 52.7 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 4]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_BatchDeleteObjects]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+[ALLOC_DEFAULT] Dual Thread Allocator
+  Peak main deferred allocation count 24262
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 10 Subsections = 10240 buckets. Failed count: 11429665
+        32B: 29 Subsections = 14848 buckets. Failed count: 2997968
+        48B: 35 Subsections = 11946 buckets. Failed count: 17547865
+        64B: 61 Subsections = 15616 buckets. Failed count: 699805
+        80B: 37 Subsections = 7577 buckets. Failed count: 260524
+        96B: 25 Subsections = 4266 buckets. Failed count: 2398953
+        112B: 30 Subsections = 4388 buckets. Failed count: 47150
+        128B: 29 Subsections = 3712 buckets. Failed count: 64620
+    [ALLOC_DEFAULT_MAIN]
+      Peak usage frame count: [32.0 MB-64.0 MB]: 8351 frames, [64.0 MB-128.0 MB]: 11346 frames, [128.0 MB-256.0 MB]: 31730 frames, [256.0 MB-0.50 GB]: 4161 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 23
+      Peak Allocated memory 394.4 MB
+      Peak Large allocation bytes 175.3 MB
+    [ALLOC_DEFAULT_THREAD]
+      Peak usage frame count: [64.0 MB-128.0 MB]: 55470 frames, [128.0 MB-256.0 MB]: 118 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 4
+      Peak Allocated memory 146.9 MB
+      Peak Large allocation bytes 107.3 MB
+[ALLOC_TEMP_JOB_1_FRAME]
+  Initial Block Size 2.0 MB
+  Used Block Count 0
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_2_FRAMES]
+  Initial Block Size 2.0 MB
+  Used Block Count 0
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_4_FRAMES (JobTemp)]
+  Initial Block Size 2.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_ASYNC (Background)]
+  Initial Block Size 1.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 1
+  Overflow Count (full) 0
+[ALLOC_GFX] Dual Thread Allocator
+  Peak main deferred allocation count 2054
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 10 Subsections = 10240 buckets. Failed count: 11429665
+        32B: 29 Subsections = 14848 buckets. Failed count: 2997968
+        48B: 35 Subsections = 11946 buckets. Failed count: 17547865
+        64B: 61 Subsections = 15616 buckets. Failed count: 699805
+        80B: 37 Subsections = 7577 buckets. Failed count: 260524
+        96B: 25 Subsections = 4266 buckets. Failed count: 2398953
+        112B: 30 Subsections = 4388 buckets. Failed count: 47150
+        128B: 29 Subsections = 3712 buckets. Failed count: 64620
+    [ALLOC_GFX_MAIN]
+      Peak usage frame count: [256.0 KB-0.5 MB]: 10469 frames, [0.5 MB-1.0 MB]: 10472 frames, [1.0 MB-2.0 MB]: 6 frames, [2.0 MB-4.0 MB]: 10 frames, [4.0 MB-8.0 MB]: 21 frames, [8.0 MB-16.0 MB]: 43 frames, [16.0 MB-32.0 MB]: 83 frames, [32.0 MB-64.0 MB]: 12331 frames, [64.0 MB-128.0 MB]: 21242 frames, [128.0 MB-256.0 MB]: 911 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 12
+      Peak Allocated memory 147.8 MB
+      Peak Large allocation bytes 0 B
+    [ALLOC_GFX_THREAD]
+      Peak usage frame count: [2.0 MB-4.0 MB]: 8358 frames, [4.0 MB-8.0 MB]: 1 frames, [8.0 MB-16.0 MB]: 12416 frames, [16.0 MB-32.0 MB]: 3 frames, [32.0 MB-64.0 MB]: 34810 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 3
+      Peak Allocated memory 41.2 MB
+      Peak Large allocation bytes 0 B
+[ALLOC_CACHEOBJECTS] Dual Thread Allocator
+  Peak main deferred allocation count 1010
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 10 Subsections = 10240 buckets. Failed count: 11429665
+        32B: 29 Subsections = 14848 buckets. Failed count: 2997968
+        48B: 35 Subsections = 11946 buckets. Failed count: 17547865
+        64B: 61 Subsections = 15616 buckets. Failed count: 699805
+        80B: 37 Subsections = 7577 buckets. Failed count: 260524
+        96B: 25 Subsections = 4266 buckets. Failed count: 2398953
+        112B: 30 Subsections = 4388 buckets. Failed count: 47150
+        128B: 29 Subsections = 3712 buckets. Failed count: 64620
+    [ALLOC_CACHEOBJECTS_MAIN]
+      Peak usage frame count: [32.0 MB-64.0 MB]: 55588 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 10
+      Peak Allocated memory 62.5 MB
+      Peak Large allocation bytes 23.8 MB
+    [ALLOC_CACHEOBJECTS_THREAD]
+      Peak usage frame count: [32.0 MB-64.0 MB]: 20734 frames, [64.0 MB-128.0 MB]: 34719 frames, [128.0 MB-256.0 MB]: 135 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 37
+      Peak Allocated memory 215.9 MB
+      Peak Large allocation bytes 84.3 MB
+[ALLOC_TYPETREE] Dual Thread Allocator
+  Peak main deferred allocation count 0
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 10 Subsections = 10240 buckets. Failed count: 11429665
+        32B: 29 Subsections = 14848 buckets. Failed count: 2997968
+        48B: 35 Subsections = 11946 buckets. Failed count: 17547865
+        64B: 61 Subsections = 15616 buckets. Failed count: 699805
+        80B: 37 Subsections = 7577 buckets. Failed count: 260524
+        96B: 25 Subsections = 4266 buckets. Failed count: 2398953
+        112B: 30 Subsections = 4388 buckets. Failed count: 47150
+        128B: 29 Subsections = 3712 buckets. Failed count: 64620
+    [ALLOC_TYPETREE_MAIN]
+      Peak usage frame count: [4.0 KB-8.0 KB]: 128 frames, [8.0 KB-16.0 KB]: 55460 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 1
+      Peak Allocated memory 11.8 KB
+      Peak Large allocation bytes 0 B
+    [ALLOC_TYPETREE_THREAD]
+      Peak usage frame count: [32.0 KB-64.0 KB]: 55588 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 1
+      Peak Allocated memory 48.7 KB
+      Peak Large allocation bytes 0 B

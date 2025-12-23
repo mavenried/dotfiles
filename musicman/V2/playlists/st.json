@@ -1,6 +1,5 @@
 {
-  "id": "e26f23d2-1afb-58a9-9558-8c1494eb9f98",
-  "title": "Sleep Token",
+  "title": "st",
   "songs": [
     {
       "id": "ecb89d0f-ac0b-5f06-97a8-d34d20eda6e8",
@@ -8,10 +7,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 214,
-        "nanos": 151000000
-      }
+      "duration": 214,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - Alkaline.mp3"
     },
     {
       "id": "ba24ee42-eb36-509b-8f8a-2617d9984ad3",
@@ -19,10 +16,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 214,
-        "nanos": 127000000
-      }
+      "duration": 214,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - Alkaline - Instrumental.mp3"
     },
     {
       "id": "e8445ab0-1980-54eb-95fc-7ad1bba4401a",
@@ -30,10 +25,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 236,
-        "nanos": 63000000
-      }
+      "duration": 236,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - Aqua Regia.mp3"
     },
     {
       "id": "830dac18-c6c8-5b2d-b1c6-b299b5a52395",
@@ -41,10 +34,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 306,
-        "nanos": 863000000
-      }
+      "duration": 307,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - Are You Really Okay.mp3"
     },
     {
       "id": "a42e2a98-a21c-5c31-bbcd-dcc13d1d86ae",
@@ -52,10 +43,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 428,
-        "nanos": 759000000
-      }
+      "duration": 429,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - Ascensionism.mp3"
     },
     {
       "id": "1a2b4570-2a9c-5e32-a761-096fc6d14c79",
@@ -63,10 +52,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 293,
-        "nanos": 40000000
-      }
+      "duration": 293,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - Atlantic.mp3"
     },
     {
       "id": "8c11dbdd-0209-51f9-87ef-ef868fe844e4",
@@ -74,10 +61,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 292,
-        "nanos": 608000000
-      }
+      "duration": 293,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - Atlantic - Instrumental.mp3"
     },
     {
       "id": "6ea109fe-91c4-559f-aa77-f33990015e8b",
@@ -85,10 +70,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 247,
-        "nanos": 223000000
-      }
+      "duration": 247,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - Blood Sport.mp3"
     },
     {
       "id": "a6fdd0d2-0558-5bd3-9b6e-9cda5738b5cb",
@@ -96,10 +79,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 247,
-        "nanos": 415000000
-      }
+      "duration": 247,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - Blood Sport - Instrumental.mp3"
     },
     {
       "id": "74a6ddc4-c945-5e29-be7b-2bc03b3f9949",
@@ -107,10 +88,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 255,
-        "nanos": 192000000
-      }
+      "duration": 255,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - Blood Sport - from the room below.mp3"
     },
     {
       "id": "8f886c21-0c38-5ae0-8585-5b11afe3b734",
@@ -118,10 +97,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 413,
-        "nanos": 711000000
-      }
+      "duration": 414,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - Calcutta.mp3"
     },
     {
       "id": "081f6329-1e03-54ae-a52f-445abcad111f",
@@ -129,10 +106,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 290,
-        "nanos": 136000000
-      }
+      "duration": 290,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - Caramel.mp3"
     },
     {
       "id": "c556e5c7-1f20-54b3-8f05-6f3ffe138702",
@@ -140,10 +115,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 304,
-        "nanos": 55000000
-      }
+      "duration": 304,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - Chokehold.mp3"
     },
     {
       "id": "d4bf7984-bead-5349-ae23-be0aaa721f62",
@@ -151,10 +124,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 240,
-        "nanos": 768000000
-      }
+      "duration": 241,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - DYWTYLM.mp3"
     },
     {
       "id": "c0dab1cd-c6d9-5223-a0da-dc0d4fd97646",
@@ -162,10 +133,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 264,
-        "nanos": 863000000
-      }
+      "duration": 265,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - Damocles.mp3"
     },
     {
       "id": "a9bfbee4-957d-5ad7-9325-f265782b2041",
@@ -173,10 +142,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 251,
-        "nanos": 400000000
-      }
+      "duration": 251,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - Dangerous.mp3"
     },
     {
       "id": "3bcd4b70-e2ad-54a8-9e48-cfb7dbbeba55",
@@ -184,10 +151,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 268,
-        "nanos": 439000000
-      }
+      "duration": 268,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - Dark Signs.mp3"
     },
     {
       "id": "90a24067-1dd2-50b5-98da-1248ae7a1065",
@@ -195,10 +160,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 302,
-        "nanos": 567000000
-      }
+      "duration": 303,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - Dark Signs - Instrumental.mp3"
     },
     {
       "id": "acdf1ccb-6f1a-5850-937c-5e6151d156d4",
@@ -206,10 +169,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 278,
-        "nanos": 136000000
-      }
+      "duration": 278,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - Descending.mp3"
     },
     {
       "id": "9d8607ad-1e2b-59e7-8806-52e27c2401da",
@@ -217,10 +178,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 279,
-        "nanos": 384000000
-      }
+      "duration": 279,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - Descending - Instrumental.mp3"
     },
     {
       "id": "66866ba2-f3b3-5dfa-948d-bfff977ae54e",
@@ -228,10 +187,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 262,
-        "nanos": 439000000
-      }
+      "duration": 262,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - Distraction.mp3"
     },
     {
       "id": "d7cdbd79-1213-5199-bb11-f6f80ebac4ba",
@@ -239,10 +196,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 262,
-        "nanos": 439000000
-      }
+      "duration": 262,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - Distraction - Instrumental.mp3"
     },
     {
       "id": "16b7446d-b1c4-5c1d-93e8-6d687a93e68e",
@@ -250,10 +205,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 236,
-        "nanos": 783000000
-      }
+      "duration": 237,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - Drag Me Under.mp3"
     },
     {
       "id": "40659064-612f-5744-bffb-830b4a011d3e",
@@ -261,21 +214,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 256,
-        "nanos": 31000000
-      }
-    },
-    {
-      "id": "1d6f1dee-0390-5c86-ab7d-6743b175ea2b",
-      "title": "Emergence",
-      "artists": [
-        "Sleep Token"
-      ],
-      "duration": {
-        "secs": 386,
-        "nanos": 279000000
-      }
+      "duration": 256,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - Drag Me Under - Instrumental.mp3"
     },
     {
       "id": "298412bd-8d9c-5287-82d1-a518fb799cc4",
@@ -283,10 +223,17 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 386,
-        "nanos": 351000000
-      }
+      "duration": 386,
+      "path": "/home/mavenried/Music/All/Sleep Token - Emergence.mp3"
+    },
+    {
+      "id": "1d6f1dee-0390-5c86-ab7d-6743b175ea2b",
+      "title": "Emergence",
+      "artists": [
+        "Sleep Token"
+      ],
+      "duration": 386,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - Emergence.mp3"
     },
     {
       "id": "3bc44cef-985b-5dff-a343-336deb0c2d8a",
@@ -294,10 +241,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 313,
-        "nanos": 391000000
-      }
+      "duration": 313,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - Euclid.mp3"
     },
     {
       "id": "58adf120-fbab-5094-a59d-7c334ffd8a87",
@@ -305,10 +250,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 268,
-        "nanos": 415000000
-      }
+      "duration": 268,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - Even In Arcadia.mp3"
     },
     {
       "id": "449e37ed-8e9f-53ab-a286-0b0152d52259",
@@ -316,10 +259,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 146,
-        "nanos": 256000000
-      }
+      "duration": 146,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - Fall For Me.mp3"
     },
     {
       "id": "c9cc44e6-d2cf-5a6a-a776-706b00d00684",
@@ -327,10 +268,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 271,
-        "nanos": 295000000
-      }
+      "duration": 271,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - Fields of Elation.mp3"
     },
     {
       "id": "5ac3a75b-7ef8-501f-8480-7504e221ab0f",
@@ -338,10 +277,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 383,
-        "nanos": 423000000
-      }
+      "duration": 383,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - Gethsemane.mp3"
     },
     {
       "id": "45b90458-e633-591c-99cd-851d90093435",
@@ -349,10 +286,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 236,
-        "nanos": 352000000
-      }
+      "duration": 236,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - Give.mp3"
     },
     {
       "id": "2ac5954e-20ef-5f7d-9b2a-1fd176c2e5fa",
@@ -360,10 +295,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 235,
-        "nanos": 319000000
-      }
+      "duration": 235,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - Give - Instrumental.mp3"
     },
     {
       "id": "e91dc7f4-8fab-5916-ab14-62f1ee93bd20",
@@ -371,10 +304,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 205,
-        "nanos": 512000000
-      }
+      "duration": 206,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - Gods.mp3"
     },
     {
       "id": "49ceaf26-87dd-5e4e-8355-ee14abadd386",
@@ -382,10 +313,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 206,
-        "nanos": 328000000
-      }
+      "duration": 206,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - Gods - Instrumental.mp3"
     },
     {
       "id": "4d3e9cd2-dd87-5eb7-a7ba-9199d6f7383f",
@@ -393,10 +322,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 225,
-        "nanos": 455000000
-      }
+      "duration": 225,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - Granite.mp3"
     },
     {
       "id": "44f20428-de5e-5ea7-a3ba-8357d709a365",
@@ -404,10 +331,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 188,
-        "nanos": 39000000
-      }
+      "duration": 188,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - Hey Ya.mp3"
     },
     {
       "id": "98948a08-7eb7-5f23-be31-831f768d4065",
@@ -415,10 +340,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 313,
-        "nanos": 319000000
-      }
+      "duration": 313,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - High Water.mp3"
     },
     {
       "id": "37d0324e-0dba-54f5-bffa-43ccd7a1eecb",
@@ -426,10 +349,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 313,
-        "nanos": 319000000
-      }
+      "duration": 313,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - High Water - Instrumental.mp3"
     },
     {
       "id": "04c75740-ddb9-5164-a31b-e2499891cb73",
@@ -437,10 +358,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 321,
-        "nanos": 744000000
-      }
+      "duration": 322,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - Higher.mp3"
     },
     {
       "id": "dfdb5a03-05cb-549c-8c42-218a2cf243d2",
@@ -448,10 +367,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 327,
-        "nanos": 312000000
-      }
+      "duration": 327,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - Higher - Instrumental.mp3"
     },
     {
       "id": "abb2ff48-4ecc-5102-aa3e-e2537ca38169",
@@ -459,10 +376,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 336,
-        "nanos": 0
-      }
+      "duration": 336,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - Hypnosis.mp3"
     },
     {
       "id": "ba1c07d2-1910-55a2-9ec2-ce1de7f42819",
@@ -470,10 +385,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 335,
-        "nanos": 975000000
-      }
+      "duration": 336,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - Hypnosis - Instrumental.mp3"
     },
     {
       "id": "59b6e224-e994-5ba9-9084-edf3ba7ea48e",
@@ -481,10 +394,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 169,
-        "nanos": 32000000
-      }
+      "duration": 169,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - I Wanna Dance With Somebody - from the room below.mp3"
     },
     {
       "id": "77ff176e-12aa-5664-a736-1d350e7a95cd",
@@ -492,10 +403,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 503,
-        "nanos": 303000000
-      }
+      "duration": 503,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - Infinite Baths.mp3"
     },
     {
       "id": "7db27b0a-e626-5d97-a6c8-39c04b790ff1",
@@ -504,10 +413,8 @@
         "Sleep Token",
         "Loathe"
       ],
-      "duration": {
-        "secs": 279,
-        "nanos": 624000000
-      }
+      "duration": 280,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token, Loathe - Is It Really You.mp3"
     },
     {
       "id": "94fa95a7-8a6f-5f61-a4a1-d8ca14493bf3",
@@ -515,10 +422,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 355,
-        "nanos": 343000000
-      }
+      "duration": 355,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - Jaws.mp3"
     },
     {
       "id": "5b43ed4f-10ce-5737-b223-3c8a4ff85839",
@@ -526,10 +431,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 317,
-        "nanos": 136000000
-      }
+      "duration": 317,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - Jericho.mp3"
     },
     {
       "id": "28465de6-4b2e-565c-96d7-44d52e4dfc6a",
@@ -537,10 +440,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 298,
-        "nanos": 487000000
-      }
+      "duration": 298,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - Levitate.mp3"
     },
     {
       "id": "1d0be725-8a99-5743-972e-dadead19c4eb",
@@ -548,10 +449,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 324,
-        "nanos": 408000000
-      }
+      "duration": 324,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - Levitate - Instrumental.mp3"
     },
     {
       "id": "847b44d8-fcdb-53b1-94a2-e905964c3ae5",
@@ -559,10 +458,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 214,
-        "nanos": 943000000
-      }
+      "duration": 215,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - Like That.mp3"
     },
     {
       "id": "2f7fa8c5-478e-57e9-a84e-f1dfa848bb8d",
@@ -570,10 +467,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 214,
-        "nanos": 919000000
-      }
+      "duration": 215,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - Like That - Instrumental.mp3"
     },
     {
       "id": "7a42ec07-3cd3-5119-b288-e9e5613da616",
@@ -581,10 +476,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 466,
-        "nanos": 487000000
-      }
+      "duration": 466,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - Look To Windward.mp3"
     },
     {
       "id": "5777caae-8238-5415-8143-b565efc2f3a2",
@@ -592,10 +485,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 296,
-        "nanos": 567000000
-      }
+      "duration": 297,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - Mine.mp3"
     },
     {
       "id": "7229f913-27cd-563c-869c-8e77fd4eb021",
@@ -603,10 +494,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 296,
-        "nanos": 711000000
-      }
+      "duration": 297,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - Mine - Instrumental.mp3"
     },
     {
       "id": "9c15adee-902e-533a-9bcc-185d947a3160",
@@ -614,10 +503,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 200,
-        "nanos": 975000000
-      }
+      "duration": 201,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - Missing Limbs.mp3"
     },
     {
       "id": "aafcf5b4-547d-5c8a-8983-1ad02db1706b",
@@ -625,10 +512,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 336,
-        "nanos": 863000000
-      }
+      "duration": 337,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - Nazareth.mp3"
     },
     {
       "id": "f7745888-d8da-5548-b478-6fad32c20e4d",
@@ -636,10 +521,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 214,
-        "nanos": 680000000
-      }
+      "duration": 215,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - Past Self.mp3"
     },
     {
       "id": "f8c6eb5a-d335-5322-8bb4-5e308d5e7751",
@@ -647,10 +530,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 365,
-        "nanos": 951000000
-      }
+      "duration": 366,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - Provider.mp3"
     },
     {
       "id": "880cd158-8d49-5e64-aad6-2395e8146f57",
@@ -658,10 +539,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 252,
-        "nanos": 192000000
-      }
+      "duration": 252,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - Rain.mp3"
     },
     {
       "id": "fe3bb8f7-3547-5132-9e73-c21635040bc3",
@@ -669,10 +548,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 303,
-        "nanos": 96000000
-      }
+      "duration": 303,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - Say That You Will.mp3"
     },
     {
       "id": "313b5b53-c16b-50b7-8677-79a213c2d4d0",
@@ -680,10 +557,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 332,
-        "nanos": 64000000
-      }
+      "duration": 332,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - Say That You Will - Instrumental.mp3"
     },
     {
       "id": "dc23ef58-8bbd-508d-89f3-785417d447d6",
@@ -691,10 +566,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 192,
-        "nanos": 264000000
-      }
+      "duration": 192,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - Shelter - from the room below.mp3"
     },
     {
       "id": "dbe6adf3-c99c-5882-b70b-329fecbb22e2",
@@ -702,10 +575,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 292,
-        "nanos": 31000000
-      }
+      "duration": 292,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - Sugar.mp3"
     },
     {
       "id": "f0eafb06-c126-5ae3-aed8-8a7e6e9cfc53",
@@ -713,10 +584,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 314,
-        "nanos": 783000000
-      }
+      "duration": 315,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - Sugar - Instrumental.mp3"
     },
     {
       "id": "492dcd2f-b4a4-55ea-aa19-8eb301cacc54",
@@ -724,10 +593,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 219,
-        "nanos": 503000000
-      }
+      "duration": 220,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - Take Aim.mp3"
     },
     {
       "id": "3ef249ba-2a45-5ddf-a042-736a14d60a77",
@@ -735,10 +602,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 221,
-        "nanos": 424000000
-      }
+      "duration": 221,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - Take Aim - Instrumental.mp3"
     },
     {
       "id": "0aac4dc0-b708-5b0c-bb6c-5e2564eb2a1c",
@@ -746,10 +611,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 500,
-        "nanos": 160000000
-      }
+      "duration": 500,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - Take Me Back To Eden.mp3"
     },
     {
       "id": "93b8e827-7895-53c5-89f3-04651682de0d",
@@ -757,10 +620,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 307,
-        "nanos": 512000000
-      }
+      "duration": 308,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - Telomeres.mp3"
     },
     {
       "id": "29608c8b-1adf-5d8d-b65f-b641374a3755",
@@ -768,10 +629,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 306,
-        "nanos": 264000000
-      }
+      "duration": 306,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - Telomeres - Instrumental.mp3"
     },
     {
       "id": "b11bce1e-6659-5a65-ab32-d06f4ef99582",
@@ -779,10 +638,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 268,
-        "nanos": 199000000
-      }
+      "duration": 268,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - The Apparition.mp3"
     },
     {
       "id": "6b2660d9-0dff-591d-a833-76c54e10c6ce",
@@ -790,10 +647,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 263,
-        "nanos": 351000000
-      }
+      "duration": 263,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - The Love You Want.mp3"
     },
     {
       "id": "9d1efacc-c7c2-5e63-add0-3c7c4ae24c66",
@@ -801,10 +656,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 263,
-        "nanos": 232000000
-      }
+      "duration": 263,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - The Love You Want - Instrumental.mp3"
     },
     {
       "id": "936697e2-60f3-59e3-b643-61f12369a449",
@@ -812,10 +665,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 303,
-        "nanos": 552000000
-      }
+      "duration": 304,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - The Night Does Not Belong To God.mp3"
     },
     {
       "id": "e3ee5d04-3aee-530b-a944-4ca6faaa2b94",
@@ -823,10 +674,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 349,
-        "nanos": 680000000
-      }
+      "duration": 350,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - The Offering.mp3"
     },
     {
       "id": "eee2fa54-4c59-5a15-8c5a-e327def3bba1",
@@ -834,10 +683,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 369,
-        "nanos": 815000000
-      }
+      "duration": 370,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - The Offering - Instrumental.mp3"
     },
     {
       "id": "1e6a4e02-8026-51a9-ab4c-76772f363bf7",
@@ -845,10 +692,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 395,
-        "nanos": 759000000
-      }
+      "duration": 396,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - The Summoning.mp3"
     },
     {
       "id": "355938b7-1187-5955-9362-c1dc843813fc",
@@ -856,10 +701,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 183,
-        "nanos": 671000000
-      }
+      "duration": 184,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - The Way That You Were.mp3"
     },
     {
       "id": "16d51154-de09-578c-b395-784143f5b309",
@@ -867,10 +710,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 396,
-        "nanos": 24000000
-      }
+      "duration": 396,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - Thread the Needle.mp3"
     },
     {
       "id": "31e77249-f1d6-5661-a858-b073056c21bd",
@@ -878,10 +719,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 339,
-        "nanos": 648000000
-      }
+      "duration": 340,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - Vore.mp3"
     },
     {
       "id": "618f0af7-b51f-58a4-b705-c31ee1fa9e58",
@@ -889,10 +728,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 146,
-        "nanos": 448000000
-      }
+      "duration": 146,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - When The Party's Over - from the room below.mp3"
     },
     {
       "id": "d1a1df58-5b79-5594-aa6b-e6ecc950eb7a",
@@ -900,10 +737,8 @@
       "artists": [
         "Sleep Token"
       ],
-      "duration": {
-        "secs": 455,
-        "nanos": 519000000
-      }
+      "duration": 456,
+      "path": "/home/mavenried/Music/Artists/SleepToken/Sleep Token - When the Bough Breaks.mp3"
     }
   ]
 }

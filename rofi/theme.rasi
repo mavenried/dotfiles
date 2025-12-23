@@ -1,10 +1,10 @@
 * {
-    bg-col-no-alpha: #181825;
-    bg-col:  hsla(240, 21%, 12%, 50%);
-    bg-col-light: #11111b;
-    border-col: #cba6f7;
-    selected-col: #11111b;
-    blue: #cba6f7;
+    bg-col-no-alpha: #282828;
+    bg-col:  hsla(0, 0, 16%, 50%);
+    bg-col-light: #181818;
+    border-col: #d3869b;
+    selected-col: #181818;
+    blue: #d3869b;
     fg-col: #cdd6f4;
     fg-col2: #cdd6f4;
     grey: #ffffff;

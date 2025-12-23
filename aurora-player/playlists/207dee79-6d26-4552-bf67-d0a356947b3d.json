@@ -1,0 +1,576 @@
+{
+  "id": "207dee79-6d26-4552-bf67-d0a356947b3d",
+  "title": "HACHI",
+  "songs": [
+    {
+      "id": "860e5f2c-21ba-5bb9-a7ac-e407b0cbb9e7",
+      "title": "20",
+      "artists": [
+        "HACHI"
+      ],
+      "duration": {
+        "secs": 218,
+        "nanos": 280000000
+      }
+    },
+    {
+      "id": "99ea6445-db20-51cf-9ded-12a1836f413c",
+      "title": "Admit",
+      "artists": [
+        "VESPERBELL",
+        "HACHI"
+      ],
+      "duration": {
+        "secs": 246,
+        "nanos": 431000000
+      }
+    },
+    {
+      "id": "40cd1df7-eb5f-5ca9-ab93-2fbac24ce93b",
+      "title": "Bath time planetarium",
+      "artists": [
+        "HACHI"
+      ],
+      "duration": {
+        "secs": 258,
+        "nanos": 480000000
+      }
+    },
+    {
+      "id": "d985d5c4-8ce3-5a14-81a2-08760c9ce6ef",
+      "title": "Brand New Episode",
+      "artists": [
+        "HACHI"
+      ],
+      "duration": {
+        "secs": 231,
+        "nanos": 671000000
+      }
+    },
+    {
+      "id": "66694c68-f1ba-5481-9d2f-3d24b6f237d7",
+      "title": "Bye-bye, Teddy bear",
+      "artists": [
+        "HACHI"
+      ],
+      "duration": {
+        "secs": 229,
+        "nanos": 536000000
+      }
+    },
+    {
+      "id": "dec2b76c-92ea-5e7f-9a7e-7069f6fa374e",
+      "title": "ByeBye, teddy bear - Acoustic Live",
+      "artists": [
+        "HACHI"
+      ],
+      "duration": {
+        "secs": 226,
+        "nanos": 560000000
+      }
+    },
+    {
+      "id": "32493203-e6ee-59ce-a1b7-3cba422e238a",
+      "title": "DIVE",
+      "artists": [
+        "HACHI"
+      ],
+      "duration": {
+        "secs": 200,
+        "nanos": 111000000
+      }
+    },
+    {
+      "id": "58ab93f6-5ee3-5bda-90bf-6dcdae9f23f5",
+      "title": "DOMINATOR",
+      "artists": [
+        "BOOGEY VOXX",
+        "HACHI"
+      ],
+      "duration": {
+        "secs": 205,
+        "nanos": 584000000
+      }
+    },
+    {
+      "id": "dadf52a0-8dc2-506e-9f82-98a4e9cf0923",
+      "title": "Deep Sleep Sheep",
+      "artists": [
+        "HACHI"
+      ],
+      "duration": {
+        "secs": 218,
+        "nanos": 663000000
+      }
+    },
+    {
+      "id": "654e5898-30e0-5b10-a6dc-c2aabaa93067",
+      "title": "Dusk",
+      "artists": [
+        "HACHI"
+      ],
+      "duration": {
+        "secs": 193,
+        "nanos": 704000000
+      }
+    },
+    {
+      "id": "2b606acf-3cfa-5fff-9766-454781e4aea4",
+      "title": "Fiction",
+      "artists": [
+        "KMNZ",
+        "HACHI"
+      ],
+      "duration": {
+        "secs": 153,
+        "nanos": 216000000
+      }
+    },
+    {
+      "id": "c812e623-068a-5e70-acf2-e5432e5c02c4",
+      "title": "Greyword",
+      "artists": [
+        "HACHI"
+      ],
+      "duration": {
+        "secs": 249,
+        "nanos": 360000000
+      }
+    },
+    {
+      "id": "59bca613-f595-59ee-9602-931051f00c73",
+      "title": "Greyword 'off vocal'",
+      "artists": [
+        "VISUAL ARTS",
+        "team Aeca",
+        "HACHI"
+      ],
+      "duration": {
+        "secs": 249,
+        "nanos": 360000000
+      }
+    },
+    {
+      "id": "d2ec4ea5-e70c-5648-8540-c3d3a3d65c4c",
+      "title": "Greyword - Acoustic Live",
+      "artists": [
+        "HACHI"
+      ],
+      "duration": {
+        "secs": 245,
+        "nanos": 352000000
+      }
+    },
+    {
+      "id": "3c6e93a3-ee7d-5a84-b08b-f00a55d3188a",
+      "title": "HONEY BEES",
+      "artists": [
+        "HACHI"
+      ],
+      "duration": {
+        "secs": 262,
+        "nanos": 848000000
+      }
+    },
+    {
+      "id": "3163955e-2188-53cc-bd83-4ed8a220f687",
+      "title": "HONEY BEES - Acoustic Live",
+      "artists": [
+        "HACHI"
+      ],
+      "duration": {
+        "secs": 267,
+        "nanos": 24000000
+      }
+    },
+    {
+      "id": "a23f463d-5efb-58e1-8890-907210af2bad",
+      "title": "Hachigatsu no Hotaru",
+      "artists": [
+        "HACHI"
+      ],
+      "duration": {
+        "secs": 266,
+        "nanos": 735000000
+      }
+    },
+    {
+      "id": "218f16bb-98cb-5b5a-8de6-d336721b2a90",
+      "title": "Happy End",
+      "artists": [
+        "BOOGEY VOXX",
+        "HACHI"
+      ],
+      "duration": {
+        "secs": 351,
+        "nanos": 648000000
+      }
+    },
+    {
+      "id": "9741d1be-7aa7-5dbc-981d-959419d97ea7",
+      "title": "Hikari no Mukoue",
+      "artists": [
+        "HACHI"
+      ],
+      "duration": {
+        "secs": 326,
+        "nanos": 399000000
+      }
+    },
+    {
+      "id": "e7f1a8c4-bef4-52f2-b28b-01022b90d9de",
+      "title": "Hikari no Mukoue - Piano ver.",
+      "artists": [
+        "HACHI"
+      ],
+      "duration": {
+        "secs": 342,
+        "nanos": 720000000
+      }
+    },
+    {
+      "id": "54d074bc-9b46-51ec-85be-1e9c4cd630cb",
+      "title": "Introduction",
+      "artists": [
+        "BOOGEY VOXX",
+        "HACHI"
+      ],
+      "duration": {
+        "secs": 65,
+        "nanos": 447000000
+      }
+    },
+    {
+      "id": "48f76714-9f7a-5e06-8b8e-ebbf27d01084",
+      "title": "Level off",
+      "artists": [
+        "HACHI"
+      ],
+      "duration": {
+        "secs": 239,
+        "nanos": 951000000
+      }
+    },
+    {
+      "id": "4461fe07-0d6f-515f-aa32-96cab081b194",
+      "title": "Manazashi - Acoustic Live",
+      "artists": [
+        "HACHI"
+      ],
+      "duration": {
+        "secs": 326,
+        "nanos": 232000000
+      }
+    },
+    {
+      "id": "7d51ad0f-66d2-5e4e-b45f-f6bfbece8390",
+      "title": "Natsutourou",
+      "artists": [
+        "HACHI"
+      ],
+      "duration": {
+        "secs": 254,
+        "nanos": 616000000
+      }
+    },
+    {
+      "id": "eaf4714c-0405-5f8b-8503-36f3bbf380bf",
+      "title": "Pale Blue Dot",
+      "artists": [
+        "HACHI"
+      ],
+      "duration": {
+        "secs": 254,
+        "nanos": 855000000
+      }
+    },
+    {
+      "id": "044d5d4e-5b33-55e9-8ed4-2f7eb32320cc",
+      "title": "Pray a LOVE (feat. HACHI)",
+      "artists": [
+        "BOOGEY VOXX",
+        "HACHI"
+      ],
+      "duration": {
+        "secs": 304,
+        "nanos": 800000000
+      }
+    },
+    {
+      "id": "989ff3eb-a4fa-5ac5-8e00-e764eec685bb",
+      "title": "Rainy proof",
+      "artists": [
+        "HACHI"
+      ],
+      "duration": {
+        "secs": 269,
+        "nanos": 519000000
+      }
+    },
+    {
+      "id": "07042614-2ba1-538a-b464-dff222375cde",
+      "title": "Rainy proof (feat. BOOGEY VOXX)",
+      "artists": [
+        "HACHI",
+        "BOOGEY VOXX"
+      ],
+      "duration": {
+        "secs": 266,
+        "nanos": 975000000
+      }
+    },
+    {
+      "id": "fe145c05-a698-529c-a9d6-03ca8738c7fd",
+      "title": "Rainy proof - Acoustic Live",
+      "artists": [
+        "HACHI"
+      ],
+      "duration": {
+        "secs": 323,
+        "nanos": 423000000
+      }
+    },
+    {
+      "id": "36507d94-2c4d-540d-b0cf-078397d34bd9",
+      "title": "Rainy proof - Acoustic ver.",
+      "artists": [
+        "HACHI"
+      ],
+      "duration": {
+        "secs": 277,
+        "nanos": 295000000
+      }
+    },
+    {
+      "id": "ac09db5c-0337-5ec9-9b9d-93230d7b8fb7",
+      "title": "Sayonara frequency - Acoustic Live",
+      "artists": [
+        "HACHI"
+      ],
+      "duration": {
+        "secs": 176,
+        "nanos": 280000000
+      }
+    },
+    {
+      "id": "e0ebad63-e281-5022-a192-5dbf439a5806",
+      "title": "Te aman Te odian",
+      "artists": [
+        "HACHI"
+      ],
+      "duration": {
+        "secs": 166,
+        "nanos": 919000000
+      }
+    },
+    {
+      "id": "e3da6c12-bae6-51f4-9113-72eb01b0afcd",
+      "title": "To Be Alive",
+      "artists": [
+        "HACHI"
+      ],
+      "duration": {
+        "secs": 246,
+        "nanos": 503000000
+      }
+    },
+    {
+      "id": "cacb3f93-5625-526d-8c42-874d6900fc9f",
+      "title": "Twilight Line",
+      "artists": [
+        "HACHI"
+      ],
+      "duration": {
+        "secs": 248,
+        "nanos": 256000000
+      }
+    },
+    {
+      "id": "5e0f753d-ae20-5e5a-a372-f20466816a00",
+      "title": "Twilight Line - Acoustic Live",
+      "artists": [
+        "HACHI"
+      ],
+      "duration": {
+        "secs": 239,
+        "nanos": 256000000
+      }
+    },
+    {
+      "id": "380f8edc-8f52-5cb9-8990-5d3d09e317b5",
+      "title": "VESTIGIA",
+      "artists": [
+        "HACHI"
+      ],
+      "duration": {
+        "secs": 223,
+        "nanos": 776000000
+      }
+    },
+    {
+      "id": "c11be8bf-2e79-54a0-b1f0-ccadeab979ee",
+      "title": "Weekend milk",
+      "artists": [
+        "HACHI"
+      ],
+      "duration": {
+        "secs": 256,
+        "nanos": 295000000
+      }
+    },
+    {
+      "id": "f7b071be-7206-57d6-a750-27bc58ca722d",
+      "title": "Yomaigoto",
+      "artists": [
+        "HACHI"
+      ],
+      "duration": {
+        "secs": 247,
+        "nanos": 632000000
+      }
+    },
+    {
+      "id": "7a67e6b0-1fef-55ac-bd6d-69a100f145fd",
+      "title": "fragment",
+      "artists": [
+        "HACHI"
+      ],
+      "duration": {
+        "secs": 255,
+        "nanos": 575000000
+      }
+    },
+    {
+      "id": "1ba72d13-7289-5427-a64c-744164b7357d",
+      "title": "itsumademo",
+      "artists": [
+        "HACHI"
+      ],
+      "duration": {
+        "secs": 230,
+        "nanos": 807000000
+      }
+    },
+    {
+      "id": "185d1e2e-f16a-5f06-8e02-ce5256a48291",
+      "title": "line, sphere, dot.",
+      "artists": [
+        "HACHI"
+      ],
+      "duration": {
+        "secs": 57,
+        "nanos": 0
+      }
+    },
+    {
+      "id": "ce3ab528-922a-5ec6-8c8c-72706dad6f14",
+      "title": "manazashi",
+      "artists": [
+        "HACHI"
+      ],
+      "duration": {
+        "secs": 317,
+        "nanos": 783000000
+      }
+    },
+    {
+      "id": "5123d5ab-47cb-5d6c-aed1-b3f27c42adee",
+      "title": "sayonara frequency",
+      "artists": [
+        "HACHI"
+      ],
+      "duration": {
+        "secs": 185,
+        "nanos": 472000000
+      }
+    },
+    {
+      "id": "4e31d9e4-b32e-58ff-b6ca-12b9520079e2",
+      "title": "soragamatteru",
+      "artists": [
+        "HACHI"
+      ],
+      "duration": {
+        "secs": 327,
+        "nanos": 839000000
+      }
+    },
+    {
+      "id": "9b60b916-d9d5-52b8-9072-6dec3f792a5e",
+      "title": "√64",
+      "artists": [
+        "HACHI"
+      ],
+      "duration": {
+        "secs": 182,
+        "nanos": 183000000
+      }
+    },
+    {
+      "id": "4d3d4513-8b9e-5a22-9843-bf14429e8e78",
+      "title": "スウィングバイ",
+      "artists": [
+        "HACHI"
+      ],
+      "duration": {
+        "secs": 209,
+        "nanos": 544000000
+      }
+    },
+    {
+      "id": "8f251242-5bc9-514e-a1fb-e48ed2ceea96",
+      "title": "レコードのように",
+      "artists": [
+        "HACHI"
+      ],
+      "duration": {
+        "secs": 191,
+        "nanos": 400000000
+      }
+    },
+    {
+      "id": "b0b86a48-be7b-52b1-bc1f-6e5dd8509d66",
+      "title": "万有引力",
+      "artists": [
+        "HACHI"
+      ],
+      "duration": {
+        "secs": 222,
+        "nanos": 120000000
+      }
+    },
+    {
+      "id": "36989a02-791b-5676-bfff-024f6038118e",
+      "title": "万華鏡",
+      "artists": [
+        "HACHI"
+      ],
+      "duration": {
+        "secs": 249,
+        "nanos": 840000000
+      }
+    },
+    {
+      "id": "f4dfa0b4-5f96-5d40-b21f-fba408878476",
+      "title": "檻",
+      "artists": [
+        "HACHI"
+      ],
+      "duration": {
+        "secs": 221,
+        "nanos": 831000000
+      }
+    },
+    {
+      "id": "45ed62b2-c016-56f8-99b2-546faacd47af",
+      "title": "異星から",
+      "artists": [
+        "HACHI"
+      ],
+      "duration": {
+        "secs": 200,
+        "nanos": 711000000
+      }
+    }
+  ]
+}
