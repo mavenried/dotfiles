@@ -1,0 +1,138 @@
+{
+  "id": "59a9d4f3-d35a-4cc3-a118-08a0ad4d7988",
+  "title": "for ASTRA.",
+  "songs": [
+    {
+      "id": "654e5898-30e0-5b10-a6dc-c2aabaa93067",
+      "title": "Dusk",
+      "artists": [
+        "HACHI"
+      ],
+      "duration": {
+        "secs": 193,
+        "nanos": 704000000
+      }
+    },
+    {
+      "id": "eaf4714c-0405-5f8b-8503-36f3bbf380bf",
+      "title": "Pale Blue Dot",
+      "artists": [
+        "HACHI"
+      ],
+      "duration": {
+        "secs": 254,
+        "nanos": 855000000
+      }
+    },
+    {
+      "id": "380f8edc-8f52-5cb9-8990-5d3d09e317b5",
+      "title": "VESTIGIA",
+      "artists": [
+        "HACHI"
+      ],
+      "duration": {
+        "secs": 223,
+        "nanos": 776000000
+      }
+    },
+    {
+      "id": "7a67e6b0-1fef-55ac-bd6d-69a100f145fd",
+      "title": "fragment",
+      "artists": [
+        "HACHI"
+      ],
+      "duration": {
+        "secs": 255,
+        "nanos": 575000000
+      }
+    },
+    {
+      "id": "185d1e2e-f16a-5f06-8e02-ce5256a48291",
+      "title": "line, sphere, dot.",
+      "artists": [
+        "HACHI"
+      ],
+      "duration": {
+        "secs": 57,
+        "nanos": 0
+      }
+    },
+    {
+      "id": "9b60b916-d9d5-52b8-9072-6dec3f792a5e",
+      "title": "√64",
+      "artists": [
+        "HACHI"
+      ],
+      "duration": {
+        "secs": 182,
+        "nanos": 183000000
+      }
+    },
+    {
+      "id": "4d3d4513-8b9e-5a22-9843-bf14429e8e78",
+      "title": "スウィングバイ",
+      "artists": [
+        "HACHI"
+      ],
+      "duration": {
+        "secs": 209,
+        "nanos": 544000000
+      }
+    },
+    {
+      "id": "8f251242-5bc9-514e-a1fb-e48ed2ceea96",
+      "title": "レコードのように",
+      "artists": [
+        "HACHI"
+      ],
+      "duration": {
+        "secs": 191,
+        "nanos": 400000000
+      }
+    },
+    {
+      "id": "b0b86a48-be7b-52b1-bc1f-6e5dd8509d66",
+      "title": "万有引力",
+      "artists": [
+        "HACHI"
+      ],
+      "duration": {
+        "secs": 222,
+        "nanos": 120000000
+      }
+    },
+    {
+      "id": "36989a02-791b-5676-bfff-024f6038118e",
+      "title": "万華鏡",
+      "artists": [
+        "HACHI"
+      ],
+      "duration": {
+        "secs": 249,
+        "nanos": 840000000
+      }
+    },
+    {
+      "id": "f4dfa0b4-5f96-5d40-b21f-fba408878476",
+      "title": "檻",
+      "artists": [
+        "HACHI"
+      ],
+      "duration": {
+        "secs": 221,
+        "nanos": 831000000
+      }
+    },
+    {
+      "id": "45ed62b2-c016-56f8-99b2-546faacd47af",
+      "title": "異星から",
+      "artists": [
+        "HACHI"
+      ],
+      "duration": {
+        "secs": 200,
+        "nanos": 711000000
+      }
+    }
+  ]
+}

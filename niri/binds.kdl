@@ -1,24 +1,24 @@
 binds {
     Mod+Space {
-      spawn-sh "qs ipc call launcher open"
+        spawn-sh "qs ipc call launcher open"
     }
     Mod+Shift+Slash {
         show-hotkey-overlay
     }
     Mod+Q hotkey-overlay-title="Open a Terminal: ghostty" {
-        spawn "ghostty"
+        spawn "ghostty" "+new-window"
     }
     Mod+R hotkey-overlay-title="Run an Application: rofi" {
         spawn "rofi" "-show" "drun"
     }
     Mod+V {
-      toggle-window-floating
+        toggle-window-floating
     }
     Mod+S {
-      spawn "flatpak" "run" "org.spotify.Client"
+        spawn "flatpak" "run" "org.spotify.Client"
     }
     Mod+Shift+S {
-      spawn "ghostty" "-e" "musicman"
+        spawn "ghostty" "-e" "musicman"
     }
     Super+L hotkey-overlay-title="Lock the Screen: hyprlock" {
         spawn "hyprlock"
@@ -191,7 +191,6 @@ binds {
     Mod+Shift+Page_Up {
         move-workspace-up
     }
-    
     Mod+WheelScrollDown cooldown-ms=150 {
         focus-workspace-down
     }
@@ -255,7 +254,6 @@ binds {
     Mod+9 {
         focus-workspace 9
     }
-
     Mod+Shift+1 {
         move-column-to-workspace 1
     }
@@ -335,18 +333,19 @@ binds {
         spawn "zen-browser"
     }
     Mod+N {
-      spawn-sh "qs ipc call notifyd clear"
+        spawn-sh "qs ipc call notifyd clear"
     }
     Mod+E {
         spawn "nautilus"
     }
     Mod+Shift+R {
-      spawn-sh "/mnt/DATA/dots/niri/compile-conf"
+        spawn-sh "/mnt/DATA/dots/niri/compile-conf"
     }
-    Mod+U{
-      spawn-sh "bluetoothctl connect 90:A0:BE:73:C1:81"
+    Mod+U {
+        spawn-sh "bluetoothctl connect 90:A0:BE:73:C1:81"
     }
-    Mod+Shift+U{
-      spawn-sh "bluetoothctl connect 41:42:FF:07:FD:B6"
+    Mod+Shift+U {
+        spawn-sh "bluetoothctl connect 41:42:FF:07:FD:B6"
     }
 }
+

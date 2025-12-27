@@ -4,6 +4,9 @@ line-number = "relative"
 cursorline = true
 color-modes = true
 
+[editor.lsp]
+display-inlay-hints = true
+
 [editor.cursor-shape]
 insert = "bar"
 normal = "block"
