@@ -20,10 +20,10 @@ ns GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_textur
 _attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_meminfo GL_ATI_texture_float GL_ATI_texture_mirror_once GL_EXT_EGL_image_storage GL_EXT_EGL_image_storage_compression GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_debug_label GL_EXT_demote_to_helper_invocation GL_EXT_depth_bounds_test GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_clock GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_t
 exture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_filter_minmax GL_EXT_texture_integer GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_KHR_blend_equation_advanced GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_shader_subgroup GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_const_bandwidth GL_MESA_texture_signed_rgba GL_NVX_gpu_memory_info GL_NV_alpha
 _to_coverage_dither_control GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_packed_depth_stencil GL_NV_shader_atomic_int64 GL_NV_texture_barrier GL_OES_EGL_image GL_S3_s3tc
-OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle 443902176
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle 342335120
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.226 seconds
-- Finished resetting the current domain, in  0.006 seconds
+- Loaded All Assemblies, in  0.118 seconds
+- Finished resetting the current domain, in  0.005 seconds
 [Physics::Module] Selected backend.
 [Physics::Module] Name: PhysX
 [Physics::Module] Id: 0xf2b8ea05
@@ -35,81 +35,53 @@ requesting resize 1920 x 1080
 Using native desktop resolution 1920 x 1080
 requesting fullscreen 1920 x 1080 at 0/1 Hz
 Desktop is 1920 x 1080 @ 60 Hz
-UnloadTime: 0.679855 ms
+UnloadTime: 0.606349 ms
 No online subsystems packaged.
 Unloading 5 Unused Serialized files (Serialized files now loaded: 527)
-UnloadTime: 2.528432 ms
+UnloadTime: 2.348845 ms
 Discovered supported languages: DE, EN, ES, FR, IT, JA, KO, PT, RU, ZH
 Loaded saved language code 'EN'
 Restored language code 'EN'
 Couldn't find a Game Manager, make sure one exists in the scene.
 Couldn't find GameCameras, make sure one exists in the scene.
-Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 5776.
-Total: 7.071222 ms (FindLiveObjects: 0.396444 ms CreateObjectMapping: 0.219111 ms MarkObjects: 6.353095 ms  DeleteObjects: 0.101420 ms)
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 5799.
+Total: 11.794167 ms (FindLiveObjects: 0.545996 ms CreateObjectMapping: 0.228610 ms MarkObjects: 10.926356 ms  DeleteObjects: 0.092634 ms)
 
 Unloading 2 Unused Serialized files (Serialized files now loaded: 527)
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 12994.
-Total: 11.261972 ms (FindLiveObjects: 0.888897 ms CreateObjectMapping: 0.433272 ms MarkObjects: 9.881192 ms  DeleteObjects: 0.058028 ms)
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 13017.
+Total: 16.526131 ms (FindLiveObjects: 0.993607 ms CreateObjectMapping: 0.581153 ms MarkObjects: 14.845512 ms  DeleteObjects: 0.105058 ms)
 
 Unloading 1 Unused Serialized files (Serialized files now loaded: 579)
 Couldn't find GameCameras, make sure one exists in the scene.
 Couldn't find a Game Manager, make sure one exists in the scene.
-UnloadTime: 13.283383 ms
+UnloadTime: 13.628224 ms
+Unable to match controller of name (Generic Controller), will attempt default mapping set.Unknown
 Loaded saved language code 'EN'
 Restored language code 'EN'
-Unloading 73 unused Assets to reduce memory usage. Loaded Objects now: 66256.
-Total: 41.251997 ms (FindLiveObjects: 5.692195 ms CreateObjectMapping: 3.330206 ms MarkObjects: 31.807884 ms  DeleteObjects: 0.421009 ms)
+Unloading 73 unused Assets to reduce memory usage. Loaded Objects now: 66279.
+Total: 52.841646 ms (FindLiveObjects: 6.323606 ms CreateObjectMapping: 3.507582 ms MarkObjects: 42.545985 ms  DeleteObjects: 0.463621 ms)
 
-Unable to match controller of name (Generic Controller), will attempt default mapping set.Unknown
 MenuButton missing flashEffect!
 Making UI menu lean.
 Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
 Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
 Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
-Unloading 3 Unused Serialized files (Serialized files now loaded: 640)
-Unloading 110 unused Assets to reduce memory usage. Loaded Objects now: 132706.
-Total: 82.727823 ms (FindLiveObjects: 10.016665 ms CreateObjectMapping: 5.365973 ms MarkObjects: 65.705318 ms  DeleteObjects: 1.639164 ms)
+Unloading 3 Unused Serialized files (Serialized files now loaded: 568)
+Unloading 270 unused Assets to reduce memory usage. Loaded Objects now: 106349.
+Total: 87.143115 ms (FindLiveObjects: 8.515856 ms CreateObjectMapping: 4.544752 ms MarkObjects: 72.454658 ms  DeleteObjects: 1.627128 ms)
 
 Converting Vertex Colors from Color32 to Color.
 Converting Vertex Colors from Color32 to Color.
 Converting Vertex Colors from Color32 to Color.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 659)
-UnloadTime: 11.770054 ms
-Unloading 9150 unused Assets to reduce memory usage. Loaded Objects now: 121335.
-Total: 163.136835 ms (FindLiveObjects: 10.637149 ms CreateObjectMapping: 5.783697 ms MarkObjects: 85.038886 ms  DeleteObjects: 61.676311 ms)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 654)
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 130867.
-Total: 117.010758 ms (FindLiveObjects: 10.539877 ms CreateObjectMapping: 4.707479 ms MarkObjects: 101.122530 ms  DeleteObjects: 0.640151 ms)
-
-Using fallback 1 to find tilemap. Scene Bellshrine requires manual fixing.
-Cannot set the parent of the GameObject 'Slam Effect' while activating or deactivating the parent GameObject 'Shell Fossil Mimic AppearVariant'.
-Using fallback 1 to find tilemap. Scene Bellshrine requires manual fixing.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 607)
-Unloading 3672 unused Assets to reduce memory usage. Loaded Objects now: 125203.
-Total: 111.618204 ms (FindLiveObjects: 10.186424 ms CreateObjectMapping: 5.158956 ms MarkObjects: 74.394333 ms  DeleteObjects: 21.877691 ms)
-
-Unloading 1 Unused Serialized files (Serialized files now loaded: 609)
-UnloadTime: 3.784388 ms
-Unloading 2306 unused Assets to reduce memory usage. Loaded Objects now: 121459.
-Total: 122.034299 ms (FindLiveObjects: 10.103188 ms CreateObjectMapping: 4.650171 ms MarkObjects: 100.029902 ms  DeleteObjects: 7.250368 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 539)
-Unloading 7844 unused Assets to reduce memory usage. Loaded Objects now: 25145.
-Total: 82.079025 ms (FindLiveObjects: 1.969103 ms CreateObjectMapping: 1.786210 ms MarkObjects: 58.547764 ms  DeleteObjects: 19.775218 ms)
-
-Unloading 1 Unused Serialized files (Serialized files now loaded: 586)
-UnloadTime: 1.508088 ms
-Unable to match controller of name (Generic Controller), will attempt default mapping set.Unknown
-Loaded saved language code 'EN'
-Restored language code 'EN'
-Unloading 57 unused Assets to reduce memory usage. Loaded Objects now: 71614.
-Total: 93.309637 ms (FindLiveObjects: 6.023036 ms CreateObjectMapping: 3.366484 ms MarkObjects: 83.658497 ms  DeleteObjects: 0.260849 ms)
-
-Unloading 1 Unused Serialized files (Serialized files now loaded: 584)
-Unloading 5611 unused Assets to reduce memory usage. Loaded Objects now: 65987.
-Total: 74.727858 ms (FindLiveObjects: 5.651750 ms CreateObjectMapping: 3.768808 ms MarkObjects: 49.042928 ms  DeleteObjects: 16.263351 ms)
-
+Cannot set the parent of the GameObject 'Air Blow Region Updraft(Clone)' while activating or deactivating the parent GameObject 'Updraft After 2'.
+gameObject1 is null!
+Couldn't find a Game Manager, make sure one exists in the scene.
+Couldn't find a Game Manager, make sure one exists in the scene.
+Couldn't find a Game Manager, make sure one exists in the scene.
+Couldn't find a Game Manager, make sure one exists in the scene.
+Couldn't find a Game Manager, make sure one exists in the scene.
+Couldn't find a Game Manager, make sure one exists in the scene.
+Couldn't find a Game Manager, make sure one exists in the scene.
 [Physics::Module] Cleanup current backned.
 [Physics::Module] Id: 0xf2b8ea05
 Input System module state changed to: ShutdownInProgress.
