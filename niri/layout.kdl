@@ -20,22 +20,15 @@ layout {
     focus-ring {
         off
         width 1.5
-        active-color "#d3869b"
-        inactive-color "#282828"
+        active-color "#59cd90"
+        inactive-color "#000000"
     }
     border {
         on
         width 1.5
-        active-color "#d3869b"
-        inactive-color "#282828"
-        urgent-color "#d3869b"
-    }
-    shadow {
-        on
-        softness 30
-        spread 5
-        offset x=0 y=5
-        color "#282828"
+        active-color "#59cd90"
+        inactive-color "#000000"
+        urgent-color "#59cd90"
     }
     struts {
 

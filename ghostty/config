@@ -1,9 +1,7 @@
 font-family = JetbrainsMono Nerd Font
-theme = GruvboxDark
+theme = MavenBlack
 window-decoration = none
 background-opacity = 0.8
 font-size = 14 
 background-blur = false
-quit-after-last-window-closed = false
-
 

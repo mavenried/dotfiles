@@ -53,9 +53,9 @@
     mouse_middle_click = do_action, close_current
     mouse_right_click = close_all
 
-    background = "#282828"
-    foreground = "#ebdbb2"
-    frame_color = "#d3869b"
+    background = "#000000"
+    foreground = "#eeeeee"
+    frame_color = "#59cd90"
     timeout = 5
 
 [experimental]
