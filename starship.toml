@@ -42,7 +42,7 @@ green = '#a6e3a1'
 blue = '#89b4fa'
 
 [palettes.mavenblack]
-purple = "#ba8baf"
-green = "#a1b56c"
-red = "#ab4642"
+green = "#5FFA74"
+red = "#FF3045"
+purple = "#F924E7"
 blue = "#59CD90"

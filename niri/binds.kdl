@@ -327,7 +327,7 @@ binds {
         spawn-sh "/mnt/DATA/scripts/restart qs"
     }
     Mod+W {
-        spawn-sh "/mnt/DATA/scripts/wallpaper-init"
+        spawn-sh "qs ipc call wallpaper reload"
     }
     Mod+B {
         spawn "zen-browser"

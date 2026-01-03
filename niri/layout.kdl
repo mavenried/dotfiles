@@ -21,13 +21,13 @@ layout {
         off
         width 1.5
         active-color "#141414"
-        inactive-color "#000000"
+        inactive-color "#141414"
     }
     border {
         on
         width 1.5
         active-color "#141414"
-        inactive-color "#000000"
+        inactive-color "#141414"
         urgent-color "#141414"
     }
     struts {

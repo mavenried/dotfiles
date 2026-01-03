@@ -1,5 +1,5 @@
 * {
-    bg-col-no-alpha: #000000;
+    bg-col-no-alpha: #141414;
     bg-col:  hsla(0, 0, 0%, 50%);
     bg-col-light: #000000;
     border-col: #141414;
