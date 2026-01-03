@@ -336,7 +336,7 @@ binds {
         spawn-sh "qs ipc call notifyd clear"
     }
     Mod+E {
-        spawn "nautilus"
+        spawn "cosmic-files"
     }
     Mod+Shift+R {
         spawn-sh "/mnt/DATA/dots/niri/compile-conf"

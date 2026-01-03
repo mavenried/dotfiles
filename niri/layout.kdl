@@ -20,15 +20,15 @@ layout {
     focus-ring {
         off
         width 1.5
-        active-color "#59cd90"
+        active-color "#141414"
         inactive-color "#000000"
     }
     border {
         on
         width 1.5
-        active-color "#59cd90"
+        active-color "#141414"
         inactive-color "#000000"
-        urgent-color "#59cd90"
+        urgent-color "#141414"
     }
     struts {
 

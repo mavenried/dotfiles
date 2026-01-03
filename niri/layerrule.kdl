@@ -6,3 +6,8 @@ layer-rule {
     match namespace="^swww-daemon$"
     place-within-backdrop true
 }
+layer-rule {
+    match namespace="^quickshell$"
+    place-within-backdrop true
+}
+
