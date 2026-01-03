@@ -1,6 +1,6 @@
 * {
     bg-col-no-alpha: #000000;
-    bg-col:  hsla(0, 0, 16%, 50%);
+    bg-col:  hsla(0, 0, 0%, 50%);
     bg-col-light: #000000;
     border-col: #59cd90;
     selected-col: #000000;
