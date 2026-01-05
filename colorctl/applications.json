@@ -29,7 +29,7 @@
   },
   "niri": {
     "template": "/mnt/DATA/scripts/templates/niri.kdl",
-    "target": "/mnt/DATA/dots/niri/layout.kdl"
+    "target": "/mnt/DATA/dots/niri/themeing.kdl"
   },
   "hyprland": {
     "template": "/mnt/DATA/scripts/templates/hyprland.conf",
