@@ -23,8 +23,8 @@ binds {
     Mod+Shift+S {
         spawn "niri" "msg" "action" "spawn" "--" "aurora-player"
     }
-    Super+L hotkey-overlay-title="Lock the Screen: hyprlock" {
-        spawn "hyprlock"
+    Mod+L hotkey-overlay-title="Lock the Screen" {
+        spawn-sh "loginctl lock-session"
     }
     XF86AudioRaiseVolume allow-when-locked=true {
         spawn "swayosd-client" "--output-volume" "raise"

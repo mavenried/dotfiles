@@ -2,7 +2,6 @@ font-family = JetbrainsMono Nerd Font
 theme = MavenBlack
 window-decoration = none
 background-opacity = 0.8
-background-blur = true
 font-size = 14 
 background-blur = false
 
