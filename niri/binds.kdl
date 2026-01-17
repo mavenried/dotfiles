@@ -2,6 +2,9 @@ binds {
     Mod+Space {
         spawn-sh "qs ipc call launcher open"
     }
+    Mod+K {
+        spawn-sh "qs ipc call scratchpad open"
+    }
     Mod+Shift+Slash {
         show-hotkey-overlay
     }
@@ -18,7 +21,7 @@ binds {
         spawn "flatpak" "run" "org.spotify.Client"
     }
     Mod+Shift+S {
-        spawn "ghostty" "-e" "musicman"
+        spawn "niri" "msg" "action" "spawn" "--" "aurora-player"
     }
     Super+L hotkey-overlay-title="Lock the Screen: hyprlock" {
         spawn "hyprlock"
@@ -71,18 +74,6 @@ binds {
     Mod+Right {
         focus-column-right
     }
-    Mod+H {
-        focus-column-left
-    }
-    Mod+J {
-        focus-window-down
-    }
-    Mod+K {
-        focus-window-up
-    }
-    Mod+L {
-        focus-column-right
-    }
     Mod+Ctrl+Left {
         move-column-left
     }
@@ -93,18 +84,6 @@ binds {
         move-window-up
     }
     Mod+Ctrl+Right {
-        move-column-right
-    }
-    Mod+Ctrl+H {
-        move-column-left
-    }
-    Mod+Ctrl+J {
-        move-window-down
-    }
-    Mod+Ctrl+K {
-        move-window-up
-    }
-    Mod+Ctrl+L {
         move-column-right
     }
     Mod+Home {

@@ -9,26 +9,13 @@
         modifiers: [
             Super,
         ],
-        key: "f",
-    ): Maximize,
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "q",
-    ): System(Terminal),
+        key: "m",
+    ): System(LogOut),
     (
         modifiers: [
             Super,
         ],
         key: "t",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-            Shift,
-        ],
-        key: "Escape",
     ): Disable,
     (
         modifiers: [
@@ -40,6 +27,24 @@
         modifiers: [
             Super,
         ],
-        key: "m",
-    ): System(LogOut),
+        key: "f",
+    ): Maximize,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "q",
+    ): System(Terminal),
+    (
+        modifiers: [
+            Super,
+            Shift,
+        ],
+        key: "Escape",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+        ],
+    ): System(Launcher),
 }

@@ -1,14 +1,17 @@
-# bgd0 = "#3c3c3c"
-# bgd1 = "#222222"
-# bgd2 = "#282828"
-# bgd3 = "#434343"
-# bgd4 = "#666666"
-# txt1 = "#ebebeb"
-# txt2 = "#aeaeae"
-# acct = "#3e9a93"
-# srch = "#3c3c3c"
-# btns = "#ebebeb"
+# # Cyberpunk
+# bgd0 = "#0b0e14"
+# bgd1 = "#101521"
+# bgd2 = "#161c2f"
+# bgd3 = "#2a325a"
+# bgd4 = "#4c5cff"
+# txt1 = "#e6f1ff"
+# txt2 = "#9aa4c7"
+# acct = "#ff2e88"
+# srch = "#505566"  
+# btns = "#ffffff"
 
+
+# # MavenBlack
 bgd0 = "#000000"
 bgd1 = "#141414"
 bgd2 = "#000000"
@@ -19,3 +22,55 @@ txt2 = "#aaaaaa"
 acct = "#59cd90"
 srch = "#555555"
 btns = "#eeeeee"
+
+
+# # Blood Choco
+# bgd0 = "#0e0a0b"
+# bgd1 = "#161012"
+# bgd2 = "#21171a"
+# bgd3 = "#40272b"
+# bgd4 = "#7a3b42"
+# txt1 = "#f4eaea"
+# txt2 = "#c7a9ad"
+# acct = "#d72638"
+# srch = "#4f3a3d"
+# btns = "#ffffff"
+
+
+# # Forest
+# bgd0 = "#0f1411"
+# bgd1 = "#151c17"
+# bgd2 = "#1c2620"
+# bgd3 = "#2f4035"
+# bgd4 = "#5a7a67"
+# txt1 = "#e3f2e7"
+# txt2 = "#a9c4b3"
+# acct = "#4fd1a5"
+# srch = "#4a5a50" 
+# btns = "#f1fff7"
+
+
+# # Synth
+# bgd0 = "#0a0614"
+# bgd1 = "#120c1f"
+# bgd2 = "#1a1230"
+# bgd3 = "#3a1f5c"
+# bgd4 = "#7b4ae2"
+# txt1 = "#f2e9ff"
+# txt2 = "#b9a7e8"
+# acct = "#ff7ac6"
+# srch = "#4b3f5a" 
+# btns = "#ffffff"
+
+
+# # Minimal
+# bgd0 = "#0d0d0d"
+# bgd1 = "#141414"
+# bgd2 = "#1c1c1c"
+# bgd3 = "#2f2f2f"
+# bgd4 = "#5c5c5c"
+# txt1 = "#f5f5f5"
+# txt2 = "#bdbdbd"
+# acct = "#00ffcc"
+# srch = "#4f4f4f" 
+# btns = "#ffffff"

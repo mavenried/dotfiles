@@ -1,0 +1,898 @@
+{
+  "id": "52212764-bb97-4f8e-a609-28b0b9ed57f3",
+  "title": "Linkin Park",
+  "songs": [
+    {
+      "id": "16651009-5ad7-53d4-a20a-85d82a1cb423",
+      "title": "A LIGHT THAT NEVER COMES",
+      "artists": [
+        "Linkin Park",
+        "Steve Aoki"
+      ],
+      "duration": {
+        "secs": 229,
+        "nanos": 463000000
+      },
+      "art_path": "/tmp/aurora-player/16651009-5ad7-53d4-a20a-85d82a1cb423.jpg"
+    },
+    {
+      "id": "7fd232f9-810b-517e-b5a9-cf509b28b9d9",
+      "title": "Across the Line",
+      "artists": [
+        "Linkin Park"
+      ],
+      "duration": {
+        "secs": 190,
+        "nanos": 223000000
+      },
+      "art_path": "/tmp/aurora-player/7fd232f9-810b-517e-b5a9-cf509b28b9d9.jpg"
+    },
+    {
+      "id": "83916ab6-1edb-5715-8d5b-02da8be748a2",
+      "title": "BURN IT DOWN",
+      "artists": [
+        "Linkin Park"
+      ],
+      "duration": {
+        "secs": 230,
+        "nanos": 280000000
+      },
+      "art_path": "/tmp/aurora-player/83916ab6-1edb-5715-8d5b-02da8be748a2.jpg"
+    },
+    {
+      "id": "4d3b91fb-ba35-56ee-ba70-352738ecaf86",
+      "title": "Bleed It Out",
+      "artists": [
+        "Linkin Park"
+      ],
+      "duration": {
+        "secs": 164,
+        "nanos": 783000000
+      },
+      "art_path": "/tmp/aurora-player/4d3b91fb-ba35-56ee-ba70-352738ecaf86.jpg"
+    },
+    {
+      "id": "9d719b37-97da-5541-93c7-c62318f41c1b",
+      "title": "Bleed It Out",
+      "artists": [
+        "Linkin Park"
+      ],
+      "duration": {
+        "secs": 164,
+        "nanos": 832000000
+      },
+      "art_path": "/tmp/aurora-player/9d719b37-97da-5541-93c7-c62318f41c1b.jpg"
+    },
+    {
+      "id": "5976ab93-bfda-52f9-b33e-f59a37f09c58",
+      "title": "Breaking the Habit",
+      "artists": [
+        "Linkin Park"
+      ],
+      "duration": {
+        "secs": 196,
+        "nanos": 175000000
+      },
+      "art_path": "/tmp/aurora-player/5976ab93-bfda-52f9-b33e-f59a37f09c58.jpg"
+    },
+    {
+      "id": "52ea3179-3875-52b5-a71d-2092d5f4e31a",
+      "title": "CASTLE OF GLASS",
+      "artists": [
+        "Linkin Park"
+      ],
+      "duration": {
+        "secs": 205,
+        "nanos": 439000000
+      },
+      "art_path": "/tmp/aurora-player/52ea3179-3875-52b5-a71d-2092d5f4e31a.jpg"
+    },
+    {
+      "id": "feb49601-87a4-51d7-a42c-ea4cdfc60e07",
+      "title": "Crawling",
+      "artists": [
+        "Linkin Park"
+      ],
+      "duration": {
+        "secs": 209,
+        "nanos": 31000000
+      },
+      "art_path": "/tmp/aurora-player/feb49601-87a4-51d7-a42c-ea4cdfc60e07.jpg"
+    },
+    {
+      "id": "acb944e0-21da-560b-a156-7b0ed36a1f83",
+      "title": "Crawling",
+      "artists": [
+        "Linkin Park"
+      ],
+      "duration": {
+        "secs": 208,
+        "nanos": 991000000
+      },
+      "art_path": "/tmp/aurora-player/acb944e0-21da-560b-a156-7b0ed36a1f83.jpg"
+    },
+    {
+      "id": "7ec4a72c-8dc8-5f6c-87a4-c548188c2562",
+      "title": "Cut the Bridge",
+      "artists": [
+        "Linkin Park"
+      ],
+      "duration": {
+        "secs": 228,
+        "nanos": 623000000
+      },
+      "art_path": "/tmp/aurora-player/7ec4a72c-8dc8-5f6c-87a4-c548188c2562.jpg"
+    },
+    {
+      "id": "e4a81525-72d8-5705-8e9f-b7b7e04ab51b",
+      "title": "Don't Stay",
+      "artists": [
+        "Linkin Park"
+      ],
+      "duration": {
+        "secs": 187,
+        "nanos": 967000000
+      },
+      "art_path": "/tmp/aurora-player/e4a81525-72d8-5705-8e9f-b7b7e04ab51b.jpg"
+    },
+    {
+      "id": "1eb760c1-af0d-5c4c-89b1-ef1dd03a4824",
+      "title": "Easier to Run",
+      "artists": [
+        "Linkin Park"
+      ],
+      "duration": {
+        "secs": 204,
+        "nanos": 216000000
+      },
+      "art_path": "/tmp/aurora-player/1eb760c1-af0d-5c4c-89b1-ef1dd03a4824.jpg"
+    },
+    {
+      "id": "24236451-a0a3-5cf4-b2ea-6783a93bacea",
+      "title": "Faint",
+      "artists": [
+        "Linkin Park"
+      ],
+      "duration": {
+        "secs": 162,
+        "nanos": 144000000
+      },
+      "art_path": "/tmp/aurora-player/24236451-a0a3-5cf4-b2ea-6783a93bacea.jpg"
+    },
+    {
+      "id": "4cdac805-24b4-59e5-9ece-237bd32ecccd",
+      "title": "Faint",
+      "artists": [
+        "Linkin Park"
+      ],
+      "duration": {
+        "secs": 162,
+        "nanos": 168000000
+      },
+      "art_path": "/tmp/aurora-player/4cdac805-24b4-59e5-9ece-237bd32ecccd.jpg"
+    },
+    {
+      "id": "13453de6-9f0f-5453-9020-6d50c1ab2f03",
+      "title": "Figure.09",
+      "artists": [
+        "Linkin Park"
+      ],
+      "duration": {
+        "secs": 197,
+        "nanos": 544000000
+      },
+      "art_path": "/tmp/aurora-player/13453de6-9f0f-5453-9020-6d50c1ab2f03.jpg"
+    },
+    {
+      "id": "fc9901f6-db36-541d-a20b-3801b2553f45",
+      "title": "Final Masquerade",
+      "artists": [
+        "Linkin Park"
+      ],
+      "duration": {
+        "secs": 217,
+        "nanos": 656000000
+      },
+      "art_path": "/tmp/aurora-player/fc9901f6-db36-541d-a20b-3801b2553f45.jpg"
+    },
+    {
+      "id": "f401de14-44b2-5cf1-9901-6cbaba2d3b8f",
+      "title": "Foreword",
+      "artists": [
+        "Linkin Park"
+      ],
+      "duration": {
+        "secs": 13,
+        "nanos": 464000000
+      },
+      "art_path": "/tmp/aurora-player/f401de14-44b2-5cf1-9901-6cbaba2d3b8f.jpg"
+    },
+    {
+      "id": "cbd1b4a4-3787-57e5-bf39-f96a1fc3f131",
+      "title": "Friendly Fire",
+      "artists": [
+        "Linkin Park"
+      ],
+      "duration": {
+        "secs": 176,
+        "nanos": 927000000
+      },
+      "art_path": "/tmp/aurora-player/cbd1b4a4-3787-57e5-bf39-f96a1fc3f131.jpg"
+    },
+    {
+      "id": "7c6e14a5-9d5f-5430-9a60-d3395e27e0f1",
+      "title": "From Zero (Intro)",
+      "artists": [
+        "Linkin Park"
+      ],
+      "duration": {
+        "secs": 22,
+        "nanos": 224000000
+      },
+      "art_path": "/tmp/aurora-player/7c6e14a5-9d5f-5430-9a60-d3395e27e0f1.jpg"
+    },
+    {
+      "id": "9f84af7e-0564-5859-9d1b-9c9036b3c119",
+      "title": "From the Inside",
+      "artists": [
+        "Linkin Park"
+      ],
+      "duration": {
+        "secs": 177,
+        "nanos": 479000000
+      },
+      "art_path": "/tmp/aurora-player/9f84af7e-0564-5859-9d1b-9c9036b3c119.jpg"
+    },
+    {
+      "id": "05c7b024-6556-5252-bfcd-f182a3c26733",
+      "title": "From the Inside",
+      "artists": [
+        "Linkin Park"
+      ],
+      "duration": {
+        "secs": 175,
+        "nanos": 536000000
+      },
+      "art_path": "/tmp/aurora-player/05c7b024-6556-5252-bfcd-f182a3c26733.jpg"
+    },
+    {
+      "id": "776df871-638b-5092-8837-3423dc5a8bc0",
+      "title": "Given Up",
+      "artists": [
+        "Linkin Park"
+      ],
+      "duration": {
+        "secs": 189,
+        "nanos": 336000000
+      },
+      "art_path": "/tmp/aurora-player/776df871-638b-5092-8837-3423dc5a8bc0.jpg"
+    },
+    {
+      "id": "ae141a8b-cc4f-5aef-babd-18a8bda2d582",
+      "title": "Good Things Go",
+      "artists": [
+        "Linkin Park"
+      ],
+      "duration": {
+        "secs": 210,
+        "nanos": 240000000
+      },
+      "art_path": "/tmp/aurora-player/ae141a8b-cc4f-5aef-babd-18a8bda2d582.jpg"
+    },
+    {
+      "id": "8ec54d01-f9fa-5c27-afdd-8006eda30850",
+      "title": "Guilty All the Same (feat. Rakim)",
+      "artists": [
+        "Linkin Park",
+        "Rakim"
+      ],
+      "duration": {
+        "secs": 355,
+        "nanos": 151000000
+      },
+      "art_path": "/tmp/aurora-player/8ec54d01-f9fa-5c27-afdd-8006eda30850.jpg"
+    },
+    {
+      "id": "c75cac35-ffb1-57f8-8e25-699c68c87917",
+      "title": "Heavy (feat. Kiiara)",
+      "artists": [
+        "Linkin Park",
+        "Kiiara"
+      ],
+      "duration": {
+        "secs": 169,
+        "nanos": 848000000
+      },
+      "art_path": "/tmp/aurora-player/c75cac35-ffb1-57f8-8e25-699c68c87917.jpg"
+    },
+    {
+      "id": "22d8c3d5-a8f6-52eb-977d-e5455d4a861f",
+      "title": "Heavy Is the Crown",
+      "artists": [
+        "Linkin Park"
+      ],
+      "duration": {
+        "secs": 167,
+        "nanos": 105000000
+      },
+      "art_path": "/tmp/aurora-player/22d8c3d5-a8f6-52eb-977d-e5455d4a861f.jpg"
+    },
+    {
+      "id": "c10b90fc-a514-50d5-a9c0-4251e13c9a44",
+      "title": "Heavy Is the Crown",
+      "artists": [
+        "Linkin Park"
+      ],
+      "duration": {
+        "secs": 225,
+        "nanos": 960000000
+      },
+      "art_path": "/tmp/aurora-player/c10b90fc-a514-50d5-a9c0-4251e13c9a44.jpg"
+    },
+    {
+      "id": "46d77873-d470-5822-82de-6d514ca9cbca",
+      "title": "Hit the Floor",
+      "artists": [
+        "Linkin Park"
+      ],
+      "duration": {
+        "secs": 164,
+        "nanos": 256000000
+      },
+      "art_path": "/tmp/aurora-player/46d77873-d470-5822-82de-6d514ca9cbca.jpg"
+    },
+    {
+      "id": "6f7e602b-8690-593a-b5f3-642242c793bb",
+      "title": "IGYEIH",
+      "artists": [
+        "Linkin Park"
+      ],
+      "duration": {
+        "secs": 209,
+        "nanos": 39000000
+      },
+      "art_path": "/tmp/aurora-player/6f7e602b-8690-593a-b5f3-642242c793bb.jpg"
+    },
+    {
+      "id": "e14499ef-19b0-5acd-87c0-400d6b5ff009",
+      "title": "IN MY REMAINS",
+      "artists": [
+        "Linkin Park"
+      ],
+      "duration": {
+        "secs": 200,
+        "nanos": 735000000
+      },
+      "art_path": "/tmp/aurora-player/e14499ef-19b0-5acd-87c0-400d6b5ff009.jpg"
+    },
+    {
+      "id": "c36588db-5dcf-59a7-a4e6-ce4fcaf42f67",
+      "title": "In the End",
+      "artists": [
+        "Linkin Park"
+      ],
+      "duration": {
+        "secs": 216,
+        "nanos": 960000000
+      },
+      "art_path": "/tmp/aurora-player/c36588db-5dcf-59a7-a4e6-ce4fcaf42f67.jpg"
+    },
+    {
+      "id": "7eef5547-3696-5612-9b23-0d6cd44f7630",
+      "title": "In the End",
+      "artists": [
+        "Linkin Park"
+      ],
+      "duration": {
+        "secs": 217,
+        "nanos": 25000000
+      },
+      "art_path": "/tmp/aurora-player/7eef5547-3696-5612-9b23-0d6cd44f7630.jpg"
+    },
+    {
+      "id": "e9575c8c-a36f-55bd-8843-f66a34ac03ed",
+      "title": "Iridescent",
+      "artists": [
+        "Linkin Park"
+      ],
+      "duration": {
+        "secs": 296,
+        "nanos": 591000000
+      },
+      "art_path": "/tmp/aurora-player/e9575c8c-a36f-55bd-8843-f66a34ac03ed.jpg"
+    },
+    {
+      "id": "6019cc53-ef84-5964-8c63-bec50bd388cc",
+      "title": "Leave Out All The Rest",
+      "artists": [
+        "Linkin Park"
+      ],
+      "duration": {
+        "secs": 209,
+        "nanos": 352000000
+      },
+      "art_path": "/tmp/aurora-player/6019cc53-ef84-5964-8c63-bec50bd388cc.jpg"
+    },
+    {
+      "id": "d628b9c3-1776-5221-a5bf-519b47cc38fc",
+      "title": "Let You Fade",
+      "artists": [
+        "Linkin Park"
+      ],
+      "duration": {
+        "secs": 208,
+        "nanos": 796000000
+      },
+      "art_path": "/tmp/aurora-player/d628b9c3-1776-5221-a5bf-519b47cc38fc.jpg"
+    },
+    {
+      "id": "b02631bf-f01f-5714-acac-0ef7963935cb",
+      "title": "Lost",
+      "artists": [
+        "Linkin Park"
+      ],
+      "duration": {
+        "secs": 199,
+        "nanos": 367000000
+      },
+      "art_path": "/tmp/aurora-player/b02631bf-f01f-5714-acac-0ef7963935cb.jpg"
+    },
+    {
+      "id": "a78dea87-5c99-57c7-b265-43a40287b8dd",
+      "title": "Lost",
+      "artists": [
+        "Linkin Park"
+      ],
+      "duration": {
+        "secs": 199,
+        "nanos": 418000000
+      },
+      "art_path": "/tmp/aurora-player/a78dea87-5c99-57c7-b265-43a40287b8dd.jpg"
+    },
+    {
+      "id": "22ba7800-3f90-5a71-bab2-d0d3c826e3f6",
+      "title": "Lying from You",
+      "artists": [
+        "Linkin Park"
+      ],
+      "duration": {
+        "secs": 175,
+        "nanos": 151000000
+      },
+      "art_path": "/tmp/aurora-player/22ba7800-3f90-5a71-bab2-d0d3c826e3f6.jpg"
+    },
+    {
+      "id": "17f53c84-7440-5dd8-b418-674c5237c942",
+      "title": "Lying from You",
+      "artists": [
+        "Linkin Park"
+      ],
+      "duration": {
+        "secs": 175,
+        "nanos": 80000000
+      },
+      "art_path": "/tmp/aurora-player/17f53c84-7440-5dd8-b418-674c5237c942.jpg"
+    },
+    {
+      "id": "035b5fce-1a3f-5775-a804-e6819eabc9af",
+      "title": "More the Victim",
+      "artists": [
+        "Linkin Park"
+      ],
+      "duration": {
+        "secs": 161,
+        "nanos": 39000000
+      },
+      "art_path": "/tmp/aurora-player/035b5fce-1a3f-5775-a804-e6819eabc9af.jpg"
+    },
+    {
+      "id": "e88f3be5-e0ca-59df-9667-bfe48da3b323",
+      "title": "New Divide",
+      "artists": [
+        "Linkin Park"
+      ],
+      "duration": {
+        "secs": 268,
+        "nanos": 656000000
+      },
+      "art_path": "/tmp/aurora-player/e88f3be5-e0ca-59df-9667-bfe48da3b323.jpg"
+    },
+    {
+      "id": "fa69f598-537d-5bae-8ebf-84db338b45f6",
+      "title": "New Divide",
+      "artists": [
+        "Linkin Park"
+      ],
+      "duration": {
+        "secs": 269,
+        "nanos": 165000000
+      },
+      "art_path": "/tmp/aurora-player/fa69f598-537d-5bae-8ebf-84db338b45f6.jpg"
+    },
+    {
+      "id": "443240c8-08a3-572f-bc12-56a08d7e026d",
+      "title": "No More Sorrow",
+      "artists": [
+        "Linkin Park"
+      ],
+      "duration": {
+        "secs": 221,
+        "nanos": 735000000
+      },
+      "art_path": "/tmp/aurora-player/443240c8-08a3-572f-bc12-56a08d7e026d.jpg"
+    },
+    {
+      "id": "99d72889-3a7f-534a-857c-05001324ca38",
+      "title": "Nobody's Listening",
+      "artists": [
+        "Linkin Park"
+      ],
+      "duration": {
+        "secs": 178,
+        "nanos": 895000000
+      },
+      "art_path": "/tmp/aurora-player/99d72889-3a7f-534a-857c-05001324ca38.jpg"
+    },
+    {
+      "id": "811a96c9-e52f-544f-9871-402cff59b132",
+      "title": "Numb",
+      "artists": [
+        "Linkin Park"
+      ],
+      "duration": {
+        "secs": 187,
+        "nanos": 560000000
+      },
+      "art_path": "/tmp/aurora-player/811a96c9-e52f-544f-9871-402cff59b132.jpg"
+    },
+    {
+      "id": "40d79f80-b38e-5f09-b5cc-60dca348cbdb",
+      "title": "Numb",
+      "artists": [
+        "Linkin Park"
+      ],
+      "duration": {
+        "secs": 187,
+        "nanos": 193000000
+      },
+      "art_path": "/tmp/aurora-player/40d79f80-b38e-5f09-b5cc-60dca348cbdb.jpg"
+    },
+    {
+      "id": "fab7c418-afad-5413-88ab-8f4ba35e5a06",
+      "title": "Numb",
+      "artists": [
+        "Linkin Park"
+      ],
+      "duration": {
+        "secs": 187,
+        "nanos": 585000000
+      },
+      "art_path": "/tmp/aurora-player/fab7c418-afad-5413-88ab-8f4ba35e5a06.jpg"
+    },
+    {
+      "id": "a44af55c-b480-54d9-bfae-bc73f94b5293",
+      "title": "One More Light",
+      "artists": [
+        "Linkin Park"
+      ],
+      "duration": {
+        "secs": 255,
+        "nanos": 96000000
+      },
+      "art_path": "/tmp/aurora-player/a44af55c-b480-54d9-bfae-bc73f94b5293.jpg"
+    },
+    {
+      "id": "e0e4beda-fc6e-5997-875b-67f69877f4e9",
+      "title": "One Step Closer",
+      "artists": [
+        "Linkin Park"
+      ],
+      "duration": {
+        "secs": 157,
+        "nanos": 387000000
+      },
+      "art_path": "/tmp/aurora-player/e0e4beda-fc6e-5997-875b-67f69877f4e9.jpg"
+    },
+    {
+      "id": "007d25b9-cebe-5bbc-a16e-53651953395d",
+      "title": "One Step Closer",
+      "artists": [
+        "Linkin Park"
+      ],
+      "duration": {
+        "secs": 176,
+        "nanos": 770000000
+      },
+      "art_path": "/tmp/aurora-player/007d25b9-cebe-5bbc-a16e-53651953395d.jpg"
+    },
+    {
+      "id": "9e8a1452-fdf8-5b1a-bb47-7c72e9f9b551",
+      "title": "One Step Closer",
+      "artists": [
+        "Linkin Park"
+      ],
+      "duration": {
+        "secs": 157,
+        "nanos": 367000000
+      },
+      "art_path": "/tmp/aurora-player/9e8a1452-fdf8-5b1a-bb47-7c72e9f9b551.jpg"
+    },
+    {
+      "id": "98bf6751-a174-55bc-9c69-e0857640a725",
+      "title": "Over Each Other",
+      "artists": [
+        "Linkin Park"
+      ],
+      "duration": {
+        "secs": 177,
+        "nanos": 120000000
+      },
+      "art_path": "/tmp/aurora-player/98bf6751-a174-55bc-9c69-e0857640a725.jpg"
+    },
+    {
+      "id": "495f2b6a-6e14-590d-8e99-e46bbafa07d7",
+      "title": "Over Each Other",
+      "artists": [
+        "Linkin Park"
+      ],
+      "duration": {
+        "secs": 170,
+        "nanos": 527000000
+      },
+      "art_path": "/tmp/aurora-player/495f2b6a-6e14-590d-8e99-e46bbafa07d7.jpg"
+    },
+    {
+      "id": "e3fa4f03-d646-57af-a07f-4e0051f04d83",
+      "title": "Overflow",
+      "artists": [
+        "Linkin Park"
+      ],
+      "duration": {
+        "secs": 211,
+        "nanos": 121000000
+      },
+      "art_path": "/tmp/aurora-player/e3fa4f03-d646-57af-a07f-4e0051f04d83.jpg"
+    },
+    {
+      "id": "94825447-930a-543d-b113-c08a338f2a53",
+      "title": "Overflow",
+      "artists": [
+        "Linkin Park"
+      ],
+      "duration": {
+        "secs": 211,
+        "nanos": 56000000
+      },
+      "art_path": "/tmp/aurora-player/94825447-930a-543d-b113-c08a338f2a53.jpg"
+    },
+    {
+      "id": "9c675220-886a-583c-b17c-f362a1896537",
+      "title": "POWERLESS",
+      "artists": [
+        "Linkin Park"
+      ],
+      "duration": {
+        "secs": 224,
+        "nanos": 496000000
+      },
+      "art_path": "/tmp/aurora-player/9c675220-886a-583c-b17c-f362a1896537.jpg"
+    },
+    {
+      "id": "3d44f629-1060-5684-9087-0e552a471769",
+      "title": "Papercut",
+      "artists": [
+        "Linkin Park"
+      ],
+      "duration": {
+        "secs": 184,
+        "nanos": 895000000
+      },
+      "art_path": "/tmp/aurora-player/3d44f629-1060-5684-9087-0e552a471769.jpg"
+    },
+    {
+      "id": "a27b3e43-327f-54f5-8feb-d3625f5d5454",
+      "title": "Papercut",
+      "artists": [
+        "Linkin Park"
+      ],
+      "duration": {
+        "secs": 192,
+        "nanos": 731000000
+      },
+      "art_path": "/tmp/aurora-player/a27b3e43-327f-54f5-8feb-d3625f5d5454.jpg"
+    },
+    {
+      "id": "51eda850-40fd-56a8-8cdc-41f4fecec5ad",
+      "title": "Points of Authority / 99 Problems / One Step Closer",
+      "artists": [
+        "JAY-Z",
+        "Linkin Park"
+      ],
+      "duration": {
+        "secs": 295,
+        "nanos": 872000000
+      },
+      "art_path": "/tmp/aurora-player/51eda850-40fd-56a8-8cdc-41f4fecec5ad.jpg"
+    },
+    {
+      "id": "767be424-1281-5746-8ebf-c6c1d5223d57",
+      "title": "QWERTY",
+      "artists": [
+        "Linkin Park"
+      ],
+      "duration": {
+        "secs": 201,
+        "nanos": 383000000
+      },
+      "art_path": "/tmp/aurora-player/767be424-1281-5746-8ebf-c6c1d5223d57.jpg"
+    },
+    {
+      "id": "146bf1ca-a836-5a6c-92c0-d72ef2f6b306",
+      "title": "ROADS UNTRAVELED",
+      "artists": [
+        "Linkin Park"
+      ],
+      "duration": {
+        "secs": 229,
+        "nanos": 967000000
+      },
+      "art_path": "/tmp/aurora-player/146bf1ca-a836-5a6c-92c0-d72ef2f6b306.jpg"
+    },
+    {
+      "id": "a4e55e33-edf9-5551-9bbb-146212d821d9",
+      "title": "Session",
+      "artists": [
+        "Linkin Park"
+      ],
+      "duration": {
+        "secs": 144,
+        "nanos": 768000000
+      },
+      "art_path": "/tmp/aurora-player/a4e55e33-edf9-5551-9bbb-146212d821d9.jpg"
+    },
+    {
+      "id": "2745e101-77b4-5eed-b491-ef95f659a18c",
+      "title": "Shadow of the Day",
+      "artists": [
+        "Linkin Park"
+      ],
+      "duration": {
+        "secs": 290,
+        "nanos": 399000000
+      },
+      "art_path": "/tmp/aurora-player/2745e101-77b4-5eed-b491-ef95f659a18c.jpg"
+    },
+    {
+      "id": "20fb5e13-8191-5b0f-80fd-18fb18a7bbc7",
+      "title": "Somewhere I Belong",
+      "artists": [
+        "Linkin Park"
+      ],
+      "duration": {
+        "secs": 213,
+        "nanos": 960000000
+      },
+      "art_path": "/tmp/aurora-player/20fb5e13-8191-5b0f-80fd-18fb18a7bbc7.jpg"
+    },
+    {
+      "id": "546254e7-fc75-55e8-95f1-fc26d90b8b5a",
+      "title": "Somewhere I Belong",
+      "artists": [
+        "Linkin Park"
+      ],
+      "duration": {
+        "secs": 213,
+        "nanos": 995000000
+      },
+      "art_path": "/tmp/aurora-player/546254e7-fc75-55e8-95f1-fc26d90b8b5a.jpg"
+    },
+    {
+      "id": "5fb84d07-4f57-5e22-bfcb-dfb94b293faa",
+      "title": "Stained",
+      "artists": [
+        "Linkin Park"
+      ],
+      "duration": {
+        "secs": 185,
+        "nanos": 376000000
+      },
+      "art_path": "/tmp/aurora-player/5fb84d07-4f57-5e22-bfcb-dfb94b293faa.jpg"
+    },
+    {
+      "id": "76bc8ecc-fc31-5eb5-92d9-a581c3505074",
+      "title": "The Emptiness Machine",
+      "artists": [
+        "Linkin Park"
+      ],
+      "duration": {
+        "secs": 200,
+        "nanos": 496000000
+      },
+      "art_path": "/tmp/aurora-player/76bc8ecc-fc31-5eb5-92d9-a581c3505074.jpg"
+    },
+    {
+      "id": "3b611e62-170d-5c6f-813c-129e6062a8bd",
+      "title": "The Emptiness Machine",
+      "artists": [
+        "Linkin Park"
+      ],
+      "duration": {
+        "secs": 185,
+        "nanos": 280000000
+      },
+      "art_path": "/tmp/aurora-player/3b611e62-170d-5c6f-813c-129e6062a8bd.jpg"
+    },
+    {
+      "id": "ed703d69-371e-56d6-94bb-f2ad7b827cd8",
+      "title": "Two Faced",
+      "artists": [
+        "Linkin Park"
+      ],
+      "duration": {
+        "secs": 186,
+        "nanos": 960000000
+      },
+      "art_path": "/tmp/aurora-player/ed703d69-371e-56d6-94bb-f2ad7b827cd8.jpg"
+    },
+    {
+      "id": "6e60cf86-15d5-5321-a4ad-60f38f9a8cfc",
+      "title": "Until It's Gone",
+      "artists": [
+        "Linkin Park"
+      ],
+      "duration": {
+        "secs": 233,
+        "nanos": 280000000
+      },
+      "art_path": "/tmp/aurora-player/6e60cf86-15d5-5321-a4ad-60f38f9a8cfc.jpg"
+    },
+    {
+      "id": "e0db4b98-27a6-5280-84eb-4a9388525d4f",
+      "title": "What I've Done",
+      "artists": [
+        "Linkin Park"
+      ],
+      "duration": {
+        "secs": 205,
+        "nanos": 688000000
+      },
+      "art_path": "/tmp/aurora-player/e0db4b98-27a6-5280-84eb-4a9388525d4f.jpg"
+    },
+    {
+      "id": "ce4e15d9-895e-59fe-9047-84f60f5c9649",
+      "title": "What I've Done",
+      "artists": [
+        "Linkin Park"
+      ],
+      "duration": {
+        "secs": 205,
+        "nanos": 271000000
+      },
+      "art_path": "/tmp/aurora-player/ce4e15d9-895e-59fe-9047-84f60f5c9649.jpg"
+    },
+    {
+      "id": "99f1bd99-07bb-5aa8-9bcc-b52952f17597",
+      "title": "Wretches and Kings",
+      "artists": [
+        "Linkin Park"
+      ],
+      "duration": {
+        "secs": 251,
+        "nanos": 193000000
+      },
+      "art_path": "/tmp/aurora-player/99f1bd99-07bb-5aa8-9bcc-b52952f17597.jpg"
+    },
+    {
+      "id": "8499079a-a806-571e-b8e1-9c8e599971cf",
+      "title": "Wretches and Kings",
+      "artists": [
+        "Linkin Park"
+      ],
+      "duration": {
+        "secs": 250,
+        "nanos": 632000000
+      },
+      "art_path": "/tmp/aurora-player/8499079a-a806-571e-b8e1-9c8e599971cf.jpg"
+    }
+  ]
+}
