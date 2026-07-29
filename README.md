@@ -7,6 +7,15 @@
 ## Images
 
 ![SessionSelect](./Screenshots/session.png)
+
+<hr>
+
 ![LockScreen](./Screenshots/lockscreen.png)
+
+<hr>
+
 ![Desktop](./Screenshots/desktop.png)
+
+<hr>
+
 ![Overview](./Screenshots/overview.png)
