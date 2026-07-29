@@ -1,0 +1,23 @@
+
+[window]
+opacity = 0.8
+blur = false
+decorations = "Buttonless"
+dynamic_padding = true
+option_as_alt = "Both"
+
+[selection]
+save_to_clipboard = true
+
+[font]
+size = 14
+
+[window.padding]
+x = 1
+y = 1
+
+[font.normal]
+family = "JetbrainsMono Nerd Font"
+
+[general]
+import = [ "~/.config/alacritty/themes/mavenblack.toml",]

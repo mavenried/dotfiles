@@ -1,0 +1,52 @@
+# Colors (Ayu Dark)
+
+# palette = 0=#000000
+# palette = 1=#ab4642
+# palette = 2=#a1b56c
+# palette = 3=#f7ca88
+# palette = 4=#7cafc2
+# palette = 5=#ba8baf
+# palette = 6=#59cd90
+# palette = 7=#eeeeee
+# palette = 8=#686868
+# palette = 9=#ff5a5a
+# palette = 10=#75ff88
+# palette = 11=#fffd96
+# palette = 12=#3c40cb
+# palette = 13=#f15be5
+# palette = 14=#88fffe
+# palette = 15=#ffffff
+
+# background = #000000
+# foreground = #eeeeee
+# cursor-color = #cccccc
+# cursor-text = #ffffff
+# selection-background = #141414
+# selection-foreground = #aaaaaa
+
+# Default colors
+[colors.primary]
+background = '#000000'
+foreground = '#EEEEEE'
+
+# Normal colors
+[colors.normal]
+black   = '#000000'
+red     = '#AB4642'
+green   = '#A1B56C'
+yellow  = '#F7CA88'
+blue    = '#7CAFC2'
+magenta = '#BA8BAF'
+cyan    = '#59CD90'
+white   = '#EEEEEE'
+
+# Bright colors
+[colors.bright]
+black   = '#666666'
+red     = '#F07178'
+green   = '#C2D94C'
+yellow  = '#FFB454'
+blue    = '#59C2FF'
+magenta = '#FFEE99'
+cyan    = '#95E6CB'
+white   = '#FFFFFF'

@@ -1,0 +1,11 @@
+# Solarized Dark — warm desaturated teal
+bgd0 = "#001820"
+bgd1 = "#002028"
+bgd2 = "#002b36"
+bgd3 = "#073642"
+bgd4 = "#0d4555"
+txt1 = "#eee8d5"
+txt2 = "#93a1a1"
+acct = "#2aa198"
+srch = "#0d4555"
+btns = "#fdf6e3"

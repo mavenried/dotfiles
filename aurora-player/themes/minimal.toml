@@ -1,0 +1,11 @@
+# Minimal — pure monochrome with cyan accent
+bgd0 = "#060606"
+bgd1 = "#0e0e0e"
+bgd2 = "#161616"
+bgd3 = "#222222"
+bgd4 = "#303030"
+txt1 = "#f0f0f0"
+txt2 = "#909090"
+acct = "#00d9a8"
+srch = "#404040"
+btns = "#f0f0f0"

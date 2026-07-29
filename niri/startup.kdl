@@ -1,0 +1,7 @@
+spawn-at-startup "qs"
+spawn-at-startup "swayosd-server"
+// spawn-at-startup "/mnt/DATA/scripts/wallpaper-init"
+spawn-at-startup "hypridle"
+hotkey-overlay {
+    skip-at-startup
+}

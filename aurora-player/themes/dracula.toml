@@ -1,0 +1,11 @@
+# Dracula — dark purple with vivid accents
+bgd0 = "#0d0e16"
+bgd1 = "#161720"
+bgd2 = "#21222c"
+bgd3 = "#2d2f3f"
+bgd4 = "#44475a"
+txt1 = "#f8f8f2"
+txt2 = "#bfbfbf"
+acct = "#bd93f9"
+srch = "#6272a4"
+btns = "#f8f8f2"

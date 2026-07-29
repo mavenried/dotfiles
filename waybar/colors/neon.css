@@ -1,0 +1,24 @@
+@import url("themes/neon.css");
+
+@define-color bgnd @bg;
+@define-color cpuc @fg;
+@define-color mmry @fg;
+@define-color disk @fg;
+@define-color adio @fg;
+@define-color idle @fg;
+@define-color bklt @fg;
+@define-color wifi @fg;
+@define-color dstr @fg;
+@define-color blth @fg;
+@define-color uptm @fg;
+@define-color clck @fg;
+@define-color sptr @grey;
+@define-color hl @cyan;
+
+@define-color bat1 @green;
+@define-color bat2 @cyan;
+@define-color bat3 @fg;
+@define-color bat4 @red;
+@define-color bat5 @red;
+
+

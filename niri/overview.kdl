@@ -1,0 +1,7 @@
+overview {
+    zoom 0.75
+    backdrop-color "transparent"
+    workspace-shadow {
+        off
+    }
+}

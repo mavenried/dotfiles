@@ -1,0 +1,135 @@
+@import 'colors.css';
+@import 'accent.css';
+* {
+    font-family: "JetbrainsMono Nerd Font";
+ }
+
+window#waybar {
+  color: @text;
+  background: transparent;
+}
+
+#workspaces {
+  padding: 0;
+  margin: 5px 5px 0 5px;
+  border: solid @hl 2px;
+  border-radius: 10px;
+  background: @bgnd;
+}
+
+#workspaces button {
+  padding: 0 5px;
+  transition: all 0.3s ease-in-out;
+  min-width: 25px;
+  border-radius: 8px;
+  color: @clck;
+  margin: 0 0px;
+}
+
+#workspaces button:hover {
+  transition: all 0.3s ease-in-out;
+  border-color: @hl;
+}
+
+#workspaces button.active,
+#workspaces button.active:hover {
+  transition: all 0.3s ease-in-out;
+  min-width: 25px;
+  border-color: @hl;
+  border-radius: 8px;
+  background: @hl;
+  color: @bg;
+}
+
+#pulseaudio {
+  color: @adio;
+}
+
+#custom-lock,
+#custom-reboot,
+#custom-power,
+#custom-quit {
+  color: @clck;
+}
+#memory {
+  color: @mmry;
+}
+
+#custom-music,
+#cpu {
+  color: @cpuc;
+}
+
+#idle_inhibitor {
+  color: @idle;
+}
+
+#custom-uptime {
+  color: @uptm
+}
+
+#custom-distro {
+  color: @dstr;
+}
+
+#disk {
+  color: @disk;
+}
+
+#battery.great {
+  color: @bat1;
+}
+
+#battery.good {
+  color: @bat2;
+}
+
+#battery.ok {
+  color: @bat3;
+}
+
+#battery.bad {
+  color: @bat4;
+}
+
+#battery.terrible {
+  color: @bat5;
+}
+
+#bluetooth {
+  color: @blth;
+}
+
+#network {
+  color: @wifi;
+}
+
+#backlight {
+  color: @bklt;
+}
+
+#clock {
+  color: @clck;
+}
+#custom-separator {
+  color: @sptr;
+}
+
+#clock,
+#system,
+#utils,
+#power,
+#idle_inhibitor,
+#custom-wallpaper,
+#custom-distro,
+#custom-music,
+#custom-uptime {
+  padding: 5px 10px;
+  margin: 5px 5px 0 5px;
+  transition: all 0.3s ease-in-out;
+  background: @bgnd;
+  border-radius: 10px;
+  border: solid @hl 2px;
+  font-size: 16px;
+}
+

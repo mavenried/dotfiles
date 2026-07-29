@@ -1,0 +1,11 @@
+# MavenBlack — pure black with mint accent
+bgd0 = "#000000"
+bgd1 = "#090909"
+bgd2 = "#111111"
+bgd3 = "#1c1c1c"
+bgd4 = "#282828"
+txt1 = "#eeeeee"
+txt2 = "#999999"
+acct = "#59cd90"
+srch = "#444444"
+btns = "#eeeeee"

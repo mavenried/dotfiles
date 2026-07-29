@@ -1,0 +1,35 @@
+theme = "MavenBlack"
+[editor]
+line-number = "relative"
+cursorline = true
+color-modes = true
+
+[editor.lsp]
+display-inlay-hints = true
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.indent-guides]
+render = true
+
+[editor.inline-diagnostics]
+other-lines = "error"
+cursor-line = "hint"
+
+[keys.normal]
+F1 = [":fmt", ":w"]
+F2 = ":wq"
+F3 = ":q!"
+
+[keys.insert]
+F1 = ["normal_mode", ":w"]
+F2 = ["normal_mode", ":wq"]
+F3 = ["normal_mode", ":q!"]
+
+[keys.select]
+F1 = ["normal_mode", ":w"]
+F2 = ["normal_mode", ":wq"]
+F3 = ["normal_mode", ":q!"]

@@ -1,0 +1,11 @@
+# Gruvbox — warm earthy dark with orange accent
+bgd0 = "#1d2021"
+bgd1 = "#282828"
+bgd2 = "#32302f"
+bgd3 = "#3c3836"
+bgd4 = "#504945"
+txt1 = "#ebdbb2"
+txt2 = "#bdae93"
+acct = "#fe8019"
+srch = "#504945"
+btns = "#ebdbb2"

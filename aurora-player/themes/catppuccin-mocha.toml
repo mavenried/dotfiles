@@ -1,0 +1,11 @@
+# Catppuccin Mocha — warm dark purple tones
+bgd0 = "#11111b"
+bgd1 = "#181825"
+bgd2 = "#1e1e2e"
+bgd3 = "#313244"
+bgd4 = "#45475a"
+txt1 = "#cdd6f4"
+txt2 = "#a6adc8"
+acct = "#cba6f7"
+srch = "#45475a"
+btns = "#cdd6f4"
