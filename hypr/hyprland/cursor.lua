@@ -1,0 +1,7 @@
+hl.config({
+    cursor = {
+        enable_hyprcursor = true,
+        sync_gsettings_theme = true,
+        no_hardware_cursors = false,
+    },
+})

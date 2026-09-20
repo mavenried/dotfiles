@@ -53,7 +53,7 @@ function index() {
 }
 
 function config() {
-  $EDITOR "/mnt/DATA/dots/$1"
+  $EDITOR "/mnt/DATA/.config/$1"
 }
 
 function clean() {

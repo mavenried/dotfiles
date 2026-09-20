@@ -6,4 +6,6 @@
     Pictures,
     Videos,
     Path("/home/mavenried/Games"),
+    Path("/home/mavenried/Books"),
+    Path("/home/mavenried/Projects"),
 ]

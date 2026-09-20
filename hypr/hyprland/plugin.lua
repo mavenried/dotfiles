@@ -1,0 +1,2 @@
+-- No layout plugin is required.
+-- The standard Hyprland dwindle layout is used.
